@@ -1,5 +1,3 @@
-##Invalid change
-
 import React from 'react'
 
 import {Navbar} from './components'
