@@ -17,6 +17,16 @@ const Payments = db.define('payment', {
     allowNull: false,
   },
 
+  firstName: {
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
+
+  lastName: {
+    type: Sequelize.String,
+    allowNull: false,
+  },
+
   street: {
     type: Sequelize.STRING,
     allowNull: false,
@@ -30,6 +40,10 @@ const Payments = db.define('payment', {
   zip: {
     type: Sequelize.INTEGER,
     allowNull: false
+  },
+
+  city: {
+    type: Sequelize.STRING
   },
 
   state: {
