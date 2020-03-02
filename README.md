@@ -1,9 +1,6 @@
 # Boilermaker
 
-
-Peter Samper
-
-Mike Vosters, Eli Plutchok
+By: Robert Nixon,Peter Samper, Mike Vosters, Eli Plutchok
 
 
 _Good things come in pairs_
