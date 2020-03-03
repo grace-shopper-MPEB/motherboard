@@ -1,6 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {getProducts} from '../store/products'
+import {Link} from 'react-router-dom'
 
 // Needs React Router
 
@@ -19,11 +20,13 @@ export class AllProducts extends React.Component {
           <h1>Records</h1>
           {products.map(product => (
             <div key={product.id}>
-              <img src={product.imgUrl} className="product-info" />
-              <div>{product.albumTitle}</div>
-              <div>{product.artist}</div>
-              <div>{product.genre}</div>
-              <div>{product.price}</div>
+              <Link to={`/products/${product.id}`}>
+                <img src={product.imgUrl} className="product-info" />
+                <div>{product.albumTitle}</div>
+                <div>{product.artist}</div>
+                <div>{product.genre}</div>
+                <div>{product.price}</div>
+              </Link>
               {/* // { Add a button feature to buy record } */}
             </div>
           ))}
