@@ -14,7 +14,7 @@ const Products = require('./products')
 // Orders.belongsTo(Users)
 
 // Users.hasMany(Payments)
-// Payments.hasOne(Users)
+// Payments.belongsTo(Users)
 
 // Orders.belongsToMany(Products)
 // Products.belongsToMany(Orders)
