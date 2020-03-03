@@ -1,5 +1,5 @@
 const {expect} = require('chai')
-const {db, Products} = require('../server/db/models')
+const {db, Products} = require('../models')
 
 describe('Products model', () => {
   beforeEach(() => db.sync({force: true}))

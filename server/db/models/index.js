@@ -27,5 +27,7 @@ const Products = require('./products')
  */
 module.exports = {
   Users,
-  Products
+  Products,
+  Orders,
+  Payments
 }
