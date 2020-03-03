@@ -14,7 +14,7 @@ Users.hasMany(Orders)
 Orders.belongsTo(Users)
 
 Users.hasMany(Payments)
-Payments.hasOne(Users)
+Payments.belongsTo(Users)
 
 Orders.belongsToMany(Products, {through: 'orders_products'})
 Products.belongsToMany(Orders, {through: 'orders_products'})
