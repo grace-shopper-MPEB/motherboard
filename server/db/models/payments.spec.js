@@ -1,6 +1,7 @@
 /* global describe beforeEach it */
 const {expect} = require('chai')
-const Payments = db.model('payment')
+const db = require('../db')
+const Payments = require('./payments')
 
 describe('Payments model', () => {
   beforeEach(() => db.sync({force: true}))
