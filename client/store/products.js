@@ -1,10 +1,5 @@
 import axios from 'axios'
 
-// ***********************************
-// This file needs an initialState as well as logic for the
-// action creators, thunks, and reducer. Delete this when complete.
-// ***********************************
-
 const initialState = {
   products: [],
   product: []
@@ -17,28 +12,28 @@ const ADD_PRODUCT = 'ADD_PRODUCT'
 const DELETE_PRODUCT = 'DELETE_PRODUCT'
 
 // Actions:
-const setProducts = products => {
+export const setProducts = products => {
   return {
     type: SET_PRODUCTS,
     products
   }
 }
 
-const setProductById = product => {
+export const setProductById = product => {
   return {
     type: SET_PRODUCT_BY_ID,
     product
   }
 }
 
-const addProduct = product => {
+export const addProduct = product => {
   return {
     type: ADD_PRODUCT,
     product
   }
 }
 
-const deleteProduct = id => {
+export const deleteProduct = id => {
   return {
     type: DELETE_PRODUCT,
     id
