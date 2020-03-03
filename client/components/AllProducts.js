@@ -17,8 +17,8 @@ export class AllProducts extends React.Component {
               <div>{product.albumTitle}</div>
               <div>{product.artist}</div>
               <div>{product.genre}</div>
-              <div>{product.description}</div>
               <div>{product.price}</div>
+              {/* Add a button feature to buy record */}
             </div>
           ))}
         </div>
