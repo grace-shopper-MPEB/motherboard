@@ -10,14 +10,14 @@ const Products = require('./products')
  *    BlogPost.belongsTo(User)
  */
 
-Users.hasMany(Orders)
-Orders.belongsTo(Users)
+// Users.hasMany(Orders)
+// Orders.belongsTo(Users)
 
-Users.hasMany(Payments)
-Payments.hasOne(Users)
+// Users.hasMany(Payments)
+// Payments.hasOne(Users)
 
-Orders.belongsToMany(Products)
-Products.belongsToMany(Orders)
+// Orders.belongsToMany(Products)
+// Products.belongsToMany(Orders)
 
 /**
  * We'll export all of our models here, so that any time a module needs a model,
@@ -26,5 +26,6 @@ Products.belongsToMany(Orders)
  * instead of: const User = require('../db/models/user')
  */
 module.exports = {
-  User
+  Users,
+  Products
 }

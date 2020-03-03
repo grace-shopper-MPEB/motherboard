@@ -18,8 +18,7 @@ describe('Payments model', () => {
         city: 'Washington',
         state: 'DC',
         country: 'USA'
-      })
-      .then(payment => {
+      }).then(payment => {
         expect(payment.cardNumber).to.equal(123455566)
         expect(payment.expirationDate).to.equal(1022)
         expect(payment.securityCode).to.equal(123)
@@ -27,7 +26,7 @@ describe('Payments model', () => {
         expect(payment.lastName).to.equal('Smith')
         expect(payment.street).to.equal('Main')
         expect(payment.number).to.equal(1)
-        expect(payment.zip.).to.equal(12345)
+        expect(payment.zip).to.equal(12345)
         expect(payment.city).to.equal('Washington')
         expect(payment.state).to.equal('DC')
         expect(payment.country).to.equal('USA')
