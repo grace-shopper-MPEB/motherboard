@@ -32,7 +32,7 @@ const Products = db.define('product', {
   },
 
   description: {
-    type: Sequelize.STRING,
+    type: Sequelize.TEXT,
     allowNull: false,
     validations: {
       notEmpty: true
