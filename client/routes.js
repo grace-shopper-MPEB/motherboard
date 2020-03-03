@@ -4,7 +4,8 @@ import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
 import {Login, Signup, UserHome, AllProducts} from './components'
 import {me} from './store'
-import {getProducts} from './store/products'
+import {getProducts, getProductsById} from './store/products'
+import {SingleProduct} from './components/SingleProduct'
 
 /**
  * COMPONENT
@@ -25,8 +26,13 @@ class Routes extends Component {
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
         <Route
+          exact
           path="/products"
           render={() => <AllProducts {...this.props} />}
+        />
+        <Route
+          path="/products/:id"
+          render={() => <SingleProduct {...this.props} />}
         />
         {isLoggedIn && (
           <Switch>
@@ -58,7 +64,8 @@ const mapDispatch = dispatch => {
     loadInitialData() {
       dispatch(me())
     },
-    getProducts: () => dispatch(getProducts())
+    getProducts: () => dispatch(getProducts()),
+    getProductsById: id => dispatch(getProductsById(id))
   }
 }
 
