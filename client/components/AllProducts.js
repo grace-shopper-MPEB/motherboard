@@ -15,11 +15,11 @@ export class AllProducts extends React.Component {
 
     if (products) {
       return (
-        <div>
-          <h1>ALL PRODUCTS</h1>
+        <div className="all-products">
+          <h1>Records</h1>
           {products.map(product => (
             <div key={product.id}>
-              <img src={'/' + product.imgUrl} />
+              <img src={product.imgUrl} className="product-info" />
               <div>{product.albumTitle}</div>
               <div>{product.artist}</div>
               <div>{product.genre}</div>
