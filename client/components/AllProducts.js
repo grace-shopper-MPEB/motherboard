@@ -2,6 +2,8 @@ import React from 'react'
 import {connect} from 'react-redux'
 import {getProducts} from '../store/products'
 
+// Needs React Router
+
 export class AllProducts extends React.Component {
   componentDidMount() {
     this.props.getProducts()
