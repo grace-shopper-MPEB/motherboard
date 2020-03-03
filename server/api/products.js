@@ -3,15 +3,10 @@ const {Products} = require('../db/models')
 module.exports = router
 
 router.get('/', async (req, res, next) => {
-  // try {
-  //   const products = await Products.findAll({
-  //     // explicitly select only the id and email fields - even though
-  //     // users' passwords are encrypted, it won't help if we just
-  //     // send everything to anyone who asks!
-  //     attributes: ['id', 'email']
-  //   })s
-  //   res.json(products)
-  // } catch (err) {
-  //   next(err)
-  // }
+  try {
+    let products = await Product.findAll()
+    res.json(products)
+  } catch (error) {
+    next(error)
+  }
 })
