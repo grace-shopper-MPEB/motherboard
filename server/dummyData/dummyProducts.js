@@ -1,6493 +1,6492 @@
 const dummyProducts = [
   {
     id: 1,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Claudell Witz',
-    albumTitle: 101,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Vance Wyborn',
+    albumTitle: 116,
     description:
-      'Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
-    price: 23.78,
-    retailPrice: 22.72,
-    sku: '867813777-0',
-    stock: 111
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 20.12,
+    retailPrice: 21.71,
+    sku: '463268903-3',
+    stock: 115
   },
   {
     id: 2,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Quent Barraclough',
-    albumTitle: 112,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Cheslie Lewton',
+    albumTitle: 100,
     description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-    price: 18.9,
-    retailPrice: 21.59,
-    sku: '961704153-7',
-    stock: 118
+      'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
+    price: 19.12,
+    retailPrice: 19.84,
+    sku: '710476723-1',
+    stock: 84
   },
   {
     id: 3,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Garey Ethridge',
-    albumTitle: 111,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Pippa Raymen',
+    albumTitle: 114,
     description:
-      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
-    price: 21.27,
-    retailPrice: 18.61,
-    sku: '585203830-X',
-    stock: 107
+      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
+    price: 21.07,
+    retailPrice: 18.75,
+    sku: '693179762-X',
+    stock: 80
   },
   {
     id: 4,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Shayna Bluck',
-    albumTitle: 107,
-    description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 20.03,
-    retailPrice: 21.29,
-    sku: '377639195-2',
-    stock: 119
-  },
-  {
-    id: 5,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Mario Tunnow',
-    albumTitle: 123,
-    description:
-      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
-    price: 20.14,
-    retailPrice: 20.3,
-    sku: '960250418-8',
-    stock: 93
-  },
-  {
-    id: 6,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Farrah Schoales',
-    albumTitle: 100,
-    description:
-      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
-    price: 21.15,
-    retailPrice: 20.05,
-    sku: '530035190-3',
-    stock: 85
-  },
-  {
-    id: 7,
-    imgUrl: './public/images/duaLipa.jpg',
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
     genre: 'soul',
-    artist: 'Fredek Koppe',
-    albumTitle: 90,
+    artist: 'Zebulen Lawlance',
+    albumTitle: 106,
     description:
-      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 15.53,
-    retailPrice: 22.0,
-    sku: '370542392-4',
-    stock: 86
-  },
-  {
-    id: 8,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Gerri Goodspeed',
-    albumTitle: 110,
-    description:
-      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
-    price: 17.4,
-    retailPrice: 19.5,
-    sku: '227239284-9',
-    stock: 97
-  },
-  {
-    id: 9,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Fancie Swynfen',
-    albumTitle: 102,
-    description:
-      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 23.4,
-    retailPrice: 19.84,
-    sku: '328061510-0',
-    stock: 109
-  },
-  {
-    id: 10,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Lucky Shoubridge',
-    albumTitle: 105,
-    description:
-      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-    price: 18.41,
-    retailPrice: 20.12,
-    sku: '270828415-0',
-    stock: 103
-  },
-  {
-    id: 11,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Corbie Rudeyeard',
-    albumTitle: 99,
-    description:
-      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-    price: 20.52,
-    retailPrice: 21.57,
-    sku: '017358608-2',
+      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 20.96,
+    retailPrice: 24.06,
+    sku: '161602235-3',
     stock: 107
   },
   {
-    id: 12,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Ambrosi Pirie',
-    albumTitle: 109,
-    description:
-      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 21.02,
-    retailPrice: 23.14,
-    sku: '853774964-8',
-    stock: 84
-  },
-  {
-    id: 13,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Bidget List',
-    albumTitle: 118,
-    description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
-    price: 21.58,
-    retailPrice: 20.24,
-    sku: '142810787-8',
-    stock: 116
-  },
-  {
-    id: 14,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Margery Cupper',
-    albumTitle: 104,
-    description:
-      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 18.55,
-    retailPrice: 23.24,
-    sku: '505191992-8',
-    stock: 98
-  },
-  {
-    id: 15,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Parrnell Anfrey',
-    albumTitle: 106,
-    description:
-      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
-    price: 20.71,
-    retailPrice: 19.74,
-    sku: '246840607-9',
-    stock: 101
-  },
-  {
-    id: 16,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Lamond St Clair',
-    albumTitle: 125,
-    description: 'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
-    price: 21.65,
-    retailPrice: 20.66,
-    sku: '033100402-X',
-    stock: 87
-  },
-  {
-    id: 17,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: "Annadiana De L'Isle",
-    albumTitle: 106,
-    description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
-    price: 18.7,
-    retailPrice: 22.98,
-    sku: '841769062-X',
-    stock: 92
-  },
-  {
-    id: 18,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Harli Adacot',
-    albumTitle: 115,
-    description:
-      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
-    price: 17.21,
-    retailPrice: 20.36,
-    sku: '065218239-9',
-    stock: 127
-  },
-  {
-    id: 19,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Aurelea Raincin',
-    albumTitle: 102,
-    description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
-    price: 17.35,
-    retailPrice: 21.49,
-    sku: '610501200-4',
-    stock: 88
-  },
-  {
-    id: 20,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Janka Eltone',
-    albumTitle: 91,
-    description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
-    price: 15.84,
-    retailPrice: 20.4,
-    sku: '930920552-0',
-    stock: 121
-  },
-  {
-    id: 21,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Emmalynne De Nisco',
-    albumTitle: 104,
-    description:
-      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
-    price: 19.27,
-    retailPrice: 19.43,
-    sku: '582287196-8',
-    stock: 110
-  },
-  {
-    id: 22,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Bobbie Pengelley',
-    albumTitle: 111,
-    description:
-      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 18.71,
-    retailPrice: 20.98,
-    sku: '528677543-8',
-    stock: 84
-  },
-  {
-    id: 23,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Anna-maria Cadamy',
-    albumTitle: 120,
-    description:
-      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
-    price: 25.18,
-    retailPrice: 22.09,
-    sku: '103474253-1',
-    stock: 94
-  },
-  {
-    id: 24,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Katuscha Eyre',
-    albumTitle: 112,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.',
-    price: 19.11,
-    retailPrice: 19.83,
-    sku: '785513234-1',
-    stock: 82
-  },
-  {
-    id: 25,
-    imgUrl: './public/images/duaLipa.jpg',
+    id: 5,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'R&B',
-    artist: 'Carlyle Caird',
-    albumTitle: 96,
+    artist: 'Clarine Cleveland',
+    albumTitle: 134,
     description:
-      'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 17.22,
-    retailPrice: 22.26,
-    sku: '576487473-4',
-    stock: 121
+      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
+    price: 16.96,
+    retailPrice: 21.67,
+    sku: '386024605-4',
+    stock: 108
   },
   {
-    id: 26,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Tommy Huffey',
-    albumTitle: 116,
-    description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
-    price: 21.25,
-    retailPrice: 20.23,
-    sku: '762656455-3',
-    stock: 92
-  },
-  {
-    id: 27,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Rozina Aimeric',
+    id: 6,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Rourke Shimmin',
     albumTitle: 124,
     description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 19.84,
-    retailPrice: 23.15,
-    sku: '040187751-5',
-    stock: 121
-  },
-  {
-    id: 28,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Llywellyn Falkous',
-    albumTitle: 93,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
-    price: 24.41,
-    retailPrice: 18.5,
-    sku: '519490012-0',
-    stock: 102
-  },
-  {
-    id: 29,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Janna Simonou',
-    albumTitle: 101,
-    description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
-    price: 21.68,
-    retailPrice: 21.77,
-    sku: '880292404-X',
-    stock: 91
-  },
-  {
-    id: 30,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Ansel Wensley',
-    albumTitle: 110,
-    description:
-      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
-    price: 21.86,
-    retailPrice: 20.18,
-    sku: '717784723-5',
-    stock: 84
-  },
-  {
-    id: 31,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Cathlene Maciejak',
-    albumTitle: 110,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
-    price: 22.73,
-    retailPrice: 20.49,
-    sku: '378891461-0',
-    stock: 106
-  },
-  {
-    id: 32,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: "Catrina O'Carney",
-    albumTitle: 76,
-    description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
-    price: 22.64,
-    retailPrice: 21.67,
-    sku: '633508209-8',
-    stock: 112
-  },
-  {
-    id: 33,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Gabbi Esplin',
-    albumTitle: 100,
-    description:
-      'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
-    price: 15.19,
-    retailPrice: 22.73,
-    sku: '425208680-9',
+      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
+    price: 22.6,
+    retailPrice: 21.22,
+    sku: '641906891-6',
     stock: 99
   },
   {
-    id: 34,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Myrah Bagguley',
-    albumTitle: 64,
+    id: 7,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Valenka Harken',
+    albumTitle: 87,
     description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
-    price: 23.48,
-    retailPrice: 21.09,
-    sku: '886896561-5',
-    stock: 101
-  },
-  {
-    id: 35,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Bekki Goreisr',
-    albumTitle: 119,
-    description:
-      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
-    price: 18.85,
-    retailPrice: 23.17,
-    sku: '073047208-6',
-    stock: 140
-  },
-  {
-    id: 36,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Gilli Brik',
-    albumTitle: 80,
-    description:
-      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
-    price: 19.84,
-    retailPrice: 19.14,
-    sku: '463621735-7',
-    stock: 97
-  },
-  {
-    id: 37,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Damara Ventham',
-    albumTitle: 113,
-    description:
-      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
-    price: 18.95,
-    retailPrice: 21.74,
-    sku: '893691049-3',
+      'Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
+    price: 18.06,
+    retailPrice: 18.8,
+    sku: '630784805-7',
     stock: 94
   },
   {
-    id: 38,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Hildegaard Fearon',
-    albumTitle: 95,
+    id: 8,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Tawnya Duffer',
+    albumTitle: 94,
     description:
-      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
-    price: 23.14,
-    retailPrice: 18.78,
-    sku: '097162744-4',
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
+    price: 22.82,
+    retailPrice: 22.44,
+    sku: '565681597-8',
+    stock: 101
+  },
+  {
+    id: 9,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Christean Thieme',
+    albumTitle: 89,
+    description:
+      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+    price: 17.71,
+    retailPrice: 23.3,
+    sku: '880529543-4',
+    stock: 98
+  },
+  {
+    id: 10,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Lewie Lepper',
+    albumTitle: 124,
+    description:
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+    price: 20.31,
+    retailPrice: 21.83,
+    sku: '397280449-0',
+    stock: 111
+  },
+  {
+    id: 11,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Valentia Halgarth',
+    albumTitle: 114,
+    description:
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
+    price: 21.84,
+    retailPrice: 19.23,
+    sku: '373129399-4',
+    stock: 67
+  },
+  {
+    id: 12,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Valli Amsberger',
+    albumTitle: 141,
+    description:
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
+    price: 22.08,
+    retailPrice: 20.93,
+    sku: '868818332-5',
+    stock: 93
+  },
+  {
+    id: 13,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Garrard Emor',
+    albumTitle: 96,
+    description:
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
+    price: 21.01,
+    retailPrice: 21.41,
+    sku: '744481340-X',
+    stock: 117
+  },
+  {
+    id: 14,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Brion Harby',
+    albumTitle: 81,
+    description:
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 20.88,
+    retailPrice: 22.03,
+    sku: '249779444-8',
+    stock: 105
+  },
+  {
+    id: 15,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Adham Cortese',
+    albumTitle: 76,
+    description:
+      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
+    price: 20.77,
+    retailPrice: 20.97,
+    sku: '548944864-4',
+    stock: 95
+  },
+  {
+    id: 16,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Bale Nenci',
+    albumTitle: 106,
+    description:
+      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
+    price: 23.17,
+    retailPrice: 20.21,
+    sku: '516416799-9',
+    stock: 90
+  },
+  {
+    id: 17,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Miltie Darby',
+    albumTitle: 118,
+    description:
+      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
+    price: 18.49,
+    retailPrice: 21.09,
+    sku: '645472445-X',
+    stock: 75
+  },
+  {
+    id: 18,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Bradan Gilyott',
+    albumTitle: 82,
+    description:
+      'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
+    price: 21.0,
+    retailPrice: 20.57,
+    sku: '452987588-1',
+    stock: 91
+  },
+  {
+    id: 19,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Krystalle Nutkin',
+    albumTitle: 121,
+    description:
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
+    price: 23.45,
+    retailPrice: 21.8,
+    sku: '667472064-X',
+    stock: 105
+  },
+  {
+    id: 20,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Farrand Broadis',
+    albumTitle: 111,
+    description:
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
+    price: 18.2,
+    retailPrice: 22.59,
+    sku: '932097435-7',
+    stock: 110
+  },
+  {
+    id: 21,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Timmy Osgar',
+    albumTitle: 97,
+    description:
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 22.42,
+    retailPrice: 21.19,
+    sku: '203856141-9',
+    stock: 91
+  },
+  {
+    id: 22,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Iorgo Filippello',
+    albumTitle: 101,
+    description:
+      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.',
+    price: 18.24,
+    retailPrice: 18.7,
+    sku: '752169304-3',
+    stock: 89
+  },
+  {
+    id: 23,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Lavinie Ecclestone',
+    albumTitle: 87,
+    description:
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+    price: 19.01,
+    retailPrice: 21.81,
+    sku: '372875199-5',
+    stock: 133
+  },
+  {
+    id: 24,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Gwenette Grogona',
+    albumTitle: 116,
+    description:
+      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
+    price: 18.87,
+    retailPrice: 19.5,
+    sku: '920718118-5',
+    stock: 117
+  },
+  {
+    id: 25,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Zebadiah Eggers',
+    albumTitle: 101,
+    description:
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
+    price: 24.23,
+    retailPrice: 22.52,
+    sku: '503847233-8',
+    stock: 86
+  },
+  {
+    id: 26,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: "Sabina O'Currane",
+    albumTitle: 101,
+    description:
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
+    price: 16.3,
+    retailPrice: 19.56,
+    sku: '574323045-5',
+    stock: 94
+  },
+  {
+    id: 27,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Obadiah Babcock',
+    albumTitle: 73,
+    description:
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    price: 15.52,
+    retailPrice: 21.02,
+    sku: '301628228-3',
+    stock: 88
+  },
+  {
+    id: 28,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Francesca Allsepp',
+    albumTitle: 115,
+    description:
+      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.',
+    price: 18.14,
+    retailPrice: 21.77,
+    sku: '756386447-4',
+    stock: 115
+  },
+  {
+    id: 29,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Christophorus Jindra',
+    albumTitle: 99,
+    description:
+      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+    price: 19.38,
+    retailPrice: 21.16,
+    sku: '483801610-7',
+    stock: 125
+  },
+  {
+    id: 30,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Curcio Scripture',
+    albumTitle: 82,
+    description:
+      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
+    price: 19.2,
+    retailPrice: 22.19,
+    sku: '388495106-8',
+    stock: 85
+  },
+  {
+    id: 31,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Eba Allworthy',
+    albumTitle: 114,
+    description:
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
+    price: 21.24,
+    retailPrice: 21.36,
+    sku: '160929311-8',
+    stock: 77
+  },
+  {
+    id: 32,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Doralin Marklow',
+    albumTitle: 90,
+    description:
+      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
+    price: 22.31,
+    retailPrice: 21.83,
+    sku: '385786660-8',
+    stock: 93
+  },
+  {
+    id: 33,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Analiese Sproson',
+    albumTitle: 86,
+    description:
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
+    price: 21.34,
+    retailPrice: 20.3,
+    sku: '691508879-2',
+    stock: 93
+  },
+  {
+    id: 34,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Devy Ayres',
+    albumTitle: 116,
+    description:
+      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 19.41,
+    retailPrice: 21.0,
+    sku: '378422950-6',
+    stock: 135
+  },
+  {
+    id: 35,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Marvin Bleue',
+    albumTitle: 102,
+    description:
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    price: 16.46,
+    retailPrice: 19.77,
+    sku: '859947397-2',
+    stock: 74
+  },
+  {
+    id: 36,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Marsiella Berlin',
+    albumTitle: 110,
+    description:
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 19.1,
+    retailPrice: 17.92,
+    sku: '375816238-6',
+    stock: 119
+  },
+  {
+    id: 37,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Ana Juleff',
+    albumTitle: 127,
+    description:
+      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
+    price: 19.02,
+    retailPrice: 22.83,
+    sku: '067159566-0',
+    stock: 88
+  },
+  {
+    id: 38,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Erminie Regan',
+    albumTitle: 112,
+    description:
+      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+    price: 19.96,
+    retailPrice: 20.97,
+    sku: '635573466-X',
     stock: 107
   },
   {
     id: 39,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: "Brandea d'Escoffier",
-    albumTitle: 95,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Cordy MacCaull',
+    albumTitle: 104,
     description:
-      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-    price: 19.87,
-    retailPrice: 21.89,
-    sku: '737286655-3',
-    stock: 92
+      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.',
+    price: 21.8,
+    retailPrice: 21.51,
+    sku: '275066051-3',
+    stock: 89
   },
   {
     id: 40,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Edsel Lowthian',
-    albumTitle: 97,
-    description:
-      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
-    price: 21.89,
-    retailPrice: 22.29,
-    sku: '180891035-4',
-    stock: 114
-  },
-  {
-    id: 41,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Bride Marples',
-    albumTitle: 107,
-    description:
-      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 20.22,
-    retailPrice: 21.7,
-    sku: '515507463-0',
-    stock: 97
-  },
-  {
-    id: 42,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Theresina Kolis',
-    albumTitle: 94,
-    description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
-    price: 20.4,
-    retailPrice: 18.37,
-    sku: '807876410-3',
-    stock: 93
-  },
-  {
-    id: 43,
-    imgUrl: './public/images/duaLipa.jpg',
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
     genre: 'soul',
-    artist: 'Aloise Bengtson',
-    albumTitle: 101,
+    artist: 'Rakel Berrigan',
+    albumTitle: 106,
     description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
-    price: 21.78,
-    retailPrice: 20.62,
-    sku: '114063588-3',
-    stock: 117
-  },
-  {
-    id: 44,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Queenie Kirkham',
-    albumTitle: 77,
-    description:
-      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
-    price: 17.12,
-    retailPrice: 21.18,
-    sku: '485394400-1',
-    stock: 95
-  },
-  {
-    id: 45,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Carroll Dewerson',
-    albumTitle: 120,
-    description:
-      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
-    price: 22.21,
-    retailPrice: 19.71,
-    sku: '134749949-0',
-    stock: 97
-  },
-  {
-    id: 46,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Latrena Mattioli',
-    albumTitle: 115,
-    description:
-      'Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    price: 17.63,
-    retailPrice: 22.34,
-    sku: '774881079-6',
-    stock: 87
-  },
-  {
-    id: 47,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Cheryl Veare',
-    albumTitle: 99,
-    description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
-    price: 14.9,
-    retailPrice: 20.4,
-    sku: '291230345-1',
-    stock: 130
-  },
-  {
-    id: 48,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Glynda Birdfield',
-    albumTitle: 87,
-    description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
-    price: 17.68,
-    retailPrice: 21.36,
-    sku: '505655927-X',
-    stock: 84
-  },
-  {
-    id: 49,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Jarrid Willers',
-    albumTitle: 120,
-    description:
-      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
-    price: 19.98,
-    retailPrice: 19.68,
-    sku: '617086549-0',
-    stock: 106
-  },
-  {
-    id: 50,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Ravi McGragh',
-    albumTitle: 89,
-    description:
-      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
-    price: 16.94,
-    retailPrice: 22.34,
-    sku: '516946000-7',
-    stock: 91
-  },
-  {
-    id: 51,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Benita Geale',
-    albumTitle: 69,
-    description:
-      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
-    price: 20.38,
-    retailPrice: 19.33,
-    sku: '564406702-5',
+      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+    price: 24.02,
+    retailPrice: 20.08,
+    sku: '590168487-7',
     stock: 108
   },
   {
-    id: 52,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Anett Woollaston',
-    albumTitle: 84,
+    id: 41,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Koralle Gulley',
+    albumTitle: 114,
     description:
-      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
-    price: 20.49,
-    retailPrice: 22.74,
-    sku: '139262364-2',
-    stock: 103
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
+    price: 17.42,
+    retailPrice: 21.02,
+    sku: '120181015-9',
+    stock: 78
   },
   {
-    id: 53,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Vivie Grzelczak',
-    albumTitle: 97,
-    description:
-      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 16.85,
-    retailPrice: 21.34,
-    sku: '788015107-9',
-    stock: 104
-  },
-  {
-    id: 54,
-    imgUrl: './public/images/duaLipa.jpg',
+    id: 42,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'soul',
-    artist: 'Jacklyn MacDonagh',
-    albumTitle: 74,
+    artist: "Judy O'Howbane",
+    albumTitle: 101,
     description:
-      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
-    price: 19.46,
-    retailPrice: 21.59,
-    sku: '721293590-5',
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    price: 18.78,
+    retailPrice: 22.83,
+    sku: '744459447-3',
+    stock: 99
+  },
+  {
+    id: 43,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Gladys Kaines',
+    albumTitle: 122,
+    description:
+      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
+    price: 21.55,
+    retailPrice: 21.41,
+    sku: '770931725-1',
+    stock: 108
+  },
+  {
+    id: 44,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Karlik Basset',
+    albumTitle: 104,
+    description:
+      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
+    price: 19.66,
+    retailPrice: 21.17,
+    sku: '670139436-1',
+    stock: 106
+  },
+  {
+    id: 45,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Shanie Cosins',
+    albumTitle: 111,
+    description:
+      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
+    price: 17.41,
+    retailPrice: 19.64,
+    sku: '542413848-9',
+    stock: 106
+  },
+  {
+    id: 46,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Alanna Breslane',
+    albumTitle: 129,
+    description:
+      'Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
+    price: 17.59,
+    retailPrice: 21.82,
+    sku: '948335665-2',
+    stock: 91
+  },
+  {
+    id: 47,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Missie Denisyev',
+    albumTitle: 90,
+    description:
+      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    price: 23.59,
+    retailPrice: 22.3,
+    sku: '025267499-5',
+    stock: 79
+  },
+  {
+    id: 48,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Andris Myrkus',
+    albumTitle: 115,
+    description:
+      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
+    price: 21.24,
+    retailPrice: 19.12,
+    sku: '917955535-7',
+    stock: 69
+  },
+  {
+    id: 49,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Carolina Schottli',
+    albumTitle: 78,
+    description:
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    price: 23.45,
+    retailPrice: 21.43,
+    sku: '145289409-4',
+    stock: 99
+  },
+  {
+    id: 50,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Hope Freemantle',
+    albumTitle: 101,
+    description:
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
+    price: 20.41,
+    retailPrice: 18.92,
+    sku: '994981011-6',
+    stock: 93
+  },
+  {
+    id: 51,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Jeralee MacCallester',
+    albumTitle: 90,
+    description:
+      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
+    price: 22.41,
+    retailPrice: 19.44,
+    sku: '375012077-3',
     stock: 112
   },
   {
-    id: 55,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Allissa Bretherton',
-    albumTitle: 83,
+    id: 52,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Garwood Gothard',
+    albumTitle: 76,
     description:
-      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 18.57,
-    retailPrice: 21.47,
-    sku: '181736790-0',
-    stock: 95
+      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
+    price: 18.66,
+    retailPrice: 20.0,
+    sku: '124180080-4',
+    stock: 96
   },
   {
-    id: 56,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Gilbertine Meineken',
-    albumTitle: 101,
+    id: 53,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Kiele Lerwill',
+    albumTitle: 79,
     description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 15.87,
-    retailPrice: 19.66,
-    sku: '884531963-6',
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+    price: 19.13,
+    retailPrice: 21.86,
+    sku: '626641065-6',
     stock: 94
   },
   {
-    id: 57,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Edwin Gumm',
-    albumTitle: 103,
+    id: 54,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Royce Bowie',
+    albumTitle: 93,
     description:
-      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
-    price: 17.7,
-    retailPrice: 20.96,
-    sku: '050506526-6',
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
+    price: 23.66,
+    retailPrice: 19.98,
+    sku: '094352502-0',
+    stock: 91
+  },
+  {
+    id: 55,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Elston Renouf',
+    albumTitle: 104,
+    description:
+      'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    price: 24.72,
+    retailPrice: 18.89,
+    sku: '684551505-0',
+    stock: 103
+  },
+  {
+    id: 56,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: "Tobit O'Cannan",
+    albumTitle: 72,
+    description:
+      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 16.5,
+    retailPrice: 20.71,
+    sku: '137853635-5',
     stock: 107
   },
   {
-    id: 58,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Flossy Keasy',
-    albumTitle: 116,
+    id: 57,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Kellyann Thornebarrow',
+    albumTitle: 93,
     description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-    price: 19.06,
-    retailPrice: 21.48,
-    sku: '176525649-6',
-    stock: 75
+      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+    price: 20.97,
+    retailPrice: 22.99,
+    sku: '067975593-4',
+    stock: 102
+  },
+  {
+    id: 58,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Caitlin Mashal',
+    albumTitle: 103,
+    description:
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.',
+    price: 20.49,
+    retailPrice: 19.32,
+    sku: '302524509-3',
+    stock: 90
   },
   {
     id: 59,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Ericha Delap',
-    albumTitle: 89,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Ravi Prescott',
+    albumTitle: 114,
     description:
-      'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    price: 19.47,
-    retailPrice: 22.34,
-    sku: '833401406-6',
+      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 16.87,
+    retailPrice: 19.57,
+    sku: '536361814-1',
     stock: 92
   },
   {
     id: 60,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Aurelie Stathor',
-    albumTitle: 112,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Neddy Belliveau',
+    albumTitle: 76,
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
-    price: 15.52,
-    retailPrice: 21.79,
-    sku: '770427023-0',
-    stock: 103
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+    price: 24.23,
+    retailPrice: 23.61,
+    sku: '308347810-0',
+    stock: 110
   },
   {
     id: 61,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Charissa Sherburn',
-    albumTitle: 112,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Kara Winterbottom',
+    albumTitle: 96,
     description:
-      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
-    price: 20.66,
-    retailPrice: 20.65,
-    sku: '763316939-7',
-    stock: 90
+      'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    price: 19.19,
+    retailPrice: 20.26,
+    sku: '954204292-2',
+    stock: 130
   },
   {
     id: 62,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Renate Brisseau',
-    albumTitle: 107,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Janie Hasloch',
+    albumTitle: 99,
     description:
-      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-    price: 23.19,
-    retailPrice: 20.94,
-    sku: '511123725-9',
-    stock: 96
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
+    price: 19.57,
+    retailPrice: 22.05,
+    sku: '586777987-4',
+    stock: 97
   },
   {
     id: 63,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Salli Winear',
-    albumTitle: 108,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Brant Rigler',
+    albumTitle: 75,
     description:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
-    price: 16.05,
-    retailPrice: 20.71,
-    sku: '617624497-8',
-    stock: 109
+      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
+    price: 20.65,
+    retailPrice: 22.61,
+    sku: '598238111-X',
+    stock: 131
   },
   {
     id: 64,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Moina Adamczyk',
-    albumTitle: 95,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Jessee Scrancher',
+    albumTitle: 89,
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-    price: 26.16,
-    retailPrice: 21.49,
-    sku: '485464027-8',
-    stock: 85
+      'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
+    price: 22.63,
+    retailPrice: 20.19,
+    sku: '127762598-0',
+    stock: 103
   },
   {
     id: 65,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Sayre Morrel',
-    albumTitle: 106,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Roseann Edgar',
+    albumTitle: 81,
     description:
-      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
-    price: 25.9,
-    retailPrice: 20.86,
-    sku: '207776150-4',
-    stock: 98
+      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
+    price: 21.73,
+    retailPrice: 19.53,
+    sku: '210694068-8',
+    stock: 82
   },
   {
     id: 66,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Beale Chang',
-    albumTitle: 103,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Sheila Strickland',
+    albumTitle: 67,
     description:
-      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
-    price: 20.65,
-    retailPrice: 19.43,
-    sku: '676813991-6',
-    stock: 89
+      'Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.',
+    price: 15.96,
+    retailPrice: 21.2,
+    sku: '828497584-X',
+    stock: 128
   },
   {
     id: 67,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Sigfrid Mowatt',
-    albumTitle: 105,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Alvinia Towersey',
+    albumTitle: 96,
     description:
-      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 18.96,
-    retailPrice: 20.95,
-    sku: '750444525-8',
-    stock: 94
+      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 21.95,
+    retailPrice: 19.66,
+    sku: '769323053-X',
+    stock: 128
   },
   {
     id: 68,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Ellissa Cormack',
-    albumTitle: 103,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Bartholomeo Mignot',
+    albumTitle: 102,
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-    price: 20.89,
-    retailPrice: 21.34,
-    sku: '579236241-6',
-    stock: 80
+      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
+    price: 21.75,
+    retailPrice: 20.82,
+    sku: '555636577-6',
+    stock: 98
   },
   {
     id: 69,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: "Olag O'Lehane",
-    albumTitle: 99,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Bran Rubinov',
+    albumTitle: 124,
     description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
-    price: 20.21,
-    retailPrice: 20.09,
-    sku: '019608264-1',
-    stock: 76
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
+    price: 19.06,
+    retailPrice: 20.95,
+    sku: '093936730-0',
+    stock: 113
   },
   {
     id: 70,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Merwin Basler',
-    albumTitle: 71,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Kaye Goult',
+    albumTitle: 108,
     description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-    price: 23.57,
-    retailPrice: 20.79,
-    sku: '921160777-9',
-    stock: 77
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
+    price: 23.65,
+    retailPrice: 21.68,
+    sku: '963350793-6',
+    stock: 147
   },
   {
     id: 71,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Joseito Weagener',
-    albumTitle: 110,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Odette Quincee',
+    albumTitle: 112,
     description:
-      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
-    price: 20.3,
-    retailPrice: 20.3,
-    sku: '956025132-5',
-    stock: 108
+      'Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
+    price: 20.78,
+    retailPrice: 20.04,
+    sku: '055889204-3',
+    stock: 94
   },
   {
     id: 72,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'rock',
-    artist: 'Rad Dalman',
-    albumTitle: 116,
-    description:
-      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
-    price: 21.39,
-    retailPrice: 23.07,
-    sku: '568602540-1',
-    stock: 94
+    artist: 'Krista Badgers',
+    albumTitle: 108,
+    description: 'Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 23.25,
+    retailPrice: 20.92,
+    sku: '396614533-2',
+    stock: 86
   },
   {
     id: 73,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Isidoro Skirling',
-    albumTitle: 101,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Adrienne Levane',
+    albumTitle: 114,
     description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
-    price: 17.93,
-    retailPrice: 22.08,
-    sku: '510034522-5',
-    stock: 105
+      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
+    price: 18.31,
+    retailPrice: 22.97,
+    sku: '873328764-3',
+    stock: 89
   },
   {
     id: 74,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Randal Ovesen',
-    albumTitle: 103,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Culley Hanscome',
+    albumTitle: 78,
     description:
-      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
-    price: 21.87,
-    retailPrice: 17.9,
-    sku: '373787286-4',
-    stock: 96
+      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
+    price: 20.38,
+    retailPrice: 21.17,
+    sku: '861189305-0',
+    stock: 78
   },
   {
     id: 75,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Ransell Secretan',
-    albumTitle: 81,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Samaria Renfrew',
+    albumTitle: 114,
     description:
-      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
-    price: 23.11,
-    retailPrice: 20.14,
-    sku: '804348335-3',
-    stock: 115
+      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 21.1,
+    retailPrice: 20.65,
+    sku: '701067989-4',
+    stock: 87
   },
   {
     id: 76,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Cari Caldero',
-    albumTitle: 97,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Charmane Orbon',
+    albumTitle: 88,
     description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 15.2,
-    retailPrice: 21.1,
-    sku: '963940194-3',
-    stock: 80
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    price: 22.08,
+    retailPrice: 23.68,
+    sku: '710284867-6',
+    stock: 87
   },
   {
     id: 77,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Agnes Tezure',
-    albumTitle: 68,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Janos Canet',
+    albumTitle: 129,
     description:
-      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 17.17,
-    retailPrice: 20.38,
-    sku: '217179867-X',
-    stock: 95
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
+    price: 14.92,
+    retailPrice: 20.28,
+    sku: '823221479-1',
+    stock: 116
   },
   {
     id: 78,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Zachery MacAloren',
-    albumTitle: 87,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Tamqrah Edowes',
+    albumTitle: 88,
     description:
-      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
-    price: 20.08,
-    retailPrice: 20.4,
-    sku: '784801330-8',
-    stock: 117
+      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    price: 21.65,
+    retailPrice: 19.8,
+    sku: '534144908-8',
+    stock: 85
   },
   {
     id: 79,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Carlynn Weson',
-    albumTitle: 100,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Emelina Shrubb',
+    albumTitle: 112,
     description:
-      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.',
-    price: 20.17,
-    retailPrice: 20.35,
-    sku: '821864165-3',
-    stock: 100
+      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    price: 20.79,
+    retailPrice: 18.76,
+    sku: '921685678-5',
+    stock: 89
   },
   {
     id: 80,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Rowan Deville',
-    albumTitle: 106,
-    description:
-      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
-    price: 17.17,
-    retailPrice: 21.96,
-    sku: '986123301-6',
-    stock: 98
-  },
-  {
-    id: 81,
-    imgUrl: './public/images/igor.jpeg',
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'blues',
-    artist: 'Celeste Smissen',
-    albumTitle: 104,
+    artist: 'Morgen Broske',
+    albumTitle: 96,
     description:
-      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
-    price: 18.54,
-    retailPrice: 20.36,
-    sku: '481472510-8',
-    stock: 107
-  },
-  {
-    id: 82,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Joshia Petracci',
-    albumTitle: 98,
-    description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 20.54,
-    retailPrice: 22.28,
-    sku: '543307334-3',
-    stock: 76
-  },
-  {
-    id: 83,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Lauri Treen',
-    albumTitle: 81,
-    description: 'Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 21.92,
-    retailPrice: 22.68,
-    sku: '695874636-8',
-    stock: 98
-  },
-  {
-    id: 84,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Sandi Boyce',
-    albumTitle: 111,
-    description:
-      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
-    price: 20.39,
-    retailPrice: 20.13,
-    sku: '726769272-9',
-    stock: 115
-  },
-  {
-    id: 85,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Clint Heads',
-    albumTitle: 115,
-    description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
-    price: 19.1,
-    retailPrice: 19.44,
-    sku: '226057105-0',
-    stock: 119
-  },
-  {
-    id: 86,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Rodger Longmead',
-    albumTitle: 83,
-    description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 19.17,
-    retailPrice: 18.85,
-    sku: '242582754-4',
-    stock: 108
-  },
-  {
-    id: 87,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Margeaux Seedhouse',
-    albumTitle: 129,
-    description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
-    price: 18.4,
-    retailPrice: 22.18,
-    sku: '198083643-4',
-    stock: 106
-  },
-  {
-    id: 88,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Mariann Dudek',
-    albumTitle: 86,
-    description:
-      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
-    price: 22.19,
-    retailPrice: 20.16,
-    sku: '859721334-5',
+      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+    price: 17.48,
+    retailPrice: 23.25,
+    sku: '038533186-X',
     stock: 94
   },
   {
-    id: 89,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Naomi Ballchin',
-    albumTitle: 51,
+    id: 81,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Reinhold Breslau',
+    albumTitle: 101,
     description:
-      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
-    price: 22.96,
-    retailPrice: 19.71,
-    sku: '604797214-4',
+      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
+    price: 16.14,
+    retailPrice: 19.31,
+    sku: '933645135-9',
+    stock: 112
+  },
+  {
+    id: 82,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Dot Bish',
+    albumTitle: 115,
+    description:
+      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 20.18,
+    retailPrice: 19.9,
+    sku: '096186978-X',
+    stock: 96
+  },
+  {
+    id: 83,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Katerine Reimer',
+    albumTitle: 82,
+    description:
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    price: 22.44,
+    retailPrice: 20.56,
+    sku: '785123473-5',
+    stock: 93
+  },
+  {
+    id: 84,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Bess Wellstood',
+    albumTitle: 116,
+    description: 'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
+    price: 22.81,
+    retailPrice: 22.88,
+    sku: '351045240-2',
+    stock: 108
+  },
+  {
+    id: 85,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Quinn Antyukhin',
+    albumTitle: 80,
+    description:
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
+    price: 24.56,
+    retailPrice: 21.86,
+    sku: '054353689-0',
     stock: 92
   },
   {
-    id: 90,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Ermentrude Lodeke',
-    albumTitle: 115,
-    description:
-      'Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
-    price: 22.53,
-    retailPrice: 21.74,
-    sku: '529284356-3',
-    stock: 64
-  },
-  {
-    id: 91,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Jessie Frift',
-    albumTitle: 81,
-    description:
-      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
-    price: 16.98,
-    retailPrice: 22.5,
-    sku: '623335580-X',
-    stock: 129
-  },
-  {
-    id: 92,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    id: 86,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'R&B',
-    artist: 'Norma Wolver',
-    albumTitle: 108,
-    description:
-      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
-    price: 19.1,
-    retailPrice: 24.26,
-    sku: '131124339-9',
-    stock: 104
-  },
-  {
-    id: 93,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Durant Keelinge',
-    albumTitle: 96,
-    description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 20.73,
-    retailPrice: 21.45,
-    sku: '020052398-8',
-    stock: 99
-  },
-  {
-    id: 94,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Nissy Cursons',
-    albumTitle: 73,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
-    price: 21.27,
-    retailPrice: 19.7,
-    sku: '673589741-2',
-    stock: 79
-  },
-  {
-    id: 95,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Randall Lumb',
-    albumTitle: 108,
-    description:
-      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
-    price: 18.63,
-    retailPrice: 19.12,
-    sku: '627569328-2',
-    stock: 109
-  },
-  {
-    id: 96,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Forster Ripley',
-    albumTitle: 99,
-    description:
-      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
-    price: 20.91,
-    retailPrice: 22.95,
-    sku: '869353546-3',
-    stock: 101
-  },
-  {
-    id: 97,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Gordon McMurraya',
-    albumTitle: 99,
-    description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
-    price: 25.02,
-    retailPrice: 22.73,
-    sku: '268733834-6',
-    stock: 114
-  },
-  {
-    id: 98,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Marci Whardley',
-    albumTitle: 102,
-    description:
-      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
-    price: 23.43,
-    retailPrice: 20.93,
-    sku: '630156123-6',
-    stock: 104
-  },
-  {
-    id: 99,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Bernadette Olwen',
-    albumTitle: 127,
-    description:
-      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
-    price: 22.26,
-    retailPrice: 22.25,
-    sku: '780493984-1',
-    stock: 100
-  },
-  {
-    id: 100,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Pincas Ranner',
-    albumTitle: 125,
-    description:
-      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
-    price: 21.68,
-    retailPrice: 20.7,
-    sku: '511479972-X',
-    stock: 109
-  },
-  {
-    id: 101,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Kelli Foskin',
-    albumTitle: 96,
-    description:
-      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    price: 21.72,
-    retailPrice: 20.9,
-    sku: '758387876-4',
+    artist: 'Sidnee Kelby',
+    albumTitle: 119,
+    description: 'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 17.81,
+    retailPrice: 22.93,
+    sku: '232524577-2',
     stock: 105
   },
   {
-    id: 102,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Vaughan Dooley',
-    albumTitle: 95,
+    id: 87,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Doris Rylands',
+    albumTitle: 113,
     description:
-      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-    price: 20.86,
-    retailPrice: 21.31,
-    sku: '203570905-9',
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
+    price: 16.87,
+    retailPrice: 17.74,
+    sku: '896197075-5',
+    stock: 115
+  },
+  {
+    id: 88,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Patti Jerzykiewicz',
+    albumTitle: 75,
+    description:
+      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
+    price: 21.84,
+    retailPrice: 18.78,
+    sku: '124497299-1',
+    stock: 93
+  },
+  {
+    id: 89,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Merrilee Salterne',
+    albumTitle: 82,
+    description:
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
+    price: 16.41,
+    retailPrice: 21.88,
+    sku: '782904884-3',
+    stock: 94
+  },
+  {
+    id: 90,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Isacco Chisnall',
+    albumTitle: 124,
+    description:
+      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
+    price: 18.69,
+    retailPrice: 23.52,
+    sku: '065568322-4',
+    stock: 117
+  },
+  {
+    id: 91,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Edie Lawley',
+    albumTitle: 93,
+    description:
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 19.87,
+    retailPrice: 20.09,
+    sku: '052450950-6',
+    stock: 94
+  },
+  {
+    id: 92,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Colman Escalero',
+    albumTitle: 82,
+    description:
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    price: 17.21,
+    retailPrice: 21.9,
+    sku: '355332680-8',
+    stock: 84
+  },
+  {
+    id: 93,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Paula Popham',
+    albumTitle: 79,
+    description:
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
+    price: 19.1,
+    retailPrice: 20.67,
+    sku: '499378528-3',
+    stock: 101
+  },
+  {
+    id: 94,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Cherlyn Serman',
+    albumTitle: 102,
+    description:
+      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
+    price: 17.5,
+    retailPrice: 19.32,
+    sku: '001739951-3',
+    stock: 91
+  },
+  {
+    id: 95,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Egan Shoulder',
+    albumTitle: 91,
+    description:
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
+    price: 23.09,
+    retailPrice: 23.11,
+    sku: '602960833-9',
+    stock: 93
+  },
+  {
+    id: 96,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Maddie Liff',
+    albumTitle: 93,
+    description:
+      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
+    price: 18.98,
+    retailPrice: 22.53,
+    sku: '843869872-7',
+    stock: 91
+  },
+  {
+    id: 97,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Micky Swaton',
+    albumTitle: 103,
+    description:
+      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    price: 16.86,
+    retailPrice: 19.55,
+    sku: '823467875-2',
+    stock: 110
+  },
+  {
+    id: 98,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Harrietta Lantry',
+    albumTitle: 120,
+    description:
+      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
+    price: 27.22,
+    retailPrice: 20.52,
+    sku: '997335814-7',
+    stock: 102
+  },
+  {
+    id: 99,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Boot Ellesmere',
+    albumTitle: 121,
+    description:
+      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    price: 16.16,
+    retailPrice: 20.65,
+    sku: '261710678-0',
+    stock: 114
+  },
+  {
+    id: 100,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Nissie Garton',
+    albumTitle: 99,
+    description:
+      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    price: 17.64,
+    retailPrice: 21.47,
+    sku: '853597980-8',
+    stock: 110
+  },
+  {
+    id: 101,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Catlin Lyosik',
+    albumTitle: 97,
+    description:
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+    price: 21.36,
+    retailPrice: 21.38,
+    sku: '863532096-4',
+    stock: 82
+  },
+  {
+    id: 102,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Maryrose Fenty',
+    albumTitle: 112,
+    description:
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 22.39,
+    retailPrice: 20.75,
+    sku: '923826060-5',
     stock: 97
   },
   {
     id: 103,
-    imgUrl: './public/images/igor.jpeg',
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'R&B',
-    artist: 'Drugi Tadlow',
-    albumTitle: 116,
+    artist: 'Jody Skudder',
+    albumTitle: 109,
     description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
-    price: 16.02,
-    retailPrice: 21.54,
-    sku: '949234402-5',
-    stock: 84
+      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 15.82,
+    retailPrice: 21.48,
+    sku: '962718697-X',
+    stock: 124
   },
   {
     id: 104,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Deloris Di Gregorio',
-    albumTitle: 79,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Marianne Matthiesen',
+    albumTitle: 95,
     description:
-      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.',
-    price: 19.41,
-    retailPrice: 22.42,
-    sku: '360795444-5',
-    stock: 121
+      'Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
+    price: 20.89,
+    retailPrice: 21.45,
+    sku: '921735424-4',
+    stock: 107
   },
   {
     id: 105,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Genia Waggitt',
-    albumTitle: 106,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Lloyd Graeber',
+    albumTitle: 81,
     description:
-      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
-    price: 24.86,
-    retailPrice: 17.69,
-    sku: '549277495-6',
-    stock: 96
+      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
+    price: 21.02,
+    retailPrice: 19.95,
+    sku: '762877715-5',
+    stock: 144
   },
   {
     id: 106,
-    imgUrl: './public/images/igor.jpeg',
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'pop',
-    artist: 'Pierson Plett',
-    albumTitle: 111,
+    artist: 'Byran Arnaudin',
+    albumTitle: 103,
     description:
-      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 21.04,
-    retailPrice: 19.27,
-    sku: '182405840-3',
-    stock: 110
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.',
+    price: 19.89,
+    retailPrice: 20.05,
+    sku: '014575914-8',
+    stock: 114
   },
   {
     id: 107,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Sharron Ludovico',
-    albumTitle: 107,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Xylia Geerits',
+    albumTitle: 113,
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.',
-    price: 19.49,
-    retailPrice: 20.32,
-    sku: '960702873-2',
-    stock: 112
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
+    price: 18.46,
+    retailPrice: 19.25,
+    sku: '307041705-1',
+    stock: 98
   },
   {
     id: 108,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Egor Forth',
-    albumTitle: 117,
-    description: 'In congue. Etiam justo. Etiam pretium iaculis justo.',
-    price: 17.72,
-    retailPrice: 18.46,
-    sku: '475233438-0',
-    stock: 73
-  },
-  {
-    id: 109,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Reeva Lepoidevin',
-    albumTitle: 110,
-    description:
-      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 17.64,
-    retailPrice: 16.71,
-    sku: '447901894-8',
-    stock: 107
-  },
-  {
-    id: 110,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Brandon Eakin',
-    albumTitle: 118,
-    description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-    price: 19.68,
-    retailPrice: 21.84,
-    sku: '601521023-0',
-    stock: 93
-  },
-  {
-    id: 111,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Querida Gummie',
-    albumTitle: 79,
-    description:
-      'Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
-    price: 21.92,
-    retailPrice: 23.36,
-    sku: '060291506-6',
-    stock: 104
-  },
-  {
-    id: 112,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'R&B',
-    artist: 'Giavani Extall',
-    albumTitle: 117,
-    description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
-    price: 17.88,
-    retailPrice: 21.96,
-    sku: '337395411-8',
-    stock: 76
-  },
-  {
-    id: 113,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Ermanno Blooman',
-    albumTitle: 108,
-    description:
-      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
-    price: 19.62,
-    retailPrice: 19.0,
-    sku: '903661025-7',
-    stock: 81
-  },
-  {
-    id: 114,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Sara-ann Goodhand',
-    albumTitle: 94,
-    description:
-      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-    price: 18.79,
-    retailPrice: 22.04,
-    sku: '316514605-5',
-    stock: 88
-  },
-  {
-    id: 115,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Daisi Camus',
-    albumTitle: 84,
-    description:
-      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
-    price: 21.06,
-    retailPrice: 18.96,
-    sku: '790068751-3',
-    stock: 101
-  },
-  {
-    id: 116,
-    imgUrl: './public/images/jungle.jpg',
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
     genre: 'rock',
-    artist: 'Luella McMechan',
-    albumTitle: 92,
+    artist: 'Antone Holmyard',
+    albumTitle: 98,
     description:
-      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 19.31,
-    retailPrice: 19.96,
-    sku: '040318877-6',
-    stock: 97
-  },
-  {
-    id: 117,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Clarita Hurles',
-    albumTitle: 86,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 22.81,
-    retailPrice: 21.71,
-    sku: '655408105-4',
-    stock: 98
-  },
-  {
-    id: 118,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Hamlen Leitche',
-    albumTitle: 99,
-    description:
-      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
-    price: 21.31,
-    retailPrice: 24.55,
-    sku: '570543007-8',
-    stock: 91
-  },
-  {
-    id: 119,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Corliss Gamett',
-    albumTitle: 97,
-    description:
-      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
-    price: 16.05,
-    retailPrice: 21.54,
-    sku: '926077576-0',
-    stock: 90
-  },
-  {
-    id: 120,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Ernaline Steers',
-    albumTitle: 82,
-    description:
-      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
-    price: 19.2,
-    retailPrice: 23.59,
-    sku: '356535844-0',
-    stock: 98
-  },
-  {
-    id: 121,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Godfree Massot',
-    albumTitle: 99,
-    description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 20.32,
-    retailPrice: 19.86,
-    sku: '010423061-4',
-    stock: 140
-  },
-  {
-    id: 122,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Celka Kays',
-    albumTitle: 85,
-    description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 20.11,
-    retailPrice: 21.48,
-    sku: '155157041-6',
-    stock: 97
-  },
-  {
-    id: 123,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Karil Bawles',
-    albumTitle: 120,
-    description:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
-    price: 18.15,
-    retailPrice: 21.7,
-    sku: '087300376-4',
-    stock: 106
-  },
-  {
-    id: 124,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Josefina Seifenmacher',
-    albumTitle: 78,
-    description:
-      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
-    price: 17.6,
-    retailPrice: 24.05,
-    sku: '865583458-0',
-    stock: 91
-  },
-  {
-    id: 125,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Lucienne Rosendahl',
-    albumTitle: 97,
-    description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 20.47,
-    retailPrice: 20.98,
-    sku: '754256033-6',
-    stock: 111
-  },
-  {
-    id: 126,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Bobette Leadston',
-    albumTitle: 75,
-    description:
-      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-    price: 21.32,
-    retailPrice: 23.72,
-    sku: '991796856-3',
-    stock: 108
-  },
-  {
-    id: 127,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Charlton Tyght',
-    albumTitle: 95,
-    description:
-      'Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
-    price: 20.08,
-    retailPrice: 20.87,
-    sku: '863373289-0',
-    stock: 88
-  },
-  {
-    id: 128,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Erie Couche',
-    albumTitle: 68,
-    description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-    price: 22.01,
-    retailPrice: 21.61,
-    sku: '503728015-X',
-    stock: 103
-  },
-  {
-    id: 129,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Cchaddie Dureden',
-    albumTitle: 94,
-    description:
-      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
-    price: 20.64,
-    retailPrice: 23.09,
-    sku: '008320697-3',
-    stock: 109
-  },
-  {
-    id: 130,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Perren Parffrey',
-    albumTitle: 103,
-    description:
-      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    price: 24.7,
-    retailPrice: 23.56,
-    sku: '420884383-7',
-    stock: 97
-  },
-  {
-    id: 131,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Gayelord Dyet',
-    albumTitle: 88,
-    description:
-      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
-    price: 18.75,
-    retailPrice: 21.91,
-    sku: '500154409-2',
-    stock: 107
-  },
-  {
-    id: 132,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Saunder MacAvddy',
-    albumTitle: 95,
-    description:
-      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
-    price: 22.15,
-    retailPrice: 20.95,
-    sku: '440417044-0',
-    stock: 121
-  },
-  {
-    id: 133,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'blues',
-    artist: 'Finlay Gregol',
-    albumTitle: 96,
-    description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
-    price: 21.92,
-    retailPrice: 22.05,
-    sku: '652120865-9',
-    stock: 99
-  },
-  {
-    id: 134,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Eugene Tyndall',
-    albumTitle: 106,
-    description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 16.07,
-    retailPrice: 20.54,
-    sku: '837539307-X',
-    stock: 113
-  },
-  {
-    id: 135,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Tyrone Frunks',
-    albumTitle: 90,
-    description:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
-    price: 21.65,
-    retailPrice: 19.96,
-    sku: '043341309-3',
-    stock: 116
-  },
-  {
-    id: 136,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Priscella Jandera',
-    albumTitle: 88,
-    description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
-    price: 21.43,
-    retailPrice: 19.47,
-    sku: '015265207-8',
-    stock: 101
-  },
-  {
-    id: 137,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Janis Hailwood',
-    albumTitle: 95,
-    description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
-    price: 17.86,
-    retailPrice: 23.18,
-    sku: '483202726-3',
-    stock: 93
-  },
-  {
-    id: 138,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Dannye Bufton',
-    albumTitle: 81,
-    description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.',
-    price: 23.56,
-    retailPrice: 20.5,
-    sku: '625705336-6',
-    stock: 104
-  },
-  {
-    id: 139,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Courtney Aphale',
-    albumTitle: 76,
-    description: 'Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 17.31,
-    retailPrice: 19.91,
-    sku: '556871441-X',
-    stock: 109
-  },
-  {
-    id: 140,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Miquela Buey',
-    albumTitle: 102,
-    description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-    price: 20.53,
-    retailPrice: 20.01,
-    sku: '401256373-4',
-    stock: 88
-  },
-  {
-    id: 141,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Ellen Lace',
-    albumTitle: 116,
-    description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
-    price: 17.02,
+      'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
+    price: 18.13,
     retailPrice: 21.88,
-    sku: '284787569-7',
-    stock: 94
-  },
-  {
-    id: 142,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Odilia Redfern',
-    albumTitle: 88,
-    description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 18.54,
-    retailPrice: 19.95,
-    sku: '402475697-4',
-    stock: 64
-  },
-  {
-    id: 143,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Jeannie Hawkings',
-    albumTitle: 92,
-    description:
-      'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
-    price: 21.44,
-    retailPrice: 21.93,
-    sku: '765641219-0',
-    stock: 95
-  },
-  {
-    id: 144,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Phillipp Ternouth',
-    albumTitle: 109,
-    description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 18.84,
-    retailPrice: 20.55,
-    sku: '316774109-0',
-    stock: 103
-  },
-  {
-    id: 145,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Essie Callf',
-    albumTitle: 104,
-    description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 16.6,
-    retailPrice: 20.5,
-    sku: '898063228-2',
-    stock: 80
-  },
-  {
-    id: 146,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Eda Ryhorovich',
-    albumTitle: 128,
-    description:
-      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
-    price: 13.08,
-    retailPrice: 22.43,
-    sku: '192004916-9',
+    sku: '811768279-6',
     stock: 105
   },
   {
-    id: 147,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Trixie Gummary',
+    id: 109,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Jody Handsheart',
+    albumTitle: 109,
+    description:
+      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.',
+    price: 20.97,
+    retailPrice: 18.5,
+    sku: '458160068-5',
+    stock: 117
+  },
+  {
+    id: 110,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Thoma Brackley',
+    albumTitle: 115,
+    description:
+      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    price: 19.62,
+    retailPrice: 20.64,
+    sku: '281409471-8',
+    stock: 91
+  },
+  {
+    id: 111,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Layla Jedraszczyk',
     albumTitle: 117,
     description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
-    price: 18.91,
-    retailPrice: 19.3,
-    sku: '543091464-9',
+      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
+    price: 19.63,
+    retailPrice: 24.1,
+    sku: '807667568-5',
+    stock: 99
+  },
+  {
+    id: 112,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Francesca Goudman',
+    albumTitle: 96,
+    description:
+      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
+    price: 18.78,
+    retailPrice: 23.48,
+    sku: '708987351-X',
+    stock: 103
+  },
+  {
+    id: 113,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Glenn Wadesworth',
+    albumTitle: 84,
+    description:
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
+    price: 20.75,
+    retailPrice: 22.48,
+    sku: '980401133-6',
+    stock: 103
+  },
+  {
+    id: 114,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Elroy Renyard',
+    albumTitle: 89,
+    description:
+      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.',
+    price: 18.24,
+    retailPrice: 22.97,
+    sku: '326099149-2',
+    stock: 87
+  },
+  {
+    id: 115,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Odella Spuffard',
+    albumTitle: 109,
+    description:
+      'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
+    price: 15.48,
+    retailPrice: 21.98,
+    sku: '031639071-2',
+    stock: 86
+  },
+  {
+    id: 116,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Marcellus Eggle',
+    albumTitle: 96,
+    description:
+      'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
+    price: 16.74,
+    retailPrice: 20.08,
+    sku: '842242069-4',
+    stock: 109
+  },
+  {
+    id: 117,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Candi Epsly',
+    albumTitle: 101,
+    description:
+      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    price: 21.56,
+    retailPrice: 24.0,
+    sku: '544049948-2',
+    stock: 102
+  },
+  {
+    id: 118,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Dannel New',
+    albumTitle: 103,
+    description:
+      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    price: 24.11,
+    retailPrice: 21.5,
+    sku: '197517954-4',
+    stock: 114
+  },
+  {
+    id: 119,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Baxie Dubique',
+    albumTitle: 94,
+    description:
+      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
+    price: 25.01,
+    retailPrice: 19.24,
+    sku: '294373295-8',
+    stock: 89
+  },
+  {
+    id: 120,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Ariel Skirling',
+    albumTitle: 121,
+    description:
+      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
+    price: 17.11,
+    retailPrice: 23.68,
+    sku: '219865852-6',
+    stock: 93
+  },
+  {
+    id: 121,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Ettore Vahey',
+    albumTitle: 109,
+    description:
+      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
+    price: 22.05,
+    retailPrice: 21.2,
+    sku: '493536279-0',
+    stock: 129
+  },
+  {
+    id: 122,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Erminie Wimes',
+    albumTitle: 83,
+    description:
+      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    price: 21.34,
+    retailPrice: 22.22,
+    sku: '214665253-5',
+    stock: 98
+  },
+  {
+    id: 123,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Gail Wither',
+    albumTitle: 86,
+    description:
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 18.73,
+    retailPrice: 21.97,
+    sku: '422311056-X',
+    stock: 78
+  },
+  {
+    id: 124,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Fredelia Palatini',
+    albumTitle: 86,
+    description:
+      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
+    price: 16.94,
+    retailPrice: 21.61,
+    sku: '522543231-X',
+    stock: 121
+  },
+  {
+    id: 125,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Gerome Tanswill',
+    albumTitle: 97,
+    description:
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
+    price: 18.66,
+    retailPrice: 20.5,
+    sku: '157206938-4',
+    stock: 108
+  },
+  {
+    id: 126,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Gris Matz',
+    albumTitle: 131,
+    description:
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
+    price: 23.32,
+    retailPrice: 22.07,
+    sku: '511229901-0',
+    stock: 71
+  },
+  {
+    id: 127,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Adrien Camin',
+    albumTitle: 108,
+    description:
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    price: 17.54,
+    retailPrice: 18.94,
+    sku: '222196553-1',
+    stock: 90
+  },
+  {
+    id: 128,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Rickert Knevit',
+    albumTitle: 112,
+    description:
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.',
+    price: 22.8,
+    retailPrice: 23.9,
+    sku: '077939118-7',
+    stock: 104
+  },
+  {
+    id: 129,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Dehlia Joules',
+    albumTitle: 88,
+    description:
+      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
+    price: 20.79,
+    retailPrice: 22.0,
+    sku: '626827478-4',
+    stock: 94
+  },
+  {
+    id: 130,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Winthrop Basezzi',
+    albumTitle: 98,
+    description:
+      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
+    price: 16.66,
+    retailPrice: 19.21,
+    sku: '862357990-9',
+    stock: 90
+  },
+  {
+    id: 131,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Larisa Brewett',
+    albumTitle: 92,
+    description:
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
+    price: 19.64,
+    retailPrice: 19.59,
+    sku: '367203198-4',
+    stock: 82
+  },
+  {
+    id: 132,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Karon Slack',
+    albumTitle: 115,
+    description:
+      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
+    price: 22.93,
+    retailPrice: 23.32,
+    sku: '880640198-X',
+    stock: 112
+  },
+  {
+    id: 133,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Laurens Whiffin',
+    albumTitle: 114,
+    description:
+      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
+    price: 22.36,
+    retailPrice: 21.16,
+    sku: '207569421-4',
+    stock: 100
+  },
+  {
+    id: 134,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Gerta Haffard',
+    albumTitle: 91,
+    description:
+      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    price: 21.48,
+    retailPrice: 20.82,
+    sku: '414048680-5',
+    stock: 86
+  },
+  {
+    id: 135,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Devin Ashborne',
+    albumTitle: 80,
+    description:
+      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 19.48,
+    retailPrice: 20.96,
+    sku: '231281254-1',
+    stock: 85
+  },
+  {
+    id: 136,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Dane Anker',
+    albumTitle: 99,
+    description:
+      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
+    price: 20.54,
+    retailPrice: 21.34,
+    sku: '651364260-4',
+    stock: 123
+  },
+  {
+    id: 137,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Irwinn Tumbelty',
+    albumTitle: 111,
+    description:
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
+    price: 21.16,
+    retailPrice: 22.82,
+    sku: '352075680-3',
+    stock: 120
+  },
+  {
+    id: 138,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Kanya Gerin',
+    albumTitle: 103,
+    description:
+      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
+    price: 18.43,
+    retailPrice: 18.77,
+    sku: '484735074-X',
+    stock: 111
+  },
+  {
+    id: 139,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Renelle Kenworthey',
+    albumTitle: 122,
+    description:
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
+    price: 16.93,
+    retailPrice: 22.48,
+    sku: '650767298-X',
+    stock: 85
+  },
+  {
+    id: 140,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Tallia Lorentz',
+    albumTitle: 89,
+    description:
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.',
+    price: 21.64,
+    retailPrice: 22.02,
+    sku: '595572100-2',
+    stock: 75
+  },
+  {
+    id: 141,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Laney Emanuel',
+    albumTitle: 62,
+    description:
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    price: 15.54,
+    retailPrice: 21.22,
+    sku: '724994190-9',
+    stock: 88
+  },
+  {
+    id: 142,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Vivian Corish',
+    albumTitle: 94,
+    description:
+      'Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
+    price: 21.75,
+    retailPrice: 22.83,
+    sku: '214478617-8',
+    stock: 90
+  },
+  {
+    id: 143,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Curtis Chagg',
+    albumTitle: 96,
+    description:
+      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    price: 18.19,
+    retailPrice: 21.37,
+    sku: '175384264-6',
+    stock: 87
+  },
+  {
+    id: 144,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Ozzie Lightwing',
+    albumTitle: 108,
+    description:
+      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
+    price: 17.21,
+    retailPrice: 22.97,
+    sku: '140398581-2',
+    stock: 77
+  },
+  {
+    id: 145,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Bryana Tills',
+    albumTitle: 116,
+    description:
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
+    price: 19.1,
+    retailPrice: 20.48,
+    sku: '695576081-5',
+    stock: 97
+  },
+  {
+    id: 146,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Dalis Summerill',
+    albumTitle: 104,
+    description:
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.',
+    price: 18.86,
+    retailPrice: 21.63,
+    sku: '092384615-8',
+    stock: 118
+  },
+  {
+    id: 147,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Worth Stormont',
+    albumTitle: 106,
+    description:
+      'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    price: 20.96,
+    retailPrice: 22.16,
+    sku: '763119648-6',
     stock: 85
   },
   {
     id: 148,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Ursala Osband',
-    albumTitle: 86,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Riva Havick',
+    albumTitle: 92,
     description:
-      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
-    price: 20.72,
-    retailPrice: 22.83,
-    sku: '632639411-2',
-    stock: 89
+      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+    price: 21.01,
+    retailPrice: 22.22,
+    sku: '962698490-2',
+    stock: 110
   },
   {
     id: 149,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Ki Dowglass',
-    albumTitle: 103,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Rickard Phuprate',
+    albumTitle: 86,
     description:
-      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-    price: 20.05,
-    retailPrice: 21.52,
-    sku: '176982096-5',
-    stock: 100
+      'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
+    price: 22.99,
+    retailPrice: 21.2,
+    sku: '792046313-0',
+    stock: 102
   },
   {
     id: 150,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Fern Floodgate',
-    albumTitle: 92,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Zora Albarez',
+    albumTitle: 105,
     description:
-      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
-    price: 22.75,
-    retailPrice: 20.88,
-    sku: '530080324-3',
-    stock: 131
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    price: 16.65,
+    retailPrice: 24.78,
+    sku: '258532523-7',
+    stock: 122
   },
   {
     id: 151,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Emelen Toplis',
-    albumTitle: 118,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Thain Swatman',
+    albumTitle: 84,
     description:
-      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.',
-    price: 20.15,
-    retailPrice: 22.5,
-    sku: '829336150-6',
-    stock: 98
+      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
+    price: 22.27,
+    retailPrice: 21.22,
+    sku: '480761385-5',
+    stock: 103
   },
   {
     id: 152,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Peggie Wildman',
-    albumTitle: 74,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Husain Veldens',
+    albumTitle: 67,
     description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
-    price: 18.65,
-    retailPrice: 21.24,
-    sku: '437086160-8',
-    stock: 78
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+    price: 19.85,
+    retailPrice: 20.41,
+    sku: '742303454-1',
+    stock: 87
   },
   {
     id: 153,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Dreddy Manoelli',
-    albumTitle: 92,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Germana Bleakley',
+    albumTitle: 100,
     description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 17.7,
-    retailPrice: 20.76,
-    sku: '035038660-9',
-    stock: 108
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 19.3,
+    retailPrice: 21.67,
+    sku: '296866912-5',
+    stock: 85
   },
   {
     id: 154,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Ogdon Thunderman',
-    albumTitle: 86,
-    description:
-      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    price: 16.53,
-    retailPrice: 20.22,
-    sku: '284257559-8',
-    stock: 83
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Layla Jeffryes',
+    albumTitle: 104,
+    description: 'Fusce consequat. Nulla nisl. Nunc nisl.',
+    price: 15.18,
+    retailPrice: 20.34,
+    sku: '032925092-2',
+    stock: 122
   },
   {
     id: 155,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Marvin Duell',
-    albumTitle: 110,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Madella Le Galle',
+    albumTitle: 118,
     description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 21.38,
-    retailPrice: 22.34,
-    sku: '317822437-8',
-    stock: 91
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 18.16,
+    retailPrice: 19.21,
+    sku: '604409151-1',
+    stock: 87
   },
   {
     id: 156,
-    imgUrl: './public/images/jungle.jpg',
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
     genre: 'rock',
-    artist: 'Jordain MacCrackan',
-    albumTitle: 106,
+    artist: 'Cliff Itzkin',
+    albumTitle: 83,
     description:
-      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
-    price: 20.0,
-    retailPrice: 20.68,
-    sku: '797072723-9',
-    stock: 76
+      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
+    price: 18.78,
+    retailPrice: 20.35,
+    sku: '262685689-4',
+    stock: 110
   },
   {
     id: 157,
-    imgUrl: './public/images/igor.jpeg',
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
     genre: 'rap',
-    artist: 'Neda Lightman',
-    albumTitle: 94,
+    artist: 'Nerti Aikman',
+    albumTitle: 87,
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-    price: 19.17,
-    retailPrice: 22.46,
-    sku: '144445158-8',
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+    price: 26.69,
+    retailPrice: 18.41,
+    sku: '059822405-X',
     stock: 94
   },
   {
     id: 158,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Brandi Naisbitt',
-    albumTitle: 120,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Wini Galero',
+    albumTitle: 88,
     description:
-      'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    price: 19.45,
-    retailPrice: 22.12,
-    sku: '259899307-1',
-    stock: 82
+      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
+    price: 23.75,
+    retailPrice: 18.05,
+    sku: '978733089-0',
+    stock: 77
   },
   {
     id: 159,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Nicky Eakeley',
-    albumTitle: 78,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Camille Phateplace',
+    albumTitle: 84,
     description:
-      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
-    price: 21.02,
-    retailPrice: 23.74,
-    sku: '614168652-4',
-    stock: 111
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
+    price: 19.66,
+    retailPrice: 21.7,
+    sku: '906965752-X',
+    stock: 79
   },
   {
     id: 160,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: "Jereme D'Costa",
-    albumTitle: 112,
-    description:
-      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
-    price: 23.29,
-    retailPrice: 19.51,
-    sku: '196320676-2',
-    stock: 82
-  },
-  {
-    id: 161,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Hermine Blackie',
-    albumTitle: 122,
-    description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-    price: 19.23,
-    retailPrice: 24.38,
-    sku: '963018059-6',
-    stock: 110
-  },
-  {
-    id: 162,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'blues',
-    artist: 'Karylin Vinau',
-    albumTitle: 81,
-    description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 21.16,
-    retailPrice: 20.69,
-    sku: '854256026-4',
-    stock: 118
-  },
-  {
-    id: 163,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Lora Shortall',
-    albumTitle: 94,
-    description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    price: 14.77,
-    retailPrice: 22.87,
-    sku: '465890235-4',
-    stock: 84
-  },
-  {
-    id: 164,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Oran Sambrok',
-    albumTitle: 111,
-    description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-    price: 18.44,
-    retailPrice: 22.34,
-    sku: '733203641-X',
-    stock: 72
-  },
-  {
-    id: 165,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Faith Glenister',
-    albumTitle: 73,
-    description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 22.02,
-    retailPrice: 22.25,
-    sku: '038534960-2',
-    stock: 102
-  },
-  {
-    id: 166,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Pammie Kemster',
-    albumTitle: 94,
-    description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 14.25,
-    retailPrice: 20.96,
-    sku: '646171461-8',
-    stock: 103
-  },
-  {
-    id: 167,
-    imgUrl: './public/images/jungle.jpg',
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
     genre: 'pop',
-    artist: 'Rosanne Yarham',
-    albumTitle: 86,
+    artist: 'Lanna Terris',
+    albumTitle: 110,
     description:
-      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-    price: 21.76,
-    retailPrice: 19.02,
-    sku: '592350665-3',
-    stock: 106
-  },
-  {
-    id: 168,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'R&B',
-    artist: 'Terrijo Aronstam',
-    albumTitle: 76,
-    description:
-      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
-    price: 24.87,
-    retailPrice: 22.89,
-    sku: '957970858-4',
-    stock: 105
-  },
-  {
-    id: 169,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Humfrid Housegoe',
-    albumTitle: 92,
-    description:
-      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
-    price: 18.51,
-    retailPrice: 19.97,
-    sku: '870133257-0',
-    stock: 101
-  },
-  {
-    id: 170,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Clo Assaf',
-    albumTitle: 91,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 20.12,
-    retailPrice: 22.01,
-    sku: '248405507-2',
-    stock: 121
-  },
-  {
-    id: 171,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'R&B',
-    artist: 'Rustin Eddis',
-    albumTitle: 123,
-    description:
-      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 22.93,
-    retailPrice: 19.94,
-    sku: '045612953-7',
+      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+    price: 17.73,
+    retailPrice: 21.09,
+    sku: '757633086-4',
     stock: 113
   },
   {
-    id: 172,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    id: 161,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'R&B',
-    artist: "Amalie O'Lenane",
-    albumTitle: 92,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 20.03,
-    retailPrice: 21.82,
-    sku: '341574807-3',
-    stock: 99
+    artist: 'Kristien Baughn',
+    albumTitle: 75,
+    description: 'Fusce consequat. Nulla nisl. Nunc nisl.',
+    price: 19.55,
+    retailPrice: 21.83,
+    sku: '169005963-X',
+    stock: 113
   },
   {
-    id: 173,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Mimi Crockford',
+    id: 162,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Moe Jacobsohn',
     albumTitle: 97,
     description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
-    price: 20.42,
-    retailPrice: 22.3,
-    sku: '720497431-X',
-    stock: 111
+      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
+    price: 19.17,
+    retailPrice: 19.94,
+    sku: '235728015-8',
+    stock: 96
   },
   {
-    id: 174,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Cissy Nise',
-    albumTitle: 108,
+    id: 163,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Domenic Byres',
+    albumTitle: 83,
     description:
-      'Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
-    price: 23.42,
-    retailPrice: 23.59,
-    sku: '862434504-9',
-    stock: 126
+      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
+    price: 22.66,
+    retailPrice: 21.66,
+    sku: '918311299-5',
+    stock: 120
   },
   {
-    id: 175,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    id: 164,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Mitchel Batterson',
+    albumTitle: 94,
+    description:
+      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 25.55,
+    retailPrice: 22.89,
+    sku: '452269370-2',
+    stock: 117
+  },
+  {
+    id: 165,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Jackson Joddins',
+    albumTitle: 116,
+    description:
+      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    price: 22.73,
+    retailPrice: 18.3,
+    sku: '618798007-7',
+    stock: 91
+  },
+  {
+    id: 166,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Donnajean Blainey',
+    albumTitle: 103,
+    description:
+      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
+    price: 22.06,
+    retailPrice: 21.17,
+    sku: '152758507-7',
+    stock: 91
+  },
+  {
+    id: 167,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Fayth Maddrell',
+    albumTitle: 120,
+    description:
+      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
+    price: 18.85,
+    retailPrice: 20.25,
+    sku: '747054408-9',
+    stock: 95
+  },
+  {
+    id: 168,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'pop',
-    artist: 'Bliss Leathwood',
-    albumTitle: 98,
+    artist: 'Viviene Clewarth',
+    albumTitle: 79,
     description:
-      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 18.36,
-    retailPrice: 21.36,
-    sku: '327471547-6',
-    stock: 102
+      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
+    price: 24.04,
+    retailPrice: 23.77,
+    sku: '884637079-1',
+    stock: 84
   },
   {
-    id: 176,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Hervey Lidgertwood',
-    albumTitle: 118,
+    id: 169,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Saba Gouck',
+    albumTitle: 76,
     description:
-      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-    price: 23.14,
-    retailPrice: 21.29,
-    sku: '452516292-9',
+      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 21.97,
+    retailPrice: 20.02,
+    sku: '837878609-9',
     stock: 94
   },
   {
-    id: 177,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Mable Strathdee',
+    id: 170,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Kaia Hallbord',
     albumTitle: 98,
     description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 17.01,
-    retailPrice: 20.24,
-    sku: '620263828-1',
+      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+    price: 20.6,
+    retailPrice: 19.84,
+    sku: '537657557-8',
+    stock: 117
+  },
+  {
+    id: 171,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Kathryn Gretham',
+    albumTitle: 113,
+    description:
+      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    price: 18.55,
+    retailPrice: 21.34,
+    sku: '058616790-0',
+    stock: 72
+  },
+  {
+    id: 172,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Adrea Axelby',
+    albumTitle: 92,
+    description:
+      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 18.41,
+    retailPrice: 19.83,
+    sku: '512339809-0',
+    stock: 96
+  },
+  {
+    id: 173,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Frankie Closs',
+    albumTitle: 114,
+    description:
+      'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    price: 21.45,
+    retailPrice: 19.62,
+    sku: '175088101-2',
+    stock: 103
+  },
+  {
+    id: 174,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Garvin Hebborn',
+    albumTitle: 103,
+    description:
+      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+    price: 17.57,
+    retailPrice: 22.22,
+    sku: '613644691-X',
+    stock: 84
+  },
+  {
+    id: 175,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Shepard Yashanov',
+    albumTitle: 83,
+    description:
+      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 20.09,
+    retailPrice: 20.68,
+    sku: '219176338-3',
     stock: 106
   },
   {
-    id: 178,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    id: 176,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
     genre: 'disco',
-    artist: 'Rikki Pyrton',
-    albumTitle: 111,
+    artist: 'Raina Mayger',
+    albumTitle: 73,
     description:
-      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 22.44,
-    retailPrice: 22.72,
-    sku: '820754040-0',
+      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+    price: 19.28,
+    retailPrice: 20.96,
+    sku: '837681046-4',
+    stock: 112
+  },
+  {
+    id: 177,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Stevie MacMenamie',
+    albumTitle: 119,
+    description: 'Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 18.71,
+    retailPrice: 20.64,
+    sku: '045725369-X',
+    stock: 130
+  },
+  {
+    id: 178,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Trenton Isacsson',
+    albumTitle: 106,
+    description:
+      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
+    price: 23.21,
+    retailPrice: 20.64,
+    sku: '354606882-3',
     stock: 100
   },
   {
     id: 179,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Raddie Winterburn',
-    albumTitle: 106,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Garek Geri',
+    albumTitle: 110,
     description:
-      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.',
-    price: 19.34,
-    retailPrice: 22.65,
-    sku: '488008645-2',
-    stock: 60
+      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
+    price: 19.18,
+    retailPrice: 17.95,
+    sku: '850676311-8',
+    stock: 93
   },
   {
     id: 180,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Roley Hayter',
-    albumTitle: 98,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Ikey MacArd',
+    albumTitle: 76,
     description:
-      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
-    price: 18.37,
-    retailPrice: 19.62,
-    sku: '510408188-5',
-    stock: 109
+      'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
+    price: 15.9,
+    retailPrice: 19.36,
+    sku: '358618454-9',
+    stock: 72
   },
   {
     id: 181,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Guinevere Bellam',
-    albumTitle: 118,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Maximilianus Humm',
+    albumTitle: 112,
     description:
-      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-    price: 19.71,
-    retailPrice: 19.51,
-    sku: '665694031-5',
-    stock: 100
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    price: 20.07,
+    retailPrice: 18.79,
+    sku: '279671370-9',
+    stock: 124
   },
   {
     id: 182,
-    imgUrl: './public/images/jungle.jpg',
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
     genre: 'soul',
-    artist: 'Horton Risson',
-    albumTitle: 107,
+    artist: 'Brodie Womersley',
+    albumTitle: 86,
     description:
-      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 23.38,
-    retailPrice: 21.13,
-    sku: '534234963-X',
-    stock: 107
+      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+    price: 24.71,
+    retailPrice: 20.18,
+    sku: '595062481-5',
+    stock: 79
   },
   {
     id: 183,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Benedicta Dik',
-    albumTitle: 68,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Lainey Ouslem',
+    albumTitle: 126,
     description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
-    price: 24.16,
-    retailPrice: 18.42,
-    sku: '897169075-5',
-    stock: 118
+      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+    price: 17.87,
+    retailPrice: 22.95,
+    sku: '503300104-3',
+    stock: 83
   },
   {
     id: 184,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Berta Topp',
-    albumTitle: 91,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Welch Geoghegan',
+    albumTitle: 99,
     description:
-      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 18.61,
-    retailPrice: 20.33,
-    sku: '282952660-0',
-    stock: 78
-  },
-  {
-    id: 185,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Virge Stormes',
-    albumTitle: 89,
-    description:
-      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
-    price: 17.49,
-    retailPrice: 21.59,
-    sku: '525317718-3',
-    stock: 106
-  },
-  {
-    id: 186,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Ellissa Vynall',
-    albumTitle: 100,
-    description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-    price: 21.88,
-    retailPrice: 19.77,
-    sku: '804663741-6',
+      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
+    price: 15.48,
+    retailPrice: 20.75,
+    sku: '425984524-1',
     stock: 112
   },
   {
-    id: 187,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Chandra Hubert',
-    albumTitle: 98,
+    id: 185,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Horatia Nickolls',
+    albumTitle: 99,
     description:
-      'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
-    price: 18.55,
-    retailPrice: 23.56,
-    sku: '283642780-9',
-    stock: 86
+      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    price: 19.6,
+    retailPrice: 22.5,
+    sku: '678565665-6',
+    stock: 116
+  },
+  {
+    id: 186,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Bo Wince',
+    albumTitle: 109,
+    description:
+      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
+    price: 22.93,
+    retailPrice: 20.24,
+    sku: '790294793-8',
+    stock: 109
+  },
+  {
+    id: 187,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Vonny Hammerich',
+    albumTitle: 105,
+    description:
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 16.27,
+    retailPrice: 20.24,
+    sku: '074377002-1',
+    stock: 80
   },
   {
     id: 188,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Bale McGow',
-    albumTitle: 81,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Isacco Peattie',
+    albumTitle: 59,
     description:
-      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
-    price: 18.4,
-    retailPrice: 20.16,
-    sku: '455440618-0',
-    stock: 94
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    price: 21.4,
+    retailPrice: 20.71,
+    sku: '300087859-9',
+    stock: 83
   },
   {
     id: 189,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Benji Gainforth',
-    albumTitle: 125,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Dalli Kauschke',
+    albumTitle: 100,
     description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 25.46,
-    retailPrice: 20.28,
-    sku: '846797835-X',
-    stock: 126
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
+    price: 22.58,
+    retailPrice: 20.2,
+    sku: '584821250-3',
+    stock: 94
   },
   {
     id: 190,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Ryley Renon',
-    albumTitle: 85,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Gareth Bleasdale',
+    albumTitle: 122,
     description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
-    price: 19.21,
-    retailPrice: 20.1,
-    sku: '595167895-1',
-    stock: 95
+      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
+    price: 19.75,
+    retailPrice: 22.68,
+    sku: '240555931-5',
+    stock: 111
   },
   {
     id: 191,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Linnell Lantaff',
-    albumTitle: 136,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Gwenneth Ludy',
+    albumTitle: 101,
     description:
-      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
-    price: 21.58,
-    retailPrice: 22.86,
-    sku: '345602541-6',
-    stock: 102
+      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
+    price: 18.18,
+    retailPrice: 20.15,
+    sku: '016070498-7',
+    stock: 88
   },
   {
     id: 192,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Hollis Kunz',
-    albumTitle: 99,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Mirelle Sedgeman',
+    albumTitle: 122,
     description:
-      'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 20.01,
-    retailPrice: 22.33,
-    sku: '075687255-3',
-    stock: 75
+      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
+    price: 19.49,
+    retailPrice: 23.93,
+    sku: '088656357-7',
+    stock: 125
   },
   {
     id: 193,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Feodora Jozsa',
-    albumTitle: 94,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Roda Pessold',
+    albumTitle: 95,
     description:
-      'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 21.54,
-    retailPrice: 20.35,
-    sku: '948356351-8',
-    stock: 99
+      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
+    price: 21.24,
+    retailPrice: 21.91,
+    sku: '163598955-8',
+    stock: 93
   },
   {
     id: 194,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Jade Yurkevich',
-    albumTitle: 77,
-    description:
-      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
-    price: 24.95,
-    retailPrice: 21.35,
-    sku: '280675021-0',
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Marion McGaraghan',
+    albumTitle: 101,
+    description: 'Fusce consequat. Nulla nisl. Nunc nisl.',
+    price: 19.46,
+    retailPrice: 19.38,
+    sku: '829593008-7',
     stock: 90
   },
   {
     id: 195,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Freddy Kinge',
-    albumTitle: 73,
-    description:
-      'Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
-    price: 19.15,
-    retailPrice: 20.94,
-    sku: '443293025-X',
-    stock: 73
-  },
-  {
-    id: 196,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Elsie Saywood',
-    albumTitle: 85,
-    description:
-      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
-    price: 23.03,
-    retailPrice: 20.97,
-    sku: '061371737-6',
-    stock: 91
-  },
-  {
-    id: 197,
-    imgUrl: './public/images/igor.jpeg',
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
     genre: 'rock',
-    artist: 'Sammie Scholler',
-    albumTitle: 90,
+    artist: 'Shane Trowle',
+    albumTitle: 106,
     description:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 25.54,
-    retailPrice: 22.98,
-    sku: '485087470-3',
-    stock: 93
-  },
-  {
-    id: 198,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Sigvard Guion',
-    albumTitle: 111,
-    description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
-    price: 24.19,
-    retailPrice: 19.83,
-    sku: '093221902-0',
-    stock: 121
-  },
-  {
-    id: 199,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Cristal Saich',
-    albumTitle: 110,
-    description:
-      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
-    price: 19.62,
-    retailPrice: 20.64,
-    sku: '437042705-3',
-    stock: 120
-  },
-  {
-    id: 200,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Brander Shortcliffe',
-    albumTitle: 84,
-    description:
-      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 26.02,
-    retailPrice: 17.71,
-    sku: '913446008-X',
+      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
+    price: 19.7,
+    retailPrice: 21.5,
+    sku: '414094493-5',
     stock: 102
   },
   {
-    id: 201,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Forrest Beves',
-    albumTitle: 88,
+    id: 196,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Oliviero Ord',
+    albumTitle: 105,
     description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
-    price: 20.94,
-    retailPrice: 22.45,
-    sku: '654167006-4',
-    stock: 88
+      'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
+    price: 18.66,
+    retailPrice: 19.42,
+    sku: '781598237-9',
+    stock: 100
+  },
+  {
+    id: 197,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Alli Nisuis',
+    albumTitle: 93,
+    description:
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
+    price: 21.6,
+    retailPrice: 22.51,
+    sku: '861752578-9',
+    stock: 110
+  },
+  {
+    id: 198,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Valene Trench',
+    albumTitle: 118,
+    description:
+      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+    price: 22.05,
+    retailPrice: 21.98,
+    sku: '942993437-6',
+    stock: 107
+  },
+  {
+    id: 199,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Derrik Dorricott',
+    albumTitle: 89,
+    description:
+      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 20.34,
+    retailPrice: 22.48,
+    sku: '448220829-9',
+    stock: 85
+  },
+  {
+    id: 200,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Christi Ainsworth',
+    albumTitle: 104,
+    description:
+      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.',
+    price: 17.48,
+    retailPrice: 20.52,
+    sku: '709893506-9',
+    stock: 86
+  },
+  {
+    id: 201,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Nial Jeskin',
+    albumTitle: 113,
+    description:
+      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
+    price: 20.48,
+    retailPrice: 21.42,
+    sku: '417525232-0',
+    stock: 106
   },
   {
     id: 202,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Britteny Lovel',
-    albumTitle: 74,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Lefty Camell',
+    albumTitle: 104,
     description:
-      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
-    price: 21.82,
-    retailPrice: 21.23,
-    sku: '299271180-2',
-    stock: 103
+      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
+    price: 24.31,
+    retailPrice: 19.9,
+    sku: '042471409-4',
+    stock: 95
   },
   {
     id: 203,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Nicol Furst',
-    albumTitle: 91,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Claiborn MacAlpin',
+    albumTitle: 89,
     description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 18.11,
-    retailPrice: 23.07,
-    sku: '532720480-4',
-    stock: 97
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 18.01,
+    retailPrice: 20.81,
+    sku: '180307575-9',
+    stock: 88
   },
   {
     id: 204,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Heddie Fould',
-    albumTitle: 82,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Roland Crowth',
+    albumTitle: 130,
     description:
-      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 20.42,
-    retailPrice: 19.68,
-    sku: '481750435-8',
-    stock: 117
+      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    price: 22.92,
+    retailPrice: 20.95,
+    sku: '018316110-6',
+    stock: 95
   },
   {
     id: 205,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Jorgan Cordery',
-    albumTitle: 92,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Stern Stopp',
+    albumTitle: 120,
     description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
-    price: 18.55,
-    retailPrice: 22.18,
-    sku: '123885796-5',
-    stock: 81
+      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    price: 21.02,
+    retailPrice: 21.6,
+    sku: '121760555-X',
+    stock: 96
   },
   {
     id: 206,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: "Alexine O'Cannan",
-    albumTitle: 98,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Fritz McGrudder',
+    albumTitle: 95,
     description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
-    price: 17.45,
-    retailPrice: 19.97,
-    sku: '257778280-2',
-    stock: 92
+      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
+    price: 17.14,
+    retailPrice: 21.39,
+    sku: '472743566-7',
+    stock: 99
   },
   {
     id: 207,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Carlota Pountney',
-    albumTitle: 95,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Alexis Castells',
+    albumTitle: 112,
     description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
-    price: 19.44,
-    retailPrice: 22.34,
-    sku: '350242791-7',
-    stock: 103
+      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.',
+    price: 20.48,
+    retailPrice: 19.28,
+    sku: '272074656-8',
+    stock: 88
   },
   {
     id: 208,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Brigham Niles',
-    albumTitle: 105,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Lindon Winkworth',
+    albumTitle: 106,
     description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 21.28,
-    retailPrice: 22.68,
-    sku: '612392673-X',
-    stock: 112
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    price: 26.87,
+    retailPrice: 20.58,
+    sku: '914017637-1',
+    stock: 107
   },
   {
     id: 209,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Yolanda Nunes Nabarro',
-    albumTitle: 141,
-    description: 'Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 21.88,
-    retailPrice: 20.03,
-    sku: '452366527-3',
-    stock: 109
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Mellie Tubridy',
+    albumTitle: 69,
+    description:
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    price: 15.81,
+    retailPrice: 21.97,
+    sku: '980148322-9',
+    stock: 94
   },
   {
     id: 210,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Tierney King',
-    albumTitle: 96,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Odelle Dimmne',
+    albumTitle: 103,
     description:
-      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
-    price: 24.97,
-    retailPrice: 19.67,
-    sku: '543781846-7',
-    stock: 93
+      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+    price: 21.47,
+    retailPrice: 21.0,
+    sku: '836509990-X',
+    stock: 110
   },
   {
     id: 211,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Myrtice Agnolo',
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Brent Illidge',
     albumTitle: 93,
     description:
-      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 19.9,
-    retailPrice: 21.06,
-    sku: '942477332-3',
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
+    price: 18.07,
+    retailPrice: 21.36,
+    sku: '665276885-2',
     stock: 113
   },
   {
     id: 212,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Jamison Skippings',
-    albumTitle: 112,
-    description:
-      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
-    price: 22.9,
-    retailPrice: 18.19,
-    sku: '659679238-2',
-    stock: 95
-  },
-  {
-    id: 213,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Margarita McShirie',
-    albumTitle: 119,
-    description:
-      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.',
-    price: 19.92,
-    retailPrice: 22.37,
-    sku: '737398833-4',
-    stock: 83
-  },
-  {
-    id: 214,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Felicia Snelson',
-    albumTitle: 98,
-    description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.',
-    price: 16.4,
-    retailPrice: 22.52,
-    sku: '422513949-2',
-    stock: 102
-  },
-  {
-    id: 215,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Timothy Alejandro',
-    albumTitle: 117,
-    description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
-    price: 22.18,
-    retailPrice: 19.44,
-    sku: '012283553-0',
-    stock: 103
-  },
-  {
-    id: 216,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'blues',
-    artist: 'Reggy Berge',
-    albumTitle: 105,
+    artist: 'Casey Stronge',
+    albumTitle: 92,
     description:
-      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    price: 21.86,
-    retailPrice: 20.21,
-    sku: '664284128-X',
-    stock: 105
-  },
-  {
-    id: 217,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Delcina Whellans',
-    albumTitle: 101,
-    description:
-      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
-    price: 17.97,
-    retailPrice: 21.43,
-    sku: '853715036-3',
-    stock: 113
-  },
-  {
-    id: 218,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Ermentrude Spiers',
-    albumTitle: 112,
-    description:
-      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 18.3,
-    retailPrice: 21.35,
-    sku: '402473694-9',
-    stock: 101
-  },
-  {
-    id: 219,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Bettina Murley',
-    albumTitle: 105,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
-    price: 23.19,
-    retailPrice: 21.87,
-    sku: '919778851-1',
-    stock: 93
-  },
-  {
-    id: 220,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Sande Di Meo',
-    albumTitle: 93,
-    description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 19.81,
-    retailPrice: 24.01,
-    sku: '308191232-6',
-    stock: 101
-  },
-  {
-    id: 221,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Shari Dearness',
-    albumTitle: 108,
-    description:
-      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
-    price: 19.24,
-    retailPrice: 20.34,
-    sku: '169109450-1',
-    stock: 103
-  },
-  {
-    id: 222,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Morgan Adamou',
-    albumTitle: 104,
-    description:
-      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
-    price: 13.95,
-    retailPrice: 20.9,
-    sku: '900337581-X',
-    stock: 101
-  },
-  {
-    id: 223,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Isadora Tierny',
-    albumTitle: 93,
-    description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
-    price: 21.35,
-    retailPrice: 22.85,
-    sku: '370832446-3',
-    stock: 97
-  },
-  {
-    id: 224,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Germana Gramer',
-    albumTitle: 77,
-    description:
-      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
-    price: 16.35,
-    retailPrice: 20.91,
-    sku: '046724570-3',
-    stock: 115
-  },
-  {
-    id: 225,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Ludovika Andrzejowski',
-    albumTitle: 71,
-    description:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
-    price: 16.73,
-    retailPrice: 21.9,
-    sku: '307995233-2',
-    stock: 109
-  },
-  {
-    id: 226,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Valentia Dorning',
-    albumTitle: 86,
-    description:
-      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
-    price: 20.99,
-    retailPrice: 20.21,
-    sku: '441251895-7',
-    stock: 100
-  },
-  {
-    id: 227,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'R&B',
-    artist: 'Xavier Ateggart',
-    albumTitle: 116,
-    description:
-      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
-    price: 17.56,
-    retailPrice: 22.69,
-    sku: '241439376-9',
-    stock: 70
-  },
-  {
-    id: 228,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Blondy Etty',
-    albumTitle: 119,
-    description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
-    price: 19.85,
-    retailPrice: 23.85,
-    sku: '384489032-7',
-    stock: 81
-  },
-  {
-    id: 229,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Antonetta Grigolli',
-    albumTitle: 97,
-    description:
-      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
-    price: 19.2,
-    retailPrice: 23.14,
-    sku: '057418696-4',
-    stock: 91
-  },
-  {
-    id: 230,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Jesselyn Standring',
-    albumTitle: 99,
-    description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
-    price: 26.17,
-    retailPrice: 21.58,
-    sku: '250729530-9',
-    stock: 97
-  },
-  {
-    id: 231,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Natty Edelheid',
-    albumTitle: 82,
-    description:
-      'Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
-    price: 21.37,
-    retailPrice: 20.18,
-    sku: '872078673-5',
-    stock: 97
-  },
-  {
-    id: 232,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Elvina Kynaston',
-    albumTitle: 102,
-    description:
-      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
-    price: 17.96,
-    retailPrice: 20.05,
-    sku: '992662759-5',
-    stock: 135
-  },
-  {
-    id: 233,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Sheena Easthope',
-    albumTitle: 122,
-    description:
-      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-    price: 18.39,
-    retailPrice: 21.39,
-    sku: '953372795-0',
-    stock: 89
-  },
-  {
-    id: 234,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Susanetta Betteney',
-    albumTitle: 94,
-    description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
-    price: 21.46,
-    retailPrice: 17.67,
-    sku: '222462579-0',
-    stock: 81
-  },
-  {
-    id: 235,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'R&B',
-    artist: 'Brandyn Rylance',
-    albumTitle: 125,
-    description:
-      'Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
-    price: 23.48,
-    retailPrice: 20.61,
-    sku: '797077647-7',
-    stock: 125
-  },
-  {
-    id: 236,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Ronnie Glassborow',
-    albumTitle: 117,
-    description:
-      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
-    price: 23.57,
-    retailPrice: 21.85,
-    sku: '984972908-2',
-    stock: 105
-  },
-  {
-    id: 237,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Brock Cron',
-    albumTitle: 85,
-    description:
-      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
-    price: 21.6,
-    retailPrice: 19.13,
-    sku: '946829015-8',
-    stock: 73
-  },
-  {
-    id: 238,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Montague Di Ruggero',
-    albumTitle: 128,
-    description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 17.94,
-    retailPrice: 20.39,
-    sku: '067996793-1',
-    stock: 101
-  },
-  {
-    id: 239,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Mehetabel Leaburn',
-    albumTitle: 78,
-    description:
-      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
-    price: 19.56,
-    retailPrice: 22.98,
-    sku: '239684335-4',
-    stock: 107
-  },
-  {
-    id: 240,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Eolande Sked',
-    albumTitle: 62,
-    description:
-      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 26.27,
-    retailPrice: 19.69,
-    sku: '607122655-4',
-    stock: 120
-  },
-  {
-    id: 241,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Maxie Waghorne',
-    albumTitle: 110,
-    description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 19.75,
-    retailPrice: 20.44,
-    sku: '055940928-1',
-    stock: 93
-  },
-  {
-    id: 242,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Gran McClunaghan',
-    albumTitle: 109,
-    description:
-      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-    price: 15.12,
-    retailPrice: 21.53,
-    sku: '143672496-1',
-    stock: 125
-  },
-  {
-    id: 243,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Saunderson Pascho',
-    albumTitle: 93,
-    description:
-      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
-    price: 23.64,
-    retailPrice: 21.35,
-    sku: '627487198-5',
-    stock: 116
-  },
-  {
-    id: 244,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Willy Saipy',
-    albumTitle: 72,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 17.79,
-    retailPrice: 21.77,
-    sku: '378691995-X',
-    stock: 93
-  },
-  {
-    id: 245,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Avery Withringten',
-    albumTitle: 133,
-    description:
-      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
-    price: 19.34,
-    retailPrice: 23.41,
-    sku: '487717932-1',
-    stock: 102
-  },
-  {
-    id: 246,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Wilek Kunze',
-    albumTitle: 111,
-    description:
-      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
-    price: 19.51,
-    retailPrice: 22.03,
-    sku: '131002859-1',
-    stock: 114
-  },
-  {
-    id: 247,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Katleen Olorenshaw',
-    albumTitle: 94,
-    description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 21.64,
-    retailPrice: 21.87,
-    sku: '193699255-8',
-    stock: 106
-  },
-  {
-    id: 248,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Patric Patinkin',
-    albumTitle: 103,
-    description:
-      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 19.29,
-    retailPrice: 20.77,
-    sku: '846910412-8',
-    stock: 98
-  },
-  {
-    id: 249,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Hadrian Dugall',
-    albumTitle: 120,
-    description: 'Phasellus in felis. Donec semper sapien a libero. Nam dui.',
-    price: 22.2,
-    retailPrice: 20.06,
-    sku: '738968295-7',
-    stock: 100
-  },
-  {
-    id: 250,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Emanuele Knobell',
-    albumTitle: 105,
-    description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
-    price: 15.67,
-    retailPrice: 18.09,
-    sku: '343704510-5',
-    stock: 102
-  },
-  {
-    id: 251,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'blues',
-    artist: 'Massimiliano Baillie',
-    albumTitle: 104,
-    description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
-    price: 23.36,
-    retailPrice: 21.83,
-    sku: '448090469-7',
-    stock: 87
-  },
-  {
-    id: 252,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Alice Caulwell',
-    albumTitle: 118,
-    description:
-      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    price: 22.88,
-    retailPrice: 20.22,
-    sku: '181375563-9',
-    stock: 90
-  },
-  {
-    id: 253,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Agata Flaxon',
-    albumTitle: 93,
-    description: 'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
-    price: 23.15,
-    retailPrice: 19.43,
-    sku: '075202139-7',
-    stock: 119
-  },
-  {
-    id: 254,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Lincoln Elms',
-    albumTitle: 108,
-    description:
-      'Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.',
-    price: 21.33,
-    retailPrice: 21.45,
-    sku: '015299534-X',
-    stock: 87
-  },
-  {
-    id: 255,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Nelson Reckus',
-    albumTitle: 111,
-    description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
-    price: 18.06,
-    retailPrice: 22.79,
-    sku: '248345202-7',
+      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
+    price: 21.01,
+    retailPrice: 23.49,
+    sku: '143530104-8',
     stock: 71
   },
   {
-    id: 256,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Amby Cereceres',
-    albumTitle: 82,
+    id: 213,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Elspeth Pairpoint',
+    albumTitle: 120,
     description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 25.96,
-    retailPrice: 20.87,
-    sku: '604204135-5',
-    stock: 104
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
+    price: 23.27,
+    retailPrice: 21.63,
+    sku: '020414645-3',
+    stock: 102
   },
   {
-    id: 257,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Ansell Gruszczak',
-    albumTitle: 111,
+    id: 214,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Ricky Boyack',
+    albumTitle: 74,
     description:
-      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
-    price: 20.83,
-    retailPrice: 19.25,
-    sku: '489049436-7',
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
+    price: 18.7,
+    retailPrice: 21.38,
+    sku: '090531956-7',
+    stock: 107
+  },
+  {
+    id: 215,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Inesita Smallsman',
+    albumTitle: 86,
+    description:
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    price: 24.83,
+    retailPrice: 20.59,
+    sku: '280645964-8',
     stock: 114
   },
   {
-    id: 258,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Annabal Maine',
-    albumTitle: 80,
-    description:
-      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
-    price: 17.78,
-    retailPrice: 20.84,
-    sku: '820264014-8',
-    stock: 116
-  },
-  {
-    id: 259,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Danella Carrier',
-    albumTitle: 114,
-    description:
-      'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 25.13,
-    retailPrice: 20.84,
-    sku: '686913657-2',
-    stock: 99
-  },
-  {
-    id: 260,
-    imgUrl: './public/images/duaLipa.jpg',
+    id: 216,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
     genre: 'pop',
-    artist: 'Klaus Demeza',
-    albumTitle: 82,
+    artist: 'Karyl Grinyov',
+    albumTitle: 73,
     description:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.',
-    price: 18.96,
-    retailPrice: 23.44,
-    sku: '888245670-6',
-    stock: 113
+      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
+    price: 22.32,
+    retailPrice: 22.72,
+    sku: '935123731-1',
+    stock: 122
   },
   {
-    id: 261,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Eric Gookes',
-    albumTitle: 88,
-    description:
-      'Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
-    price: 17.61,
-    retailPrice: 20.65,
-    sku: '967152338-2',
-    stock: 128
-  },
-  {
-    id: 262,
-    imgUrl: './public/images/igor.jpeg',
+    id: 217,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
     genre: 'R&B',
-    artist: 'Dory Capsey',
-    albumTitle: 91,
+    artist: 'Verena Blackburn',
+    albumTitle: 103,
     description:
-      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
-    price: 19.71,
-    retailPrice: 22.26,
-    sku: '099736911-6',
-    stock: 112
-  },
-  {
-    id: 263,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Berenice Petronis',
-    albumTitle: 98,
-    description:
-      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
-    price: 22.78,
-    retailPrice: 18.02,
-    sku: '010531395-5',
-    stock: 73
-  },
-  {
-    id: 264,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Geordie McNea',
-    albumTitle: 80,
-    description:
-      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
-    price: 18.6,
-    retailPrice: 19.45,
-    sku: '032824079-6',
-    stock: 101
-  },
-  {
-    id: 265,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Sheena Nand',
-    albumTitle: 118,
-    description:
-      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
-    price: 17.79,
-    retailPrice: 22.18,
-    sku: '209691186-9',
-    stock: 130
-  },
-  {
-    id: 266,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Garfield Smyth',
-    albumTitle: 104,
-    description:
-      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 19.91,
-    retailPrice: 20.07,
-    sku: '317814626-1',
-    stock: 94
-  },
-  {
-    id: 267,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Francois Rubinow',
-    albumTitle: 70,
-    description:
-      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
-    price: 24.02,
-    retailPrice: 19.9,
-    sku: '813740859-2',
-    stock: 121
-  },
-  {
-    id: 268,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Ardisj Oubridge',
-    albumTitle: 118,
-    description:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
-    price: 20.02,
-    retailPrice: 23.19,
-    sku: '232406143-0',
-    stock: 100
-  },
-  {
-    id: 269,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'R&B',
-    artist: 'Omar Amoss',
-    albumTitle: 112,
-    description:
-      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
-    price: 20.41,
-    retailPrice: 19.7,
-    sku: '372345166-7',
-    stock: 67
-  },
-  {
-    id: 270,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'blues',
-    artist: 'Bethina Hynson',
-    albumTitle: 121,
-    description:
-      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
-    price: 22.74,
-    retailPrice: 19.83,
-    sku: '793208279-X',
-    stock: 89
-  },
-  {
-    id: 271,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Datha Rojas',
-    albumTitle: 85,
-    description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 20.81,
-    retailPrice: 22.34,
-    sku: '995644973-3',
-    stock: 127
-  },
-  {
-    id: 272,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Leigh Straker',
-    albumTitle: 100,
-    description:
-      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-    price: 22.87,
-    retailPrice: 22.53,
-    sku: '260266896-6',
-    stock: 114
-  },
-  {
-    id: 273,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'blues',
-    artist: 'Angelico Every',
-    albumTitle: 89,
-    description:
-      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
-    price: 21.21,
-    retailPrice: 20.98,
-    sku: '065686662-4',
-    stock: 93
-  },
-  {
-    id: 274,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Malachi Ohm',
-    albumTitle: 94,
-    description:
-      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
-    price: 18.57,
-    retailPrice: 20.2,
-    sku: '674162548-8',
-    stock: 83
-  },
-  {
-    id: 275,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Adrian Sheehan',
-    albumTitle: 99,
-    description:
-      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
-    price: 21.11,
-    retailPrice: 17.86,
-    sku: '211602857-4',
-    stock: 76
-  },
-  {
-    id: 276,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Garvin Seifenmacher',
-    albumTitle: 106,
-    description:
-      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
-    price: 22.33,
-    retailPrice: 21.24,
-    sku: '003110250-6',
+      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
+    price: 20.77,
+    retailPrice: 20.37,
+    sku: '188303472-8',
     stock: 86
   },
   {
-    id: 277,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Bent Tucsell',
-    albumTitle: 92,
+    id: 218,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Allyn Atkyns',
+    albumTitle: 123,
     description:
-      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 17.97,
-    retailPrice: 22.25,
-    sku: '378173924-4',
-    stock: 91
+      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
+    price: 18.29,
+    retailPrice: 22.34,
+    sku: '945627030-0',
+    stock: 80
   },
   {
-    id: 278,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Lorie Godfery',
-    albumTitle: 103,
+    id: 219,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Sonny Gianettini',
+    albumTitle: 107,
     description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
-    price: 21.56,
-    retailPrice: 21.77,
-    sku: '476962537-5',
-    stock: 111
+      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    price: 21.7,
+    retailPrice: 22.47,
+    sku: '018259332-0',
+    stock: 70
   },
   {
-    id: 279,
-    imgUrl: './public/images/igor.jpeg',
+    id: 220,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Hillier Finby',
+    albumTitle: 93,
+    description:
+      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
+    price: 20.71,
+    retailPrice: 19.83,
+    sku: '027252928-1',
+    stock: 110
+  },
+  {
+    id: 221,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Norma Geratt',
+    albumTitle: 122,
+    description:
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
+    price: 17.79,
+    retailPrice: 20.66,
+    sku: '592382361-6',
+    stock: 97
+  },
+  {
+    id: 222,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
     genre: 'soul',
-    artist: 'Trey Fetherston',
+    artist: 'Geordie Thing',
+    albumTitle: 102,
+    description:
+      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
+    price: 23.6,
+    retailPrice: 20.35,
+    sku: '053717879-1',
+    stock: 94
+  },
+  {
+    id: 223,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Jessi Posselow',
     albumTitle: 96,
     description:
-      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-    price: 19.73,
-    retailPrice: 20.42,
-    sku: '429413219-1',
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    price: 16.44,
+    retailPrice: 21.92,
+    sku: '004930419-4',
+    stock: 117
+  },
+  {
+    id: 224,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Melvyn Kira',
+    albumTitle: 94,
+    description:
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
+    price: 21.63,
+    retailPrice: 22.75,
+    sku: '430030802-0',
+    stock: 78
+  },
+  {
+    id: 225,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Britta McCerery',
+    albumTitle: 87,
+    description:
+      'Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
+    price: 18.83,
+    retailPrice: 23.46,
+    sku: '547566362-9',
+    stock: 107
+  },
+  {
+    id: 226,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Jenica Summersett',
+    albumTitle: 100,
+    description:
+      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 18.43,
+    retailPrice: 21.32,
+    sku: '675582081-4',
+    stock: 118
+  },
+  {
+    id: 227,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Nell Slad',
+    albumTitle: 100,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 25.15,
+    retailPrice: 22.25,
+    sku: '199127459-9',
+    stock: 118
+  },
+  {
+    id: 228,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Aldin Zanassi',
+    albumTitle: 104,
+    description:
+      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
+    price: 20.26,
+    retailPrice: 19.93,
+    sku: '149258128-3',
+    stock: 123
+  },
+  {
+    id: 229,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Danny Lindenblatt',
+    albumTitle: 84,
+    description:
+      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    price: 20.69,
+    retailPrice: 19.64,
+    sku: '753192061-1',
+    stock: 119
+  },
+  {
+    id: 230,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: "Innis O'Cannavan",
+    albumTitle: 108,
+    description:
+      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
+    price: 20.93,
+    retailPrice: 20.95,
+    sku: '014736784-0',
+    stock: 110
+  },
+  {
+    id: 231,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Ganny Khrishtafovich',
+    albumTitle: 88,
+    description:
+      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 21.51,
+    retailPrice: 20.41,
+    sku: '642742332-0',
+    stock: 120
+  },
+  {
+    id: 232,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Clary Ruddlesden',
+    albumTitle: 100,
+    description:
+      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 18.34,
+    retailPrice: 19.73,
+    sku: '843498872-0',
+    stock: 79
+  },
+  {
+    id: 233,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Myranda Heitz',
+    albumTitle: 71,
+    description:
+      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
+    price: 17.9,
+    retailPrice: 19.58,
+    sku: '573403316-2',
+    stock: 86
+  },
+  {
+    id: 234,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Reid Laurentino',
+    albumTitle: 133,
+    description:
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
+    price: 22.03,
+    retailPrice: 19.68,
+    sku: '458967787-3',
+    stock: 101
+  },
+  {
+    id: 235,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Sherill Napoli',
+    albumTitle: 106,
+    description:
+      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
+    price: 21.77,
+    retailPrice: 19.19,
+    sku: '342333326-X',
+    stock: 108
+  },
+  {
+    id: 236,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Marion Moyce',
+    albumTitle: 111,
+    description:
+      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    price: 23.76,
+    retailPrice: 20.02,
+    sku: '918211636-9',
     stock: 92
   },
   {
-    id: 280,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    id: 237,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Kyle Abden',
+    albumTitle: 89,
+    description:
+      'Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
+    price: 21.86,
+    retailPrice: 20.0,
+    sku: '952048377-2',
+    stock: 120
+  },
+  {
+    id: 238,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'disco',
-    artist: 'Clementius Cadle',
+    artist: 'Ilsa Clarage',
+    albumTitle: 104,
+    description:
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
+    price: 19.76,
+    retailPrice: 19.78,
+    sku: '094585801-9',
+    stock: 92
+  },
+  {
+    id: 239,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Nate Squibe',
+    albumTitle: 90,
+    description:
+      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
+    price: 20.07,
+    retailPrice: 21.7,
+    sku: '095886802-6',
+    stock: 68
+  },
+  {
+    id: 240,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Emmy Downing',
+    albumTitle: 76,
+    description:
+      'In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
+    price: 17.47,
+    retailPrice: 17.96,
+    sku: '233315681-3',
+    stock: 107
+  },
+  {
+    id: 241,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Brandyn Derdes',
+    albumTitle: 135,
+    description:
+      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
+    price: 18.77,
+    retailPrice: 18.89,
+    sku: '460416054-6',
+    stock: 97
+  },
+  {
+    id: 242,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Ingelbert Freathy',
+    albumTitle: 104,
+    description:
+      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
+    price: 23.18,
+    retailPrice: 20.82,
+    sku: '577715363-1',
+    stock: 97
+  },
+  {
+    id: 243,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Osgood Pook',
+    albumTitle: 98,
+    description:
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
+    price: 21.44,
+    retailPrice: 21.66,
+    sku: '799267876-1',
+    stock: 119
+  },
+  {
+    id: 244,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Erinn Hunt',
+    albumTitle: 101,
+    description:
+      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+    price: 19.29,
+    retailPrice: 20.65,
+    sku: '650569111-1',
+    stock: 89
+  },
+  {
+    id: 245,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Christos Whittle',
+    albumTitle: 102,
+    description:
+      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
+    price: 21.23,
+    retailPrice: 19.5,
+    sku: '772421991-5',
+    stock: 95
+  },
+  {
+    id: 246,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Thekla Finnis',
+    albumTitle: 108,
+    description:
+      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
+    price: 15.49,
+    retailPrice: 22.61,
+    sku: '095301067-8',
+    stock: 119
+  },
+  {
+    id: 247,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Allison Lathaye',
+    albumTitle: 104,
+    description:
+      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
+    price: 20.35,
+    retailPrice: 19.96,
+    sku: '185837528-2',
+    stock: 122
+  },
+  {
+    id: 248,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Myra Hanhart',
+    albumTitle: 77,
+    description:
+      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
+    price: 17.68,
+    retailPrice: 21.55,
+    sku: '443203779-2',
+    stock: 91
+  },
+  {
+    id: 249,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Gretal Crippes',
+    albumTitle: 103,
+    description:
+      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 19.05,
+    retailPrice: 19.14,
+    sku: '188228303-1',
+    stock: 107
+  },
+  {
+    id: 250,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Sile Cheesworth',
+    albumTitle: 96,
+    description:
+      'Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
+    price: 18.4,
+    retailPrice: 18.09,
+    sku: '319273919-3',
+    stock: 97
+  },
+  {
+    id: 251,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Aldrich Nend',
+    albumTitle: 101,
+    description:
+      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
+    price: 21.37,
+    retailPrice: 19.65,
+    sku: '653158297-9',
+    stock: 100
+  },
+  {
+    id: 252,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Staffard Rubin',
+    albumTitle: 100,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
+    price: 16.95,
+    retailPrice: 20.77,
+    sku: '564665316-9',
+    stock: 133
+  },
+  {
+    id: 253,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Chariot Wigley',
+    albumTitle: 108,
+    description:
+      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
+    price: 21.66,
+    retailPrice: 25.28,
+    sku: '143283077-5',
+    stock: 107
+  },
+  {
+    id: 254,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Lizzy Deveraux',
+    albumTitle: 77,
+    description:
+      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.',
+    price: 15.93,
+    retailPrice: 24.08,
+    sku: '365533762-0',
+    stock: 112
+  },
+  {
+    id: 255,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Kyle Prantoni',
+    albumTitle: 78,
+    description:
+      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
+    price: 19.51,
+    retailPrice: 23.13,
+    sku: '557617724-X',
+    stock: 83
+  },
+  {
+    id: 256,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Lavina Pringle',
+    albumTitle: 82,
+    description:
+      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+    price: 18.48,
+    retailPrice: 20.85,
+    sku: '319995725-0',
+    stock: 89
+  },
+  {
+    id: 257,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: "Belvia O'Concannon",
+    albumTitle: 103,
+    description:
+      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    price: 21.46,
+    retailPrice: 22.19,
+    sku: '898533152-3',
+    stock: 100
+  },
+  {
+    id: 258,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Mandie Nairn',
+    albumTitle: 111,
+    description:
+      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    price: 18.75,
+    retailPrice: 20.74,
+    sku: '048421597-3',
+    stock: 89
+  },
+  {
+    id: 259,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Myriam Adrianello',
+    albumTitle: 75,
+    description:
+      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+    price: 20.72,
+    retailPrice: 20.68,
+    sku: '565268921-8',
+    stock: 79
+  },
+  {
+    id: 260,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Dunstan Kemish',
+    albumTitle: 91,
+    description:
+      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+    price: 18.27,
+    retailPrice: 20.46,
+    sku: '414940089-X',
+    stock: 90
+  },
+  {
+    id: 261,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Cull Style',
+    albumTitle: 109,
+    description:
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 19.1,
+    retailPrice: 23.3,
+    sku: '249531855-X',
+    stock: 112
+  },
+  {
+    id: 262,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Jacquetta Tait',
+    albumTitle: 85,
+    description:
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
+    price: 22.79,
+    retailPrice: 18.95,
+    sku: '102613025-5',
+    stock: 84
+  },
+  {
+    id: 263,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Bliss Oxherd',
+    albumTitle: 91,
+    description:
+      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
+    price: 18.32,
+    retailPrice: 19.76,
+    sku: '810622678-6',
+    stock: 85
+  },
+  {
+    id: 264,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Perl Shevill',
+    albumTitle: 89,
+    description:
+      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    price: 18.94,
+    retailPrice: 22.69,
+    sku: '223344809-X',
+    stock: 69
+  },
+  {
+    id: 265,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Clementia Oubridge',
+    albumTitle: 106,
+    description:
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 21.19,
+    retailPrice: 21.4,
+    sku: '558833819-7',
+    stock: 100
+  },
+  {
+    id: 266,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Selinda Clemitt',
+    albumTitle: 112,
+    description:
+      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    price: 14.41,
+    retailPrice: 22.74,
+    sku: '373073779-1',
+    stock: 101
+  },
+  {
+    id: 267,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Johnathan Yaneev',
     albumTitle: 93,
     description:
-      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 18.45,
-    retailPrice: 21.72,
-    sku: '531942244-X',
+      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
+    price: 20.57,
+    retailPrice: 20.43,
+    sku: '937525974-9',
+    stock: 100
+  },
+  {
+    id: 268,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Penelope Fullerd',
+    albumTitle: 97,
+    description: 'Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 20.51,
+    retailPrice: 19.93,
+    sku: '793263585-3',
+    stock: 95
+  },
+  {
+    id: 269,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Katalin Leggate',
+    albumTitle: 80,
+    description:
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
+    price: 22.35,
+    retailPrice: 20.51,
+    sku: '615360414-5',
+    stock: 84
+  },
+  {
+    id: 270,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Archie Jouning',
+    albumTitle: 101,
+    description:
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
+    price: 20.75,
+    retailPrice: 23.05,
+    sku: '497346431-7',
+    stock: 77
+  },
+  {
+    id: 271,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Shaughn Reape',
+    albumTitle: 108,
+    description:
+      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
+    price: 22.31,
+    retailPrice: 21.58,
+    sku: '149434121-2',
+    stock: 108
+  },
+  {
+    id: 272,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Thea Upstell',
+    albumTitle: 97,
+    description:
+      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
+    price: 22.66,
+    retailPrice: 20.99,
+    sku: '189317735-1',
     stock: 103
   },
   {
-    id: 281,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: "Butch M'Quhan",
+    id: 273,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Clementina Poynor',
+    albumTitle: 119,
+    description:
+      'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
+    price: 20.91,
+    retailPrice: 19.92,
+    sku: '069111476-5',
+    stock: 80
+  },
+  {
+    id: 274,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Elva Libreros',
+    albumTitle: 94,
+    description:
+      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+    price: 17.06,
+    retailPrice: 21.2,
+    sku: '622040525-0',
+    stock: 110
+  },
+  {
+    id: 275,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Flory Matteau',
+    albumTitle: 69,
+    description:
+      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
+    price: 15.67,
+    retailPrice: 19.81,
+    sku: '790387475-6',
+    stock: 106
+  },
+  {
+    id: 276,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Rafael Reddoch',
+    albumTitle: 114,
+    description:
+      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+    price: 26.39,
+    retailPrice: 23.17,
+    sku: '062265987-1',
+    stock: 115
+  },
+  {
+    id: 277,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Marj Closs',
+    albumTitle: 68,
+    description:
+      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
+    price: 18.98,
+    retailPrice: 20.71,
+    sku: '118477740-3',
+    stock: 109
+  },
+  {
+    id: 278,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Xenos Bouzek',
+    albumTitle: 98,
+    description:
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 20.03,
+    retailPrice: 20.4,
+    sku: '080157487-0',
+    stock: 115
+  },
+  {
+    id: 279,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Nanette Cicchetto',
+    albumTitle: 83,
+    description:
+      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    price: 20.81,
+    retailPrice: 20.46,
+    sku: '540605768-5',
+    stock: 97
+  },
+  {
+    id: 280,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Rudy Hill',
     albumTitle: 105,
     description:
-      'Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
-    price: 22.49,
-    retailPrice: 19.02,
-    sku: '596693507-6',
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
+    price: 21.25,
+    retailPrice: 21.14,
+    sku: '424470357-8',
+    stock: 89
+  },
+  {
+    id: 281,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Marilee Marland',
+    albumTitle: 109,
+    description:
+      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
+    price: 22.14,
+    retailPrice: 19.81,
+    sku: '049263109-3',
     stock: 99
   },
   {
     id: 282,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Pippa Glyn',
-    albumTitle: 105,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 20.7,
-    retailPrice: 21.41,
-    sku: '014822959-X',
-    stock: 83
-  },
-  {
-    id: 283,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
     genre: 'blues',
-    artist: 'Shelden Bouskill',
-    albumTitle: 72,
+    artist: 'Travis Fullegar',
+    albumTitle: 114,
     description:
-      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
-    price: 20.05,
-    retailPrice: 20.82,
-    sku: '574408862-8',
-    stock: 83
-  },
-  {
-    id: 284,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Zahara McKinnon',
-    albumTitle: 95,
-    description:
-      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-    price: 20.91,
-    retailPrice: 20.75,
-    sku: '062582902-6',
-    stock: 99
-  },
-  {
-    id: 285,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Bernadette Wagen',
-    albumTitle: 119,
-    description:
-      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 23.08,
-    retailPrice: 20.36,
-    sku: '464468679-4',
-    stock: 82
-  },
-  {
-    id: 286,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Carita Westberg',
-    albumTitle: 81,
-    description:
-      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
-    price: 20.09,
-    retailPrice: 22.28,
-    sku: '671424866-0',
-    stock: 79
-  },
-  {
-    id: 287,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Jarad Ary',
-    albumTitle: 103,
-    description:
-      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
-    price: 19.14,
-    retailPrice: 20.92,
-    sku: '362872208-X',
-    stock: 112
-  },
-  {
-    id: 288,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Milly Feehily',
-    albumTitle: 116,
-    description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 15.6,
-    retailPrice: 18.26,
-    sku: '934588309-6',
-    stock: 92
-  },
-  {
-    id: 289,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Benedick Gipson',
-    albumTitle: 76,
-    description:
-      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
-    price: 18.61,
-    retailPrice: 21.67,
-    sku: '759983814-7',
-    stock: 92
-  },
-  {
-    id: 290,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Bearnard Drinkhall',
-    albumTitle: 81,
-    description:
-      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
-    price: 16.04,
-    retailPrice: 22.51,
-    sku: '960481994-1',
-    stock: 115
-  },
-  {
-    id: 291,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Rabbi Seel',
-    albumTitle: 94,
-    description:
-      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 19.37,
-    retailPrice: 20.48,
-    sku: '188431150-4',
-    stock: 99
-  },
-  {
-    id: 292,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Lief Butland',
-    albumTitle: 108,
-    description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
-    price: 19.3,
-    retailPrice: 21.0,
-    sku: '413196508-9',
-    stock: 89
-  },
-  {
-    id: 293,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Barrett Canwell',
-    albumTitle: 107,
-    description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
-    price: 19.21,
-    retailPrice: 19.96,
-    sku: '382608148-X',
-    stock: 126
-  },
-  {
-    id: 294,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Greggory Heald',
-    albumTitle: 97,
-    description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 23.74,
-    retailPrice: 20.41,
-    sku: '251952170-8',
-    stock: 81
-  },
-  {
-    id: 295,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Joanna Bettleson',
-    albumTitle: 97,
-    description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 18.09,
-    retailPrice: 20.43,
-    sku: '284144913-0',
-    stock: 123
-  },
-  {
-    id: 296,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Charmain Mower',
-    albumTitle: 103,
-    description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 20.72,
-    retailPrice: 21.1,
-    sku: '180402847-9',
-    stock: 97
-  },
-  {
-    id: 297,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Marj Bakey',
-    albumTitle: 108,
-    description:
-      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 20.67,
-    retailPrice: 20.87,
-    sku: '311670931-9',
-    stock: 108
-  },
-  {
-    id: 298,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Jud Bartosik',
-    albumTitle: 117,
-    description: 'Fusce consequat. Nulla nisl. Nunc nisl.',
-    price: 18.38,
-    retailPrice: 23.56,
-    sku: '421540116-X',
-    stock: 95
-  },
-  {
-    id: 299,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Isobel Worledge',
-    albumTitle: 112,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 20.11,
-    retailPrice: 20.48,
-    sku: '753296820-0',
-    stock: 80
-  },
-  {
-    id: 300,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Brandise Stutely',
-    albumTitle: 110,
-    description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 20.29,
-    retailPrice: 20.92,
-    sku: '622446430-8',
-    stock: 117
-  },
-  {
-    id: 301,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Adelle Dunning',
-    albumTitle: 105,
-    description:
-      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 17.17,
-    retailPrice: 23.62,
-    sku: '714231680-2',
-    stock: 102
-  },
-  {
-    id: 302,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Wilbert Callander',
-    albumTitle: 107,
-    description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
-    price: 18.62,
-    retailPrice: 24.39,
-    sku: '177482555-4',
-    stock: 106
-  },
-  {
-    id: 303,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Naomi Bignal',
-    albumTitle: 104,
-    description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 20.76,
-    retailPrice: 21.28,
-    sku: '747325960-1',
-    stock: 99
-  },
-  {
-    id: 304,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Alon Fawthrop',
-    albumTitle: 128,
-    description:
-      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
-    price: 21.88,
-    retailPrice: 21.79,
-    sku: '847067794-2',
-    stock: 93
-  },
-  {
-    id: 305,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Margie Dubose',
-    albumTitle: 95,
-    description:
-      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
-    price: 18.45,
-    retailPrice: 21.25,
-    sku: '007837127-9',
-    stock: 68
-  },
-  {
-    id: 306,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Gawen Pestridge',
-    albumTitle: 108,
-    description:
-      'In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
-    price: 19.34,
-    retailPrice: 23.3,
-    sku: '346848392-9',
-    stock: 120
-  },
-  {
-    id: 307,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Keriann Cragoe',
-    albumTitle: 122,
-    description:
-      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
-    price: 23.1,
-    retailPrice: 20.81,
-    sku: '941174923-2',
-    stock: 110
-  },
-  {
-    id: 308,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Amie Roath',
-    albumTitle: 77,
-    description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 21.64,
-    retailPrice: 21.95,
-    sku: '224290217-2',
-    stock: 118
-  },
-  {
-    id: 309,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Lauryn Flack',
-    albumTitle: 126,
-    description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-    price: 21.59,
-    retailPrice: 18.5,
-    sku: '422360447-3',
-    stock: 73
-  },
-  {
-    id: 310,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Hammad Gallyhaock',
-    albumTitle: 109,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
-    price: 16.82,
-    retailPrice: 19.96,
-    sku: '851761928-5',
-    stock: 84
-  },
-  {
-    id: 311,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Clerissa Roycroft',
-    albumTitle: 103,
-    description:
-      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 19.15,
-    retailPrice: 18.92,
-    sku: '475729064-0',
-    stock: 112
-  },
-  {
-    id: 312,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Nari Petheridge',
-    albumTitle: 118,
-    description:
-      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-    price: 17.44,
-    retailPrice: 21.65,
-    sku: '671240657-9',
-    stock: 108
-  },
-  {
-    id: 313,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Brenn Crummie',
-    albumTitle: 124,
-    description:
-      'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
-    price: 20.87,
-    retailPrice: 22.87,
-    sku: '961607897-6',
-    stock: 76
-  },
-  {
-    id: 314,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: "Cris O'Carran",
-    albumTitle: 95,
-    description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
-    price: 17.34,
-    retailPrice: 21.19,
-    sku: '050198430-5',
+      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    price: 23.79,
+    retailPrice: 20.54,
+    sku: '918028457-4',
     stock: 103
   },
   {
-    id: 315,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Barret MacDermand',
-    albumTitle: 93,
+    id: 283,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Robinet Backshell',
+    albumTitle: 92,
     description:
-      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
-    price: 21.6,
-    retailPrice: 19.84,
-    sku: '061956532-2',
+      'Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
+    price: 22.33,
+    retailPrice: 19.61,
+    sku: '706731043-1',
+    stock: 103
+  },
+  {
+    id: 284,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Daune Paulazzi',
+    albumTitle: 98,
+    description:
+      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
+    price: 19.71,
+    retailPrice: 21.62,
+    sku: '550986025-1',
+    stock: 110
+  },
+  {
+    id: 285,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Raynard Verling',
+    albumTitle: 119,
+    description:
+      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
+    price: 20.88,
+    retailPrice: 22.63,
+    sku: '246167648-8',
+    stock: 94
+  },
+  {
+    id: 286,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Shelley Keppin',
+    albumTitle: 123,
+    description:
+      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 22.4,
+    retailPrice: 20.09,
+    sku: '773662864-5',
+    stock: 80
+  },
+  {
+    id: 287,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Rodrigo Siddons',
+    albumTitle: 94,
+    description:
+      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 25.43,
+    retailPrice: 22.32,
+    sku: '837415932-4',
+    stock: 77
+  },
+  {
+    id: 288,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Latrina McClunaghan',
+    albumTitle: 105,
+    description:
+      'Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
+    price: 14.61,
+    retailPrice: 21.91,
+    sku: '824656803-5',
+    stock: 103
+  },
+  {
+    id: 289,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Chan Sasser',
+    albumTitle: 102,
+    description:
+      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
+    price: 26.0,
+    retailPrice: 24.2,
+    sku: '376617053-8',
+    stock: 115
+  },
+  {
+    id: 290,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Barn Giacobilio',
+    albumTitle: 73,
+    description:
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
+    price: 18.51,
+    retailPrice: 17.36,
+    sku: '759027646-4',
+    stock: 124
+  },
+  {
+    id: 291,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Alyosha Bern',
+    albumTitle: 109,
+    description:
+      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+    price: 19.28,
+    retailPrice: 21.34,
+    sku: '301436740-0',
+    stock: 96
+  },
+  {
+    id: 292,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Riva Chellingworth',
+    albumTitle: 80,
+    description:
+      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+    price: 17.77,
+    retailPrice: 22.41,
+    sku: '633423236-3',
+    stock: 82
+  },
+  {
+    id: 293,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Kalli MacEveley',
+    albumTitle: 64,
+    description:
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
+    price: 19.49,
+    retailPrice: 18.68,
+    sku: '298068918-1',
+    stock: 87
+  },
+  {
+    id: 294,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Hal Orniz',
+    albumTitle: 109,
+    description:
+      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+    price: 19.12,
+    retailPrice: 20.73,
+    sku: '394048900-X',
+    stock: 93
+  },
+  {
+    id: 295,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Talia Emerine',
+    albumTitle: 77,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.',
+    price: 24.02,
+    retailPrice: 21.67,
+    sku: '688004234-1',
+    stock: 110
+  },
+  {
+    id: 296,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Cristian Ert',
+    albumTitle: 99,
+    description:
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 18.1,
+    retailPrice: 18.71,
+    sku: '721004067-6',
+    stock: 94
+  },
+  {
+    id: 297,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Wanids Lissenden',
+    albumTitle: 107,
+    description:
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
+    price: 21.2,
+    retailPrice: 20.35,
+    sku: '616124815-8',
+    stock: 82
+  },
+  {
+    id: 298,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Raeann Kunat',
+    albumTitle: 101,
+    description:
+      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
+    price: 16.41,
+    retailPrice: 20.89,
+    sku: '567383942-1',
+    stock: 121
+  },
+  {
+    id: 299,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Waylon Brosnan',
+    albumTitle: 117,
+    description:
+      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 17.98,
+    retailPrice: 17.55,
+    sku: '540100685-3',
+    stock: 103
+  },
+  {
+    id: 300,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Juditha Ingreda',
+    albumTitle: 111,
+    description:
+      'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    price: 24.87,
+    retailPrice: 19.94,
+    sku: '725416463-X',
+    stock: 85
+  },
+  {
+    id: 301,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Cairistiona Jagson',
+    albumTitle: 112,
+    description:
+      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
+    price: 17.34,
+    retailPrice: 19.66,
+    sku: '798996430-9',
+    stock: 128
+  },
+  {
+    id: 302,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Cloe Merryman',
+    albumTitle: 98,
+    description:
+      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
+    price: 22.45,
+    retailPrice: 21.11,
+    sku: '245416078-1',
     stock: 130
   },
   {
-    id: 316,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    id: 303,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Caryn Pache',
+    albumTitle: 92,
+    description:
+      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
+    price: 25.88,
+    retailPrice: 22.67,
+    sku: '955972167-4',
+    stock: 89
+  },
+  {
+    id: 304,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Nixie Ladbrooke',
+    albumTitle: 93,
+    description:
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    price: 18.88,
+    retailPrice: 21.66,
+    sku: '528581290-9',
+    stock: 111
+  },
+  {
+    id: 305,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Lemar Stanlick',
+    albumTitle: 103,
+    description:
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    price: 21.87,
+    retailPrice: 18.54,
+    sku: '425863234-1',
+    stock: 69
+  },
+  {
+    id: 306,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Deina Rembaud',
+    albumTitle: 123,
+    description:
+      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    price: 22.37,
+    retailPrice: 22.35,
+    sku: '511738347-8',
+    stock: 67
+  },
+  {
+    id: 307,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
     genre: 'rap',
-    artist: 'Crosby Schwier',
+    artist: 'Laurianne Sich',
+    albumTitle: 106,
+    description:
+      'Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    price: 18.54,
+    retailPrice: 22.29,
+    sku: '182278974-5',
+    stock: 81
+  },
+  {
+    id: 308,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Tatum Bielfelt',
+    albumTitle: 96,
+    description:
+      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+    price: 20.89,
+    retailPrice: 21.2,
+    sku: '269644327-0',
+    stock: 104
+  },
+  {
+    id: 309,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Inna Cecchi',
+    albumTitle: 129,
+    description:
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    price: 17.68,
+    retailPrice: 19.49,
+    sku: '619514640-4',
+    stock: 98
+  },
+  {
+    id: 310,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Herby Friman',
+    albumTitle: 100,
+    description: 'In congue. Etiam justo. Etiam pretium iaculis justo.',
+    price: 20.04,
+    retailPrice: 21.86,
+    sku: '010649238-1',
+    stock: 63
+  },
+  {
+    id: 311,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Emili Kubica',
+    albumTitle: 130,
+    description:
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
+    price: 18.31,
+    retailPrice: 18.99,
+    sku: '447481886-5',
+    stock: 106
+  },
+  {
+    id: 312,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Fax Barbisch',
     albumTitle: 91,
     description:
-      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
-    price: 16.8,
-    retailPrice: 22.54,
-    sku: '692563878-7',
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
+    price: 27.57,
+    retailPrice: 24.48,
+    sku: '533140609-2',
+    stock: 84
+  },
+  {
+    id: 313,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Kristofer Runnett',
+    albumTitle: 98,
+    description:
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+    price: 22.07,
+    retailPrice: 23.48,
+    sku: '543030991-5',
+    stock: 116
+  },
+  {
+    id: 314,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Ruby Gomez',
+    albumTitle: 114,
+    description:
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    price: 20.39,
+    retailPrice: 19.82,
+    sku: '049761083-3',
+    stock: 86
+  },
+  {
+    id: 315,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Gavra Breinlein',
+    albumTitle: 121,
+    description:
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 21.71,
+    retailPrice: 23.56,
+    sku: '794767045-5',
+    stock: 101
+  },
+  {
+    id: 316,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Kim Wulfinger',
+    albumTitle: 128,
+    description:
+      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
+    price: 24.58,
+    retailPrice: 22.47,
+    sku: '289703243-X',
     stock: 98
   },
   {
     id: 317,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Ulla Ginn',
-    albumTitle: 118,
-    description:
-      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
-    price: 18.24,
-    retailPrice: 22.2,
-    sku: '858201458-9',
-    stock: 89
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Kristopher Yakubov',
+    albumTitle: 95,
+    description: 'In congue. Etiam justo. Etiam pretium iaculis justo.',
+    price: 18.9,
+    retailPrice: 22.06,
+    sku: '384400907-8',
+    stock: 109
   },
   {
     id: 318,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Carmela Tyres',
-    albumTitle: 108,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Jacobo Thomazet',
+    albumTitle: 126,
     description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
-    price: 18.64,
-    retailPrice: 21.42,
-    sku: '178951581-5',
-    stock: 71
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
+    price: 17.53,
+    retailPrice: 22.38,
+    sku: '652793758-X',
+    stock: 108
   },
   {
     id: 319,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Engracia Trobe',
-    albumTitle: 111,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Belinda Gerrans',
+    albumTitle: 128,
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-    price: 28.36,
-    retailPrice: 18.39,
-    sku: '749811929-3',
-    stock: 89
+      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    price: 18.6,
+    retailPrice: 20.76,
+    sku: '874924333-0',
+    stock: 104
   },
   {
     id: 320,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Lina Harbidge',
-    albumTitle: 97,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Trey Kesby',
+    albumTitle: 83,
     description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
-    price: 24.23,
-    retailPrice: 20.06,
-    sku: '598773818-0',
-    stock: 88
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 23.81,
+    retailPrice: 22.0,
+    sku: '384737774-4',
+    stock: 118
   },
   {
     id: 321,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Findlay Kiera',
-    albumTitle: 98,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Benedicto Tranmer',
+    albumTitle: 108,
     description:
-      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    price: 19.97,
-    retailPrice: 21.45,
-    sku: '213088085-1',
-    stock: 97
+      'Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
+    price: 20.23,
+    retailPrice: 19.32,
+    sku: '065169187-7',
+    stock: 115
   },
   {
     id: 322,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Isidor Trevaskus',
-    albumTitle: 122,
-    description:
-      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
-    price: 23.13,
-    retailPrice: 23.65,
-    sku: '424868301-6',
-    stock: 93
-  },
-  {
-    id: 323,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Willy Sear',
-    albumTitle: 81,
-    description:
-      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
-    price: 19.02,
-    retailPrice: 24.96,
-    sku: '692447334-2',
-    stock: 96
-  },
-  {
-    id: 324,
-    imgUrl: './public/images/igor.jpeg',
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
     genre: 'funk',
-    artist: 'Lura Reaper',
-    albumTitle: 125,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
-    price: 18.05,
-    retailPrice: 18.82,
-    sku: '871374054-7',
-    stock: 125
-  },
-  {
-    id: 325,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Ollie Lunck',
-    albumTitle: 101,
-    description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 26.46,
-    retailPrice: 20.17,
-    sku: '732230901-4',
-    stock: 88
-  },
-  {
-    id: 326,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Giuditta Follet',
-    albumTitle: 99,
-    description:
-      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 23.37,
-    retailPrice: 22.88,
-    sku: '953664040-6',
-    stock: 119
-  },
-  {
-    id: 327,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Alfonse Monkeman',
+    artist: 'Violetta Aspey',
     albumTitle: 100,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
-    price: 17.59,
-    retailPrice: 20.21,
-    sku: '406884981-1',
-    stock: 91
-  },
-  {
-    id: 328,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Cindi Dixsee',
-    albumTitle: 86,
-    description:
-      'Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
-    price: 21.14,
-    retailPrice: 21.81,
-    sku: '937637448-7',
-    stock: 95
-  },
-  {
-    id: 329,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Gisele Martusov',
-    albumTitle: 99,
-    description:
-      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
-    price: 20.28,
-    retailPrice: 20.62,
-    sku: '760290764-7',
-    stock: 89
-  },
-  {
-    id: 330,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Anastasie Mordue',
-    albumTitle: 97,
-    description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
-    price: 21.24,
-    retailPrice: 22.11,
-    sku: '689338689-3',
-    stock: 106
-  },
-  {
-    id: 331,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Jaclyn Matteoni',
-    albumTitle: 106,
-    description:
-      'Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 20.01,
-    retailPrice: 21.12,
-    sku: '372757223-X',
-    stock: 89
-  },
-  {
-    id: 332,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Raye Borge',
-    albumTitle: 94,
-    description:
-      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
-    price: 20.48,
-    retailPrice: 21.37,
-    sku: '300336583-5',
-    stock: 102
-  },
-  {
-    id: 333,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Anni Von Helmholtz',
-    albumTitle: 79,
-    description:
-      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
-    price: 23.84,
-    retailPrice: 19.88,
-    sku: '498213805-2',
-    stock: 105
-  },
-  {
-    id: 334,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Mareah Cullimore',
-    albumTitle: 99,
-    description: 'Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 17.3,
-    retailPrice: 19.14,
-    sku: '365393737-X',
-    stock: 91
-  },
-  {
-    id: 335,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Eleanore Ortells',
-    albumTitle: 113,
     description:
       'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
-    price: 19.56,
-    retailPrice: 17.59,
-    sku: '351064953-2',
-    stock: 96
-  },
-  {
-    id: 336,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Ingunna Macer',
-    albumTitle: 91,
-    description:
-      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 19.95,
-    retailPrice: 21.33,
-    sku: '148829161-6',
-    stock: 91
-  },
-  {
-    id: 337,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Correy Semaine',
-    albumTitle: 114,
-    description:
-      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
-    price: 13.51,
-    retailPrice: 18.24,
-    sku: '111669761-0',
-    stock: 97
-  },
-  {
-    id: 338,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Cristen Lamberts',
-    albumTitle: 100,
-    description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
-    price: 21.47,
-    retailPrice: 19.87,
-    sku: '325135441-8',
-    stock: 115
-  },
-  {
-    id: 339,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Meir Lesper',
-    albumTitle: 94,
-    description:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.',
-    price: 19.46,
-    retailPrice: 20.4,
-    sku: '479069699-5',
-    stock: 88
-  },
-  {
-    id: 340,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Catriona Ambrogioni',
-    albumTitle: 94,
-    description:
-      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 18.63,
-    retailPrice: 19.64,
-    sku: '557798240-5',
-    stock: 84
-  },
-  {
-    id: 341,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Ermentrude Worsnip',
-    albumTitle: 104,
-    description:
-      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    price: 24.73,
-    retailPrice: 21.51,
-    sku: '036619997-8',
-    stock: 98
-  },
-  {
-    id: 342,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Tremaine Weeds',
-    albumTitle: 102,
-    description:
-      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 21.28,
-    retailPrice: 22.38,
-    sku: '782650753-7',
-    stock: 117
-  },
-  {
-    id: 343,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Auroora Lawrenson',
-    albumTitle: 105,
-    description:
-      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-    price: 19.21,
-    retailPrice: 21.21,
-    sku: '829992227-5',
-    stock: 114
-  },
-  {
-    id: 344,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'R&B',
-    artist: 'Max Mityukov',
-    albumTitle: 89,
-    description:
-      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-    price: 20.02,
-    retailPrice: 22.77,
-    sku: '686012608-6',
-    stock: 95
-  },
-  {
-    id: 345,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Lyndel Sahlstrom',
-    albumTitle: 86,
-    description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
-    price: 19.79,
-    retailPrice: 19.87,
-    sku: '967127212-6',
-    stock: 77
-  },
-  {
-    id: 346,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Dillie Cossentine',
-    albumTitle: 106,
-    description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-    price: 20.97,
-    retailPrice: 20.64,
-    sku: '387430519-8',
-    stock: 89
-  },
-  {
-    id: 347,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Traver Chisnell',
-    albumTitle: 75,
-    description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
-    price: 16.78,
-    retailPrice: 18.89,
-    sku: '437806875-3',
-    stock: 106
-  },
-  {
-    id: 348,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Saraann Hazlewood',
-    albumTitle: 83,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 25.68,
-    retailPrice: 20.25,
-    sku: '194332315-1',
-    stock: 81
-  },
-  {
-    id: 349,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'R&B',
-    artist: 'Ninnetta Gavey',
-    albumTitle: 95,
-    description:
-      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
-    price: 25.33,
-    retailPrice: 21.88,
-    sku: '907498448-7',
-    stock: 97
-  },
-  {
-    id: 350,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Wilmer Letson',
-    albumTitle: 92,
-    description:
-      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
-    price: 21.73,
-    retailPrice: 20.54,
-    sku: '195657371-2',
-    stock: 85
-  },
-  {
-    id: 351,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Cherilyn Servant',
-    albumTitle: 100,
-    description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 24.46,
-    retailPrice: 21.63,
-    sku: '131334901-1',
-    stock: 130
-  },
-  {
-    id: 352,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Merle Repper',
-    albumTitle: 82,
-    description:
-      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-    price: 14.35,
-    retailPrice: 19.32,
-    sku: '173319034-1',
-    stock: 91
-  },
-  {
-    id: 353,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Vanny Beevor',
-    albumTitle: 107,
-    description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.',
-    price: 16.5,
-    retailPrice: 21.92,
-    sku: '785690235-3',
-    stock: 115
-  },
-  {
-    id: 354,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Raffaello Sher',
-    albumTitle: 105,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
-    price: 16.49,
-    retailPrice: 21.81,
-    sku: '841930523-5',
-    stock: 107
-  },
-  {
-    id: 355,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Berkley MacMeeking',
-    albumTitle: 93,
-    description:
-      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
-    price: 20.01,
-    retailPrice: 21.9,
-    sku: '384068998-8',
-    stock: 112
-  },
-  {
-    id: 356,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rock',
-    artist: 'Issie Cuckson',
-    albumTitle: 105,
-    description:
-      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
-    price: 18.68,
-    retailPrice: 20.17,
-    sku: '889270835-X',
-    stock: 91
-  },
-  {
-    id: 357,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Benoite Lorking',
-    albumTitle: 98,
-    description:
-      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-    price: 15.91,
-    retailPrice: 22.96,
-    sku: '836790710-8',
-    stock: 103
-  },
-  {
-    id: 358,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Julian Outibridge',
-    albumTitle: 133,
-    description:
-      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-    price: 17.14,
-    retailPrice: 20.99,
-    sku: '231252845-2',
-    stock: 81
-  },
-  {
-    id: 359,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Alix Gossington',
-    albumTitle: 110,
-    description:
-      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
-    price: 16.66,
-    retailPrice: 21.47,
-    sku: '290259413-5',
-    stock: 93
-  },
-  {
-    id: 360,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Vania Blazewicz',
-    albumTitle: 126,
-    description:
-      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 22.16,
-    retailPrice: 19.72,
-    sku: '749409182-3',
-    stock: 116
-  },
-  {
-    id: 361,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Carole Aizikowitz',
-    albumTitle: 111,
-    description:
-      'Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
-    price: 21.88,
-    retailPrice: 20.49,
-    sku: '143455479-1',
-    stock: 108
-  },
-  {
-    id: 362,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Britteny Loudwell',
-    albumTitle: 91,
-    description:
-      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
-    price: 18.26,
-    retailPrice: 20.72,
-    sku: '076159201-6',
-    stock: 94
-  },
-  {
-    id: 363,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Vivia Corbally',
-    albumTitle: 91,
-    description:
-      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    price: 21.67,
-    retailPrice: 20.43,
-    sku: '882407964-4',
-    stock: 117
-  },
-  {
-    id: 364,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Rikki Kinnie',
-    albumTitle: 100,
-    description:
-      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
-    price: 15.12,
-    retailPrice: 19.57,
-    sku: '003472142-8',
-    stock: 131
-  },
-  {
-    id: 365,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Blanca Leroux',
-    albumTitle: 91,
-    description:
-      'Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
-    price: 17.85,
-    retailPrice: 22.24,
-    sku: '335747915-X',
-    stock: 87
-  },
-  {
-    id: 366,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Pip Parris',
-    albumTitle: 83,
-    description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 19.54,
-    retailPrice: 21.98,
-    sku: '548292296-0',
-    stock: 103
-  },
-  {
-    id: 367,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Caldwell Ziemens',
-    albumTitle: 75,
-    description:
-      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
-    price: 19.17,
-    retailPrice: 19.12,
-    sku: '129699564-X',
-    stock: 98
-  },
-  {
-    id: 368,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'blues',
-    artist: 'Karisa Dettmar',
-    albumTitle: 108,
-    description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.',
-    price: 20.22,
-    retailPrice: 22.03,
-    sku: '009453867-0',
-    stock: 97
-  },
-  {
-    id: 369,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Trent Reichert',
-    albumTitle: 103,
-    description:
-      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
-    price: 23.83,
-    retailPrice: 20.24,
-    sku: '182986077-1',
-    stock: 66
-  },
-  {
-    id: 370,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Glynis Houten',
-    albumTitle: 84,
-    description:
-      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
-    price: 18.06,
-    retailPrice: 17.87,
-    sku: '703267113-6',
-    stock: 135
-  },
-  {
-    id: 371,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Nicky Yarr',
-    albumTitle: 89,
-    description:
-      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 20.98,
-    retailPrice: 22.49,
-    sku: '940254414-3',
-    stock: 102
-  },
-  {
-    id: 372,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Jess Adamo',
-    albumTitle: 91,
-    description:
-      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
-    price: 22.58,
-    retailPrice: 21.98,
-    sku: '656544083-2',
-    stock: 95
-  },
-  {
-    id: 373,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Jillene Castrillo',
-    albumTitle: 87,
-    description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
-    price: 19.68,
-    retailPrice: 21.43,
-    sku: '996114889-4',
-    stock: 107
-  },
-  {
-    id: 374,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Lonnard Genny',
-    albumTitle: 88,
-    description:
-      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
-    price: 16.19,
-    retailPrice: 22.2,
-    sku: '135654078-3',
-    stock: 79
-  },
-  {
-    id: 375,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Sherrie Stutely',
-    albumTitle: 91,
-    description:
-      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
-    price: 19.55,
-    retailPrice: 22.28,
-    sku: '531804575-8',
-    stock: 97
-  },
-  {
-    id: 376,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Danni MacColm',
-    albumTitle: 92,
-    description:
-      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
-    price: 19.43,
-    retailPrice: 18.8,
-    sku: '826952502-2',
-    stock: 101
-  },
-  {
-    id: 377,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Angeline Wahncke',
-    albumTitle: 97,
-    description:
-      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
-    price: 22.05,
-    retailPrice: 21.2,
-    sku: '574291652-3',
-    stock: 108
-  },
-  {
-    id: 378,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Martguerita Jannings',
-    albumTitle: 110,
-    description:
-      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
-    price: 16.66,
-    retailPrice: 20.67,
-    sku: '611859095-8',
-    stock: 95
-  },
-  {
-    id: 379,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Fredric McClintock',
-    albumTitle: 99,
-    description:
-      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    price: 17.18,
-    retailPrice: 20.61,
-    sku: '723446148-5',
-    stock: 108
-  },
-  {
-    id: 380,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Axe Drabble',
-    albumTitle: 99,
-    description:
-      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 20.4,
-    retailPrice: 19.41,
-    sku: '792677566-5',
-    stock: 107
-  },
-  {
-    id: 381,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Justus De Giorgis',
-    albumTitle: 94,
-    description:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 18.81,
-    retailPrice: 23.42,
-    sku: '184500788-3',
-    stock: 98
-  },
-  {
-    id: 382,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Nicki Ipplett',
-    albumTitle: 83,
-    description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
-    price: 18.47,
-    retailPrice: 21.24,
-    sku: '107078334-X',
-    stock: 103
-  },
-  {
-    id: 383,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Constantia Beyer',
-    albumTitle: 95,
-    description:
-      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
-    price: 22.05,
-    retailPrice: 23.23,
-    sku: '253830449-0',
-    stock: 76
-  },
-  {
-    id: 384,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Rozamond Ahearne',
-    albumTitle: 135,
-    description:
-      'In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
-    price: 15.7,
-    retailPrice: 21.11,
-    sku: '847827600-9',
-    stock: 95
-  },
-  {
-    id: 385,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Shell Ell',
-    albumTitle: 94,
-    description:
-      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 17.96,
-    retailPrice: 20.1,
-    sku: '589167939-6',
-    stock: 141
-  },
-  {
-    id: 386,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Larry McCarle',
-    albumTitle: 95,
-    description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
-    price: 20.3,
-    retailPrice: 19.78,
-    sku: '171708054-5',
-    stock: 108
-  },
-  {
-    id: 387,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Forest Vink',
-    albumTitle: 114,
-    description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 22.63,
-    retailPrice: 20.65,
-    sku: '296750630-3',
-    stock: 97
-  },
-  {
-    id: 388,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Doro Demangel',
-    albumTitle: 94,
-    description:
-      'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 21.05,
-    retailPrice: 20.7,
-    sku: '145737326-2',
-    stock: 92
-  },
-  {
-    id: 389,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Leisha Schaben',
-    albumTitle: 79,
-    description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 17.36,
-    retailPrice: 21.29,
-    sku: '722983505-4',
-    stock: 103
-  },
-  {
-    id: 390,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Gibbie Burnsell',
-    albumTitle: 99,
-    description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 18.56,
-    retailPrice: 21.94,
-    sku: '871304516-4',
-    stock: 101
-  },
-  {
-    id: 391,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Melony Berrane',
-    albumTitle: 94,
-    description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
-    price: 19.23,
-    retailPrice: 20.33,
-    sku: '382601874-5',
-    stock: 126
-  },
-  {
-    id: 392,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Dewey Emnoney',
-    albumTitle: 128,
-    description:
-      'Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
-    price: 23.21,
-    retailPrice: 20.09,
-    sku: '136704629-7',
-    stock: 69
-  },
-  {
-    id: 393,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Berti Walding',
-    albumTitle: 95,
-    description:
-      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 22.72,
-    retailPrice: 21.6,
-    sku: '916045549-7',
-    stock: 102
-  },
-  {
-    id: 394,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Binky Dyne',
-    albumTitle: 87,
-    description:
-      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
-    price: 18.63,
-    retailPrice: 19.79,
-    sku: '851623277-8',
-    stock: 93
-  },
-  {
-    id: 395,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Meghann Patis',
-    albumTitle: 76,
-    description:
-      'In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    price: 24.0,
-    retailPrice: 23.82,
-    sku: '704725151-0',
-    stock: 110
-  },
-  {
-    id: 396,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Emmy Ambage',
-    albumTitle: 103,
-    description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
-    price: 13.74,
-    retailPrice: 22.49,
-    sku: '349748621-3',
-    stock: 101
-  },
-  {
-    id: 397,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Elicia Callway',
-    albumTitle: 81,
-    description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
-    price: 22.16,
-    retailPrice: 20.51,
-    sku: '038820794-9',
-    stock: 97
-  },
-  {
-    id: 398,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Toby Filyaev',
-    albumTitle: 86,
-    description:
-      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 15.23,
-    retailPrice: 20.15,
-    sku: '862232863-5',
-    stock: 90
-  },
-  {
-    id: 399,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Shermy Hooks',
-    albumTitle: 88,
-    description:
-      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 17.1,
-    retailPrice: 18.48,
-    sku: '030931407-0',
-    stock: 101
-  },
-  {
-    id: 400,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Duky Ajam',
-    albumTitle: 83,
-    description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
-    price: 19.16,
-    retailPrice: 23.85,
-    sku: '500627101-9',
-    stock: 90
-  },
-  {
-    id: 401,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Stephani Bastie',
-    albumTitle: 92,
-    description:
-      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
-    price: 19.0,
-    retailPrice: 23.15,
-    sku: '186087459-2',
-    stock: 120
-  },
-  {
-    id: 402,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Ally Parsley',
-    albumTitle: 105,
-    description:
-      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
-    price: 20.89,
-    retailPrice: 22.7,
-    sku: '703772549-8',
-    stock: 81
-  },
-  {
-    id: 403,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Ofelia Maund',
-    albumTitle: 105,
-    description:
-      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 20.13,
-    retailPrice: 24.05,
-    sku: '537065928-1',
-    stock: 148
-  },
-  {
-    id: 404,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Coralyn Agget',
-    albumTitle: 93,
-    description:
-      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 24.21,
-    retailPrice: 21.16,
-    sku: '218018032-2',
-    stock: 98
-  },
-  {
-    id: 405,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: "Salomo O'Brollachain",
-    albumTitle: 99,
-    description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
-    price: 22.68,
-    retailPrice: 20.38,
-    sku: '649455876-3',
-    stock: 109
-  },
-  {
-    id: 406,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: "Rhody O'Hagirtie",
-    albumTitle: 99,
-    description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 19.43,
-    retailPrice: 24.96,
-    sku: '263252576-4',
-    stock: 140
-  },
-  {
-    id: 407,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Chevalier Crichten',
-    albumTitle: 121,
-    description:
-      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
-    price: 19.64,
-    retailPrice: 20.7,
-    sku: '611312922-5',
-    stock: 90
-  },
-  {
-    id: 408,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Eldridge Beeble',
-    albumTitle: 112,
-    description:
-      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
-    price: 20.16,
-    retailPrice: 22.29,
-    sku: '983611958-2',
-    stock: 82
-  },
-  {
-    id: 409,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Zechariah Watkins',
-    albumTitle: 89,
-    description:
-      'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
-    price: 16.92,
-    retailPrice: 22.24,
-    sku: '327717119-1',
-    stock: 99
-  },
-  {
-    id: 410,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Tally Davenport',
-    albumTitle: 91,
-    description:
-      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
-    price: 16.45,
-    retailPrice: 21.3,
-    sku: '803812564-9',
-    stock: 119
-  },
-  {
-    id: 411,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Sabine Grunder',
-    albumTitle: 113,
-    description:
-      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
-    price: 20.22,
-    retailPrice: 20.67,
-    sku: '646759056-2',
-    stock: 77
-  },
-  {
-    id: 412,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Fitzgerald Jacob',
-    albumTitle: 76,
-    description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 21.24,
-    retailPrice: 20.79,
-    sku: '583413306-1',
-    stock: 85
-  },
-  {
-    id: 413,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Forster Kerfod',
-    albumTitle: 106,
-    description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-    price: 22.15,
-    retailPrice: 20.91,
-    sku: '250167458-8',
-    stock: 114
-  },
-  {
-    id: 414,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Lari Reditt',
-    albumTitle: 101,
-    description:
-      'In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
-    price: 19.75,
-    retailPrice: 18.54,
-    sku: '440245240-6',
-    stock: 103
-  },
-  {
-    id: 415,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Joelly Dendle',
-    albumTitle: 95,
-    description:
-      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
-    price: 22.3,
-    retailPrice: 20.43,
-    sku: '764422197-2',
-    stock: 114
-  },
-  {
-    id: 416,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Connor Weatherburn',
-    albumTitle: 125,
-    description: 'Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 17.28,
-    retailPrice: 21.81,
-    sku: '110293255-8',
-    stock: 95
-  },
-  {
-    id: 417,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'blues',
-    artist: 'Heddi Vowdon',
-    albumTitle: 106,
-    description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
-    price: 21.91,
-    retailPrice: 21.47,
-    sku: '457853103-1',
-    stock: 118
-  },
-  {
-    id: 418,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'soul',
-    artist: 'Bethena McCrea',
-    albumTitle: 101,
-    description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
-    price: 17.73,
-    retailPrice: 21.3,
-    sku: '020430394-X',
-    stock: 117
-  },
-  {
-    id: 419,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Frazier Gorvette',
-    albumTitle: 128,
-    description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.',
-    price: 18.62,
-    retailPrice: 21.61,
-    sku: '130740170-8',
-    stock: 100
-  },
-  {
-    id: 420,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Jonas Elecum',
-    albumTitle: 97,
-    description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 21.63,
-    retailPrice: 21.18,
-    sku: '820820206-1',
-    stock: 98
-  },
-  {
-    id: 421,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'blues',
-    artist: 'Temple Durno',
-    albumTitle: 89,
-    description:
-      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
-    price: 22.33,
-    retailPrice: 19.17,
-    sku: '110690125-8',
-    stock: 70
-  },
-  {
-    id: 422,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Candra Petrello',
-    albumTitle: 81,
-    description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
-    price: 16.42,
-    retailPrice: 20.01,
-    sku: '222625295-9',
-    stock: 87
-  },
-  {
-    id: 423,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Lacy Smyley',
-    albumTitle: 92,
-    description:
-      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
-    price: 12.89,
-    retailPrice: 19.07,
-    sku: '432244941-7',
-    stock: 99
-  },
-  {
-    id: 424,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Huntley Petracek',
-    albumTitle: 109,
-    description:
-      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
-    price: 19.5,
-    retailPrice: 20.15,
-    sku: '882008583-6',
-    stock: 99
-  },
-  {
-    id: 425,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Renard Noe',
-    albumTitle: 85,
-    description:
-      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
-    price: 21.4,
+    price: 21.49,
     retailPrice: 19.91,
-    sku: '578051291-4',
-    stock: 88
-  },
-  {
-    id: 426,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Maris Rendbaek',
-    albumTitle: 45,
-    description:
-      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
-    price: 22.95,
-    retailPrice: 22.72,
-    sku: '839506627-9',
-    stock: 94
-  },
-  {
-    id: 427,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'blues',
-    artist: 'Ava Pfiffer',
-    albumTitle: 122,
-    description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 21.55,
-    retailPrice: 25.51,
-    sku: '763153967-7',
-    stock: 117
-  },
-  {
-    id: 428,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Melamie Cordoba',
-    albumTitle: 99,
-    description:
-      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
-    price: 17.63,
-    retailPrice: 21.34,
-    sku: '746487245-2',
-    stock: 91
-  },
-  {
-    id: 429,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Howie Sewell',
-    albumTitle: 87,
-    description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
-    price: 20.39,
-    retailPrice: 19.52,
-    sku: '089647272-8',
-    stock: 98
-  },
-  {
-    id: 430,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Valera Antonchik',
-    albumTitle: 91,
-    description:
-      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
-    price: 24.69,
-    retailPrice: 19.29,
-    sku: '969903554-4',
+    sku: '660407247-9',
     stock: 86
   },
   {
-    id: 431,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Solomon Hailey',
-    albumTitle: 114,
+    id: 323,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Toinette Sall',
+    albumTitle: 59,
     description:
-      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 21.89,
-    retailPrice: 22.22,
-    sku: '364670134-X',
-    stock: 82
+      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+    price: 21.36,
+    retailPrice: 21.62,
+    sku: '043171295-6',
+    stock: 125
   },
   {
-    id: 432,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Lianne Corlett',
-    albumTitle: 116,
-    description:
-      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 21.9,
-    retailPrice: 19.74,
-    sku: '294919808-2',
-    stock: 114
-  },
-  {
-    id: 433,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    id: 324,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
     genre: 'rock',
-    artist: 'Charlton Burtwistle',
+    artist: 'Meade Jouanny',
     albumTitle: 98,
     description:
-      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
-    price: 24.51,
-    retailPrice: 20.56,
-    sku: '164146980-3',
-    stock: 100
-  },
-  {
-    id: 434,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Hilliard Akam',
-    albumTitle: 103,
-    description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 19.32,
-    retailPrice: 17.05,
-    sku: '722742426-X',
-    stock: 107
-  },
-  {
-    id: 435,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Elenore Middlewick',
-    albumTitle: 100,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 14.83,
-    retailPrice: 20.0,
-    sku: '693005047-4',
-    stock: 121
-  },
-  {
-    id: 436,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Fanchette Dudlestone',
-    albumTitle: 79,
-    description:
-      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
-    price: 19.72,
-    retailPrice: 21.59,
-    sku: '370052220-7',
-    stock: 110
-  },
-  {
-    id: 437,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Augy Elston',
-    albumTitle: 83,
-    description:
-      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
-    price: 18.15,
-    retailPrice: 19.85,
-    sku: '004556573-2',
-    stock: 115
-  },
-  {
-    id: 438,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Ellis Hawke',
-    albumTitle: 118,
-    description:
-      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
-    price: 19.61,
-    retailPrice: 21.6,
-    sku: '740607871-4',
-    stock: 101
-  },
-  {
-    id: 439,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Klara Tate',
-    albumTitle: 98,
-    description:
-      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
-    price: 17.58,
-    retailPrice: 21.43,
-    sku: '882516655-9',
-    stock: 104
-  },
-  {
-    id: 440,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Agnese Shambroke',
-    albumTitle: 110,
-    description:
-      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 21.5,
-    retailPrice: 18.22,
-    sku: '498720258-1',
-    stock: 107
-  },
-  {
-    id: 441,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Blakeley Halladay',
-    albumTitle: 101,
-    description:
-      'Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
-    price: 20.11,
-    retailPrice: 23.18,
-    sku: '746009927-9',
-    stock: 90
-  },
-  {
-    id: 442,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Alphard Reagan',
-    albumTitle: 112,
-    description:
-      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
-    price: 19.53,
-    retailPrice: 18.46,
-    sku: '826029652-7',
-    stock: 93
-  },
-  {
-    id: 443,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Constancia Parramore',
-    albumTitle: 97,
-    description:
-      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
-    price: 20.97,
-    retailPrice: 20.0,
-    sku: '451332145-8',
-    stock: 124
-  },
-  {
-    id: 444,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Stephie Gorrissen',
-    albumTitle: 129,
-    description:
-      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
-    price: 16.22,
-    retailPrice: 20.2,
-    sku: '410204333-0',
-    stock: 100
-  },
-  {
-    id: 445,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'disco',
-    artist: 'Brendis Liger',
-    albumTitle: 109,
-    description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
-    price: 17.66,
-    retailPrice: 19.51,
-    sku: '138006207-1',
-    stock: 94
-  },
-  {
-    id: 446,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Jermaine Wilbraham',
-    albumTitle: 106,
-    description:
-      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
-    price: 18.66,
-    retailPrice: 20.9,
-    sku: '417889244-4',
-    stock: 92
-  },
-  {
-    id: 447,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rock',
-    artist: 'Ivan Hirtz',
-    albumTitle: 115,
-    description:
-      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
-    price: 17.64,
-    retailPrice: 21.21,
-    sku: '988747719-2',
-    stock: 101
-  },
-  {
-    id: 448,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Kris Rouby',
-    albumTitle: 87,
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 18.25,
-    retailPrice: 18.39,
-    sku: '661761582-4',
-    stock: 91
-  },
-  {
-    id: 449,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Dar Eleshenar',
-    albumTitle: 119,
-    description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 16.71,
-    retailPrice: 23.94,
-    sku: '517109968-5',
-    stock: 82
-  },
-  {
-    id: 450,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Gussie Popland',
-    albumTitle: 131,
-    description:
-      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
-    price: 20.41,
-    retailPrice: 20.22,
-    sku: '348719556-9',
-    stock: 116
-  },
-  {
-    id: 451,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'disco',
-    artist: 'Ardisj Morales',
-    albumTitle: 123,
-    description:
-      'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
-    price: 22.86,
-    retailPrice: 19.78,
-    sku: '465388332-7',
-    stock: 109
-  },
-  {
-    id: 452,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Jeannie Elliss',
-    albumTitle: 129,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-    price: 21.74,
-    retailPrice: 19.33,
-    sku: '875112877-2',
-    stock: 108
-  },
-  {
-    id: 453,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Gordie Oglesbee',
-    albumTitle: 86,
-    description:
-      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
-    price: 21.82,
-    retailPrice: 21.54,
-    sku: '721413036-X',
-    stock: 74
-  },
-  {
-    id: 454,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Dana Powis',
-    albumTitle: 89,
-    description:
-      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
-    price: 22.44,
-    retailPrice: 20.34,
-    sku: '881097639-8',
-    stock: 109
-  },
-  {
-    id: 455,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Jesse Warfield',
-    albumTitle: 81,
-    description:
-      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
-    price: 21.05,
-    retailPrice: 21.14,
-    sku: '679967119-9',
-    stock: 106
-  },
-  {
-    id: 456,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Aurilia Parsall',
-    albumTitle: 95,
-    description:
-      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    price: 14.16,
-    retailPrice: 18.53,
-    sku: '874171094-0',
-    stock: 98
-  },
-  {
-    id: 457,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Emmy Bickerton',
-    albumTitle: 109,
-    description:
-      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
-    price: 21.4,
-    retailPrice: 23.77,
-    sku: '717846088-1',
-    stock: 80
-  },
-  {
-    id: 458,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'R&B',
-    artist: 'Carrie Gallihawk',
-    albumTitle: 99,
-    description:
-      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
-    price: 17.14,
-    retailPrice: 23.03,
-    sku: '389480263-4',
-    stock: 96
-  },
-  {
-    id: 459,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'soul',
-    artist: 'Tull Signorelli',
-    albumTitle: 131,
-    description:
-      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
-    price: 18.38,
-    retailPrice: 22.78,
-    sku: '501980243-3',
-    stock: 119
-  },
-  {
-    id: 460,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Winnah Westcot',
-    albumTitle: 88,
-    description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
-    price: 14.7,
-    retailPrice: 23.1,
-    sku: '394134497-8',
-    stock: 102
-  },
-  {
-    id: 461,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Lynnet Spedroni',
-    albumTitle: 92,
-    description:
-      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-    price: 24.52,
-    retailPrice: 20.82,
-    sku: '491207289-3',
-    stock: 120
-  },
-  {
-    id: 462,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Keelby Menhenitt',
-    albumTitle: 98,
-    description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 17.83,
-    retailPrice: 19.22,
-    sku: '428452489-5',
-    stock: 87
-  },
-  {
-    id: 463,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Agustin Aitken',
-    albumTitle: 78,
-    description:
-      'Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
-    price: 22.13,
-    retailPrice: 23.47,
-    sku: '196054324-5',
-    stock: 83
-  },
-  {
-    id: 464,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Romeo McGeever',
-    albumTitle: 87,
-    description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 15.71,
-    retailPrice: 20.13,
-    sku: '949816477-0',
-    stock: 104
-  },
-  {
-    id: 465,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'blues',
-    artist: 'Nelie Philps',
-    albumTitle: 87,
-    description:
-      'Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 17.86,
-    retailPrice: 21.21,
-    sku: '129778180-5',
-    stock: 99
-  },
-  {
-    id: 466,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Veronike McNair',
-    albumTitle: 114,
-    description:
-      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.',
-    price: 21.44,
-    retailPrice: 18.96,
-    sku: '395596430-2',
-    stock: 87
-  },
-  {
-    id: 467,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Sybil Lowman',
-    albumTitle: 123,
-    description:
-      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
-    price: 20.85,
-    retailPrice: 23.3,
-    sku: '640675416-6',
-    stock: 128
-  },
-  {
-    id: 468,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'blues',
-    artist: 'Ruthy Cullivan',
-    albumTitle: 105,
-    description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
-    price: 21.76,
-    retailPrice: 21.9,
-    sku: '977372105-1',
-    stock: 119
-  },
-  {
-    id: 469,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'R&B',
-    artist: 'Schuyler Carman',
-    albumTitle: 98,
-    description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
-    price: 20.58,
-    retailPrice: 22.19,
-    sku: '848217634-X',
-    stock: 85
-  },
-  {
-    id: 470,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'soul',
-    artist: 'Aleece Varren',
-    albumTitle: 98,
-    description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
-    price: 15.32,
-    retailPrice: 22.74,
-    sku: '680609674-3',
-    stock: 96
-  },
-  {
-    id: 471,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'blues',
-    artist: 'Athena Biss',
-    albumTitle: 71,
-    description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 16.57,
-    retailPrice: 20.75,
-    sku: '078038925-5',
-    stock: 68
-  },
-  {
-    id: 472,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'pop',
-    artist: 'Jodi Rohloff',
-    albumTitle: 85,
-    description:
-      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 20.29,
-    retailPrice: 20.74,
-    sku: '097314029-1',
-    stock: 106
-  },
-  {
-    id: 473,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'pop',
-    artist: 'Gayla Monteith',
-    albumTitle: 88,
-    description:
-      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
-    price: 14.47,
-    retailPrice: 20.38,
-    sku: '137829661-3',
-    stock: 123
-  },
-  {
-    id: 474,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Ashbey Shewsmith',
-    albumTitle: 81,
-    description:
-      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 18.85,
-    retailPrice: 18.11,
-    sku: '698179431-4',
-    stock: 101
-  },
-  {
-    id: 475,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rap',
-    artist: 'Berk Orbon',
-    albumTitle: 118,
-    description:
-      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
-    price: 20.63,
-    retailPrice: 18.6,
-    sku: '124203318-1',
-    stock: 109
-  },
-  {
-    id: 476,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'disco',
-    artist: 'Edithe Garza',
-    albumTitle: 106,
-    description:
-      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
-    price: 16.32,
-    retailPrice: 21.68,
-    sku: '135268083-1',
-    stock: 87
-  },
-  {
-    id: 477,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Ermentrude Gebhard',
-    albumTitle: 99,
-    description:
-      'In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    price: 17.88,
-    retailPrice: 20.01,
-    sku: '043310060-5',
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
+    price: 23.17,
+    retailPrice: 20.06,
+    sku: '336386601-1',
     stock: 132
   },
   {
-    id: 478,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Erma Dollman',
-    albumTitle: 104,
-    description:
-      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
-    price: 17.93,
-    retailPrice: 19.84,
-    sku: '280656109-4',
-    stock: 83
-  },
-  {
-    id: 479,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'pop',
-    artist: 'Donica Pring',
+    id: 325,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Jarret Suddards',
     albumTitle: 87,
     description:
-      'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 20.18,
-    retailPrice: 19.67,
-    sku: '314422519-3',
-    stock: 96
+      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
+    price: 25.66,
+    retailPrice: 21.52,
+    sku: '433909794-2',
+    stock: 132
   },
   {
-    id: 480,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Corbet Giddins',
-    albumTitle: 115,
+    id: 326,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Tova Huxham',
+    albumTitle: 78,
     description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-    price: 13.85,
-    retailPrice: 20.21,
-    sku: '802782277-7',
-    stock: 109
+      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 21.64,
+    retailPrice: 19.45,
+    sku: '762863450-8',
+    stock: 102
   },
   {
-    id: 481,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'funk',
-    artist: 'Nadia Tindley',
-    albumTitle: 99,
+    id: 327,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Harlene Abatelli',
+    albumTitle: 103,
     description:
-      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
-    price: 13.11,
-    retailPrice: 23.62,
-    sku: '258469679-7',
-    stock: 106
-  },
-  {
-    id: 482,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'rap',
-    artist: 'Lacie Maudson',
-    albumTitle: 86,
-    description:
-      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
-    price: 16.77,
-    retailPrice: 23.9,
-    sku: '102414487-9',
-    stock: 87
-  },
-  {
-    id: 483,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'George McCormick',
-    albumTitle: 95,
-    description:
-      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    price: 20.58,
-    retailPrice: 20.37,
-    sku: '116746941-0',
-    stock: 85
-  },
-  {
-    id: 484,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'R&B',
-    artist: 'Suzanna Crucetti',
-    albumTitle: 85,
-    description:
-      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
-    price: 18.93,
-    retailPrice: 20.53,
-    sku: '877991156-0',
-    stock: 81
-  },
-  {
-    id: 485,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'R&B',
-    artist: 'Lilith Antal',
-    albumTitle: 100,
-    description:
-      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 19.39,
-    retailPrice: 20.19,
-    sku: '684531236-2',
-    stock: 131
-  },
-  {
-    id: 486,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rock',
-    artist: 'Kevin Dow',
-    albumTitle: 100,
-    description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-    price: 19.36,
-    retailPrice: 21.18,
-    sku: '988914835-8',
+      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+    price: 22.48,
+    retailPrice: 21.21,
+    sku: '374667898-6',
     stock: 97
   },
   {
-    id: 487,
-    imgUrl: './public/images/jungle.jpg',
-    genre: 'funk',
-    artist: 'Marita Craiker',
-    albumTitle: 100,
-    description:
-      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
-    price: 21.37,
-    retailPrice: 21.39,
-    sku: '655650333-9',
-    stock: 91
-  },
-  {
-    id: 488,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'soul',
-    artist: 'Georgeanna Crowche',
-    albumTitle: 114,
-    description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
-    price: 20.72,
-    retailPrice: 19.86,
-    sku: '234138327-0',
-    stock: 119
-  },
-  {
-    id: 489,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'rock',
-    artist: 'Harry Janko',
-    albumTitle: 120,
-    description:
-      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 22.63,
-    retailPrice: 21.24,
-    sku: '257019274-0',
-    stock: 113
-  },
-  {
-    id: 490,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Isac Lorenzini',
-    albumTitle: 89,
-    description:
-      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
-    price: 19.2,
-    retailPrice: 22.13,
-    sku: '065248319-4',
-    stock: 92
-  },
-  {
-    id: 491,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'funk',
-    artist: 'Filberto Rosenfeld',
-    albumTitle: 111,
-    description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 18.35,
-    retailPrice: 21.43,
-    sku: '977633925-5',
-    stock: 105
-  },
-  {
-    id: 492,
-    imgUrl: './public/images/FKA-twigs.jpg',
+    id: 328,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
     genre: 'R&B',
-    artist: 'Fina Anglish',
-    albumTitle: 105,
+    artist: 'Claudian Hosburn',
+    albumTitle: 113,
     description:
-      'Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
-    price: 22.24,
-    retailPrice: 21.37,
-    sku: '390487791-7',
+      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    price: 17.05,
+    retailPrice: 22.21,
+    sku: '055718523-8',
+    stock: 115
+  },
+  {
+    id: 329,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Merrie Kent',
+    albumTitle: 77,
+    description:
+      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
+    price: 20.64,
+    retailPrice: 20.76,
+    sku: '698254653-5',
     stock: 104
   },
   {
-    id: 493,
-    imgUrl: './public/images/duaLipa.jpg',
+    id: 330,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Phedra Stitle',
+    albumTitle: 123,
+    description:
+      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+    price: 14.52,
+    retailPrice: 21.69,
+    sku: '350869978-1',
+    stock: 117
+  },
+  {
+    id: 331,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
     genre: 'blues',
-    artist: 'Joycelin Kryzhov',
+    artist: "Lisbeth O'Codihie",
+    albumTitle: 110,
+    description:
+      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
+    price: 18.14,
+    retailPrice: 22.15,
+    sku: '282596532-4',
+    stock: 67
+  },
+  {
+    id: 332,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Mikaela Aldington',
+    albumTitle: 84,
+    description:
+      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
+    price: 22.03,
+    retailPrice: 22.86,
+    sku: '105036447-3',
+    stock: 86
+  },
+  {
+    id: 333,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Devin Winfindale',
+    albumTitle: 103,
+    description:
+      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
+    price: 20.68,
+    retailPrice: 22.26,
+    sku: '762276625-9',
+    stock: 120
+  },
+  {
+    id: 334,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Hillard Perillo',
+    albumTitle: 108,
+    description:
+      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
+    price: 18.35,
+    retailPrice: 20.73,
+    sku: '055056958-8',
+    stock: 104
+  },
+  {
+    id: 335,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Lesley Shrimpton',
+    albumTitle: 130,
+    description:
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+    price: 20.87,
+    retailPrice: 22.58,
+    sku: '354498898-4',
+    stock: 83
+  },
+  {
+    id: 336,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Marchall Gostling',
+    albumTitle: 117,
+    description:
+      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 19.37,
+    retailPrice: 19.64,
+    sku: '924025531-1',
+    stock: 114
+  },
+  {
+    id: 337,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Felizio Hammett',
+    albumTitle: 103,
+    description:
+      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+    price: 19.36,
+    retailPrice: 19.86,
+    sku: '924343163-3',
+    stock: 74
+  },
+  {
+    id: 338,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Norine Bounde',
+    albumTitle: 102,
+    description:
+      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
+    price: 21.01,
+    retailPrice: 19.65,
+    sku: '807717578-3',
+    stock: 103
+  },
+  {
+    id: 339,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Elbert Kail',
+    albumTitle: 91,
+    description:
+      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
+    price: 21.03,
+    retailPrice: 21.54,
+    sku: '838866617-7',
+    stock: 112
+  },
+  {
+    id: 340,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Darya Sulley',
+    albumTitle: 101,
+    description:
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
+    price: 19.41,
+    retailPrice: 23.0,
+    sku: '204857591-9',
+    stock: 103
+  },
+  {
+    id: 341,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Davidde Bubear',
+    albumTitle: 115,
+    description:
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+    price: 17.9,
+    retailPrice: 20.64,
+    sku: '755295481-7',
+    stock: 116
+  },
+  {
+    id: 342,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Pavel Tromans',
+    albumTitle: 105,
+    description:
+      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    price: 17.65,
+    retailPrice: 21.64,
+    sku: '288397846-8',
+    stock: 124
+  },
+  {
+    id: 343,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Cliff Wyldbore',
+    albumTitle: 120,
+    description:
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+    price: 19.53,
+    retailPrice: 20.53,
+    sku: '286807748-X',
+    stock: 104
+  },
+  {
+    id: 344,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Nathan Pembridge',
+    albumTitle: 113,
+    description:
+      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    price: 17.27,
+    retailPrice: 22.71,
+    sku: '985849028-3',
+    stock: 101
+  },
+  {
+    id: 345,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Cullin Iacoboni',
+    albumTitle: 97,
+    description:
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
+    price: 16.74,
+    retailPrice: 21.32,
+    sku: '743040472-3',
+    stock: 90
+  },
+  {
+    id: 346,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Kahlil Mewe',
+    albumTitle: 103,
+    description:
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
+    price: 24.2,
+    retailPrice: 21.18,
+    sku: '329774857-5',
+    stock: 72
+  },
+  {
+    id: 347,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Armin Breacher',
     albumTitle: 107,
     description:
-      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
-    price: 18.54,
-    retailPrice: 20.44,
-    sku: '659068593-2',
+      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
+    price: 21.82,
+    retailPrice: 21.12,
+    sku: '610196533-3',
+    stock: 76
+  },
+  {
+    id: 348,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Nonnah Sulter',
+    albumTitle: 90,
+    description:
+      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
+    price: 15.82,
+    retailPrice: 22.04,
+    sku: '148674379-X',
+    stock: 100
+  },
+  {
+    id: 349,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Gerardo Maylam',
+    albumTitle: 95,
+    description:
+      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
+    price: 19.58,
+    retailPrice: 18.71,
+    sku: '991744917-5',
+    stock: 125
+  },
+  {
+    id: 350,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Thea Davey',
+    albumTitle: 103,
+    description:
+      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
+    price: 19.75,
+    retailPrice: 21.33,
+    sku: '151186248-3',
+    stock: 107
+  },
+  {
+    id: 351,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Shayne Van der Brug',
+    albumTitle: 84,
+    description:
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
+    price: 18.48,
+    retailPrice: 20.7,
+    sku: '955165370-X',
+    stock: 84
+  },
+  {
+    id: 352,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Town Wherrit',
+    albumTitle: 87,
+    description:
+      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
+    price: 14.54,
+    retailPrice: 18.01,
+    sku: '097671455-8',
     stock: 118
   },
   {
-    id: 494,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'disco',
-    artist: 'Gray Gristock',
+    id: 353,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Torey Masding',
+    albumTitle: 78,
+    description:
+      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    price: 22.26,
+    retailPrice: 20.55,
+    sku: '050308234-1',
+    stock: 111
+  },
+  {
+    id: 354,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Danyette Impey',
+    albumTitle: 101,
+    description:
+      'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
+    price: 21.92,
+    retailPrice: 20.78,
+    sku: '862655368-4',
+    stock: 109
+  },
+  {
+    id: 355,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Mendy Napolitano',
+    albumTitle: 124,
+    description:
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    price: 23.43,
+    retailPrice: 22.16,
+    sku: '174110315-0',
+    stock: 83
+  },
+  {
+    id: 356,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Astrix Georgeau',
+    albumTitle: 115,
+    description:
+      'Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.',
+    price: 20.48,
+    retailPrice: 21.44,
+    sku: '838860209-8',
+    stock: 93
+  },
+  {
+    id: 357,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Katusha Gaylor',
+    albumTitle: 104,
+    description:
+      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+    price: 17.81,
+    retailPrice: 21.15,
+    sku: '686784341-7',
+    stock: 95
+  },
+  {
+    id: 358,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Leandra Senechault',
+    albumTitle: 88,
+    description:
+      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
+    price: 20.68,
+    retailPrice: 19.5,
+    sku: '737798421-X',
+    stock: 76
+  },
+  {
+    id: 359,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Delbert Tuvey',
+    albumTitle: 88,
+    description:
+      'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
+    price: 22.82,
+    retailPrice: 23.63,
+    sku: '671499788-4',
+    stock: 81
+  },
+  {
+    id: 360,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Rosy Mabbitt',
+    albumTitle: 128,
+    description:
+      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    price: 20.98,
+    retailPrice: 20.54,
+    sku: '798741337-2',
+    stock: 92
+  },
+  {
+    id: 361,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Elysee Beverstock',
+    albumTitle: 78,
+    description:
+      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    price: 21.2,
+    retailPrice: 22.58,
+    sku: '371717815-6',
+    stock: 102
+  },
+  {
+    id: 362,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Henrieta Le Grys',
+    albumTitle: 115,
+    description:
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    price: 18.78,
+    retailPrice: 21.97,
+    sku: '613043232-1',
+    stock: 89
+  },
+  {
+    id: 363,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Daloris Yurenev',
+    albumTitle: 125,
+    description:
+      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
+    price: 19.77,
+    retailPrice: 20.89,
+    sku: '972388675-8',
+    stock: 111
+  },
+  {
+    id: 364,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Daryl Stiggers',
+    albumTitle: 88,
+    description:
+      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.',
+    price: 20.85,
+    retailPrice: 22.47,
+    sku: '078737250-1',
+    stock: 99
+  },
+  {
+    id: 365,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Annabell Alpin',
     albumTitle: 112,
     description:
-      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    price: 18.4,
-    retailPrice: 21.92,
-    sku: '046480080-3',
+      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
+    price: 17.09,
+    retailPrice: 20.02,
+    sku: '729266781-3',
+    stock: 75
+  },
+  {
+    id: 366,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Starla Lanfer',
+    albumTitle: 132,
+    description:
+      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
+    price: 19.32,
+    retailPrice: 21.61,
+    sku: '165194150-5',
     stock: 87
   },
   {
-    id: 495,
-    imgUrl: './public/images/FKA-twigs.jpg',
-    genre: 'funk',
-    artist: 'Daven Beamish',
-    albumTitle: 130,
-    description:
-      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
-    price: 18.54,
-    retailPrice: 22.16,
-    sku: '959061266-0',
-    stock: 89
-  },
-  {
-    id: 496,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'rap',
-    artist: 'Thor Dodds',
-    albumTitle: 111,
-    description:
-      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 19.61,
-    retailPrice: 22.74,
-    sku: '574199625-6',
-    stock: 121
-  },
-  {
-    id: 497,
-    imgUrl: './public/images/igor.jpeg',
-    genre: 'pop',
-    artist: 'Keith Parcall',
+    id: 367,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Roberto Gribbon',
     albumTitle: 114,
     description:
-      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
-    price: 20.55,
-    retailPrice: 20.39,
-    sku: '231534019-5',
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
+    price: 22.11,
+    retailPrice: 16.89,
+    sku: '799375461-5',
+    stock: 92
+  },
+  {
+    id: 368,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Tuckie Sporrij',
+    albumTitle: 90,
+    description:
+      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    price: 21.5,
+    retailPrice: 21.36,
+    sku: '508755536-5',
+    stock: 105
+  },
+  {
+    id: 369,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Trever Jepp',
+    albumTitle: 89,
+    description:
+      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
+    price: 16.67,
+    retailPrice: 23.49,
+    sku: '580544227-2',
+    stock: 82
+  },
+  {
+    id: 370,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Esme Offen',
+    albumTitle: 115,
+    description:
+      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+    price: 19.21,
+    retailPrice: 21.71,
+    sku: '791628802-8',
+    stock: 99
+  },
+  {
+    id: 371,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Tierney Colvine',
+    albumTitle: 110,
+    description:
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
+    price: 22.19,
+    retailPrice: 18.69,
+    sku: '195837523-3',
+    stock: 75
+  },
+  {
+    id: 372,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Ainslee McGrory',
+    albumTitle: 125,
+    description:
+      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
+    price: 20.12,
+    retailPrice: 19.42,
+    sku: '109941919-0',
+    stock: 105
+  },
+  {
+    id: 373,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Hort Szymonwicz',
+    albumTitle: 98,
+    description:
+      'Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.',
+    price: 18.44,
+    retailPrice: 21.33,
+    sku: '771930343-1',
+    stock: 109
+  },
+  {
+    id: 374,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Blakelee Crispe',
+    albumTitle: 78,
+    description:
+      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
+    price: 18.49,
+    retailPrice: 19.54,
+    sku: '276730116-3',
+    stock: 104
+  },
+  {
+    id: 375,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Nappie Tirone',
+    albumTitle: 89,
+    description:
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+    price: 21.69,
+    retailPrice: 20.63,
+    sku: '250923681-4',
+    stock: 90
+  },
+  {
+    id: 376,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Rikki De Meis',
+    albumTitle: 110,
+    description:
+      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
+    price: 19.8,
+    retailPrice: 18.4,
+    sku: '368950109-1',
+    stock: 119
+  },
+  {
+    id: 377,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Thorsten Bollum',
+    albumTitle: 97,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 16.62,
+    retailPrice: 22.41,
+    sku: '730805485-3',
+    stock: 82
+  },
+  {
+    id: 378,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Mile But',
+    albumTitle: 93,
+    description:
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 17.57,
+    retailPrice: 20.02,
+    sku: '668603177-1',
+    stock: 93
+  },
+  {
+    id: 379,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Gabbey Moller',
+    albumTitle: 96,
+    description:
+      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 21.39,
+    retailPrice: 22.04,
+    sku: '916491733-9',
+    stock: 87
+  },
+  {
+    id: 380,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Reginald Warfield',
+    albumTitle: 94,
+    description:
+      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
+    price: 20.46,
+    retailPrice: 22.03,
+    sku: '832884206-8',
+    stock: 134
+  },
+  {
+    id: 381,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Sisile Thacke',
+    albumTitle: 118,
+    description:
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
+    price: 18.96,
+    retailPrice: 21.86,
+    sku: '308161060-5',
+    stock: 114
+  },
+  {
+    id: 382,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Zulema Ixer',
+    albumTitle: 122,
+    description:
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
+    price: 20.92,
+    retailPrice: 23.2,
+    sku: '155379425-7',
+    stock: 83
+  },
+  {
+    id: 383,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Mord Jenman',
+    albumTitle: 105,
+    description:
+      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 18.8,
+    retailPrice: 18.05,
+    sku: '380170582-X',
+    stock: 110
+  },
+  {
+    id: 384,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Atlante Chalcot',
+    albumTitle: 104,
+    description:
+      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
+    price: 21.88,
+    retailPrice: 22.3,
+    sku: '768000073-5',
+    stock: 118
+  },
+  {
+    id: 385,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Kingsly Novic',
+    albumTitle: 116,
+    description:
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
+    price: 23.65,
+    retailPrice: 20.79,
+    sku: '550243237-8',
+    stock: 105
+  },
+  {
+    id: 386,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Wallas Jonke',
+    albumTitle: 104,
+    description:
+      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
+    price: 22.4,
+    retailPrice: 18.96,
+    sku: '009014254-3',
+    stock: 92
+  },
+  {
+    id: 387,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Denny Mathevet',
+    albumTitle: 111,
+    description:
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 18.32,
+    retailPrice: 19.1,
+    sku: '417113290-8',
+    stock: 85
+  },
+  {
+    id: 388,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Nikolas Greatorex',
+    albumTitle: 115,
+    description:
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
+    price: 21.53,
+    retailPrice: 18.92,
+    sku: '882219930-8',
+    stock: 105
+  },
+  {
+    id: 389,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Carita Pickover',
+    albumTitle: 102,
+    description:
+      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+    price: 18.48,
+    retailPrice: 21.28,
+    sku: '328133685-X',
+    stock: 104
+  },
+  {
+    id: 390,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Rozamond Novacek',
+    albumTitle: 97,
+    description:
+      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
+    price: 23.65,
+    retailPrice: 20.78,
+    sku: '286253622-9',
+    stock: 88
+  },
+  {
+    id: 391,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Lynda Hardi',
+    albumTitle: 82,
+    description:
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
+    price: 18.06,
+    retailPrice: 22.04,
+    sku: '315480704-7',
+    stock: 102
+  },
+  {
+    id: 392,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Wayland Bodker',
+    albumTitle: 107,
+    description:
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
+    price: 28.66,
+    retailPrice: 20.71,
+    sku: '408388206-9',
+    stock: 102
+  },
+  {
+    id: 393,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Wendel MacArthur',
+    albumTitle: 109,
+    description:
+      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 21.34,
+    retailPrice: 23.22,
+    sku: '833545460-4',
+    stock: 104
+  },
+  {
+    id: 394,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Wildon McGilben',
+    albumTitle: 91,
+    description:
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
+    price: 17.58,
+    retailPrice: 22.48,
+    sku: '866411684-9',
+    stock: 112
+  },
+  {
+    id: 395,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Brew Wharram',
+    albumTitle: 113,
+    description:
+      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
+    price: 21.94,
+    retailPrice: 21.75,
+    sku: '104528541-2',
+    stock: 106
+  },
+  {
+    id: 396,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Christalle Filyakov',
+    albumTitle: 109,
+    description:
+      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+    price: 20.02,
+    retailPrice: 20.63,
+    sku: '177868594-3',
+    stock: 74
+  },
+  {
+    id: 397,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rap',
+    artist: 'Pepita Grisard',
+    albumTitle: 82,
+    description:
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+    price: 18.61,
+    retailPrice: 19.01,
+    sku: '030437020-7',
+    stock: 79
+  },
+  {
+    id: 398,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Griffith Nickolls',
+    albumTitle: 115,
+    description:
+      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    price: 18.58,
+    retailPrice: 20.17,
+    sku: '979617801-X',
     stock: 89
   },
   {
-    id: 498,
-    imgUrl: './public/images/jungle.jpg',
+    id: 399,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Tessi Clementet',
+    albumTitle: 74,
+    description:
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 21.15,
+    retailPrice: 20.68,
+    sku: '436556825-6',
+    stock: 87
+  },
+  {
+    id: 400,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Golda Gretham',
+    albumTitle: 87,
+    description:
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+    price: 21.1,
+    retailPrice: 20.99,
+    sku: '356299081-2',
+    stock: 85
+  },
+  {
+    id: 401,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rock',
+    artist: 'Polly Janicek',
+    albumTitle: 103,
+    description:
+      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    price: 15.48,
+    retailPrice: 22.46,
+    sku: '282611109-4',
+    stock: 130
+  },
+  {
+    id: 402,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Ula Jeacocke',
+    albumTitle: 107,
+    description:
+      'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
+    price: 20.23,
+    retailPrice: 20.91,
+    sku: '309838080-2',
+    stock: 104
+  },
+  {
+    id: 403,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Terry Skirvane',
+    albumTitle: 97,
+    description:
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 22.06,
+    retailPrice: 19.94,
+    sku: '462268108-0',
+    stock: 95
+  },
+  {
+    id: 404,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
     genre: 'soul',
-    artist: 'Jared Kupper',
+    artist: 'Cam Rummery',
+    albumTitle: 126,
+    description:
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+    price: 17.26,
+    retailPrice: 23.58,
+    sku: '863942855-7',
+    stock: 116
+  },
+  {
+    id: 405,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Hulda Comar',
+    albumTitle: 123,
+    description:
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+    price: 14.36,
+    retailPrice: 21.1,
+    sku: '821540420-0',
+    stock: 110
+  },
+  {
+    id: 406,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Shelden Pane',
+    albumTitle: 109,
+    description:
+      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+    price: 23.13,
+    retailPrice: 20.22,
+    sku: '293810062-0',
+    stock: 66
+  },
+  {
+    id: 407,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Ealasaid Effaunt',
+    albumTitle: 66,
+    description:
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
+    price: 20.38,
+    retailPrice: 20.05,
+    sku: '293255553-7',
+    stock: 106
+  },
+  {
+    id: 408,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Laure Monument',
+    albumTitle: 114,
+    description:
+      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
+    price: 20.94,
+    retailPrice: 20.7,
+    sku: '099542618-X',
+    stock: 108
+  },
+  {
+    id: 409,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Town Jerg',
+    albumTitle: 98,
+    description:
+      'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
+    price: 15.04,
+    retailPrice: 20.33,
+    sku: '071594490-8',
+    stock: 116
+  },
+  {
+    id: 410,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Kiley MacKilroe',
+    albumTitle: 107,
+    description:
+      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
+    price: 17.3,
+    retailPrice: 20.59,
+    sku: '061802918-4',
+    stock: 89
+  },
+  {
+    id: 411,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Gene Allom',
+    albumTitle: 93,
+    description:
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
+    price: 19.64,
+    retailPrice: 21.77,
+    sku: '309448004-7',
+    stock: 86
+  },
+  {
+    id: 412,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Kirsti Gillard',
+    albumTitle: 91,
+    description:
+      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    price: 23.66,
+    retailPrice: 21.23,
+    sku: '139527825-3',
+    stock: 112
+  },
+  {
+    id: 413,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Lisa Studders',
+    albumTitle: 127,
+    description:
+      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
+    price: 21.16,
+    retailPrice: 21.86,
+    sku: '383861106-3',
+    stock: 111
+  },
+  {
+    id: 414,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Kora Huriche',
+    albumTitle: 107,
+    description:
+      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
+    price: 16.78,
+    retailPrice: 20.58,
+    sku: '312106184-4',
+    stock: 104
+  },
+  {
+    id: 415,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Codie Mabey',
+    albumTitle: 101,
+    description:
+      'Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
+    price: 20.01,
+    retailPrice: 21.3,
+    sku: '811536020-1',
+    stock: 80
+  },
+  {
+    id: 416,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Debra Riggulsford',
+    albumTitle: 98,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
+    price: 22.89,
+    retailPrice: 20.89,
+    sku: '427643316-9',
+    stock: 118
+  },
+  {
+    id: 417,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Babette Fludgate',
+    albumTitle: 96,
+    description:
+      'Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.',
+    price: 22.99,
+    retailPrice: 22.36,
+    sku: '479557583-5',
+    stock: 102
+  },
+  {
+    id: 418,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Zacharias Beushaw',
+    albumTitle: 80,
+    description:
+      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
+    price: 17.25,
+    retailPrice: 20.31,
+    sku: '247852942-4',
+    stock: 107
+  },
+  {
+    id: 419,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Marchall Pischof',
+    albumTitle: 92,
+    description:
+      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 17.39,
+    retailPrice: 21.28,
+    sku: '991614320-X',
+    stock: 94
+  },
+  {
+    id: 420,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Henriette Breede',
+    albumTitle: 84,
+    description:
+      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
+    price: 21.31,
+    retailPrice: 21.76,
+    sku: '889057376-7',
+    stock: 95
+  },
+  {
+    id: 421,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Manolo Lestor',
+    albumTitle: 97,
+    description:
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+    price: 21.7,
+    retailPrice: 20.18,
+    sku: '251717358-3',
+    stock: 116
+  },
+  {
+    id: 422,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Robena Chritchlow',
+    albumTitle: 92,
+    description:
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 20.93,
+    retailPrice: 21.04,
+    sku: '710755854-4',
+    stock: 83
+  },
+  {
+    id: 423,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Giffie Belcher',
     albumTitle: 100,
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 24.9,
-    retailPrice: 23.11,
-    sku: '461206528-X',
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
+    price: 23.3,
+    retailPrice: 21.93,
+    sku: '470409166-X',
+    stock: 94
+  },
+  {
+    id: 424,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'soul',
+    artist: 'Theresa Cheel',
+    albumTitle: 122,
+    description:
+      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 18.59,
+    retailPrice: 21.1,
+    sku: '125156558-1',
+    stock: 107
+  },
+  {
+    id: 425,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Roseline Yurikov',
+    albumTitle: 126,
+    description:
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.',
+    price: 20.91,
+    retailPrice: 19.34,
+    sku: '661583432-4',
+    stock: 77
+  },
+  {
+    id: 426,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Jessi Chezier',
+    albumTitle: 105,
+    description:
+      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+    price: 17.5,
+    retailPrice: 21.41,
+    sku: '071874004-1',
+    stock: 105
+  },
+  {
+    id: 427,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Ricardo Jiracek',
+    albumTitle: 98,
+    description:
+      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+    price: 23.09,
+    retailPrice: 20.7,
+    sku: '267808171-0',
+    stock: 90
+  },
+  {
+    id: 428,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Lilla De Winton',
+    albumTitle: 63,
+    description:
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
+    price: 20.45,
+    retailPrice: 21.86,
+    sku: '888523742-8',
+    stock: 119
+  },
+  {
+    id: 429,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Malory Carletto',
+    albumTitle: 100,
+    description:
+      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.',
+    price: 23.31,
+    retailPrice: 20.58,
+    sku: '459793540-1',
+    stock: 72
+  },
+  {
+    id: 430,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Jazmin Melmore',
+    albumTitle: 119,
+    description:
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
+    price: 19.4,
+    retailPrice: 21.91,
+    sku: '278230114-4',
+    stock: 111
+  },
+  {
+    id: 431,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Toddie Bruinemann',
+    albumTitle: 88,
+    description:
+      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    price: 22.18,
+    retailPrice: 20.3,
+    sku: '536653947-1',
     stock: 122
   },
   {
-    id: 499,
-    imgUrl: './public/images/duaLipa.jpg',
+    id: 432,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
     genre: 'R&B',
-    artist: 'Hartley Westcar',
+    artist: 'Price Somner',
+    albumTitle: 75,
+    description:
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 21.84,
+    retailPrice: 18.15,
+    sku: '385417434-9',
+    stock: 88
+  },
+  {
+    id: 433,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Drucill Lahive',
+    albumTitle: 100,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+    price: 20.51,
+    retailPrice: 22.85,
+    sku: '380793978-4',
+    stock: 98
+  },
+  {
+    id: 434,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Alexandros Innett',
+    albumTitle: 98,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
+    price: 18.96,
+    retailPrice: 23.88,
+    sku: '511614647-2',
+    stock: 93
+  },
+  {
+    id: 435,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Enriqueta Jenton',
+    albumTitle: 102,
+    description:
+      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
+    price: 22.89,
+    retailPrice: 21.65,
+    sku: '142197208-5',
+    stock: 117
+  },
+  {
+    id: 436,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Demetrius Nisby',
+    albumTitle: 120,
+    description:
+      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
+    price: 18.55,
+    retailPrice: 21.36,
+    sku: '022122085-2',
+    stock: 148
+  },
+  {
+    id: 437,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Sarina Gebbie',
+    albumTitle: 90,
+    description:
+      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
+    price: 19.6,
+    retailPrice: 16.41,
+    sku: '158060478-1',
+    stock: 105
+  },
+  {
+    id: 438,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Naoma Kerfut',
+    albumTitle: 104,
+    description:
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    price: 18.78,
+    retailPrice: 20.74,
+    sku: '743733826-2',
+    stock: 87
+  },
+  {
+    id: 439,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Donnajean Farrent',
+    albumTitle: 107,
+    description:
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 19.67,
+    retailPrice: 23.08,
+    sku: '233462769-0',
+    stock: 121
+  },
+  {
+    id: 440,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'pop',
+    artist: 'Gabriel Loachhead',
+    albumTitle: 90,
+    description:
+      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
+    price: 18.46,
+    retailPrice: 21.18,
+    sku: '200338596-7',
+    stock: 103
+  },
+  {
+    id: 441,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Chris Broster',
+    albumTitle: 100,
+    description:
+      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
+    price: 23.85,
+    retailPrice: 18.86,
+    sku: '881253135-0',
+    stock: 102
+  },
+  {
+    id: 442,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'blues',
+    artist: 'Aggi Damrel',
+    albumTitle: 92,
+    description:
+      'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    price: 18.87,
+    retailPrice: 21.82,
+    sku: '128024248-5',
+    stock: 96
+  },
+  {
+    id: 443,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Niki Fawckner',
+    albumTitle: 88,
+    description:
+      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
+    price: 18.96,
+    retailPrice: 21.3,
+    sku: '668307944-7',
+    stock: 101
+  },
+  {
+    id: 444,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Arni Rollitt',
+    albumTitle: 111,
+    description:
+      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
+    price: 15.23,
+    retailPrice: 17.09,
+    sku: '783587832-1',
+    stock: 106
+  },
+  {
+    id: 445,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Moritz Dougary',
+    albumTitle: 107,
+    description:
+      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 21.47,
+    retailPrice: 21.14,
+    sku: '449695825-2',
+    stock: 91
+  },
+  {
+    id: 446,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'R&B',
+    artist: 'Marcia Gittus',
+    albumTitle: 111,
+    description:
+      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 19.36,
+    retailPrice: 21.26,
+    sku: '260270844-5',
+    stock: 98
+  },
+  {
+    id: 447,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Carol Beare',
+    albumTitle: 119,
+    description:
+      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 22.75,
+    retailPrice: 21.08,
+    sku: '699802907-1',
+    stock: 81
+  },
+  {
+    id: 448,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Rayshell Smyth',
+    albumTitle: 80,
+    description:
+      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    price: 20.81,
+    retailPrice: 21.74,
+    sku: '933006950-9',
+    stock: 140
+  },
+  {
+    id: 449,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Eliot Barsam',
+    albumTitle: 98,
+    description:
+      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+    price: 20.9,
+    retailPrice: 20.45,
+    sku: '901631161-0',
+    stock: 95
+  },
+  {
+    id: 450,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Astrid McMurray',
+    albumTitle: 142,
+    description:
+      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
+    price: 18.35,
+    retailPrice: 20.15,
+    sku: '128879925-X',
+    stock: 88
+  },
+  {
+    id: 451,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Christy Lies',
+    albumTitle: 81,
+    description:
+      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
+    price: 17.19,
+    retailPrice: 22.77,
+    sku: '759647806-9',
+    stock: 116
+  },
+  {
+    id: 452,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Obie Mapother',
+    albumTitle: 106,
+    description:
+      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
+    price: 19.4,
+    retailPrice: 22.66,
+    sku: '844008629-6',
+    stock: 97
+  },
+  {
+    id: 453,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Gilli Mawman',
+    albumTitle: 108,
+    description:
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
+    price: 18.94,
+    retailPrice: 21.16,
+    sku: '465525263-4',
+    stock: 94
+  },
+  {
+    id: 454,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'pop',
+    artist: 'Koressa Bettis',
+    albumTitle: 141,
+    description:
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
+    price: 20.8,
+    retailPrice: 20.46,
+    sku: '097082268-5',
+    stock: 117
+  },
+  {
+    id: 455,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Kordula McAlinion',
+    albumTitle: 82,
+    description:
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
+    price: 19.22,
+    retailPrice: 19.01,
+    sku: '973445646-6',
+    stock: 94
+  },
+  {
+    id: 456,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Marian Faichnie',
+    albumTitle: 110,
+    description:
+      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
+    price: 19.21,
+    retailPrice: 19.55,
+    sku: '813172088-8',
+    stock: 118
+  },
+  {
+    id: 457,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rock',
+    artist: 'Avril Clampin',
     albumTitle: 99,
     description:
-      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
-    price: 17.87,
-    retailPrice: 21.86,
-    sku: '842506395-7',
-    stock: 129
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
+    price: 22.16,
+    retailPrice: 22.07,
+    sku: '567653811-2',
+    stock: 105
+  },
+  {
+    id: 458,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'R&B',
+    artist: 'Gabie Levene',
+    albumTitle: 74,
+    description:
+      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
+    price: 22.05,
+    retailPrice: 22.62,
+    sku: '242983951-2',
+    stock: 89
+  },
+  {
+    id: 459,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Ulick Ianelli',
+    albumTitle: 103,
+    description:
+      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
+    price: 18.36,
+    retailPrice: 22.56,
+    sku: '479562254-X',
+    stock: 103
+  },
+  {
+    id: 460,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Westley Ivanishchev',
+    albumTitle: 80,
+    description:
+      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+    price: 17.03,
+    retailPrice: 19.9,
+    sku: '173429453-1',
+    stock: 84
+  },
+  {
+    id: 461,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Ginelle Simenot',
+    albumTitle: 110,
+    description:
+      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    price: 20.76,
+    retailPrice: 21.39,
+    sku: '619168264-6',
+    stock: 116
+  },
+  {
+    id: 462,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Jory Sweed',
+    albumTitle: 87,
+    description:
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
+    price: 21.95,
+    retailPrice: 19.85,
+    sku: '645368903-0',
+    stock: 109
+  },
+  {
+    id: 463,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Annice Vecard',
+    albumTitle: 120,
+    description:
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
+    price: 22.12,
+    retailPrice: 21.29,
+    sku: '051113123-2',
+    stock: 106
+  },
+  {
+    id: 464,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Alon Eastmond',
+    albumTitle: 121,
+    description:
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 16.15,
+    retailPrice: 21.15,
+    sku: '222115627-7',
+    stock: 103
+  },
+  {
+    id: 465,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'disco',
+    artist: 'Miner Ibel',
+    albumTitle: 89,
+    description:
+      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
+    price: 18.66,
+    retailPrice: 18.74,
+    sku: '164391846-X',
+    stock: 119
+  },
+  {
+    id: 466,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Kristy Coonihan',
+    albumTitle: 103,
+    description:
+      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 18.69,
+    retailPrice: 19.93,
+    sku: '099288508-6',
+    stock: 110
+  },
+  {
+    id: 467,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rock',
+    artist: 'Maxine Arlett',
+    albumTitle: 104,
+    description:
+      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
+    price: 21.7,
+    retailPrice: 19.0,
+    sku: '344227804-X',
+    stock: 87
+  },
+  {
+    id: 468,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'funk',
+    artist: 'Durant MacManus',
+    albumTitle: 125,
+    description:
+      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 23.97,
+    retailPrice: 22.06,
+    sku: '978122897-0',
+    stock: 102
+  },
+  {
+    id: 469,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Sisile Matuszkiewicz',
+    albumTitle: 77,
+    description:
+      'Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    price: 18.26,
+    retailPrice: 24.33,
+    sku: '433088832-7',
+    stock: 94
+  },
+  {
+    id: 470,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Paton Gonet',
+    albumTitle: 99,
+    description:
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
+    price: 18.79,
+    retailPrice: 17.8,
+    sku: '962271080-8',
+    stock: 109
+  },
+  {
+    id: 471,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Ettore Estabrook',
+    albumTitle: 79,
+    description: 'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
+    price: 19.46,
+    retailPrice: 20.86,
+    sku: '090876425-1',
+    stock: 102
+  },
+  {
+    id: 472,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'R&B',
+    artist: 'Pippa Richens',
+    albumTitle: 113,
+    description:
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 21.38,
+    retailPrice: 20.59,
+    sku: '062520175-2',
+    stock: 99
+  },
+  {
+    id: 473,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Hogan Manes',
+    albumTitle: 105,
+    description:
+      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+    price: 16.03,
+    retailPrice: 23.38,
+    sku: '880787882-8',
+    stock: 113
+  },
+  {
+    id: 474,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Christye Dionisetti',
+    albumTitle: 81,
+    description:
+      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+    price: 22.58,
+    retailPrice: 17.92,
+    sku: '731169453-1',
+    stock: 96
+  },
+  {
+    id: 475,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Viv Pehrsson',
+    albumTitle: 93,
+    description:
+      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    price: 21.42,
+    retailPrice: 22.18,
+    sku: '823922236-6',
+    stock: 95
+  },
+  {
+    id: 476,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Farlie Bassilashvili',
+    albumTitle: 116,
+    description:
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
+    price: 18.23,
+    retailPrice: 20.21,
+    sku: '820718648-8',
+    stock: 105
+  },
+  {
+    id: 477,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'rap',
+    artist: 'Derril Mayow',
+    albumTitle: 81,
+    description:
+      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    price: 21.43,
+    retailPrice: 20.67,
+    sku: '635518029-X',
+    stock: 106
+  },
+  {
+    id: 478,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Rosalia Eastbury',
+    albumTitle: 117,
+    description:
+      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
+    price: 21.51,
+    retailPrice: 22.37,
+    sku: '193142118-8',
+    stock: 118
+  },
+  {
+    id: 479,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Prinz Smitheman',
+    albumTitle: 130,
+    description:
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
+    price: 19.82,
+    retailPrice: 21.81,
+    sku: '332043943-X',
+    stock: 114
+  },
+  {
+    id: 480,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'rap',
+    artist: 'Laurel Dentith',
+    albumTitle: 105,
+    description:
+      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
+    price: 20.51,
+    retailPrice: 21.52,
+    sku: '670548609-0',
+    stock: 105
+  },
+  {
+    id: 481,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'funk',
+    artist: 'Ronni Bovis',
+    albumTitle: 102,
+    description:
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
+    price: 14.98,
+    retailPrice: 17.5,
+    sku: '835925727-2',
+    stock: 111
+  },
+  {
+    id: 482,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'pop',
+    artist: 'Phil Shermore',
+    albumTitle: 75,
+    description:
+      'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 18.84,
+    retailPrice: 19.9,
+    sku: '179764471-8',
+    stock: 106
+  },
+  {
+    id: 483,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'rap',
+    artist: 'Phillie Arend',
+    albumTitle: 107,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
+    price: 18.53,
+    retailPrice: 21.18,
+    sku: '027370553-9',
+    stock: 110
+  },
+  {
+    id: 484,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'funk',
+    artist: 'Emmy Ivins',
+    albumTitle: 112,
+    description:
+      'Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
+    price: 17.59,
+    retailPrice: 19.9,
+    sku: '741647085-4',
+    stock: 103
+  },
+  {
+    id: 485,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'soul',
+    artist: 'Mirelle Martindale',
+    albumTitle: 78,
+    description:
+      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.',
+    price: 15.59,
+    retailPrice: 21.99,
+    sku: '800462594-0',
+    stock: 99
+  },
+  {
+    id: 486,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'soul',
+    artist: 'Hollis Martignoni',
+    albumTitle: 86,
+    description:
+      'Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
+    price: 19.7,
+    retailPrice: 21.56,
+    sku: '644704309-4',
+    stock: 88
+  },
+  {
+    id: 487,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Ramsay Sowter',
+    albumTitle: 103,
+    description:
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+    price: 18.8,
+    retailPrice: 20.0,
+    sku: '548607863-3',
+    stock: 89
+  },
+  {
+    id: 488,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'disco',
+    artist: 'Sloan Cruft',
+    albumTitle: 119,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+    price: 24.3,
+    retailPrice: 21.87,
+    sku: '733240719-1',
+    stock: 122
+  },
+  {
+    id: 489,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'rock',
+    artist: 'Gerri Townend',
+    albumTitle: 108,
+    description:
+      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
+    price: 22.08,
+    retailPrice: 23.41,
+    sku: '987818048-4',
+    stock: 85
+  },
+  {
+    id: 490,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Emanuele Kayzer',
+    albumTitle: 119,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
+    price: 18.06,
+    retailPrice: 21.88,
+    sku: '031096118-1',
+    stock: 100
+  },
+  {
+    id: 491,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'R&B',
+    artist: 'Lucretia Cosens',
+    albumTitle: 84,
+    description:
+      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
+    price: 21.47,
+    retailPrice: 22.33,
+    sku: '104588474-X',
+    stock: 106
+  },
+  {
+    id: 492,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'soul',
+    artist: 'Gardner Sheahan',
+    albumTitle: 123,
+    description:
+      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
+    price: 13.98,
+    retailPrice: 22.02,
+    sku: '310272140-0',
+    stock: 99
+  },
+  {
+    id: 493,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'blues',
+    artist: 'Miguela Durant',
+    albumTitle: 112,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
+    price: 19.27,
+    retailPrice: 22.18,
+    sku: '018857283-X',
+    stock: 96
+  },
+  {
+    id: 494,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Nicko Engeham',
+    albumTitle: 95,
+    description:
+      'Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
+    price: 18.42,
+    retailPrice: 21.8,
+    sku: '795668712-8',
+    stock: 104
+  },
+  {
+    id: 495,
+    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
+    genre: 'funk',
+    artist: 'Virginia Mickelwright',
+    albumTitle: 108,
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 21.14,
+    retailPrice: 22.57,
+    sku: '722082409-2',
+    stock: 92
+  },
+  {
+    id: 496,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'disco',
+    artist: 'Vania Withnall',
+    albumTitle: 77,
+    description:
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
+    price: 17.43,
+    retailPrice: 20.01,
+    sku: '144876766-0',
+    stock: 117
+  },
+  {
+    id: 497,
+    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
+    genre: 'pop',
+    artist: 'Hall MacAiline',
+    albumTitle: 87,
+    description:
+      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
+    price: 18.8,
+    retailPrice: 20.81,
+    sku: '805290739-X',
+    stock: 84
+  },
+  {
+    id: 498,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'blues',
+    artist: 'Carmon Wallbank',
+    albumTitle: 92,
+    description:
+      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    price: 14.35,
+    retailPrice: 20.0,
+    sku: '904142324-9',
+    stock: 80
+  },
+  {
+    id: 499,
+    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    genre: 'blues',
+    artist: 'Kailey Dashkovich',
+    albumTitle: 109,
+    description:
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 19.8,
+    retailPrice: 19.92,
+    sku: '833028011-X',
+    stock: 84
   },
   {
     id: 500,
-    imgUrl: './public/images/duaLipa.jpg',
-    genre: 'rap',
-    artist: 'Christi Montacute',
-    albumTitle: 104,
+    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
+    genre: 'disco',
+    artist: 'Lombard Hale',
+    albumTitle: 123,
     description:
-      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-    price: 20.64,
-    retailPrice: 18.34,
-    sku: '314605806-5',
-    stock: 92
+      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
+    price: 18.75,
+    retailPrice: 21.96,
+    sku: '520806141-4',
+    stock: 89
   }
 ]
 
