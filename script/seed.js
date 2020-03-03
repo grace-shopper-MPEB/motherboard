@@ -5,7 +5,7 @@ const {Users, Products, Payments, Orders} = require('../server/db/models')
 const dummyProducts = require('../server/dummyData/dummyProducts.js')
 const dummyUsers = require('../server/dummyData/dummyUsers.js')
 const dummyPayments = require('../server/dummyData/dummyPayments.js')
-// const dummyOrders = require('../server/dummyData/dummyOrders.js')
+const dummyOrders = require('../server/dummyData/dummyOrders.js')
 
 async function seed() {
   await db.sync({force: true})
@@ -13,6 +13,7 @@ async function seed() {
   await Users.bulkCreate(dummyUsers)
   await Products.bulkCreate(dummyProducts)
   await Payments.bulkCreate(dummyPayments)
+  await Orders.bulkCreate(dummyOrders)
   console.log(`seeded successfully`)
 }
 
