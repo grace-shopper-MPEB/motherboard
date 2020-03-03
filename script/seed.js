@@ -5,7 +5,7 @@ const {Users, Products, Payments, Orders} = require('../server/db/models')
 const dummyProducts = require('../server/dummyData/dummyProducts.js')
 const dummyUsers = require('../server/dummyData/dummyUsers.js')
 const dummyPayments = require('../server/dummyData/dummyPayments.js')
-// const dummyOrders = require('../server/dummyData/dummyOrders.js')
+const dummyOrders = require('../server/dummyData/dummyOrders.js')
 
 async function seed() {
   await db.sync({force: true})
@@ -13,6 +13,31 @@ async function seed() {
   await Users.bulkCreate(dummyUsers)
   await Products.bulkCreate(dummyProducts)
   await Payments.bulkCreate(dummyPayments)
+  await Orders.bulkCreate(dummyOrders)
+  try {
+    for (let i = 0; i < 50; i++) {
+      let order = await Orders.findByPk(i)
+      for (let j = 0; j < i % 5; j++) {
+        let product = await Products.findByPk(Math.floor(Math.random() * 500))
+        await order.addProduct(product)
+      }
+    }
+  } catch (error) {
+    console.log(error)
+  }
+
+  try {
+    for (let i = 0; i < 50; i++) {
+      let user = await Users.findByPk(i)
+      for (let j = 0; j < i % 5; j++) {
+        let order = await Orders.findByPk(Math.floor(Math.random() * 500))
+        await user.addOrder(order)
+      }
+    }
+  } catch (error) {
+    console.log(error)
+  }
+
   console.log(`seeded successfully`)
 }
 
