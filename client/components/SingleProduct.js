@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export class SingleProduct extends React.Component {
   componentDidMount() {
@@ -15,6 +16,9 @@ export class SingleProduct extends React.Component {
         <div>{product.artist}</div>
         <div>{product.genre}</div>
         <div>{product.price}</div>
+        <div>
+          <Link to="/products">Go Back</Link>
+        </div>
       </div>
     )
   }
