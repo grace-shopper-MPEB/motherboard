@@ -9,32 +9,32 @@ const Payments = db.define('payment', {
 
   expirationDate: {
     type: Sequelize.INTEGER,
-    allowNull: false,
+    allowNull: false
   },
 
   securityCode: {
     type: Sequelize.INTEGER,
-    allowNull: false,
+    allowNull: false
   },
 
   firstName: {
     type: Sequelize.STRING,
-    allowNull: false,
+    allowNull: false
   },
 
   lastName: {
-    type: Sequelize.String,
-    allowNull: false,
+    type: Sequelize.STRING,
+    allowNull: false
   },
 
   street: {
     type: Sequelize.STRING,
-    allowNull: false,
+    allowNull: false
   },
 
   number: {
     type: Sequelize.INTEGER,
-    allowNull: false,
+    allowNull: false
   },
 
   zip: {
@@ -56,4 +56,3 @@ const Payments = db.define('payment', {
 })
 
 module.exports = Payments
-
