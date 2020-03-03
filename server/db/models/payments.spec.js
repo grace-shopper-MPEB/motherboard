@@ -20,7 +20,7 @@ describe('Payments model', () => {
         state: 'DC',
         country: 'USA'
       }).then(payment => {
-        expect(payment.cardNumber).to.equal(123455566)
+        expect(payment.cardNumber).to.equal('123455566')
         expect(payment.expirationDate).to.equal(1022)
         expect(payment.securityCode).to.equal(123)
         expect(payment.firstName).to.equal('John')

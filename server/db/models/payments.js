@@ -3,7 +3,7 @@ const db = require('../db')
 
 const Payments = db.define('payment', {
   cardNumber: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.BIGINT,
     allowNull: false
   },
 
