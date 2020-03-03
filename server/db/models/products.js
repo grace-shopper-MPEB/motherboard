@@ -4,7 +4,7 @@ const db = require('../db')
 const Products = db.define('product', {
   imgUrl: {
     type: Sequelize.STRING,
-    defaultValue: './server/db/images/photo-1535992165812-68d1861aa71e.jpeg'
+    defaultValue: './server/db/images/default.jpeg'
   },
 
   genre: {
