@@ -17,14 +17,14 @@ before_script:
 script:
   - npm test # test the code
   - npm run build-client # make the bundle
-before_deploy: # omit node_modules, since we set skip_cleanup below
-  - rm -rf node_modules
-deploy: # see README for details on these keys
-  # prevents travis from deleting the build
-  skip_cleanup: true
-  provider: heroku
-  # app should be your heroku app name; see README
-  app: recordshop1982134
-  # the secure key indicates an encrypted value; see README
-  api_key:
-    secure: RIVHvXHphSHvu0U7MIFQETz2n5pySSfadl2+NMdMtX1IfUN3jiqlrIPxnrdGD5X6ZOP59h/qFdETCW6x6GeEjhI9JoDiogCDELhXBprVgKKeUWxzVFQu8B4wAyx0mpOiXJ+NI9wyXoxnB5IZLnYxqJ6VV5h7xxsXmMYTyl9X8pYrMsbglDjTSkv+RDUUplzHnaaki6BTYdpc0AKKyhkETv4Tbgpvtv2Diq5h/Z/HJiv6AZ8bcMYWVafIpi649ofaZRdP/hfEPnBeGysYrrh77Yk5qcXja7NU6k38ACuRICtSJKW+3y7ITaiiHV+2z1iyw26xhdlB31kQldrNvWWMrZchk4yVLHd31iGdaKlbKyIimQW3FIUlHjtWdvpzEBav8Auew5NDkMymlU9OLuvOqf8oblnOaivfjiNJec5lwGCWL7dS2CXWNeg0wp/smGi3BP6OfpaJNIi1ZXsQMOP5HGmfPClx3Ni6tLXEIh1g4l+Yu2fDFPvaL9nKL6YJh+BjN5ZvRN2AqezzBXKL1wJTdrKgK6MbnrKp1Do3F3rG0lgHByFB2/OFpvnZwsDgKLzzoHzTYCyZlD+fJuZLEVdUhqJd9lf3sitRHQ6kgBCJoXRo16Aj0bNP8jIV31G+rZ5MlmB/cn3Myt0ZGRGABh+fT7ACj43j4iIOMCT1HFCg874=
+# before_deploy: # omit node_modules, since we set skip_cleanup below
+#   - rm -rf node_modules
+# deploy: # see README for details on these keys
+#   # prevents travis from deleting the build
+#   skip_cleanup: true
+#   provider: heroku
+#   # app should be your heroku app name; see README
+#   app: recordshop1982134
+#   # the secure key indicates an encrypted value; see README
+#   api_key:
+#     secure: RIVHvXHphSHvu0U7MIFQETz2n5pySSfadl2+NMdMtX1IfUN3jiqlrIPxnrdGD5X6ZOP59h/qFdETCW6x6GeEjhI9JoDiogCDELhXBprVgKKeUWxzVFQu8B4wAyx0mpOiXJ+NI9wyXoxnB5IZLnYxqJ6VV5h7xxsXmMYTyl9X8pYrMsbglDjTSkv+RDUUplzHnaaki6BTYdpc0AKKyhkETv4Tbgpvtv2Diq5h/Z/HJiv6AZ8bcMYWVafIpi649ofaZRdP/hfEPnBeGysYrrh77Yk5qcXja7NU6k38ACuRICtSJKW+3y7ITaiiHV+2z1iyw26xhdlB31kQldrNvWWMrZchk4yVLHd31iGdaKlbKyIimQW3FIUlHjtWdvpzEBav8Auew5NDkMymlU9OLuvOqf8oblnOaivfjiNJec5lwGCWL7dS2CXWNeg0wp/smGi3BP6OfpaJNIi1ZXsQMOP5HGmfPClx3Ni6tLXEIh1g4l+Yu2fDFPvaL9nKL6YJh+BjN5ZvRN2AqezzBXKL1wJTdrKgK6MbnrKp1Do3F3rG0lgHByFB2/OFpvnZwsDgKLzzoHzTYCyZlD+fJuZLEVdUhqJd9lf3sitRHQ6kgBCJoXRo16Aj0bNP8jIV31G+rZ5MlmB/cn3Myt0ZGRGABh+fT7ACj43j4iIOMCT1HFCg874=
