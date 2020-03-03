@@ -1,9 +1,17 @@
 import axios from 'axios'
 
+
 const initialState = {
   products: [],
   product: []
 }
+
+// ***********************************
+// This file needs an initialState as well as logic for the
+// action creators, thunks, and reducer. Delete this when complete.
+// ***********************************
+
+
 
 // Action Types:
 const SET_PRODUCTS = 'SET_PRODUCTS'
@@ -104,9 +112,13 @@ const productsReducer = (state = initialState, action) => {
         ...state,
         products: state.products.filter(product => product.id !== action.id)
       }
+
+
     default:
       return state
   }
 }
 
+
 export default productsReducer
+

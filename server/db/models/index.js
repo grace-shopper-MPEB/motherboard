@@ -14,7 +14,7 @@ const Products = require('./products')
 // Orders.belongsTo(Users)
 
 // Users.hasMany(Payments)
-// Payments.hasOne(Users)
+// Payments.belongsTo(Users)
 
 // Orders.belongsToMany(Products)
 // Products.belongsToMany(Orders)
@@ -27,5 +27,7 @@ const Products = require('./products')
  */
 module.exports = {
   Users,
-  Products
+  Products,
+  Orders,
+  Payments
 }

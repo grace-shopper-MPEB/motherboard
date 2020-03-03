@@ -1,5 +1,6 @@
 import axios from 'axios'
 
+
 const initialState = {
   users: [],
   user: []
@@ -12,6 +13,7 @@ const ADD_USER = 'ADD_USER'
 const DELETE_USER = 'DELETE_USER'
 
 // Actions:
+
 export const setUsers = users => {
   return {
     type: SET_USERS,
@@ -76,6 +78,7 @@ export const deleteUserById = id => async dispatch => {
     console.log(error)
   }
 }
+
 
 // Reducer
 const usersReducer = (state = initialState, action) => {
