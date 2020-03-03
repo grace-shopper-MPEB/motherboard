@@ -1,5 +1,6 @@
 const {expect} = require('chai')
-const {db, Orders} = require('../server/db/models')
+const {Orders} = require('../models')
+const db = require('../db')
 
 describe('Orders model', () => {
   beforeEach(() => db.sync({force: true}))
@@ -17,9 +18,8 @@ describe('Orders model', () => {
         expect(order.isCart).to.equal(true)
         expect(order.status).to.equal('completed')
         expect(order.subTotal).to.equal(20.0)
-        expect(order.totalAmount).to.equal('Description...')
+        expect(order.totalAmount).to.equal(25.0)
         expect(order.shippingCost).to.equal(5.0)
-        expect(order.submitDate).to.equal(new Date())
         expect(order.promoCode).to.equal('10OFF')
       })
     })
