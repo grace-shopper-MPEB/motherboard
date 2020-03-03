@@ -15,7 +15,7 @@ export class AllProducts extends React.Component {
 
     if (products) {
       return (
-        <div>
+        <div className="heading">
           <h1>Records</h1>
           <div className="all-products">
             {products.map(product => (

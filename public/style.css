@@ -22,6 +22,10 @@ form div {
   display: inline-block;
 }
 
+.heading {
+  text-align: center;
+}
+
 .all-products {
   display: flex;
   flex-direction: row;
