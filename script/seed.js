@@ -14,6 +14,30 @@ async function seed() {
   await Products.bulkCreate(dummyProducts)
   await Payments.bulkCreate(dummyPayments)
   await Orders.bulkCreate(dummyOrders)
+  try {
+    for (let i = 0; i < 100; i++) {
+      let order = await Orders.findByPk(i)
+      for (let j = 0; j < i % 5; j++) {
+        let product = await Products.findByPk(Math.floor(Math.random() * 500))
+        await order.addProduct(product)
+      }
+    }
+  } catch (error) {
+    console.log(error)
+  }
+
+  try {
+    for (let i = 0; i < 100; i++) {
+      let user = await Users.findByPk(i)
+      for (let j = 0; j < i % 5; j++) {
+        let order = await Orders.findByPk(Math.floor(Math.random() * 500))
+        await user.addOrder(order)
+      }
+    }
+  } catch (error) {
+    console.log(error)
+  }
+
   console.log(`seeded successfully`)
 }
 
