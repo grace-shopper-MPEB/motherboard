@@ -6,21 +6,25 @@ import {getProducts} from '../store/products'
 
 export class AllProducts extends React.Component {
   componentDidMount() {
-    this.props.getProducts()
+    // this.props.getProducts()
   }
 
   render() {
-    if (this.props.products) {
+    console.log('PROPS2', this.props)
+    const products = this.props.products.products
+
+    if (products) {
       return (
         <div>
-          {this.props.products.map(product => (
+          <h1>ALL PRODUCTS</h1>
+          {products.map(product => (
             <div key={product.id}>
-              <img src={product.imgUrl} />
+              <img src={'/' + product.imgUrl} />
               <div>{product.albumTitle}</div>
               <div>{product.artist}</div>
               <div>{product.genre}</div>
               <div>{product.price}</div>
-              {/* Add a button feature to buy record */}
+              {/* // { Add a button feature to buy record } */}
             </div>
           ))}
         </div>
@@ -30,16 +34,12 @@ export class AllProducts extends React.Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    products: state.products
-  }
-}
+export default AllProducts
 
-const mapDispatchToProps = dispatch => {
-  return {
-    getProducts: () => dispatch(getProducts())
-  }
-}
+// // const mapDispatchToProps = dispatch => {
+// //   return {
+// //     getProducts: () => dispatch(getProducts())
+// //   }
+// // }
 
-export default connect(mapStateToProps, mapDispatchToProps)(AllProducts)
+// export default connect(mapStateToProps)(AllProducts)
