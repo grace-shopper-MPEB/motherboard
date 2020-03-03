@@ -2,33 +2,14 @@
 
 const db = require('../server/db')
 const {Users, Products} = require('../server/db/models')
-// const dummyProducts = require('../server/dummyData/dummyProducts.js')
-// const dummyUsers = require('../server/dummyData/dummyUsers.js')
+const dummyProducts = require('../server/dummyData/dummyProducts.js')
+const dummyUsers = require('../server/dummyData/dummyUsers.js')
 
 async function seed() {
   await db.sync({force: true})
   console.log('db synced!')
-
-  // const products = await Promise.all([
-  //   //Seed with 500 products from dummy json products file
-  //   Products.bulkCreate(dummyProducts)
-  // ])
-  // await Users.bulkCreate(dummyUsers)
-  await Users.create({
-    id: 1,
-    fullName: 'bobby nixon',
-    email: 'jscreen0@ask.com',
-    city: 'Wash',
-    street: 'sapien',
-    number: 2,
-    zip: 5,
-    country: 'et',
-    state: 'aliquet at',
-    password: 'n18CVMgV'
-  })
-
-  // await Products.bulkCreate(dummyProducts)
-  // console.log(`seeded ${products.length} products`)
+  await Users.bulkCreate(dummyUsers)
+  await Products.bulkCreate(dummyProducts)
   console.log(`seeded successfully`)
 }
 
