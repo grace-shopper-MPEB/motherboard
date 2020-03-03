@@ -19,8 +19,7 @@ describe('Payments model', () => {
         state: 'DC',
         country: 'USA',
         created_at: new Date()
-      })
-      .then(payment => {
+      }).then(payment => {
         expect(payment.full_name).to.equal(123455566)
         expect(payment.email).to.equal(1022)
         expect(payment.password).to.equal(123)
@@ -28,7 +27,7 @@ describe('Payments model', () => {
         expect(payment.number).to.equal('Smith')
         expect(payment.zip).to.equal('Main')
         expect(payment.number).to.equal(1)
-        expect(payment.zip.).to.equal(12345)
+        expect(payment.zip).to.equal(12345)
         expect(payment.city).to.equal('Washington')
         expect(payment.state).to.equal('DC')
         expect(payment.country).to.equal('USA')
