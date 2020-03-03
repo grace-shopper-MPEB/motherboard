@@ -1,4 +1,5 @@
 const Sequelize = require('sequelize')
+const crypto = require('crypto')
 const db = require('../db')
 
 const Users = db.define('user', {
@@ -37,7 +38,7 @@ const Users = db.define('user', {
   },
 
   city: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.STRING,
     allowNull: false
   },
 
@@ -59,6 +60,15 @@ const Users = db.define('user', {
   googleId: {
     type: Sequelize.STRING,
     allowNull: true
+  },
+
+  salt: {
+    type: Sequelize.STRING,
+    // Making `.salt` act like a function hides it when serializing to JSON.
+    // This is a hack to get around Sequelize's lack of a "private" option.
+    get() {
+      return () => this.getDataValue('salt')
+    }
   }
 })
 
@@ -101,3 +111,5 @@ Users.beforeUpdate(setSaltAndPassword)
 Users.beforeBulkCreate(users => {
   users.forEach(setSaltAndPassword)
 })
+
+module.exports = Users
