@@ -1,13 +1,13 @@
 const Sequelize = require('sequelize')
 const db = require('../db')
 
-const Products = db.define('product', {
-  imgUrl: {
+const Albums = db.define('album', {
+  artworkUrl: {
     type: Sequelize.STRING,
     defaultValue: 'https://i.imgur.com/G3sdIcN.jpg'
   },
 
-  genre: {
+  albumTitle: {
     type: Sequelize.STRING,
     allowNull: false,
     validations: {
@@ -23,7 +23,7 @@ const Products = db.define('product', {
     }
   },
 
-  albumTitle: {
+  genre: {
     type: Sequelize.STRING,
     allowNull: false,
     validations: {
@@ -60,4 +60,4 @@ const Products = db.define('product', {
   }
 })
 
-module.exports = Products
+module.exports = Albums

@@ -1,7 +1,13 @@
 'use strict'
 
 const db = require('../server/db')
-const {Users, Products, Payments, Orders} = require('../server/db/models')
+const {
+  Users,
+  Products,
+  Payments,
+  Orders,
+  Albums
+} = require('../server/db/models')
 const dummyProducts = require('../server/dummyData/dummyProducts.js')
 const dummyUsers = require('../server/dummyData/dummyUsers.js')
 const dummyPayments = require('../server/dummyData/dummyPayments.js')
@@ -14,6 +20,18 @@ async function seed() {
   await Products.bulkCreate(dummyProducts)
   await Payments.bulkCreate(dummyPayments)
   await Orders.bulkCreate(dummyOrders)
+  await Albums.create({
+    artworkUrl: 'https://i.imgur.com/bt0c1dC.jpg',
+    albumTitle: 'Igor',
+    artist: 'Tyler The Creator',
+    genre: 'Hip Hop',
+    description: 'Tylers newest studio album.',
+    price: 1999,
+    retailPrice: 2000,
+    SKU: 'xyz12345',
+    stock: 100
+  })
+
   try {
     for (let i = 0; i < 30; i++) {
       let order = await Orders.findByPk(i)
