@@ -1,7 +1,14 @@
 'use strict'
 
 const db = require('../server/db')
-const {Users, Products, Payments, Orders} = require('../server/db/models')
+const {
+  Users,
+  Products,
+  Payments,
+  Orders,
+  Artists,
+  Songs
+} = require('../server/db/models')
 const dummyProducts = require('../server/dummyData/dummyProducts.js')
 const dummyUsers = require('../server/dummyData/dummyUsers.js')
 const dummyPayments = require('../server/dummyData/dummyPayments.js')
@@ -14,8 +21,16 @@ async function seed() {
   await Products.bulkCreate(dummyProducts)
   await Payments.bulkCreate(dummyPayments)
   await Orders.bulkCreate(dummyOrders)
+  await Artists.create({
+    artistName: 'Dua Lipa',
+    songs: 'Dont Start'
+  })
+  await Songs.create({
+    songName: 'Dont Start'
+  })
+
   try {
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 30; i++) {
       let order = await Orders.findByPk(i)
       for (let j = 0; j < i % 5; j++) {
         let product = await Products.findByPk(Math.floor(Math.random() * 500))
@@ -27,7 +42,7 @@ async function seed() {
   }
 
   try {
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 30; i++) {
       let user = await Users.findByPk(i)
       for (let j = 0; j < i % 5; j++) {
         let order = await Orders.findByPk(Math.floor(Math.random() * 500))
