@@ -2,10 +2,17 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
-import {Login, Signup, UserHome, AllProducts} from './components'
+import {
+  Login,
+  Signup,
+  UserHome,
+  AllProducts,
+  SingleProduct,
+  Cart
+} from './components'
 import {me} from './store'
 import {getProducts, getProductsById} from './store/products'
-import {SingleProduct} from './components/SingleProduct'
+import {getCart} from './store/cart'
 
 /**
  * COMPONENT
@@ -34,6 +41,7 @@ class Routes extends Component {
           path="/products/:id"
           render={() => <SingleProduct {...this.props} />}
         />
+        <Route path="/users/cart" render={() => <Cart {...this.props} />} />
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}
@@ -55,7 +63,9 @@ const mapState = state => {
     // Being 'logged in' for our purposes will be defined has having a state.user that has a truthy id.
     // Otherwise, state.user will be an empty object, and state.user.id will be falsey
     isLoggedIn: !!state.user.id,
-    products: state.products
+    products: state.products,
+    cart: state.cart,
+    user: state.user
   }
 }
 
@@ -65,7 +75,8 @@ const mapDispatch = dispatch => {
       dispatch(me())
     },
     getProducts: () => dispatch(getProducts()),
-    getProductsById: id => dispatch(getProductsById(id))
+    getProductsById: id => dispatch(getProductsById(id)),
+    getCart: id => dispatch(getCart(id))
   }
 }
 
