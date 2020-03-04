@@ -11,8 +11,8 @@ describe('Products model', () => {
         artist: 'Led Zeppelin',
         albumTitle: 'Mothership',
         description: 'Description...',
-        price: 20.0,
-        retailPrice: 19.99,
+        price: 2000,
+        retailPrice: 1999,
         SKU: '123ER54',
         stock: 100
       }).then(album => {
@@ -20,8 +20,8 @@ describe('Products model', () => {
         expect(album.artist).to.equal('Led Zeppelin')
         expect(album.albumTitle).to.equal('Mothership')
         expect(album.description).to.equal('Description...')
-        expect(album.price).to.equal(20.0)
-        expect(album.retailPrice).to.equal(19.99)
+        expect(album.price).to.equal(2000)
+        expect(album.retailPrice).to.equal(1999)
         expect(album.SKU).to.equal('123ER54')
         expect(album.stock).to.equal(100)
       })

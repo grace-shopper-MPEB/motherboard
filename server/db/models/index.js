@@ -3,7 +3,6 @@ const Orders = require('./orders')
 const Payments = require('./payments')
 const Products = require('./products')
 const Albums = require('./albums')
-
 /**
  * If we had any associations to make, this would be a great place to put them!
  * ex. if we had another model called BlogPost, we might say:
