@@ -1,31 +1,37 @@
 import React from 'react'
-import {connect} from 'react-redux'
-import {getProducts} from '../store/products'
-
-// Needs React Router
+import {Link} from 'react-router-dom'
 
 export class AllProducts extends React.Component {
   componentDidMount() {
-    // this.props.getProducts()
+    // nothing here yet
   }
 
   render() {
-    console.log('PROPS2', this.props)
     const products = this.props.products.products
 
     if (products) {
       return (
-        <div className="heading">
-          <h1>Records</h1>
+        <div className="all-products-container">
           <div className="all-products">
             {products.map(product => (
               <div key={product.id} className="item">
-                <img src={product.imgUrl} className="product-info" />
-                <h3>{product.albumTitle}</h3>
-                <div>{product.artist}</div>
-                <div>{product.genre}</div>
-                <div>{product.price}</div>
-                {/* // { Add a button feature to buy record } */}
+                <Link to={`/products/${product.id}`}>
+                  <img
+                    src={product.imgUrl}
+                    className="product-info all-images"
+                  />
+                </Link>
+                <Link
+                  className="all-album-title"
+                  to={`/products/${product.id}`}
+                >
+                  <h3>{product.albumTitle}</h3>
+                </Link>
+                <div className="all-artist">{product.artist}</div>
+                <div className="all-price">${product.price}</div>
+                <button className="buyButton" type="button">
+                  Add to Cart
+                </button>
               </div>
             ))}
           </div>
@@ -37,11 +43,3 @@ export class AllProducts extends React.Component {
 }
 
 export default AllProducts
-
-// // const mapDispatchToProps = dispatch => {
-// //   return {
-// //     getProducts: () => dispatch(getProducts())
-// //   }
-// // }
-
-// export default connect(mapStateToProps)(AllProducts)
