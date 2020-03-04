@@ -4,8 +4,20 @@ body {
   font-family: sans-serif;
 }
 
-a {
+a:link {
   text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 label {
@@ -18,46 +30,183 @@ nav a {
   color: black;
 }
 
+#top-of-navbar {
+  display: flex;
+}
+#cart-link {
+  margin-right: 150px;
+}
+
 form div {
   margin: 1em;
   display: inline-block;
   background-color: white;
 }
 
-.heading {
-  text-align: center;
+#page-title {
+  font-family: Impact, fantasy;
   color: black;
+  font-weight: bolder;
+  font-size: 50px;
+  border: -10px;
+  margin: -10px;
+  width: 102%;
+  height: 89px;
+  background: #c22323;
+  padding-left: 15%;
+  padding-top: 18px;
 }
 
 .all-products {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 1000px;
   border: 100px;
   border-radius: 10px;
   margin: 10px;
 }
 
+.all-products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.all-images {
+  height: 220px;
+  width: 220px;
+}
+
+.all-album-title {
+  color: black;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.all-artist {
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.all-price {
+  font-size: 13px;
+  font-weight: normal;
+  color: grey;
+  margin-bottom: 5px;
+}
+
 .item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 200px;
+  align-items: flex-start;
   border: 10px;
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
+}
+
+.single-album-container {
+  display: flex;
+  justify-content: center;
 }
 
 .single-album {
+  display: flex;
+  flex-direction: row;
   border: 10px;
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
 }
 
-#page-title {
-  font-family: 'Courgette', cursive;
-  color: black;
-  background-color: rgb(162, 36, 36);
-  border: -10px;
-  margin: -10px;
-  /* border-radius: 50px; */
-  padding: 50px;
+.single-image {
+  margin-right: 22px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}
+
+.single-album-details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+.single-title {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.single-price {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  color: rgb(63, 62, 62);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border: grey;
+  border-width: 1px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.single-artist {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+  border: grey;
+  border-width: 1px;
+  border-style: solid;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  padding-top: 10px;
+}
+.single-genre {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.single-description {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.buyButton {
+  height: 38px;
+  width: 90px;
+  background-color: #d92829;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+
+.select {
+  margin-bottom: 15px;
+}
+#quantity {
+  width: 50px;
+  height: 25px;
+}
+label {
+  font-size: 12px;
+}
+
+.public-navbar {
+  display: flex;
+  justify-content: center;
 }
