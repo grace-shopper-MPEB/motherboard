@@ -24,14 +24,24 @@ form div {
 
 .heading {
   text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .all-products {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  border: 100px;
   border-radius: 10px;
   margin: 10px;
+}
+
+.item {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 #page-title {
