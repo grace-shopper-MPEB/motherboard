@@ -40,12 +40,12 @@ const Products = db.define('product', {
   },
 
   price: {
-    type: Sequelize.FLOAT,
+    type: Sequelize.INTEGER,
     allowNull: false
   },
 
   retailPrice: {
-    type: Sequelize.FLOAT,
+    type: Sequelize.INTEGER,
     allowNull: false
   },
 
@@ -56,7 +56,10 @@ const Products = db.define('product', {
 
   stock: {
     type: Sequelize.INTEGER,
-    allowNull: false
+    allowNull: false,
+    validate: {
+      min: 0
+    }
   }
 })
 
