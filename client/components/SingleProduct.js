@@ -7,7 +7,8 @@ export class SingleProduct extends React.Component {
   }
 
   render() {
-    const product = this.props.products.product
+    const product = this.props.singleProduct
+
     return (
       <div>
         <img src={product.imgUrl} />

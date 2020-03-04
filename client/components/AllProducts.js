@@ -1,17 +1,10 @@
 import React from 'react'
-import {connect} from 'react-redux'
-import {getProducts} from '../store/products'
 
 // Needs React Router
 
 export class AllProducts extends React.Component {
-  componentDidMount() {
-    // this.props.getProducts()
-  }
-
   render() {
-    console.log('PROPS2', this.props)
-    const products = this.props.products.products
+    const products = this.props.allProducts
 
     if (products) {
       return (
@@ -19,14 +12,7 @@ export class AllProducts extends React.Component {
           <h1>Records</h1>
           <div className="all-products">
             {products.map(product => (
-              <div key={product.id} className="item">
-                <img src={product.imgUrl} className="product-info" />
-                <h3>{product.albumTitle}</h3>
-                <div>{product.artist}</div>
-                <div>{product.genre}</div>
-                <div>{product.price}</div>
-                {/* // { Add a button feature to buy record } */}
-              </div>
+              <Product product={product} index={product.id} key={product.id} />
             ))}
           </div>
         </div>

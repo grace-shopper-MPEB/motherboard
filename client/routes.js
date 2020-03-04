@@ -2,10 +2,9 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
-import {Login, Signup, UserHome, AllProducts} from './components'
+import {Login, Signup, UserHome, AllProducts, SingleProduct} from './components'
 import {me} from './store'
 import {getProducts, getProductsById} from './store/products'
-import {SingleProduct} from './components/SingleProduct'
 
 /**
  * COMPONENT
@@ -18,8 +17,7 @@ class Routes extends Component {
 
   render() {
     const {isLoggedIn} = this.props
-    console.log('ROUTE PROPS', this.props)
-    console.log('ROUTE STATE', this.state)
+
     return (
       <Switch>
         {/* Routes placed here are available to all visitors */}
@@ -28,11 +26,18 @@ class Routes extends Component {
         <Route
           exact
           path="/products"
-          render={() => <AllProducts {...this.props} />}
+          render={() => (
+            <AllProducts {...this.props} allProducts={this.props.allProducts} />
+          )}
         />
         <Route
           path="/products/:id"
-          render={() => <SingleProduct {...this.props} />}
+          render={() => (
+            <SingleProduct
+              {...this.props}
+              singleProduct={this.props.singleProduct}
+            />
+          )}
         />
         {isLoggedIn && (
           <Switch>
@@ -55,7 +60,8 @@ const mapState = state => {
     // Being 'logged in' for our purposes will be defined has having a state.user that has a truthy id.
     // Otherwise, state.user will be an empty object, and state.user.id will be falsey
     isLoggedIn: !!state.user.id,
-    products: state.products
+    allProducts: state.products.products,
+    singleProduct: state.products.product
   }
 }
 
