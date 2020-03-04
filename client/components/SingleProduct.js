@@ -11,10 +11,12 @@ export class SingleProduct extends React.Component {
     return (
       <div>
         <img src={product.imgUrl} />
-        <div>{product.albumTitle}</div>
-        <div>{product.artist}</div>
-        <div>{product.genre}</div>
-        <div>{product.price}</div>
+        <div className="single-album">
+          <h1>{product.albumTitle}</h1>
+          <div>{product.artist}</div>
+          <div>{product.genre}</div>
+          <div>{product.price}</div>
+        </div>
       </div>
     )
   }

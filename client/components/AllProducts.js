@@ -15,18 +15,20 @@ export class AllProducts extends React.Component {
 
     if (products) {
       return (
-        <div className="all-products">
+        <div className="heading">
           <h1>Records</h1>
-          {products.map(product => (
-            <div key={product.id}>
-              <img src={product.imgUrl} className="product-info" />
-              <div>{product.albumTitle}</div>
-              <div>{product.artist}</div>
-              <div>{product.genre}</div>
-              <div>{product.price}</div>
-              {/* // { Add a button feature to buy record } */}
-            </div>
-          ))}
+          <div className="all-products">
+            {products.map(product => (
+              <div key={product.id} className="item">
+                <img src={product.imgUrl} className="product-info" />
+                <h3>{product.albumTitle}</h3>
+                <div>{product.artist}</div>
+                <div>{product.genre}</div>
+                <div>{product.price}</div>
+                {/* // { Add a button feature to buy record } */}
+              </div>
+            ))}
+          </div>
         </div>
       )
     }
