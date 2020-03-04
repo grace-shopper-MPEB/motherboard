@@ -15,17 +15,18 @@ label {
 nav a {
   display: inline-block;
   margin: 1em;
+  color: black;
 }
 
 form div {
   margin: 1em;
   display: inline-block;
+  background-color: white;
 }
 
 .heading {
   text-align: center;
-  background-color: black;
-  color: white;
+  color: black;
 }
 
 .all-products {
@@ -38,7 +39,7 @@ form div {
 }
 
 .item {
-  border: 1px solid black;
+  border: 1px;
   margin: 10px;
   border-radius: 5px;
   padding: 5px;
@@ -46,4 +47,6 @@ form div {
 
 #page-title {
   font-family: 'Courgette', cursive;
+  color: black;
+  background-color: rgb(162, 36, 36);
 }
