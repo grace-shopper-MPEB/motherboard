@@ -30,6 +30,13 @@ nav a {
   color: black;
 }
 
+#top-of-navbar {
+  display: flex;
+}
+#cart-link {
+  margin-right: 150px;
+}
+
 form div {
   margin: 1em;
   display: inline-block;
@@ -116,7 +123,7 @@ form div {
 }
 
 .single-image {
-  margin: 22px;
+  margin-right: 22px;
 }
 .single-album-details {
   display: flex;
@@ -131,20 +138,31 @@ form div {
   margin-bottom: 10px;
 }
 .single-price {
-  font-size: 25px;
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
-  color: grey;
+  color: rgb(63, 62, 62);
   margin-bottom: 10px;
-  border-bottom: grey;
-  border-width: 5px;
+  padding-bottom: 10px;
+  border: grey;
+  border-width: 1px;
   border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 .single-artist {
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
   margin-bottom: 10px;
+  border: grey;
+  border-width: 1px;
+  border-style: solid;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  padding-top: 10px;
 }
 .single-genre {
   font-size: 15px;
@@ -169,4 +187,20 @@ form div {
   border: none;
   border-radius: 5%;
   margin-bottom: 10px;
+}
+
+.select {
+  margin-bottom: 15px;
+}
+#quantity {
+  width: 50px;
+  height: 25px;
+}
+label {
+  font-size: 12px;
+}
+
+.public-navbar {
+  display: flex;
+  justify-content: center;
 }
