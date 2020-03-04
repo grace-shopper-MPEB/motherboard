@@ -13,7 +13,7 @@ export const Product = props => {
         <h3>{product.albumTitle}</h3>
       </Link>
       <div className="all-artist">{product.artist}</div>
-      <div className="all-price">${product.price}</div>
+      <div className="all-price">${product.price / 100}</div>
       <button className="buyButton" type="button">
         Add to Cart
       </button>

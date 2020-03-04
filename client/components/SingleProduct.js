@@ -17,7 +17,7 @@ export class SingleProduct extends React.Component {
           </div>
           <div className="single-album-details">
             <div className="single-title">{product.albumTitle}</div>
-            <div className="single-price">${product.price}</div>
+            <div className="single-price">${product.price / 100}</div>
             <div className="select">
               <label htmlFor="quantity">Quantity</label>
               <input id="quantity" type="number" name="quantity" />
