@@ -30,7 +30,6 @@ form div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 2px dotted black;
   border-radius: 10px;
   margin: 10px;
 }
