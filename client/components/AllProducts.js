@@ -21,7 +21,7 @@ export class AllProducts extends React.Component {
             {products.map(product => (
               <div key={product.id} className="item">
                 <img src={product.imgUrl} className="product-info" />
-                <div>{product.albumTitle}</div>
+                <h3>{product.albumTitle}</h3>
                 <div>{product.artist}</div>
                 <div>{product.genre}</div>
                 <div>{product.price}</div>
