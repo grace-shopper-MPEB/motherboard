@@ -8,11 +8,13 @@ import {
   UserHome,
   AllProducts,
   SingleProduct,
-  AllUsers
+  AllUsers,
+  Cart
 } from './components'
 import {me} from './store'
 import {getProducts, getProductsById} from './store/products'
 import {getUsers} from './store/user'
+import {getCart} from './store/cart'
 
 /**
  * COMPONENT
@@ -55,6 +57,7 @@ class Routes extends Component {
             />
           )}
         />
+        <Route path="/users/cart" render={() => <Cart {...this.props} />} />
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}
@@ -76,9 +79,16 @@ const mapState = state => {
     // Being 'logged in' for our purposes will be defined has having a state.user that has a truthy id.
     // Otherwise, state.user will be an empty object, and state.user.id will be falsey
     isLoggedIn: !!state.user.id,
+
+    products: state.products,
+    cart: state.cart,
+    user: state.user,
+
     allProducts: state.products.products,
+
     singleProduct: state.products.product,
     allUsers: state.user.users
+
   }
 }
 
@@ -89,7 +99,10 @@ const mapDispatch = dispatch => {
     },
     getProducts: () => dispatch(getProducts()),
     getProductsById: id => dispatch(getProductsById(id)),
-    getUsers: () => dispatch(getUsers())
+
+    getUsers: () => dispatch(getUsers()),
+    getCart: id => dispatch(getCart(id))
+
   }
 }
 

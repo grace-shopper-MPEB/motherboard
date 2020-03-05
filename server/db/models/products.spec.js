@@ -5,10 +5,9 @@ const db = require('../db')
 describe('Products model', () => {
   beforeEach(() => db.sync({force: true}))
   describe('column definitions and validations', () => {
-    it('has a `genre` `artist` `albumTitle` `description` `price` `retailPrice` `SKU` and `stock`', () => {
+    it('has a `genre` `albumTitle` `description` `price` `retailPrice` `SKU` and `stock`', () => {
       return Products.create({
         genre: 'Rock',
-        artist: 'Led Zeppelin',
         albumTitle: 'Mothership',
         description: 'Description...',
         price: 2000,
@@ -17,7 +16,6 @@ describe('Products model', () => {
         stock: 100
       }).then(album => {
         expect(album.genre).to.equal('Rock')
-        expect(album.artist).to.equal('Led Zeppelin')
         expect(album.albumTitle).to.equal('Mothership')
         expect(album.description).to.equal('Description...')
         expect(album.price).to.equal(2000)
@@ -27,18 +25,6 @@ describe('Products model', () => {
       })
     })
     it('`genre` is required', () => {
-      const album = Products.build()
-      return album.validate().then(
-        () => {
-          throw new Error('Validation should have failed!')
-        },
-        err => {
-          expect(err).to.be.an('error')
-        }
-      )
-    })
-
-    it('`artist` is required', () => {
       const album = Products.build()
       return album.validate().then(
         () => {
