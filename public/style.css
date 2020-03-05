@@ -25,43 +25,59 @@ label {
   display: block;
 }
 
-nav a {
-  display: inline-block;
-  margin: 1em;
-  color: black;
-}
-
 #top-of-navbar {
   display: flex;
-}
-
-#cart-link {
-  margin-right: 150px;
-}
-
-#cart-btn {
-  font-family: 'Asap', sans-serif;
-  font-size: larger;
-}
-
-form div {
-  margin: 1em;
-  display: inline-block;
-  background-color: white;
-}
-
-#page-title {
-  font-family: Impact, fantasy;
-  color: black;
-  font-weight: bolder;
-  font-size: 50px;
+  flex-direction: row;
+  align-items: center;
   border: -10px;
   margin: -10px;
   width: 102%;
   height: 89px;
   background: #c22323;
+}
+#page-title {
+  font-family: Impact, fantasy;
+  color: black;
+  font-weight: bolder;
+  font-size: 50px;
   padding-left: 15%;
-  padding-top: 18px;
+}
+#cart-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30%;
+  font-family: 'Asap', sans-serif;
+  font-size: larger;
+  color: black;
+}
+#cart-img {
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+}
+#bottom-of-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  display: flex;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: black;
+}
+hr {
+  width: 920px;
+  margin-bottom: 50px;
+}
+form div {
+  margin: 1em;
+  display: inline-block;
+  background-color: white;
 }
 
 .all-products {
