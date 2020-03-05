@@ -7,7 +7,13 @@ export class SingleProduct extends React.Component {
   }
 
   render() {
-    const product = this.props.singleProduct
+    const product = this.props.singleProduct.product
+      ? this.props.singleProduct.product
+      : {}
+    const albums = this.props.singleProduct.albums
+      ? this.props.singleProduct.albums
+      : {}
+    console.log(albums)
 
     return (
       <div className="single-album-container">
@@ -30,6 +36,10 @@ export class SingleProduct extends React.Component {
             </div>
             <div className="single-genre">Genre: {product.genre}</div>
             <div className="single-description">{product.description}</div>
+            <div>
+              More albums by {product.artist ? product.artist.artistName : null}
+              : {albums.albumTitle}
+            </div>
           </div>
         </div>
       </div>
