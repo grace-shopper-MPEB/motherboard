@@ -9,17 +9,17 @@ describe('Orders model', () => {
       return Orders.create({
         isCart: true,
         status: 'completed',
-        subTotal: 20.0,
-        totalAmount: 25.0,
-        shippingCost: 5.0,
+        subTotal: 20,
+        totalAmount: 25,
+        shippingCost: 5,
         submitDate: new Date(),
         promoCode: '10OFF'
       }).then(order => {
         expect(order.isCart).to.equal(true)
         expect(order.status).to.equal('completed')
-        expect(order.subTotal).to.equal(20.0)
-        expect(order.totalAmount).to.equal(25.0)
-        expect(order.shippingCost).to.equal(5.0)
+        expect(order.subTotal).to.equal(20)
+        expect(order.totalAmount).to.equal(25)
+        expect(order.shippingCost).to.equal(5)
         expect(order.promoCode).to.equal('10OFF')
       })
     })

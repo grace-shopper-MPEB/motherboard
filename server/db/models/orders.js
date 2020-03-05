@@ -14,19 +14,19 @@ const Orders = db.define('order', {
   },
 
   subTotal: {
-    type: Sequelize.FLOAT,
+    type: Sequelize.INTEGER,
     allowNull: false,
     defaultValue: 0.0
   },
 
   totalAmount: {
-    type: Sequelize.FLOAT,
+    type: Sequelize.INTEGER,
     allowNull: false,
     defaultValue: 0.0
   },
 
   shippingCost: {
-    type: Sequelize.FLOAT,
+    type: Sequelize.INTEGER,
     allowNull: false,
     defaultValue: 0.0
   },
