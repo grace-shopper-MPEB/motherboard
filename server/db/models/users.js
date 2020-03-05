@@ -4,8 +4,8 @@ const db = require('../db')
 
 const Users = db.define('user', {
   fullName: {
-    type: Sequelize.STRING,
-    allowNull: false
+    type: Sequelize.STRING
+    // allowNull: false
   },
 
   email: {
@@ -23,38 +23,38 @@ const Users = db.define('user', {
     }
   },
   street: {
-    type: Sequelize.STRING,
-    allowNull: false
+    type: Sequelize.STRING
+    // allowNull: false
   },
 
   number: {
-    type: Sequelize.STRING,
-    allowNull: false
+    type: Sequelize.STRING
+    // allowNull: false
   },
 
   zip: {
-    type: Sequelize.INTEGER,
-    allowNull: false
+    type: Sequelize.INTEGER
+    // allowNull: false
   },
 
   city: {
-    type: Sequelize.STRING,
-    allowNull: false
+    type: Sequelize.STRING
+    // allowNull: false
   },
 
   state: {
-    type: Sequelize.STRING,
-    allowNull: false
+    type: Sequelize.STRING
+    // allowNull: false
   },
 
   country: {
-    type: Sequelize.STRING,
-    allowNull: false
+    type: Sequelize.STRING
+    // allowNull: false
   },
 
   isAdmin: {
     type: Sequelize.BOOLEAN,
-    allowNull: false,
+    // allowNull: false,
     defaultValue: false
   },
 
