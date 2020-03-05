@@ -2,9 +2,17 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
-import {Login, Signup, UserHome, AllProducts, SingleProduct} from './components'
+import {
+  Login,
+  Signup,
+  UserHome,
+  AllProducts,
+  SingleProduct,
+  AllUsers
+} from './components'
 import {me} from './store'
 import {getProducts, getProductsById} from './store/products'
+import {getUsers} from './store/users'
 
 /**
  * COMPONENT
@@ -13,16 +21,24 @@ class Routes extends Component {
   componentDidMount() {
     this.props.loadInitialData()
     this.props.getProducts()
+    this.props.getUsers()
   }
 
   render() {
     const {isLoggedIn} = this.props
-
+    console.log('ROUTE PROPS', this.props, 'ROUTE STATE', this.state)
     return (
       <Switch>
         {/* Routes placed here are available to all visitors */}
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
+        <Route
+          exact
+          path="/users"
+          render={() => (
+            <AllUsers {...this.props} allUsers={this.props.allUsers} />
+          )}
+        />
         <Route
           exact
           path="/products"
@@ -61,7 +77,8 @@ const mapState = state => {
     // Otherwise, state.user will be an empty object, and state.user.id will be falsey
     isLoggedIn: !!state.user.id,
     allProducts: state.products.products,
-    singleProduct: state.products.product
+    singleProduct: state.products.product,
+    allUsers: state.users
   }
 }
 
@@ -71,7 +88,8 @@ const mapDispatch = dispatch => {
       dispatch(me())
     },
     getProducts: () => dispatch(getProducts()),
-    getProductsById: id => dispatch(getProductsById(id))
+    getProductsById: id => dispatch(getProductsById(id)),
+    getUsers: () => dispatch(getUsers())
   }
 }
 
