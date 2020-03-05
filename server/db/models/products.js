@@ -15,13 +15,13 @@ const Products = db.define('product', {
     }
   },
 
-  artist: {
-    type: Sequelize.STRING,
-    allowNull: false,
-    validations: {
-      notEmpty: true
-    }
-  },
+  // artistName: {
+  //   type: Sequelize.STRING,
+  //   allowNull: false,
+  //   validations: {
+  //     notEmpty: true
+  //   }
+  // },
 
   albumTitle: {
     type: Sequelize.STRING,

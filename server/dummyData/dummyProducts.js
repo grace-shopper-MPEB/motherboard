@@ -6,11 +6,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '212373422-5',
-    stock: 100
+      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '903436328-7',
+    stock: 87
   },
   {
     id: 2,
@@ -19,11 +19,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
-    price: 2002,
+      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
+    price: 1997,
     retailPrice: 2099,
-    sku: '455347630-4',
-    stock: 84
+    sku: '308765955-X',
+    stock: 95
   },
   {
     id: 3,
@@ -32,11 +32,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '239586074-3',
-    stock: 77
+      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+    price: 1999,
+    retailPrice: 2098,
+    sku: '895025427-1',
+    stock: 78
   },
   {
     id: 4,
@@ -45,11 +45,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
-    price: 1997,
-    retailPrice: 2101,
-    sku: '349561520-2',
-    stock: 90
+      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '987360669-6',
+    stock: 109
   },
   {
     id: 5,
@@ -58,11 +58,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
-    price: 2002,
+      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+    price: 2001,
     retailPrice: 2098,
-    sku: '679175462-1',
-    stock: 134
+    sku: '503099578-1',
+    stock: 113
   },
   {
     id: 6,
@@ -71,11 +71,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '655272350-4',
-    stock: 106
+      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '291342811-8',
+    stock: 92
   },
   {
     id: 7,
@@ -84,11 +84,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
-    price: 2003,
+      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
+    price: 1997,
     retailPrice: 2100,
-    sku: '448212420-6',
-    stock: 105
+    sku: '147335027-1',
+    stock: 93
   },
   {
     id: 8,
@@ -97,115 +97,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
-    price: 2004,
-    retailPrice: 2099,
-    sku: '715907825-X',
-    stock: 116
+      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
+    price: 2000,
+    retailPrice: 2098,
+    sku: '605475576-5',
+    stock: 86
   },
   {
     id: 9,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 2002,
-    retailPrice: 2101,
-    sku: '049405734-3',
-    stock: 114
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+    price: 1997,
+    retailPrice: 2100,
+    sku: '071232998-6',
+    stock: 92
   },
   {
     id: 10,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '815212969-0',
-    stock: 100
+      'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
+    price: 2002,
+    retailPrice: 2103,
+    sku: '907773940-8',
+    stock: 116
   },
   {
     id: 11,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.',
     price: 2000,
-    retailPrice: 2099,
-    sku: '661344114-7',
-    stock: 122
+    retailPrice: 2101,
+    sku: '270809108-5',
+    stock: 98
   },
   {
     id: 12,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
-    price: 1999,
+      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.',
+    price: 1997,
     retailPrice: 2101,
-    sku: '668377723-3',
-    stock: 133
+    sku: '112652813-7',
+    stock: 106
   },
   {
     id: 13,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '950878142-4',
-    stock: 123
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '860412654-6',
+    stock: 78
   },
   {
     id: 14,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-    price: 2003,
-    retailPrice: 2099,
-    sku: '878540362-8',
-    stock: 94
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '166296225-8',
+    stock: 113
   },
   {
     id: 15,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
+      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
     price: 2000,
     retailPrice: 2100,
-    sku: '392440986-2',
-    stock: 91
+    sku: '730311651-6',
+    stock: 102
   },
   {
     id: 16,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
-    price: 2000,
+      'Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
+    price: 1993,
     retailPrice: 2100,
-    sku: '335693573-9',
-    stock: 83
+    sku: '918738905-3',
+    stock: 111
   },
   {
     id: 17,
@@ -214,11 +214,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '694560060-2',
-    stock: 132
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
+    price: 2004,
+    retailPrice: 2098,
+    sku: '359526589-0',
+    stock: 118
   },
   {
     id: 18,
@@ -227,11 +227,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
-    price: 2001,
-    retailPrice: 2098,
-    sku: '628679976-1',
-    stock: 126
+      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '043309676-4',
+    stock: 97
   },
   {
     id: 19,
@@ -240,11 +240,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 2003,
-    retailPrice: 2101,
-    sku: '959802209-9',
-    stock: 102
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '759887789-0',
+    stock: 85
   },
   {
     id: 20,
@@ -253,11 +253,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
     price: 1997,
     retailPrice: 2100,
-    sku: '113271238-6',
-    stock: 100
+    sku: '645150634-6',
+    stock: 119
   },
   {
     id: 21,
@@ -266,11 +266,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
-    price: 1997,
-    retailPrice: 2101,
-    sku: '841749570-3',
-    stock: 102
+      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '337550310-5',
+    stock: 93
   },
   {
     id: 22,
@@ -279,11 +279,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
     price: 1997,
-    retailPrice: 2100,
-    sku: '742525957-5',
-    stock: 89
+    retailPrice: 2098,
+    sku: '932547307-0',
+    stock: 103
   },
   {
     id: 23,
@@ -292,11 +292,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
-    price: 1999,
-    retailPrice: 2106,
-    sku: '261158107-X',
-    stock: 116
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 1995,
+    retailPrice: 2100,
+    sku: '567672239-8',
+    stock: 89
   },
   {
     id: 24,
@@ -305,115 +305,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
-    price: 1998,
-    retailPrice: 2097,
-    sku: '621161597-3',
-    stock: 111
+      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    price: 1995,
+    retailPrice: 2099,
+    sku: '994580512-6',
+    stock: 82
   },
   {
     id: 25,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
-    price: 2001,
-    retailPrice: 2099,
-    sku: '260763763-5',
-    stock: 73
+      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 2002,
+    retailPrice: 2097,
+    sku: '997558024-6',
+    stock: 95
   },
   {
     id: 26,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
-    price: 1994,
+      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
+    price: 1999,
     retailPrice: 2101,
-    sku: '382799326-1',
-    stock: 81
+    sku: '876764051-6',
+    stock: 128
   },
   {
     id: 27,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+      'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
     price: 1998,
     retailPrice: 2098,
-    sku: '422649779-1',
-    stock: 127
+    sku: '634405147-7',
+    stock: 93
   },
   {
     id: 28,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
-    price: 2000,
+      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
+    price: 1998,
     retailPrice: 2100,
-    sku: '264538964-3',
+    sku: '975345843-6',
     stock: 92
   },
   {
     id: 29,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
-    price: 1997,
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
+    price: 1998,
     retailPrice: 2102,
-    sku: '484567320-7',
+    sku: '280865022-1',
     stock: 103
   },
   {
     id: 30,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-    price: 2002,
-    retailPrice: 2097,
-    sku: '728241099-2',
-    stock: 110
+      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
+    price: 2006,
+    retailPrice: 2099,
+    sku: '727635856-9',
+    stock: 127
   },
   {
     id: 31,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
-    price: 1997,
-    retailPrice: 2101,
-    sku: '134745465-9',
-    stock: 88
+      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
+    price: 2002,
+    retailPrice: 2099,
+    sku: '612220398-X',
+    stock: 100
   },
   {
     id: 32,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '822752840-6',
-    stock: 76
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
+    price: 1998,
+    retailPrice: 2102,
+    sku: '880275033-5',
+    stock: 112
   },
   {
     id: 33,
@@ -422,11 +422,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
     price: 2000,
-    retailPrice: 2099,
-    sku: '380343540-4',
-    stock: 100
+    retailPrice: 2098,
+    sku: '881793366-X',
+    stock: 92
   },
   {
     id: 34,
@@ -435,11 +435,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
-    price: 1995,
-    retailPrice: 2102,
-    sku: '472328063-4',
-    stock: 87
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    price: 1998,
+    retailPrice: 2098,
+    sku: '715740544-X',
+    stock: 97
   },
   {
     id: 35,
@@ -448,11 +448,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '691409775-5',
-    stock: 101
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '295589748-5',
+    stock: 117
   },
   {
     id: 36,
@@ -461,11 +461,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
+      'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
     price: 2000,
-    retailPrice: 2101,
-    sku: '331073504-4',
-    stock: 129
+    retailPrice: 2100,
+    sku: '762792071-X',
+    stock: 108
   },
   {
     id: 37,
@@ -474,11 +474,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 1995,
-    retailPrice: 2100,
-    sku: '683632188-5',
-    stock: 112
+      'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 1996,
+    retailPrice: 2101,
+    sku: '906501979-0',
+    stock: 105
   },
   {
     id: 38,
@@ -487,11 +487,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '857127862-8',
-    stock: 77
+      'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
+    price: 1996,
+    retailPrice: 2101,
+    sku: '911918916-8',
+    stock: 103
   },
   {
     id: 39,
@@ -500,11 +500,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 2002,
-    retailPrice: 2101,
-    sku: '609917391-9',
-    stock: 97
+      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+    price: 1995,
+    retailPrice: 2100,
+    sku: '130753014-1',
+    stock: 125
   },
   {
     id: 40,
@@ -513,115 +513,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '817449785-4',
-    stock: 106
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
+    price: 2003,
+    retailPrice: 2101,
+    sku: '494075477-4',
+    stock: 87
   },
   {
     id: 41,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
-    price: 2001,
-    retailPrice: 2101,
-    sku: '414825952-2',
-    stock: 100
+      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '856139770-5',
+    stock: 81
   },
   {
     id: 42,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
-    price: 2002,
-    retailPrice: 2100,
-    sku: '728205996-9',
-    stock: 112
+      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+    price: 1994,
+    retailPrice: 2101,
+    sku: '871694032-6',
+    stock: 134
   },
   {
     id: 43,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
-    price: 1998,
+      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
+    price: 1997,
     retailPrice: 2100,
-    sku: '670504499-3',
-    stock: 97
+    sku: '968583305-2',
+    stock: 129
   },
   {
     id: 44,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
-    price: 1995,
-    retailPrice: 2099,
-    sku: '209181618-3',
-    stock: 90
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 1998,
+    retailPrice: 2098,
+    sku: '671526870-3',
+    stock: 105
   },
   {
     id: 45,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
-    price: 1995,
-    retailPrice: 2102,
-    sku: '967900997-1',
-    stock: 113
+      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
+    price: 2004,
+    retailPrice: 2101,
+    sku: '883805779-6',
+    stock: 135
   },
   {
     id: 46,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
-    price: 1995,
-    retailPrice: 2102,
-    sku: '959144320-X',
-    stock: 102
+      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '686435151-3',
+    stock: 107
   },
   {
     id: 47,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
-    price: 2005,
-    retailPrice: 2101,
-    sku: '035805892-9',
-    stock: 106
+      'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
+    price: 1998,
+    retailPrice: 2102,
+    sku: '662302684-3',
+    stock: 100
   },
   {
     id: 48,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
-    price: 1998,
-    retailPrice: 2098,
-    sku: '410326200-1',
-    stock: 85
+      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
+    price: 1996,
+    retailPrice: 2103,
+    sku: '956443277-4',
+    stock: 111
   },
   {
     id: 49,
@@ -630,11 +630,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
-    price: 2001,
-    retailPrice: 2099,
-    sku: '047886076-5',
-    stock: 92
+      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    price: 1997,
+    retailPrice: 2100,
+    sku: '415900302-8',
+    stock: 87
   },
   {
     id: 50,
@@ -643,11 +643,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
-    price: 2004,
-    retailPrice: 2100,
-    sku: '227891374-3',
-    stock: 115
+      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 1998,
+    retailPrice: 2102,
+    sku: '356021038-0',
+    stock: 97
   },
   {
     id: 51,
@@ -656,11 +656,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.',
-    price: 1995,
-    retailPrice: 2098,
-    sku: '115814661-2',
-    stock: 96
+      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
+    price: 1996,
+    retailPrice: 2102,
+    sku: '132611691-6',
+    stock: 94
   },
   {
     id: 52,
@@ -669,11 +669,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
+      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
     price: 1999,
-    retailPrice: 2099,
-    sku: '669814993-4',
-    stock: 102
+    retailPrice: 2100,
+    sku: '901783086-7',
+    stock: 101
   },
   {
     id: 53,
@@ -682,11 +682,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
     price: 1998,
-    retailPrice: 2101,
-    sku: '116728409-7',
-    stock: 86
+    retailPrice: 2102,
+    sku: '960371686-3',
+    stock: 94
   },
   {
     id: 54,
@@ -695,11 +695,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
-    price: 1998,
-    retailPrice: 2102,
-    sku: '313071275-5',
-    stock: 80
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
+    price: 1997,
+    retailPrice: 2099,
+    sku: '355725130-6',
+    stock: 123
   },
   {
     id: 55,
@@ -708,11 +708,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
-    price: 2001,
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+    price: 1997,
     retailPrice: 2100,
-    sku: '677846143-8',
-    stock: 131
+    sku: '815060559-2',
+    stock: 89
   },
   {
     id: 56,
@@ -721,115 +721,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
-    price: 1998,
-    retailPrice: 2102,
-    sku: '245743410-6',
-    stock: 98
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    price: 2000,
+    retailPrice: 2097,
+    sku: '528558692-5',
+    stock: 87
   },
   {
     id: 57,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 1999,
+      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
+    price: 1995,
     retailPrice: 2100,
-    sku: '247608238-4',
-    stock: 118
+    sku: '222342876-2',
+    stock: 105
   },
   {
     id: 58,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
-    price: 2004,
-    retailPrice: 2099,
-    sku: '186559876-3',
-    stock: 100
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    price: 1994,
+    retailPrice: 2100,
+    sku: '020559468-9',
+    stock: 82
   },
   {
     id: 59,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '112357985-7',
-    stock: 47
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '543781744-4',
+    stock: 120
   },
   {
     id: 60,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
-    price: 2000,
-    retailPrice: 2098,
-    sku: '560338074-8',
-    stock: 84
+      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 2006,
+    retailPrice: 2099,
+    sku: '098828157-0',
+    stock: 95
   },
   {
     id: 61,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-    price: 1999,
+      'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
+    price: 1994,
     retailPrice: 2099,
-    sku: '790790685-7',
-    stock: 97
+    sku: '828249700-2',
+    stock: 86
   },
   {
     id: 62,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
     price: 2002,
     retailPrice: 2099,
-    sku: '358244392-2',
-    stock: 81
+    sku: '898794102-7',
+    stock: 107
   },
   {
     id: 63,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 1996,
-    retailPrice: 2102,
-    sku: '217929004-7',
-    stock: 85
+      'In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '264825124-3',
+    stock: 110
   },
   {
     id: 64,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
+      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
     price: 2000,
     retailPrice: 2100,
-    sku: '057817289-5',
-    stock: 104
+    sku: '397271475-0',
+    stock: 99
   },
   {
     id: 65,
@@ -838,11 +838,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
-    price: 1998,
-    retailPrice: 2097,
-    sku: '903252396-1',
-    stock: 131
+      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '211795719-6',
+    stock: 110
   },
   {
     id: 66,
@@ -851,11 +851,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.',
-    price: 2002,
-    retailPrice: 2099,
-    sku: '077879396-6',
-    stock: 56
+      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '673666502-7',
+    stock: 103
   },
   {
     id: 67,
@@ -864,11 +864,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 1998,
-    retailPrice: 2099,
-    sku: '767370464-1',
-    stock: 110
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    price: 1999,
+    retailPrice: 2102,
+    sku: '120406627-2',
+    stock: 101
   },
   {
     id: 68,
@@ -877,11 +877,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
-    price: 2000,
-    retailPrice: 2102,
-    sku: '849836639-9',
-    stock: 96
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
+    price: 2001,
+    retailPrice: 2103,
+    sku: '455624947-3',
+    stock: 97
   },
   {
     id: 69,
@@ -890,11 +890,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
-    price: 1994,
-    retailPrice: 2101,
-    sku: '927959248-3',
-    stock: 112
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '523112017-0',
+    stock: 93
   },
   {
     id: 70,
@@ -903,11 +903,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
-    price: 2000,
-    retailPrice: 2098,
-    sku: '568818608-9',
-    stock: 96
+      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '454760983-7',
+    stock: 129
   },
   {
     id: 71,
@@ -916,11 +916,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '121962146-3',
-    stock: 85
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '022025104-5',
+    stock: 100
   },
   {
     id: 72,
@@ -929,115 +929,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '799180343-0',
-    stock: 85
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    price: 2002,
+    retailPrice: 2098,
+    sku: '510565289-4',
+    stock: 67
   },
   {
     id: 73,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
-    price: 1997,
-    retailPrice: 2096,
-    sku: '289231586-7',
-    stock: 79
+      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    price: 2000,
+    retailPrice: 2098,
+    sku: '462605049-2',
+    stock: 93
   },
   {
     id: 74,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '122832248-1',
-    stock: 108
+      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '241825191-8',
+    stock: 105
   },
   {
     id: 75,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
+      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
     price: 1997,
-    retailPrice: 2101,
-    sku: '204909524-4',
-    stock: 116
+    retailPrice: 2099,
+    sku: '432215199-X',
+    stock: 106
   },
   {
     id: 76,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '849652117-6',
-    stock: 104
+      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 2000,
+    retailPrice: 2101,
+    sku: '727812125-6',
+    stock: 111
   },
   {
     id: 77,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '486525987-2',
-    stock: 84
+      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
+    price: 1995,
+    retailPrice: 2102,
+    sku: '587745686-5',
+    stock: 101
   },
   {
     id: 78,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '432171667-5',
-    stock: 96
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '468579456-7',
+    stock: 115
   },
   {
     id: 79,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 2000,
-    retailPrice: 2102,
-    sku: '019021359-0',
-    stock: 82
+      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '793795455-8',
+    stock: 135
   },
   {
     id: 80,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 1997,
-    retailPrice: 2100,
-    sku: '746607750-1',
-    stock: 101
+      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+    price: 1998,
+    retailPrice: 2102,
+    sku: '864437412-5',
+    stock: 92
   },
   {
     id: 81,
@@ -1046,11 +1046,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.',
-    price: 2001,
+      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
+    price: 2000,
     retailPrice: 2102,
-    sku: '623095770-1',
-    stock: 98
+    sku: '834788671-7',
+    stock: 99
   },
   {
     id: 82,
@@ -1059,11 +1059,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
-    price: 1996,
-    retailPrice: 2098,
-    sku: '060697667-1',
-    stock: 140
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '364756844-9',
+    stock: 93
   },
   {
     id: 83,
@@ -1072,11 +1072,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '871234940-2',
-    stock: 122
+      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    price: 1996,
+    retailPrice: 2100,
+    sku: '325440352-5',
+    stock: 104
   },
   {
     id: 84,
@@ -1085,11 +1085,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 2000,
+      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    price: 1999,
     retailPrice: 2099,
-    sku: '842967925-1',
-    stock: 89
+    sku: '110692807-5',
+    stock: 99
   },
   {
     id: 85,
@@ -1098,11 +1098,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '989149578-7',
-    stock: 85
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 1995,
+    retailPrice: 2099,
+    sku: '154706536-2',
+    stock: 119
   },
   {
     id: 86,
@@ -1111,11 +1111,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '846551289-2',
-    stock: 87
+      'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
+    price: 1996,
+    retailPrice: 2100,
+    sku: '196411674-0',
+    stock: 97
   },
   {
     id: 87,
@@ -1124,11 +1124,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '820590421-9',
-    stock: 67
+      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    price: 1997,
+    retailPrice: 2098,
+    sku: '703106729-4',
+    stock: 96
   },
   {
     id: 88,
@@ -1137,115 +1137,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
-    price: 1999,
+      'Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.',
+    price: 2000,
     retailPrice: 2099,
-    sku: '023460180-9',
-    stock: 100
+    sku: '430812092-6',
+    stock: 113
   },
   {
     id: 89,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '817772944-6',
-    stock: 117
+      'Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '874428726-7',
+    stock: 102
   },
   {
     id: 90,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
-    price: 1995,
-    retailPrice: 2099,
-    sku: '814611705-8',
-    stock: 66
-  },
-  {
-    id: 91,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
-    description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
-    price: 2002,
-    retailPrice: 2099,
-    sku: '142034916-3',
-    stock: 118
-  },
-  {
-    id: 92,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
-    description:
-      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
-    price: 1998,
-    retailPrice: 2098,
-    sku: '175249118-1',
-    stock: 111
-  },
-  {
-    id: 93,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
-    description:
-      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
-    price: 2002,
-    retailPrice: 2097,
-    sku: '819944809-1',
+      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
+    price: 1997,
+    retailPrice: 2100,
+    sku: '225088697-0',
     stock: 106
   },
   {
-    id: 94,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    id: 91,
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
-    price: 2000,
-    retailPrice: 2097,
-    sku: '171440274-6',
-    stock: 85
+      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '991531974-6',
+    stock: 98
+  },
+  {
+    id: 92,
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
+    description:
+      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 1994,
+    retailPrice: 2101,
+    sku: '594187332-8',
+    stock: 119
+  },
+  {
+    id: 93,
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
+    description:
+      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
+    price: 1996,
+    retailPrice: 2102,
+    sku: '111164177-3',
+    stock: 86
+  },
+  {
+    id: 94,
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
+    description:
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '048530541-0',
+    stock: 125
   },
   {
     id: 95,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 2000,
-    retailPrice: 2098,
-    sku: '817619698-3',
-    stock: 109
+      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '614112645-6',
+    stock: 85
   },
   {
     id: 96,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
-    price: 1995,
-    retailPrice: 2100,
-    sku: '921868900-2',
-    stock: 85
+      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
+    price: 2000,
+    retailPrice: 2101,
+    sku: '134365811-X',
+    stock: 127
   },
   {
     id: 97,
@@ -1254,11 +1254,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-    price: 1998,
+      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
+    price: 2000,
     retailPrice: 2100,
-    sku: '733061049-6',
-    stock: 81
+    sku: '786816223-6',
+    stock: 87
   },
   {
     id: 98,
@@ -1267,11 +1267,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    price: 1999,
-    retailPrice: 2101,
-    sku: '282101551-8',
-    stock: 94
+      'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
+    price: 1997,
+    retailPrice: 2098,
+    sku: '811652192-6',
+    stock: 130
   },
   {
     id: 99,
@@ -1280,11 +1280,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
     price: 1998,
     retailPrice: 2101,
-    sku: '981210293-0',
-    stock: 90
+    sku: '852338834-6',
+    stock: 115
   },
   {
     id: 100,
@@ -1293,11 +1293,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
     price: 1999,
-    retailPrice: 2102,
-    sku: '396343401-5',
-    stock: 110
+    retailPrice: 2099,
+    sku: '907074842-8',
+    stock: 106
   },
   {
     id: 101,
@@ -1306,11 +1306,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    price: 1994,
-    retailPrice: 2101,
-    sku: '342302080-6',
-    stock: 93
+      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
+    price: 2002,
+    retailPrice: 2102,
+    sku: '008261879-8',
+    stock: 87
   },
   {
     id: 102,
@@ -1319,11 +1319,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
-    price: 2000,
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
+    price: 1996,
     retailPrice: 2100,
-    sku: '697322621-3',
-    stock: 120
+    sku: '115965005-5',
+    stock: 121
   },
   {
     id: 103,
@@ -1332,11 +1332,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 1996,
-    retailPrice: 2099,
-    sku: '174790138-5',
-    stock: 119
+      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
+    price: 1995,
+    retailPrice: 2103,
+    sku: '630117905-6',
+    stock: 86
   },
   {
     id: 104,
@@ -1345,115 +1345,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 1997,
-    retailPrice: 2100,
-    sku: '646603762-2',
-    stock: 134
+      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
+    price: 1992,
+    retailPrice: 2098,
+    sku: '279510432-6',
+    stock: 117
   },
   {
     id: 105,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
-    price: 2002,
-    retailPrice: 2100,
-    sku: '038769080-8',
-    stock: 115
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '748921804-7',
+    stock: 88
   },
   {
     id: 106,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '127065931-6',
-    stock: 89
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '301455976-8',
+    stock: 111
   },
   {
     id: 107,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
-    price: 2004,
-    retailPrice: 2101,
-    sku: '543451838-1',
-    stock: 103
+      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    price: 1997,
+    retailPrice: 2098,
+    sku: '931298533-7',
+    stock: 84
   },
   {
     id: 108,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
-    price: 2002,
-    retailPrice: 2102,
-    sku: '474358465-5',
-    stock: 118
+      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
+    price: 1997,
+    retailPrice: 2099,
+    sku: '521466338-2',
+    stock: 117
   },
   {
     id: 109,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
-    price: 1999,
-    retailPrice: 2104,
-    sku: '767608261-7',
-    stock: 75
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
+    price: 1997,
+    retailPrice: 2099,
+    sku: '289359878-1',
+    stock: 111
   },
   {
     id: 110,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
     price: 1998,
-    retailPrice: 2097,
-    sku: '786059411-0',
-    stock: 100
+    retailPrice: 2099,
+    sku: '412148060-0',
+    stock: 101
   },
   {
     id: 111,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
-    price: 2001,
-    retailPrice: 2102,
-    sku: '603540552-5',
-    stock: 126
+      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '764971766-6',
+    stock: 127
   },
   {
     id: 112,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
-    price: 2006,
-    retailPrice: 2100,
-    sku: '208199459-3',
-    stock: 99
+      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
+    price: 2000,
+    retailPrice: 2098,
+    sku: '632989550-3',
+    stock: 98
   },
   {
     id: 113,
@@ -1462,11 +1462,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '427736048-3',
-    stock: 105
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    price: 2002,
+    retailPrice: 2099,
+    sku: '620221723-5',
+    stock: 82
   },
   {
     id: 114,
@@ -1475,11 +1475,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '788227487-9',
-    stock: 134
+      'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.',
+    price: 1996,
+    retailPrice: 2098,
+    sku: '465617833-0',
+    stock: 84
   },
   {
     id: 115,
@@ -1488,11 +1488,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
-    price: 1998,
-    retailPrice: 2097,
-    sku: '046929974-6',
-    stock: 97
+      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 1999,
+    retailPrice: 2102,
+    sku: '235071089-0',
+    stock: 103
   },
   {
     id: 116,
@@ -1501,11 +1501,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
-    price: 2001,
-    retailPrice: 2099,
-    sku: '354216590-5',
-    stock: 105
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '186135113-5',
+    stock: 75
   },
   {
     id: 117,
@@ -1514,11 +1514,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '214753893-0',
-    stock: 85
+      'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+    price: 1997,
+    retailPrice: 2102,
+    sku: '967160789-6',
+    stock: 98
   },
   {
     id: 118,
@@ -1527,11 +1527,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
-    price: 1999,
-    retailPrice: 2099,
-    sku: '486466463-3',
-    stock: 112
+      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '187637254-0',
+    stock: 93
   },
   {
     id: 119,
@@ -1540,11 +1540,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
-    price: 1992,
+      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
+    price: 2000,
     retailPrice: 2101,
-    sku: '006020189-4',
-    stock: 136
+    sku: '153092978-4',
+    stock: 101
   },
   {
     id: 120,
@@ -1553,115 +1553,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-    price: 1996,
-    retailPrice: 2102,
-    sku: '330540155-9',
-    stock: 95
-  },
-  {
-    id: 121,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
-    description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 2003,
-    retailPrice: 2099,
-    sku: '112397517-5',
-    stock: 103
-  },
-  {
-    id: 122,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
-    description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 2000,
-    retailPrice: 2103,
-    sku: '293131243-6',
+      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '092769431-X',
     stock: 97
   },
   {
-    id: 123,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    id: 121,
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
-    price: 1998,
-    retailPrice: 2099,
-    sku: '485016904-X',
-    stock: 107
+      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
+    price: 1995,
+    retailPrice: 2102,
+    sku: '687903518-3',
+    stock: 155
+  },
+  {
+    id: 122,
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
+    description:
+      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
+    price: 1996,
+    retailPrice: 2098,
+    sku: '498309315-X',
+    stock: 104
+  },
+  {
+    id: 123,
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
+    description:
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
+    price: 1997,
+    retailPrice: 2102,
+    sku: '187104111-2',
+    stock: 104
   },
   {
     id: 124,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
-    price: 1996,
-    retailPrice: 2098,
-    sku: '424290744-3',
-    stock: 73
+      'Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
+    price: 2000,
+    retailPrice: 2102,
+    sku: '132904069-4',
+    stock: 122
   },
   {
     id: 125,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
-    price: 2000,
-    retailPrice: 2102,
-    sku: '964624866-7',
-    stock: 127
+      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    price: 2002,
+    retailPrice: 2099,
+    sku: '616772434-2',
+    stock: 121
   },
   {
     id: 126,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    price: 1994,
-    retailPrice: 2100,
-    sku: '520473043-5',
-    stock: 110
+      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
+    price: 1995,
+    retailPrice: 2101,
+    sku: '455084095-1',
+    stock: 90
   },
   {
     id: 127,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
     price: 2000,
-    retailPrice: 2101,
-    sku: '688050975-4',
-    stock: 102
+    retailPrice: 2102,
+    sku: '280170305-2',
+    stock: 107
   },
   {
     id: 128,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
-    price: 2001,
-    retailPrice: 2099,
-    sku: '417906950-4',
-    stock: 69
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
+    price: 1997,
+    retailPrice: 2098,
+    sku: '923376510-5',
+    stock: 89
   },
   {
     id: 129,
@@ -1670,11 +1670,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 1993,
-    retailPrice: 2101,
-    sku: '685997992-5',
-    stock: 93
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
+    price: 2003,
+    retailPrice: 2100,
+    sku: '733658236-2',
+    stock: 99
   },
   {
     id: 130,
@@ -1683,11 +1683,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
-    price: 1999,
-    retailPrice: 2101,
-    sku: '448084796-0',
-    stock: 97
+      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
+    price: 1996,
+    retailPrice: 2100,
+    sku: '606432218-7',
+    stock: 89
   },
   {
     id: 131,
@@ -1696,11 +1696,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
-    price: 2001,
-    retailPrice: 2098,
-    sku: '585634467-7',
-    stock: 69
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '747038347-6',
+    stock: 120
   },
   {
     id: 132,
@@ -1709,11 +1709,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-    price: 2002,
-    retailPrice: 2103,
-    sku: '220077137-1',
-    stock: 114
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '664272349-X',
+    stock: 105
   },
   {
     id: 133,
@@ -1722,11 +1722,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '088880563-2',
-    stock: 102
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '438025744-4',
+    stock: 90
   },
   {
     id: 134,
@@ -1735,11 +1735,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
-    price: 2001,
-    retailPrice: 2097,
-    sku: '787881287-X',
-    stock: 99
+      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '489547010-5',
+    stock: 89
   },
   {
     id: 135,
@@ -1748,11 +1748,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 1999,
-    retailPrice: 2103,
-    sku: '607957017-3',
-    stock: 90
+      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '457944375-6',
+    stock: 95
   },
   {
     id: 136,
@@ -1761,115 +1761,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
-    price: 2005,
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
+    price: 1998,
     retailPrice: 2100,
-    sku: '178189189-3',
-    stock: 98
+    sku: '022528152-X',
+    stock: 119
   },
   {
     id: 137,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '233973637-4',
-    stock: 63
+      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 1999,
+    retailPrice: 2098,
+    sku: '497760387-7',
+    stock: 81
   },
   {
     id: 138,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
-    price: 2001,
+      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
+    price: 1999,
     retailPrice: 2100,
-    sku: '371704952-6',
-    stock: 100
+    sku: '456786712-2',
+    stock: 101
   },
   {
     id: 139,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
+      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
     price: 1997,
-    retailPrice: 2100,
-    sku: '758645139-7',
-    stock: 105
+    retailPrice: 2102,
+    sku: '454425826-X',
+    stock: 98
   },
   {
     id: 140,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
-    price: 1994,
-    retailPrice: 2102,
-    sku: '543302213-7',
-    stock: 120
-  },
-  {
-    id: 141,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
-    description:
-      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',
-    price: 2002,
-    retailPrice: 2102,
-    sku: '814674113-4',
+      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '516690520-2',
     stock: 94
   },
   {
-    id: 142,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    id: 141,
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.',
-    price: 1999,
-    retailPrice: 2098,
-    sku: '942694338-2',
-    stock: 130
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+    price: 2004,
+    retailPrice: 2103,
+    sku: '759342585-1',
+    stock: 86
+  },
+  {
+    id: 142,
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
+    description:
+      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
+    price: 1998,
+    retailPrice: 2097,
+    sku: '505836396-8',
+    stock: 88
   },
   {
     id: 143,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
-    price: 1998,
-    retailPrice: 2102,
-    sku: '453101215-1',
-    stock: 93
+      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '743092665-7',
+    stock: 94
   },
   {
     id: 144,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
-    price: 1998,
-    retailPrice: 2099,
-    sku: '628759295-8',
-    stock: 100
+      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
+    price: 1994,
+    retailPrice: 2100,
+    sku: '264495756-7',
+    stock: 107
   },
   {
     id: 145,
@@ -1878,11 +1878,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-    price: 1996,
-    retailPrice: 2099,
-    sku: '172416961-0',
-    stock: 91
+      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '315189626-X',
+    stock: 85
   },
   {
     id: 146,
@@ -1891,10 +1891,10 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
-    price: 2000,
-    retailPrice: 2102,
-    sku: '305444621-2',
+      'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
+    price: 2002,
+    retailPrice: 2100,
+    sku: '081617333-8',
     stock: 91
   },
   {
@@ -1904,11 +1904,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 2003,
-    retailPrice: 2097,
-    sku: '422418757-4',
-    stock: 67
+      'Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    price: 1999,
+    retailPrice: 2103,
+    sku: '397759752-3',
+    stock: 129
   },
   {
     id: 148,
@@ -1917,11 +1917,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
-    price: 1995,
-    retailPrice: 2097,
-    sku: '317179858-1',
-    stock: 126
+      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
+    price: 2004,
+    retailPrice: 2099,
+    sku: '623287655-5',
+    stock: 115
   },
   {
     id: 149,
@@ -1930,11 +1930,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
-    price: 1998,
-    retailPrice: 2103,
-    sku: '478914416-X',
-    stock: 109
+      'Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    price: 1997,
+    retailPrice: 2100,
+    sku: '911193586-3',
+    stock: 98
   },
   {
     id: 150,
@@ -1943,11 +1943,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '819245141-0',
-    stock: 79
+      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '318231257-X',
+    stock: 112
   },
   {
     id: 151,
@@ -1956,11 +1956,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 1999,
-    retailPrice: 2101,
-    sku: '994341663-7',
-    stock: 115
+      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '576959654-6',
+    stock: 134
   },
   {
     id: 152,
@@ -1969,115 +1969,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    price: 2003,
-    retailPrice: 2100,
-    sku: '769537923-9',
-    stock: 94
+      'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+    price: 2000,
+    retailPrice: 2098,
+    sku: '863190380-9',
+    stock: 101
   },
   {
     id: 153,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
-    price: 2000,
-    retailPrice: 2097,
-    sku: '663447357-9',
-    stock: 109
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '064705738-7',
+    stock: 86
   },
   {
     id: 154,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
-    price: 2001,
-    retailPrice: 2102,
-    sku: '156315377-7',
-    stock: 102
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '947724994-7',
+    stock: 112
   },
   {
     id: 155,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 1996,
-    retailPrice: 2100,
-    sku: '160667387-4',
-    stock: 100
+      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 1999,
+    retailPrice: 2103,
+    sku: '948607084-9',
+    stock: 115
   },
   {
     id: 156,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    price: 1998,
-    retailPrice: 2096,
-    sku: '560117248-X',
-    stock: 96
+      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    price: 2002,
+    retailPrice: 2100,
+    sku: '391159700-2',
+    stock: 125
   },
   {
     id: 157,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 2004,
-    retailPrice: 2102,
-    sku: '225346255-1',
-    stock: 97
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '119330702-3',
+    stock: 103
   },
   {
     id: 158,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 2003,
-    retailPrice: 2100,
-    sku: '002586432-7',
-    stock: 110
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
+    price: 1994,
+    retailPrice: 2098,
+    sku: '731784862-X',
+    stock: 94
   },
   {
     id: 159,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
     price: 1999,
-    retailPrice: 2101,
-    sku: '223275571-1',
-    stock: 97
+    retailPrice: 2103,
+    sku: '668364561-2',
+    stock: 87
   },
   {
     id: 160,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
     price: 1999,
-    retailPrice: 2099,
-    sku: '520254660-2',
-    stock: 106
+    retailPrice: 2100,
+    sku: '955989536-2',
+    stock: 115
   },
   {
     id: 161,
@@ -2086,11 +2086,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '938306600-8',
-    stock: 113
+      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
+    price: 1997,
+    retailPrice: 2099,
+    sku: '974660724-3',
+    stock: 97
   },
   {
     id: 162,
@@ -2099,11 +2099,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
-    price: 1997,
-    retailPrice: 2100,
-    sku: '441676643-2',
-    stock: 113
+      'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.',
+    price: 2001,
+    retailPrice: 2102,
+    sku: '619684641-8',
+    stock: 114
   },
   {
     id: 163,
@@ -2112,11 +2112,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 1993,
+      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+    price: 2001,
     retailPrice: 2102,
-    sku: '929228055-4',
-    stock: 117
+    sku: '304899345-2',
+    stock: 122
   },
   {
     id: 164,
@@ -2125,11 +2125,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-    price: 1996,
-    retailPrice: 2099,
-    sku: '281864782-7',
-    stock: 93
+      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
+    price: 2000,
+    retailPrice: 2101,
+    sku: '902454809-8',
+    stock: 85
   },
   {
     id: 165,
@@ -2139,10 +2139,10 @@ const dummyProducts = [
     albumTitle: 'Walk Dance Talk Sing',
     description:
       'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '362673143-X',
-    stock: 108
+    price: 1997,
+    retailPrice: 2098,
+    sku: '641991662-3',
+    stock: 114
   },
   {
     id: 166,
@@ -2151,11 +2151,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
-    price: 2001,
+      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 1997,
     retailPrice: 2100,
-    sku: '273823939-0',
-    stock: 110
+    sku: '540117111-0',
+    stock: 111
   },
   {
     id: 167,
@@ -2164,11 +2164,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
     price: 1999,
-    retailPrice: 2102,
-    sku: '730030881-3',
-    stock: 107
+    retailPrice: 2098,
+    sku: '488754949-0',
+    stock: 97
   },
   {
     id: 168,
@@ -2177,115 +2177,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
-    price: 1997,
-    retailPrice: 2100,
-    sku: '779971659-2',
-    stock: 73
+      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
+    price: 1996,
+    retailPrice: 2102,
+    sku: '070033799-7',
+    stock: 83
   },
   {
     id: 169,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '068848640-1',
-    stock: 106
+      'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.',
+    price: 1998,
+    retailPrice: 2098,
+    sku: '402397212-6',
+    stock: 112
   },
   {
     id: 170,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
-    price: 2003,
-    retailPrice: 2099,
-    sku: '051829456-0',
-    stock: 101
+      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
+    price: 1995,
+    retailPrice: 2100,
+    sku: '748579174-5',
+    stock: 113
   },
   {
     id: 171,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 2002,
-    retailPrice: 2102,
-    sku: '273299412-X',
-    stock: 115
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '891988431-5',
+    stock: 90
   },
   {
     id: 172,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
-    price: 1998,
-    retailPrice: 2104,
-    sku: '997102993-6',
+      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    price: 1994,
+    retailPrice: 2101,
+    sku: '509397575-3',
     stock: 96
   },
   {
     id: 173,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-    price: 1998,
-    retailPrice: 2103,
-    sku: '002705510-8',
-    stock: 115
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '659972254-7',
+    stock: 141
   },
   {
     id: 174,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.',
-    price: 1996,
-    retailPrice: 2097,
-    sku: '141395099-X',
-    stock: 110
+      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 2000,
+    retailPrice: 2102,
+    sku: '000956884-0',
+    stock: 94
   },
   {
     id: 175,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
-    price: 1999,
+      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',
+    price: 2001,
     retailPrice: 2098,
-    sku: '897099269-3',
-    stock: 98
+    sku: '243888061-9',
+    stock: 84
   },
   {
     id: 176,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 1995,
-    retailPrice: 2101,
-    sku: '886006241-1',
-    stock: 117
+      'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+    price: 1996,
+    retailPrice: 2097,
+    sku: '804683873-X',
+    stock: 88
   },
   {
     id: 177,
@@ -2294,11 +2294,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '011526031-5',
-    stock: 92
+      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
+    price: 2004,
+    retailPrice: 2099,
+    sku: '006236248-8',
+    stock: 98
   },
   {
     id: 178,
@@ -2307,11 +2307,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
-    price: 1997,
+      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 1998,
     retailPrice: 2100,
-    sku: '400565272-7',
-    stock: 70
+    sku: '735651598-9',
+    stock: 84
   },
   {
     id: 179,
@@ -2320,11 +2320,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-    price: 2003,
-    retailPrice: 2100,
-    sku: '683734728-4',
-    stock: 101
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
+    price: 1996,
+    retailPrice: 2101,
+    sku: '337542467-1',
+    stock: 116
   },
   {
     id: 180,
@@ -2333,11 +2333,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
-    price: 1995,
-    retailPrice: 2099,
-    sku: '794168595-7',
-    stock: 77
+      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
+    price: 1996,
+    retailPrice: 2097,
+    sku: '193228402-8',
+    stock: 87
   },
   {
     id: 181,
@@ -2346,11 +2346,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
-    price: 1994,
+      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+    price: 1996,
     retailPrice: 2100,
-    sku: '907995572-8',
-    stock: 94
+    sku: '468880141-6',
+    stock: 108
   },
   {
     id: 182,
@@ -2359,11 +2359,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
-    price: 1999,
-    retailPrice: 2099,
-    sku: '223934223-4',
-    stock: 102
+      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
+    price: 1997,
+    retailPrice: 2100,
+    sku: '977242668-4',
+    stock: 68
   },
   {
     id: 183,
@@ -2372,11 +2372,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
-    price: 1996,
-    retailPrice: 2100,
-    sku: '596785757-5',
-    stock: 97
+      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
+    price: 2003,
+    retailPrice: 2101,
+    sku: '938691954-0',
+    stock: 104
   },
   {
     id: 184,
@@ -2385,115 +2385,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
-    price: 2002,
-    retailPrice: 2100,
-    sku: '904394988-4',
-    stock: 122
+      'Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '156442464-2',
+    stock: 82
   },
   {
     id: 185,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
-    price: 2000,
+      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
+    price: 1996,
     retailPrice: 2098,
-    sku: '192322230-9',
-    stock: 96
+    sku: '605507558-X',
+    stock: 104
   },
   {
     id: 186,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.',
-    price: 1998,
-    retailPrice: 2098,
-    sku: '380786703-1',
-    stock: 99
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
+    price: 1993,
+    retailPrice: 2100,
+    sku: '847900239-5',
+    stock: 101
   },
   {
     id: 187,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 2001,
-    retailPrice: 2101,
-    sku: '061072327-8',
-    stock: 106
+      'In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '521545836-7',
+    stock: 136
   },
   {
     id: 188,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '406997892-5',
-    stock: 105
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
+    price: 2002,
+    retailPrice: 2100,
+    sku: '794653537-6',
+    stock: 79
   },
   {
     id: 189,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 1997,
-    retailPrice: 2101,
-    sku: '911761217-9',
-    stock: 118
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
+    price: 2004,
+    retailPrice: 2098,
+    sku: '877401894-9',
+    stock: 95
   },
   {
     id: 190,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
-    price: 2004,
-    retailPrice: 2100,
-    sku: '995709008-9',
-    stock: 94
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '786392202-X',
+    stock: 90
   },
   {
     id: 191,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 2002,
-    retailPrice: 2102,
-    sku: '635707924-3',
-    stock: 80
+      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '250353316-7',
+    stock: 122
   },
   {
     id: 192,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
-    price: 1998,
-    retailPrice: 2099,
-    sku: '544973735-1',
-    stock: 86
+      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+    price: 2000,
+    retailPrice: 2098,
+    sku: '489483432-4',
+    stock: 119
   },
   {
     id: 193,
@@ -2502,11 +2502,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
-    price: 2001,
-    retailPrice: 2099,
-    sku: '304958485-8',
-    stock: 131
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 1996,
+    retailPrice: 2100,
+    sku: '822195766-6',
+    stock: 95
   },
   {
     id: 194,
@@ -2515,11 +2515,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
-    price: 1996,
-    retailPrice: 2101,
-    sku: '665641378-1',
-    stock: 89
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '431476451-1',
+    stock: 70
   },
   {
     id: 195,
@@ -2528,11 +2528,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
-    price: 1999,
-    retailPrice: 2101,
-    sku: '512828424-7',
-    stock: 119
+      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '584404111-9',
+    stock: 81
   },
   {
     id: 196,
@@ -2541,11 +2541,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '897934352-3',
-    stock: 94
+      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '512569631-5',
+    stock: 97
   },
   {
     id: 197,
@@ -2554,11 +2554,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
+      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
     price: 1999,
-    retailPrice: 2100,
-    sku: '123224491-0',
-    stock: 81
+    retailPrice: 2099,
+    sku: '474951365-2',
+    stock: 88
   },
   {
     id: 198,
@@ -2567,11 +2567,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
-    price: 1996,
-    retailPrice: 2103,
-    sku: '109101555-4',
-    stock: 115
+      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '581888363-9',
+    stock: 117
   },
   {
     id: 199,
@@ -2580,11 +2580,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
+      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
     price: 1997,
     retailPrice: 2099,
-    sku: '773556158-X',
-    stock: 83
+    sku: '268598171-3',
+    stock: 78
   },
   {
     id: 200,
@@ -2593,115 +2593,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    price: 1996,
-    retailPrice: 2102,
-    sku: '247004369-7',
-    stock: 92
+      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '568626668-9',
+    stock: 75
   },
   {
     id: 201,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '094314510-4',
-    stock: 92
+      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
+    price: 1999,
+    retailPrice: 2098,
+    sku: '414349055-2',
+    stock: 102
   },
   {
     id: 202,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
-    price: 1994,
+      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    price: 2001,
     retailPrice: 2100,
-    sku: '695953949-8',
-    stock: 85
+    sku: '763144772-1',
+    stock: 71
   },
   {
     id: 203,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '927750984-8',
-    stock: 78
+      'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
+    price: 2004,
+    retailPrice: 2099,
+    sku: '797941044-0',
+    stock: 119
   },
   {
     id: 204,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    price: 1996,
-    retailPrice: 2100,
-    sku: '955342227-6',
-    stock: 125
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '929207964-6',
+    stock: 105
   },
   {
     id: 205,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
-    price: 2004,
-    retailPrice: 2102,
-    sku: '089777497-3',
-    stock: 107
+      'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
+    price: 1995,
+    retailPrice: 2103,
+    sku: '088990587-8',
+    stock: 78
   },
   {
     id: 206,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
-    price: 2002,
-    retailPrice: 2102,
-    sku: '747889482-8',
-    stock: 109
+      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
+    price: 1995,
+    retailPrice: 2101,
+    sku: '021115894-1',
+    stock: 105
   },
   {
     id: 207,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '161447166-5',
-    stock: 83
+      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+    price: 1996,
+    retailPrice: 2097,
+    sku: '078680715-6',
+    stock: 104
   },
   {
     id: 208,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
     price: 2000,
-    retailPrice: 2102,
-    sku: '554957324-5',
-    stock: 111
+    retailPrice: 2101,
+    sku: '092878921-7',
+    stock: 113
   },
   {
     id: 209,
@@ -2710,11 +2710,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
-    price: 1998,
+      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 1997,
     retailPrice: 2100,
-    sku: '208052973-0',
-    stock: 106
+    sku: '880213481-2',
+    stock: 107
   },
   {
     id: 210,
@@ -2723,11 +2723,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
+      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
     price: 2001,
-    retailPrice: 2101,
-    sku: '465681704-X',
-    stock: 116
+    retailPrice: 2098,
+    sku: '155741967-1',
+    stock: 78
   },
   {
     id: 211,
@@ -2736,11 +2736,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '173414690-7',
-    stock: 76
+      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '303178050-7',
+    stock: 100
   },
   {
     id: 212,
@@ -2749,11 +2749,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
-    price: 1997,
-    retailPrice: 2100,
-    sku: '253117920-8',
-    stock: 131
+      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.',
+    price: 1999,
+    retailPrice: 2102,
+    sku: '873661323-1',
+    stock: 127
   },
   {
     id: 213,
@@ -2762,11 +2762,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '719836388-1',
-    stock: 125
+      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
+    price: 2001,
+    retailPrice: 2102,
+    sku: '495109659-5',
+    stock: 99
   },
   {
     id: 214,
@@ -2775,11 +2775,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
     price: 1997,
     retailPrice: 2099,
-    sku: '139113387-0',
-    stock: 103
+    sku: '084024723-0',
+    stock: 83
   },
   {
     id: 215,
@@ -2788,11 +2788,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '598909848-0',
-    stock: 94
+      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    price: 1997,
+    retailPrice: 2103,
+    sku: '862596857-0',
+    stock: 116
   },
   {
     id: 216,
@@ -2801,115 +2801,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '137252803-2',
-    stock: 122
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '826252300-8',
+    stock: 86
   },
   {
     id: 217,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 1997,
-    retailPrice: 2101,
-    sku: '793763303-4',
-    stock: 98
+      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+    price: 2000,
+    retailPrice: 2102,
+    sku: '716619806-0',
+    stock: 103
   },
   {
     id: 218,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
-    price: 1998,
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
+    price: 1999,
     retailPrice: 2103,
-    sku: '929859368-6',
-    stock: 108
+    sku: '968195125-5',
+    stock: 71
   },
   {
     id: 219,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 1998,
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
+    price: 1996,
     retailPrice: 2101,
-    sku: '880551311-3',
-    stock: 105
+    sku: '952819862-7',
+    stock: 99
   },
   {
     id: 220,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
-    price: 1999,
-    retailPrice: 2099,
-    sku: '716612110-6',
-    stock: 104
-  },
-  {
-    id: 221,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
-    description:
-      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
-    price: 1996,
-    retailPrice: 2099,
-    sku: '641697603-X',
-    stock: 113
-  },
-  {
-    id: 222,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
-    description:
-      'Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.',
-    price: 2000,
-    retailPrice: 2102,
-    sku: '812122586-8',
+      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
+    price: 2001,
+    retailPrice: 2104,
+    sku: '271591066-5',
     stock: 92
   },
   {
-    id: 223,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    id: 221,
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
-    price: 2004,
+      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    price: 1999,
     retailPrice: 2100,
-    sku: '425134032-9',
-    stock: 90
+    sku: '692949222-1',
+    stock: 120
+  },
+  {
+    id: 222,
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
+    description:
+      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '079504798-3',
+    stock: 112
+  },
+  {
+    id: 223,
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
+    description:
+      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '972421538-5',
+    stock: 89
   },
   {
     id: 224,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
+      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
     price: 1999,
-    retailPrice: 2100,
-    sku: '328196019-7',
-    stock: 87
+    retailPrice: 2098,
+    sku: '731796987-7',
+    stock: 115
   },
   {
     id: 225,
@@ -2918,11 +2918,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
-    price: 1996,
-    retailPrice: 2100,
-    sku: '872963217-X',
-    stock: 131
+      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
+    price: 1995,
+    retailPrice: 2101,
+    sku: '247468001-2',
+    stock: 96
   },
   {
     id: 226,
@@ -2931,11 +2931,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-    price: 1999,
-    retailPrice: 2102,
-    sku: '365496159-2',
-    stock: 106
+      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '544971409-2',
+    stock: 113
   },
   {
     id: 227,
@@ -2944,11 +2944,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    price: 2002,
-    retailPrice: 2099,
-    sku: '399330440-3',
-    stock: 96
+      'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '633535330-X',
+    stock: 92
   },
   {
     id: 228,
@@ -2957,11 +2957,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '598131161-4',
-    stock: 75
+      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
+    price: 1999,
+    retailPrice: 2102,
+    sku: '764691463-0',
+    stock: 67
   },
   {
     id: 229,
@@ -2970,11 +2970,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
-    price: 1999,
-    retailPrice: 2098,
-    sku: '214729528-0',
-    stock: 98
+      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '035087424-7',
+    stock: 86
   },
   {
     id: 230,
@@ -2983,11 +2983,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '185767695-5',
-    stock: 90
+      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '377076753-5',
+    stock: 105
   },
   {
     id: 231,
@@ -2996,11 +2996,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
-    price: 1995,
-    retailPrice: 2099,
-    sku: '952046188-4',
-    stock: 120
+      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
+    price: 1996,
+    retailPrice: 2101,
+    sku: '818724538-7',
+    stock: 82
   },
   {
     id: 232,
@@ -3009,115 +3009,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '676474211-1',
-    stock: 105
+      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
+    price: 2002,
+    retailPrice: 2097,
+    sku: '542058939-7',
+    stock: 84
   },
   {
     id: 233,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
-    price: 2001,
+      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
+    price: 1999,
     retailPrice: 2100,
-    sku: '594986729-7',
-    stock: 114
+    sku: '824452774-9',
+    stock: 74
   },
   {
     id: 234,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '850541327-X',
-    stock: 123
-  },
-  {
-    id: 235,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
-    description:
-      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 1996,
-    retailPrice: 2098,
-    sku: '071397348-X',
+      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '283527693-9',
     stock: 101
   },
   {
-    id: 236,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    id: 235,
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.',
-    price: 2000,
-    retailPrice: 2103,
-    sku: '996550778-3',
-    stock: 79
+      'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
+    price: 1997,
+    retailPrice: 2097,
+    sku: '422505421-7',
+    stock: 129
+  },
+  {
+    id: 236,
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
+    description:
+      'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
+    price: 2004,
+    retailPrice: 2100,
+    sku: '718155583-9',
+    stock: 86
   },
   {
     id: 237,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
     price: 1999,
     retailPrice: 2099,
-    sku: '258696679-1',
-    stock: 107
+    sku: '482426971-7',
+    stock: 82
   },
   {
     id: 238,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
-    price: 1999,
-    retailPrice: 2099,
-    sku: '963849366-6',
-    stock: 122
+      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    price: 2004,
+    retailPrice: 2101,
+    sku: '054691534-5',
+    stock: 80
   },
   {
     id: 239,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '636786983-2',
-    stock: 93
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
+    price: 2003,
+    retailPrice: 2102,
+    sku: '293889394-9',
+    stock: 83
   },
   {
     id: 240,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
-    price: 2000,
-    retailPrice: 2098,
-    sku: '201481955-6',
-    stock: 106
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
+    price: 1996,
+    retailPrice: 2101,
+    sku: '225986921-1',
+    stock: 96
   },
   {
     id: 241,
@@ -3126,11 +3126,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 1998,
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.',
+    price: 2001,
     retailPrice: 2101,
-    sku: '621504622-1',
-    stock: 89
+    sku: '721112637-X',
+    stock: 84
   },
   {
     id: 242,
@@ -3139,11 +3139,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
     price: 1998,
-    retailPrice: 2102,
-    sku: '151005512-6',
-    stock: 92
+    retailPrice: 2099,
+    sku: '299892529-4',
+    stock: 103
   },
   {
     id: 243,
@@ -3152,11 +3152,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
     price: 2001,
-    retailPrice: 2099,
-    sku: '266134290-7',
-    stock: 81
+    retailPrice: 2097,
+    sku: '960532270-6',
+    stock: 110
   },
   {
     id: 244,
@@ -3165,11 +3165,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '826661017-7',
-    stock: 84
+      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
+    price: 2002,
+    retailPrice: 2102,
+    sku: '872703893-9',
+    stock: 122
   },
   {
     id: 245,
@@ -3178,11 +3178,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 1999,
-    retailPrice: 2097,
-    sku: '769281723-5',
-    stock: 98
+      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '546936242-6',
+    stock: 109
   },
   {
     id: 246,
@@ -3191,11 +3191,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
-    price: 2002,
-    retailPrice: 2098,
-    sku: '671104593-9',
-    stock: 90
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '503927755-5',
+    stock: 109
   },
   {
     id: 247,
@@ -3204,11 +3204,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 1993,
-    retailPrice: 2101,
-    sku: '578592220-7',
-    stock: 118
+      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '330682752-5',
+    stock: 98
   },
   {
     id: 248,
@@ -3217,115 +3217,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
     price: 1998,
-    retailPrice: 2101,
-    sku: '080021520-6',
-    stock: 120
+    retailPrice: 2100,
+    sku: '293400973-4',
+    stock: 66
   },
   {
     id: 249,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
-    price: 1999,
-    retailPrice: 2103,
-    sku: '462956483-7',
-    stock: 105
+      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    price: 1995,
+    retailPrice: 2100,
+    sku: '826210600-8',
+    stock: 130
   },
   {
     id: 250,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 1996,
-    retailPrice: 2102,
-    sku: '346565667-9',
-    stock: 100
-  },
-  {
-    id: 251,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
-    description:
-      'In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
-    price: 1999,
-    retailPrice: 2101,
-    sku: '576840298-5',
-    stock: 126
-  },
-  {
-    id: 252,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
-    description:
-      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 1999,
-    retailPrice: 2098,
-    sku: '832053394-5',
-    stock: 95
-  },
-  {
-    id: 253,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
-    description:
-      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '877725550-X',
-    stock: 102
-  },
-  {
-    id: 254,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
-    description:
-      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
-    price: 2003,
-    retailPrice: 2100,
-    sku: '263985841-6',
+      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.',
+    price: 2000,
+    retailPrice: 2097,
+    sku: '291532217-1',
     stock: 83
   },
   {
-    id: 255,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    id: 251,
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
+    price: 2000,
+    retailPrice: 2098,
+    sku: '418854408-2',
+    stock: 130
+  },
+  {
+    id: 252,
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
+    description:
+      'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '607965398-2',
+    stock: 100
+  },
+  {
+    id: 253,
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
+    description:
+      'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
     price: 1998,
+    retailPrice: 2098,
+    sku: '028482845-9',
+    stock: 89
+  },
+  {
+    id: 254,
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
+    description:
+      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    price: 1997,
     retailPrice: 2101,
-    sku: '274422972-5',
-    stock: 81
+    sku: '352071060-9',
+    stock: 89
+  },
+  {
+    id: 255,
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
+    description:
+      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
+    price: 1997,
+    retailPrice: 2100,
+    sku: '828102721-5',
+    stock: 80
   },
   {
     id: 256,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.',
-    price: 1996,
-    retailPrice: 2097,
-    sku: '284276341-6',
-    stock: 87
+      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    price: 1997,
+    retailPrice: 2100,
+    sku: '377516296-8',
+    stock: 97
   },
   {
     id: 257,
@@ -3334,11 +3334,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
-    price: 2000,
-    retailPrice: 2098,
-    sku: '924580392-9',
-    stock: 116
+      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '097492019-3',
+    stock: 79
   },
   {
     id: 258,
@@ -3347,11 +3347,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
-    price: 1997,
-    retailPrice: 2102,
-    sku: '929701798-3',
-    stock: 109
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
+    price: 1999,
+    retailPrice: 2103,
+    sku: '425763151-1',
+    stock: 84
   },
   {
     id: 259,
@@ -3360,11 +3360,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 1998,
-    retailPrice: 2097,
-    sku: '267383636-5',
-    stock: 100
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
+    price: 1994,
+    retailPrice: 2101,
+    sku: '838277456-3',
+    stock: 102
   },
   {
     id: 260,
@@ -3373,11 +3373,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-    price: 2003,
-    retailPrice: 2098,
-    sku: '522913760-6',
-    stock: 107
+      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '386329204-9',
+    stock: 105
   },
   {
     id: 261,
@@ -3386,11 +3386,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
-    price: 1995,
-    retailPrice: 2099,
-    sku: '685547628-7',
-    stock: 85
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
+    price: 2000,
+    retailPrice: 2102,
+    sku: '890703067-7',
+    stock: 120
   },
   {
     id: 262,
@@ -3399,11 +3399,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 1999,
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
+    price: 1996,
     retailPrice: 2101,
-    sku: '809514769-9',
-    stock: 109
+    sku: '506979872-3',
+    stock: 108
   },
   {
     id: 263,
@@ -3412,11 +3412,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
+      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
     price: 1999,
-    retailPrice: 2102,
-    sku: '180435247-0',
-    stock: 86
+    retailPrice: 2100,
+    sku: '915265737-X',
+    stock: 107
   },
   {
     id: 264,
@@ -3425,115 +3425,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
-    price: 1995,
+      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
+    price: 1999,
     retailPrice: 2100,
-    sku: '623110883-X',
-    stock: 101
+    sku: '865995388-6',
+    stock: 102
   },
   {
     id: 265,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '721071773-0',
-    stock: 107
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    price: 2002,
+    retailPrice: 2101,
+    sku: '182032309-9',
+    stock: 108
   },
   {
     id: 266,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
     price: 1999,
-    retailPrice: 2100,
-    sku: '162200431-0',
-    stock: 101
+    retailPrice: 2099,
+    sku: '116871004-9',
+    stock: 116
   },
   {
     id: 267,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-    price: 2000,
-    retailPrice: 2096,
-    sku: '494024761-9',
-    stock: 121
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '598300019-5',
+    stock: 100
   },
   {
     id: 268,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '287174583-8',
-    stock: 105
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 2006,
+    retailPrice: 2099,
+    sku: '965803962-6',
+    stock: 97
   },
   {
     id: 269,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
+      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
     price: 1997,
-    retailPrice: 2102,
-    sku: '059925384-3',
-    stock: 123
+    retailPrice: 2101,
+    sku: '140370465-1',
+    stock: 138
   },
   {
     id: 270,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
-    price: 2002,
-    retailPrice: 2101,
-    sku: '728253435-7',
-    stock: 98
+      'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
+    price: 2000,
+    retailPrice: 2102,
+    sku: '060151368-1',
+    stock: 126
   },
   {
     id: 271,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 1998,
-    retailPrice: 2099,
-    sku: '715279375-1',
-    stock: 92
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
+    price: 1996,
+    retailPrice: 2098,
+    sku: '617898091-4',
+    stock: 106
   },
   {
     id: 272,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '242115390-5',
-    stock: 98
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '454064466-1',
+    stock: 107
   },
   {
     id: 273,
@@ -3542,11 +3542,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
     price: 2002,
     retailPrice: 2101,
-    sku: '427715488-3',
-    stock: 100
+    sku: '988991028-4',
+    stock: 136
   },
   {
     id: 274,
@@ -3555,11 +3555,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
     price: 2000,
-    retailPrice: 2100,
-    sku: '650760638-3',
-    stock: 94
+    retailPrice: 2101,
+    sku: '827296637-9',
+    stock: 108
   },
   {
     id: 275,
@@ -3568,11 +3568,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '877262929-0',
-    stock: 81
+      'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.',
+    price: 1996,
+    retailPrice: 2102,
+    sku: '484226566-3',
+    stock: 115
   },
   {
     id: 276,
@@ -3581,11 +3581,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '867587349-2',
-    stock: 86
+      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '413095350-8',
+    stock: 104
   },
   {
     id: 277,
@@ -3594,10 +3594,10 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
-    price: 1997,
-    retailPrice: 2100,
-    sku: '539830075-X',
+      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
+    price: 2003,
+    retailPrice: 2101,
+    sku: '904473613-2',
     stock: 130
   },
   {
@@ -3607,11 +3607,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
-    price: 1999,
-    retailPrice: 2099,
-    sku: '971995684-4',
-    stock: 113
+      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '800763451-7',
+    stock: 105
   },
   {
     id: 279,
@@ -3620,11 +3620,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
-    price: 2002,
-    retailPrice: 2099,
-    sku: '660871567-6',
-    stock: 101
+      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '187901158-1',
+    stock: 89
   },
   {
     id: 280,
@@ -3633,115 +3633,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-    price: 1995,
-    retailPrice: 2098,
-    sku: '723345136-2',
-    stock: 109
+      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    price: 2003,
+    retailPrice: 2097,
+    sku: '783948290-2',
+    stock: 78
   },
   {
     id: 281,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
+      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
     price: 1997,
-    retailPrice: 2099,
-    sku: '669037025-9',
-    stock: 106
+    retailPrice: 2103,
+    sku: '942827745-2',
+    stock: 102
   },
   {
     id: 282,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
-    price: 2004,
-    retailPrice: 2099,
-    sku: '832352347-9',
-    stock: 91
+      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    price: 1999,
+    retailPrice: 2102,
+    sku: '878859488-2',
+    stock: 94
   },
   {
     id: 283,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
-    price: 2003,
-    retailPrice: 2100,
-    sku: '808745823-0',
-    stock: 101
+      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '213592091-6',
+    stock: 91
   },
   {
     id: 284,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
-    price: 2001,
+      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
+    price: 1998,
     retailPrice: 2100,
-    sku: '049016099-9',
-    stock: 97
+    sku: '407123740-6',
+    stock: 106
   },
   {
     id: 285,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
-    price: 1995,
-    retailPrice: 2100,
-    sku: '686323822-5',
-    stock: 93
+      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
+    price: 1996,
+    retailPrice: 2098,
+    sku: '140357674-2',
+    stock: 107
   },
   {
     id: 286,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
-    price: 1996,
-    retailPrice: 2099,
-    sku: '629691162-9',
-    stock: 84
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
+    price: 2000,
+    retailPrice: 2101,
+    sku: '216940468-6',
+    stock: 113
   },
   {
     id: 287,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
-    price: 1998,
-    retailPrice: 2099,
-    sku: '616580969-3',
-    stock: 128
+      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '377069981-5',
+    stock: 99
   },
   {
     id: 288,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '599720944-X',
-    stock: 80
+      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '814839565-9',
+    stock: 73
   },
   {
     id: 289,
@@ -3750,11 +3750,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
-    price: 1998,
-    retailPrice: 2102,
-    sku: '835994553-5',
-    stock: 105
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
+    price: 1990,
+    retailPrice: 2098,
+    sku: '700718111-2',
+    stock: 95
   },
   {
     id: 290,
@@ -3763,11 +3763,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
-    price: 2003,
-    retailPrice: 2098,
-    sku: '377519469-X',
-    stock: 99
+      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 1995,
+    retailPrice: 2099,
+    sku: '097298383-X',
+    stock: 89
   },
   {
     id: 291,
@@ -3776,11 +3776,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
-    price: 1995,
-    retailPrice: 2101,
-    sku: '924019811-3',
-    stock: 110
+      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '715903643-3',
+    stock: 115
   },
   {
     id: 292,
@@ -3789,11 +3789,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.',
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
     price: 2002,
     retailPrice: 2100,
-    sku: '414948864-9',
-    stock: 99
+    sku: '158233125-1',
+    stock: 94
   },
   {
     id: 293,
@@ -3802,11 +3802,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
     price: 1998,
-    retailPrice: 2102,
-    sku: '142642333-0',
-    stock: 115
+    retailPrice: 2098,
+    sku: '158861374-7',
+    stock: 102
   },
   {
     id: 294,
@@ -3815,11 +3815,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
-    price: 2000,
-    retailPrice: 2103,
-    sku: '505251453-0',
-    stock: 108
+      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '342382076-4',
+    stock: 95
   },
   {
     id: 295,
@@ -3828,11 +3828,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
-    price: 1998,
-    retailPrice: 2098,
-    sku: '346143427-2',
-    stock: 85
+      'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
+    price: 2005,
+    retailPrice: 2101,
+    sku: '985985696-6',
+    stock: 105
   },
   {
     id: 296,
@@ -3841,115 +3841,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
-    price: 1994,
+      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 2000,
     retailPrice: 2099,
-    sku: '972708880-5',
-    stock: 111
+    sku: '547315042-X',
+    stock: 119
   },
   {
     id: 297,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
-    price: 2005,
-    retailPrice: 2101,
-    sku: '578027609-9',
-    stock: 122
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
+    price: 2004,
+    retailPrice: 2100,
+    sku: '133335358-8',
+    stock: 114
   },
   {
     id: 298,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '755239650-4',
-    stock: 93
+      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '373185466-X',
+    stock: 87
   },
   {
     id: 299,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
-    price: 1997,
+      'In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+    price: 1999,
     retailPrice: 2101,
-    sku: '429364137-8',
-    stock: 91
+    sku: '738626284-1',
+    stock: 118
   },
   {
     id: 300,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '850088399-5',
-    stock: 109
+      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
+    price: 1996,
+    retailPrice: 2102,
+    sku: '534324746-6',
+    stock: 87
   },
   {
     id: 301,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '261064642-9',
-    stock: 123
+      'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '711434966-1',
+    stock: 86
   },
   {
     id: 302,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '353365724-8',
-    stock: 139
+      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
+    price: 1998,
+    retailPrice: 2102,
+    sku: '798350496-9',
+    stock: 74
   },
   {
     id: 303,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '646489582-6',
-    stock: 85
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
+    price: 1995,
+    retailPrice: 2098,
+    sku: '411720676-1',
+    stock: 93
   },
   {
     id: 304,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
-    price: 2002,
-    retailPrice: 2100,
-    sku: '432444810-8',
-    stock: 100
+      'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '507633598-9',
+    stock: 114
   },
   {
     id: 305,
@@ -3958,11 +3958,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
     price: 2000,
-    retailPrice: 2103,
-    sku: '375395359-8',
-    stock: 94
+    retailPrice: 2101,
+    sku: '817990979-4',
+    stock: 114
   },
   {
     id: 306,
@@ -3971,11 +3971,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
-    price: 1995,
-    retailPrice: 2098,
-    sku: '629675282-2',
-    stock: 112
+      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.',
+    price: 1997,
+    retailPrice: 2102,
+    sku: '783394198-0',
+    stock: 117
   },
   {
     id: 307,
@@ -3984,11 +3984,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
-    price: 1995,
-    retailPrice: 2098,
-    sku: '618695510-9',
-    stock: 112
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '432699859-8',
+    stock: 87
   },
   {
     id: 308,
@@ -3997,11 +3997,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
-    price: 1998,
-    retailPrice: 2103,
-    sku: '218268889-7',
-    stock: 112
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '991594053-X',
+    stock: 101
   },
   {
     id: 309,
@@ -4010,11 +4010,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '261914276-8',
-    stock: 119
+      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '411948971-X',
+    stock: 113
   },
   {
     id: 310,
@@ -4023,11 +4023,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-    price: 1998,
-    retailPrice: 2103,
-    sku: '094573166-3',
-    stock: 101
+      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
+    price: 2000,
+    retailPrice: 2102,
+    sku: '429106565-5',
+    stock: 97
   },
   {
     id: 311,
@@ -4036,11 +4036,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '236929637-2',
-    stock: 87
+      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.',
+    price: 2004,
+    retailPrice: 2101,
+    sku: '469312594-6',
+    stock: 134
   },
   {
     id: 312,
@@ -4049,115 +4049,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.',
-    price: 2001,
-    retailPrice: 2101,
-    sku: '423580658-0',
-    stock: 67
+      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    price: 2002,
+    retailPrice: 2097,
+    sku: '998720010-9',
+    stock: 83
   },
   {
     id: 313,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
-    price: 1998,
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
+    price: 2000,
     retailPrice: 2101,
-    sku: '749143433-9',
-    stock: 128
+    sku: '105193382-X',
+    stock: 94
   },
   {
     id: 314,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '027764994-3',
-    stock: 101
+      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
+    price: 1994,
+    retailPrice: 2102,
+    sku: '172838821-X',
+    stock: 114
   },
   {
     id: 315,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '893774133-4',
-    stock: 104
+      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
+    price: 1995,
+    retailPrice: 2098,
+    sku: '879706303-7',
+    stock: 99
   },
   {
     id: 316,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 2001,
-    retailPrice: 2099,
-    sku: '953901587-1',
-    stock: 115
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '185598560-8',
+    stock: 112
   },
   {
     id: 317,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '408395550-3',
-    stock: 88
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    price: 1996,
+    retailPrice: 2097,
+    sku: '528971414-6',
+    stock: 66
   },
   {
     id: 318,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
-    price: 1997,
-    retailPrice: 2101,
-    sku: '067310443-5',
-    stock: 93
+      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
+    price: 1999,
+    retailPrice: 2097,
+    sku: '159687295-0',
+    stock: 121
   },
   {
     id: 319,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
     price: 1996,
-    retailPrice: 2101,
-    sku: '636381065-5',
-    stock: 100
+    retailPrice: 2099,
+    sku: '527344502-7',
+    stock: 127
   },
   {
     id: 320,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.',
-    price: 1994,
+      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    price: 1996,
     retailPrice: 2100,
-    sku: '696063575-6',
-    stock: 92
+    sku: '011767267-X',
+    stock: 98
   },
   {
     id: 321,
@@ -4166,11 +4166,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
-    price: 2000,
-    retailPrice: 2097,
-    sku: '945991328-8',
-    stock: 74
+      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '061763554-4',
+    stock: 90
   },
   {
     id: 322,
@@ -4179,11 +4179,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
-    price: 1999,
-    retailPrice: 2101,
-    sku: '995894451-0',
-    stock: 85
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '248389128-4',
+    stock: 92
   },
   {
     id: 323,
@@ -4192,11 +4192,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
-    price: 2002,
-    retailPrice: 2099,
-    sku: '626810881-7',
-    stock: 77
+      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 1998,
+    retailPrice: 2098,
+    sku: '572341185-3',
+    stock: 123
   },
   {
     id: 324,
@@ -4205,11 +4205,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
-    price: 1999,
-    retailPrice: 2101,
-    sku: '891321696-5',
-    stock: 105
+      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '189266223-X',
+    stock: 126
   },
   {
     id: 325,
@@ -4218,11 +4218,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
-    price: 2000,
-    retailPrice: 2103,
-    sku: '928515916-8',
-    stock: 113
+      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+    price: 1996,
+    retailPrice: 2099,
+    sku: '081622545-1',
+    stock: 90
   },
   {
     id: 326,
@@ -4231,11 +4231,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    price: 1996,
-    retailPrice: 2098,
-    sku: '324152591-0',
-    stock: 84
+      'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '149121873-8',
+    stock: 100
   },
   {
     id: 327,
@@ -4244,11 +4244,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
-    price: 2002,
-    retailPrice: 2100,
-    sku: '350601711-X',
-    stock: 113
+      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '617449073-4',
+    stock: 91
   },
   {
     id: 328,
@@ -4257,115 +4257,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
-    price: 1995,
-    retailPrice: 2100,
-    sku: '035009015-7',
-    stock: 70
-  },
-  {
-    id: 329,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
-    description:
-      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.',
-    price: 2002,
-    retailPrice: 2099,
-    sku: '892515728-4',
-    stock: 123
-  },
-  {
-    id: 330,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
-    description:
-      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
-    price: 2002,
-    retailPrice: 2102,
-    sku: '532039241-9',
-    stock: 104
-  },
-  {
-    id: 331,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
-    description:
-      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '520660061-X',
-    stock: 98
-  },
-  {
-    id: 332,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
-    description:
-      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
-    price: 1997,
-    retailPrice: 2100,
-    sku: '536957079-5',
-    stock: 104
-  },
-  {
-    id: 333,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
-    description:
-      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '529104893-X',
-    stock: 122
-  },
-  {
-    id: 334,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
-    description:
-      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
     price: 2001,
-    retailPrice: 2102,
-    sku: '698436050-1',
+    retailPrice: 2100,
+    sku: '306761958-7',
     stock: 81
   },
   {
-    id: 335,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    id: 329,
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
-    price: 1995,
+      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 1996,
     retailPrice: 2101,
-    sku: '344857049-4',
-    stock: 53
+    sku: '942883855-1',
+    stock: 109
+  },
+  {
+    id: 330,
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
+    description:
+      'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '057867513-7',
+    stock: 124
+  },
+  {
+    id: 331,
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
+    description:
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
+    price: 2005,
+    retailPrice: 2100,
+    sku: '621362366-3',
+    stock: 78
+  },
+  {
+    id: 332,
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
+    description:
+      'Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
+    price: 1999,
+    retailPrice: 2102,
+    sku: '690414728-8',
+    stock: 88
+  },
+  {
+    id: 333,
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
+    description:
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
+    price: 2000,
+    retailPrice: 2097,
+    sku: '987083387-X',
+    stock: 82
+  },
+  {
+    id: 334,
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
+    description:
+      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '780992039-1',
+    stock: 92
+  },
+  {
+    id: 335,
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
+    description:
+      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    price: 2002,
+    retailPrice: 2099,
+    sku: '811634614-8',
+    stock: 95
   },
   {
     id: 336,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 1997,
-    retailPrice: 2100,
-    sku: '468796704-3',
-    stock: 96
+      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
+    price: 1995,
+    retailPrice: 2103,
+    sku: '041493930-1',
+    stock: 86
   },
   {
     id: 337,
@@ -4374,11 +4374,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
-    price: 1997,
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
+    price: 2000,
     retailPrice: 2101,
-    sku: '470946892-3',
-    stock: 116
+    sku: '920475445-1',
+    stock: 98
   },
   {
     id: 338,
@@ -4387,11 +4387,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
-    price: 2002,
+      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    price: 2004,
     retailPrice: 2102,
-    sku: '564859358-9',
-    stock: 93
+    sku: '926015161-9',
+    stock: 82
   },
   {
     id: 339,
@@ -4400,11 +4400,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '384729490-3',
-    stock: 85
+      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
+    price: 1997,
+    retailPrice: 2098,
+    sku: '908332583-0',
+    stock: 99
   },
   {
     id: 340,
@@ -4413,10 +4413,10 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
-    price: 1994,
-    retailPrice: 2099,
-    sku: '509880865-0',
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
+    price: 2003,
+    retailPrice: 2101,
+    sku: '884626715-X',
     stock: 78
   },
   {
@@ -4426,11 +4426,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.',
+      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
     price: 2000,
     retailPrice: 2099,
-    sku: '043389457-1',
-    stock: 98
+    sku: '787154156-0',
+    stock: 105
   },
   {
     id: 342,
@@ -4439,11 +4439,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '530140062-2',
-    stock: 125
+      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    price: 1999,
+    retailPrice: 2102,
+    sku: '077501004-9',
+    stock: 117
   },
   {
     id: 343,
@@ -4452,11 +4452,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
     price: 1998,
-    retailPrice: 2102,
-    sku: '664589657-3',
-    stock: 98
+    retailPrice: 2098,
+    sku: '289039526-X',
+    stock: 93
   },
   {
     id: 344,
@@ -4465,115 +4465,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '382594715-7',
-    stock: 106
+      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
+    price: 1997,
+    retailPrice: 2099,
+    sku: '005621478-2',
+    stock: 92
   },
   {
     id: 345,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
-    price: 1999,
-    retailPrice: 2101,
-    sku: '225397403-X',
-    stock: 99
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
+    price: 2001,
+    retailPrice: 2102,
+    sku: '110430551-8',
+    stock: 102
   },
   {
     id: 346,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 2001,
-    retailPrice: 2101,
-    sku: '221282952-3',
-    stock: 106
-  },
-  {
-    id: 347,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
-    description:
-      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 2001,
+      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
+    price: 1997,
     retailPrice: 2100,
-    sku: '859423619-0',
-    stock: 103
-  },
-  {
-    id: 348,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
-    description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '367446309-1',
-    stock: 93
-  },
-  {
-    id: 349,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
-    description:
-      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
-    price: 1999,
-    retailPrice: 2102,
-    sku: '530640415-4',
-    stock: 109
-  },
-  {
-    id: 350,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
-    description:
-      'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 1999,
-    retailPrice: 2105,
-    sku: '351037659-5',
+    sku: '586683425-1',
     stock: 111
   },
   {
-    id: 351,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    id: 347,
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-    price: 1998,
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 1997,
     retailPrice: 2102,
-    sku: '061992744-5',
-    stock: 104
+    sku: '981705205-2',
+    stock: 97
+  },
+  {
+    id: 348,
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
+    description:
+      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+    price: 2002,
+    retailPrice: 2100,
+    sku: '027118946-0',
+    stock: 91
+  },
+  {
+    id: 349,
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
+    description:
+      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '780397668-9',
+    stock: 92
+  },
+  {
+    id: 350,
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
+    description:
+      'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+    price: 2003,
+    retailPrice: 2098,
+    sku: '892570453-6',
+    stock: 118
+  },
+  {
+    id: 351,
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
+    description:
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '670224412-6',
+    stock: 134
   },
   {
     id: 352,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
-    price: 1995,
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+    price: 1998,
     retailPrice: 2101,
-    sku: '375438414-7',
-    stock: 86
+    sku: '692593661-3',
+    stock: 124
   },
   {
     id: 353,
@@ -4582,11 +4582,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '597256814-4',
-    stock: 85
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '831751103-0',
+    stock: 81
   },
   {
     id: 354,
@@ -4595,11 +4595,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
-    price: 2001,
-    retailPrice: 2099,
-    sku: '927114858-4',
-    stock: 92
+      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.',
+    price: 1993,
+    retailPrice: 2098,
+    sku: '954494938-0',
+    stock: 118
   },
   {
     id: 355,
@@ -4608,11 +4608,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '995872388-3',
-    stock: 76
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    price: 1999,
+    retailPrice: 2098,
+    sku: '582328974-X',
+    stock: 95
   },
   {
     id: 356,
@@ -4621,11 +4621,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
-    price: 1997,
-    retailPrice: 2102,
-    sku: '732333064-5',
-    stock: 89
+      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 2004,
+    retailPrice: 2105,
+    sku: '052975058-9',
+    stock: 122
   },
   {
     id: 357,
@@ -4634,11 +4634,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
-    price: 1996,
-    retailPrice: 2099,
-    sku: '933160037-2',
-    stock: 93
+      'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
+    price: 2000,
+    retailPrice: 2101,
+    sku: '709050347-X',
+    stock: 90
   },
   {
     id: 358,
@@ -4647,11 +4647,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
     price: 1999,
     retailPrice: 2100,
-    sku: '308661308-4',
-    stock: 108
+    sku: '052584045-1',
+    stock: 114
   },
   {
     id: 359,
@@ -4660,11 +4660,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '465788277-5',
-    stock: 99
+      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+    price: 2002,
+    retailPrice: 2098,
+    sku: '797353806-2',
+    stock: 94
   },
   {
     id: 360,
@@ -4673,115 +4673,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 2004,
+      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
+    price: 1999,
     retailPrice: 2100,
-    sku: '951805486-X',
-    stock: 93
+    sku: '655553786-8',
+    stock: 89
   },
   {
     id: 361,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
     price: 2000,
-    retailPrice: 2098,
-    sku: '365487501-7',
-    stock: 103
+    retailPrice: 2100,
+    sku: '435224349-3',
+    stock: 101
   },
   {
     id: 362,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
     price: 1999,
-    retailPrice: 2101,
-    sku: '446846346-5',
+    retailPrice: 2099,
+    sku: '750534298-3',
     stock: 106
   },
   {
     id: 363,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 1998,
-    retailPrice: 2099,
-    sku: '228538726-1',
-    stock: 107
+      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '498574251-1',
+    stock: 98
   },
   {
     id: 364,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
-    price: 1999,
-    retailPrice: 2104,
-    sku: '273670117-8',
-    stock: 115
+      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
+    price: 1995,
+    retailPrice: 2099,
+    sku: '144193033-7',
+    stock: 109
   },
   {
     id: 365,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 1995,
+      'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
+    price: 2000,
     retailPrice: 2100,
-    sku: '249351834-9',
-    stock: 56
+    sku: '506234520-0',
+    stock: 102
   },
   {
     id: 366,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
-    price: 1997,
+      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+    price: 2000,
     retailPrice: 2100,
-    sku: '254281719-7',
-    stock: 111
+    sku: '978743991-4',
+    stock: 98
   },
   {
     id: 367,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
-    price: 1996,
-    retailPrice: 2102,
-    sku: '570187482-6',
-    stock: 94
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '078227597-4',
+    stock: 103
   },
   {
     id: 368,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
-    price: 1999,
-    retailPrice: 2104,
-    sku: '669721004-4',
-    stock: 103
+      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '370025022-3',
+    stock: 122
   },
   {
     id: 369,
@@ -4790,11 +4790,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.',
-    price: 2001,
-    retailPrice: 2098,
-    sku: '228430404-4',
-    stock: 92
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '157061935-2',
+    stock: 93
   },
   {
     id: 370,
@@ -4803,11 +4803,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
+      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
     price: 1998,
-    retailPrice: 2097,
-    sku: '666954731-5',
-    stock: 91
+    retailPrice: 2101,
+    sku: '317036937-7',
+    stock: 93
   },
   {
     id: 371,
@@ -4816,10 +4816,10 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
     price: 2001,
     retailPrice: 2100,
-    sku: '442759210-4',
+    sku: '702385809-1',
     stock: 87
   },
   {
@@ -4829,11 +4829,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
-    price: 1998,
-    retailPrice: 2099,
-    sku: '972637185-6',
-    stock: 86
+      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 2000,
+    retailPrice: 2100,
+    sku: '938655303-1',
+    stock: 99
   },
   {
     id: 373,
@@ -4842,11 +4842,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 2002,
-    retailPrice: 2100,
-    sku: '894383307-5',
-    stock: 105
+      'Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.',
+    price: 2000,
+    retailPrice: 2101,
+    sku: '441563364-1',
+    stock: 104
   },
   {
     id: 374,
@@ -4855,11 +4855,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '897574281-4',
-    stock: 88
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+    price: 1996,
+    retailPrice: 2101,
+    sku: '356729411-3',
+    stock: 104
   },
   {
     id: 375,
@@ -4868,11 +4868,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
-    price: 2004,
-    retailPrice: 2103,
-    sku: '282171254-5',
-    stock: 117
+      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
+    price: 1997,
+    retailPrice: 2100,
+    sku: '133979806-9',
+    stock: 110
   },
   {
     id: 376,
@@ -4881,115 +4881,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 1999,
-    retailPrice: 2098,
-    sku: '421488708-5',
-    stock: 93
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '990753993-7',
+    stock: 90
   },
   {
     id: 377,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
-    price: 1998,
-    retailPrice: 2099,
-    sku: '658079543-3',
-    stock: 111
+      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 2000,
+    retailPrice: 2103,
+    sku: '783678257-3',
+    stock: 89
   },
   {
     id: 378,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '721487086-X',
-    stock: 93
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
+    price: 2003,
+    retailPrice: 2098,
+    sku: '549386149-6',
+    stock: 106
   },
   {
     id: 379,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '944942610-4',
-    stock: 101
+      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+    price: 2000,
+    retailPrice: 2101,
+    sku: '939986252-6',
+    stock: 112
   },
   {
     id: 380,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.',
-    price: 1997,
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
+    price: 1996,
     retailPrice: 2101,
-    sku: '942579757-9',
-    stock: 87
+    sku: '377073871-3',
+    stock: 104
   },
   {
     id: 381,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
-    price: 2001,
-    retailPrice: 2101,
-    sku: '555717651-9',
-    stock: 113
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.',
+    price: 2004,
+    retailPrice: 2103,
+    sku: '394615950-8',
+    stock: 115
   },
   {
     id: 382,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 1995,
-    retailPrice: 2101,
-    sku: '351861598-X',
-    stock: 99
+      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    price: 1996,
+    retailPrice: 2099,
+    sku: '017093663-5',
+    stock: 89
   },
   {
     id: 383,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-    price: 1996,
-    retailPrice: 2100,
-    sku: '310715302-8',
-    stock: 91
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '401756419-4',
+    stock: 113
   },
   {
     id: 384,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
-    price: 2001,
-    retailPrice: 2102,
-    sku: '890974093-0',
-    stock: 114
+      'Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
+    price: 1997,
+    retailPrice: 2100,
+    sku: '486492079-6',
+    stock: 91
   },
   {
     id: 385,
@@ -4998,11 +4998,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    price: 1999,
-    retailPrice: 2098,
-    sku: '257545458-1',
-    stock: 71
+      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '006347704-1',
+    stock: 96
   },
   {
     id: 386,
@@ -5011,11 +5011,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '783166081-X',
-    stock: 118
+      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
+    price: 1999,
+    retailPrice: 2098,
+    sku: '303310375-8',
+    stock: 94
   },
   {
     id: 387,
@@ -5024,11 +5024,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
-    price: 1994,
-    retailPrice: 2101,
-    sku: '876653881-5',
-    stock: 96
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '255129621-8',
+    stock: 100
   },
   {
     id: 388,
@@ -5037,11 +5037,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '491016781-1',
-    stock: 99
+      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+    price: 1997,
+    retailPrice: 2102,
+    sku: '489354536-1',
+    stock: 95
   },
   {
     id: 389,
@@ -5050,11 +5050,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
+      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
     price: 2000,
     retailPrice: 2100,
-    sku: '443037713-8',
-    stock: 88
+    sku: '051688849-8',
+    stock: 80
   },
   {
     id: 390,
@@ -5063,11 +5063,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
     price: 1995,
-    retailPrice: 2103,
-    sku: '883065987-8',
-    stock: 108
+    retailPrice: 2100,
+    sku: '761211545-X',
+    stock: 100
   },
   {
     id: 391,
@@ -5076,11 +5076,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-    price: 1997,
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
+    price: 2000,
     retailPrice: 2100,
-    sku: '195023092-9',
-    stock: 83
+    sku: '111048903-X',
+    stock: 86
   },
   {
     id: 392,
@@ -5089,115 +5089,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '489024943-5',
-    stock: 103
+      'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.',
+    price: 2000,
+    retailPrice: 2098,
+    sku: '176380494-1',
+    stock: 122
   },
   {
     id: 393,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-    price: 1995,
-    retailPrice: 2101,
-    sku: '077701630-3',
-    stock: 99
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    price: 2003,
+    retailPrice: 2097,
+    sku: '384976266-1',
+    stock: 114
   },
   {
     id: 394,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
-    price: 1994,
-    retailPrice: 2098,
-    sku: '787774920-1',
-    stock: 113
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
+    price: 2004,
+    retailPrice: 2101,
+    sku: '569193188-1',
+    stock: 110
   },
   {
     id: 395,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
-    price: 2001,
-    retailPrice: 2098,
-    sku: '342476677-1',
-    stock: 74
+      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '506030859-6',
+    stock: 124
   },
   {
     id: 396,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '675813658-2',
-    stock: 79
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
+    price: 1995,
+    retailPrice: 2101,
+    sku: '359734526-3',
+    stock: 113
   },
   {
     id: 397,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '575102788-4',
-    stock: 92
+      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '970633495-5',
+    stock: 100
   },
   {
     id: 398,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
-    price: 1998,
-    retailPrice: 2102,
-    sku: '441948802-6',
-    stock: 123
+      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
+    price: 1997,
+    retailPrice: 2104,
+    sku: '820169062-1',
+    stock: 119
   },
   {
     id: 399,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
-    price: 1998,
-    retailPrice: 2098,
-    sku: '767056917-4',
-    stock: 99
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '123821107-0',
+    stock: 108
   },
   {
     id: 400,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '988956604-4',
-    stock: 95
+      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    price: 2002,
+    retailPrice: 2100,
+    sku: '340992764-6',
+    stock: 103
   },
   {
     id: 401,
@@ -5206,11 +5206,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 2000,
-    retailPrice: 2097,
-    sku: '229257401-2',
-    stock: 132
+      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '953697867-9',
+    stock: 110
   },
   {
     id: 402,
@@ -5219,11 +5219,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
     price: 2001,
     retailPrice: 2100,
-    sku: '683381245-4',
-    stock: 103
+    sku: '443354698-4',
+    stock: 111
   },
   {
     id: 403,
@@ -5232,11 +5232,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+      'Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
     price: 1999,
-    retailPrice: 2100,
-    sku: '480498838-6',
-    stock: 136
+    retailPrice: 2101,
+    sku: '688134522-4',
+    stock: 119
   },
   {
     id: 404,
@@ -5245,11 +5245,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
-    price: 1999,
-    retailPrice: 2103,
-    sku: '426061996-9',
-    stock: 114
+      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 2002,
+    retailPrice: 2099,
+    sku: '385657664-9',
+    stock: 100
   },
   {
     id: 405,
@@ -5258,11 +5258,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '951922982-5',
-    stock: 95
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
+    price: 1995,
+    retailPrice: 2102,
+    sku: '929201676-8',
+    stock: 103
   },
   {
     id: 406,
@@ -5271,11 +5271,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '434871018-X',
-    stock: 141
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '855800785-3',
+    stock: 85
   },
   {
     id: 407,
@@ -5284,11 +5284,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.',
-    price: 2002,
-    retailPrice: 2100,
-    sku: '704351426-6',
-    stock: 88
+      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '352009103-8',
+    stock: 105
   },
   {
     id: 408,
@@ -5297,115 +5297,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '797946949-6',
-    stock: 87
+      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
+    price: 1999,
+    retailPrice: 2100,
+    sku: '187843743-7',
+    stock: 97
   },
   {
     id: 409,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
-    price: 2003,
+      'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
+    price: 2001,
     retailPrice: 2098,
-    sku: '919970489-7',
-    stock: 107
+    sku: '595150916-5',
+    stock: 74
   },
   {
     id: 410,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
-    price: 2000,
+      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
+    price: 1996,
     retailPrice: 2100,
-    sku: '346639755-3',
-    stock: 94
+    sku: '108480208-2',
+    stock: 86
   },
   {
     id: 411,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
-    price: 2000,
-    retailPrice: 2102,
-    sku: '282125213-7',
-    stock: 87
+      'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '149288283-6',
+    stock: 99
   },
   {
     id: 412,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 1994,
-    retailPrice: 2098,
-    sku: '217301220-7',
-    stock: 122
+      'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    price: 2004,
+    retailPrice: 2103,
+    sku: '593266604-8',
+    stock: 94
   },
   {
     id: 413,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
-    price: 2001,
-    retailPrice: 2100,
-    sku: '621997508-1',
-    stock: 121
+      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '411326807-X',
+    stock: 105
   },
   {
     id: 414,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
-    price: 2001,
-    retailPrice: 2098,
-    sku: '347966095-9',
-    stock: 82
+      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
+    price: 2000,
+    retailPrice: 2101,
+    sku: '909163987-3',
+    stock: 124
   },
   {
     id: 415,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
-    price: 2000,
-    retailPrice: 2103,
-    sku: '791298754-1',
-    stock: 76
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 1994,
+    retailPrice: 2099,
+    sku: '673199434-0',
+    stock: 102
   },
   {
     id: 416,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.',
-    price: 2003,
+      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+    price: 2002,
     retailPrice: 2100,
-    sku: '720229952-6',
-    stock: 94
+    sku: '923610310-3',
+    stock: 105
   },
   {
     id: 417,
@@ -5414,11 +5414,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '333825624-8',
-    stock: 110
+      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
+    price: 2002,
+    retailPrice: 2101,
+    sku: '435515700-8',
+    stock: 97
   },
   {
     id: 418,
@@ -5427,11 +5427,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
-    price: 1997,
-    retailPrice: 2104,
-    sku: '200798653-1',
-    stock: 104
+      'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.',
+    price: 1996,
+    retailPrice: 2103,
+    sku: '255505554-1',
+    stock: 86
   },
   {
     id: 419,
@@ -5440,11 +5440,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.',
-    price: 1993,
-    retailPrice: 2099,
-    sku: '750380440-8',
-    stock: 116
+      'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
+    price: 2003,
+    retailPrice: 2101,
+    sku: '465540755-7',
+    stock: 130
   },
   {
     id: 420,
@@ -5453,11 +5453,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    price: 1999,
-    retailPrice: 2102,
-    sku: '714018898-X',
-    stock: 129
+      'Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '229091685-4',
+    stock: 93
   },
   {
     id: 421,
@@ -5466,11 +5466,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '933440451-5',
-    stock: 94
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '004688850-0',
+    stock: 90
   },
   {
     id: 422,
@@ -5479,11 +5479,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    price: 1997,
-    retailPrice: 2100,
-    sku: '048164457-1',
-    stock: 85
+      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+    price: 1998,
+    retailPrice: 2102,
+    sku: '204287858-8',
+    stock: 89
   },
   {
     id: 423,
@@ -5492,11 +5492,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
-    price: 1996,
+      'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.',
+    price: 1999,
     retailPrice: 2101,
-    sku: '502593020-0',
-    stock: 88
+    sku: '535287081-2',
+    stock: 105
   },
   {
     id: 424,
@@ -5505,115 +5505,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',
-    price: 2001,
-    retailPrice: 2102,
-    sku: '275789750-0',
-    stock: 87
+      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
+    price: 1999,
+    retailPrice: 2098,
+    sku: '406639960-6',
+    stock: 100
   },
   {
     id: 425,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.',
-    price: 1996,
-    retailPrice: 2100,
-    sku: '302024610-5',
-    stock: 109
+      'Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '055130547-9',
+    stock: 100
   },
   {
     id: 426,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
-    price: 1999,
-    retailPrice: 2103,
-    sku: '872472121-2',
-    stock: 69
+      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
+    price: 1997,
+    retailPrice: 2101,
+    sku: '939572633-4',
+    stock: 107
   },
   {
     id: 427,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
-    price: 1999,
-    retailPrice: 2099,
-    sku: '637238569-4',
-    stock: 94
+      'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
+    price: 2002,
+    retailPrice: 2098,
+    sku: '561111427-X',
+    stock: 107
   },
   {
     id: 428,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
-    price: 2000,
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+    price: 1994,
     retailPrice: 2099,
-    sku: '682225612-1',
-    stock: 87
+    sku: '665548264-X',
+    stock: 102
   },
   {
     id: 429,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-    price: 1998,
-    retailPrice: 2098,
-    sku: '247664088-3',
-    stock: 93
+      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 2004,
+    retailPrice: 2101,
+    sku: '002274237-9',
+    stock: 101
   },
   {
     id: 430,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
+      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
     price: 2003,
-    retailPrice: 2099,
-    sku: '057489734-8',
-    stock: 79
+    retailPrice: 2101,
+    sku: '332388900-2',
+    stock: 102
   },
   {
     id: 431,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    price: 1995,
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    price: 1999,
     retailPrice: 2099,
-    sku: '975995618-7',
-    stock: 106
+    sku: '831065750-1',
+    stock: 101
   },
   {
     id: 432,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '637966059-3',
-    stock: 80
+      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '254730443-0',
+    stock: 69
   },
   {
     id: 433,
@@ -5622,11 +5622,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
-    price: 2000,
+      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
+    price: 1995,
     retailPrice: 2101,
-    sku: '740785781-4',
-    stock: 95
+    sku: '492947453-1',
+    stock: 93
   },
   {
     id: 434,
@@ -5635,11 +5635,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '749819499-6',
-    stock: 142
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
+    price: 1996,
+    retailPrice: 2101,
+    sku: '702627294-2',
+    stock: 76
   },
   {
     id: 435,
@@ -5648,11 +5648,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-    price: 2008,
-    retailPrice: 2099,
-    sku: '235526930-0',
-    stock: 103
+      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '168859887-1',
+    stock: 139
   },
   {
     id: 436,
@@ -5661,11 +5661,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 2000,
-    retailPrice: 2102,
-    sku: '656884712-7',
-    stock: 92
+      'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
+    price: 1998,
+    retailPrice: 2099,
+    sku: '656098047-2',
+    stock: 89
   },
   {
     id: 437,
@@ -5674,10 +5674,10 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-    price: 1997,
+      'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.',
+    price: 2000,
     retailPrice: 2103,
-    sku: '654657193-5',
+    sku: '102741218-1',
     stock: 96
   },
   {
@@ -5687,11 +5687,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '741929437-2',
-    stock: 98
+      'Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
+    price: 2000,
+    retailPrice: 2098,
+    sku: '679572902-8',
+    stock: 88
   },
   {
     id: 439,
@@ -5700,11 +5700,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
-    price: 1997,
-    retailPrice: 2099,
-    sku: '950857909-9',
-    stock: 93
+      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
+    price: 2001,
+    retailPrice: 2098,
+    sku: '461549071-2',
+    stock: 88
   },
   {
     id: 440,
@@ -5713,115 +5713,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
-    price: 1998,
-    retailPrice: 2102,
-    sku: '964414888-6',
-    stock: 113
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    price: 2002,
+    retailPrice: 2099,
+    sku: '605429305-2',
+    stock: 83
   },
   {
     id: 441,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    price: 2002,
+      'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    price: 1993,
     retailPrice: 2100,
-    sku: '608482640-7',
-    stock: 96
+    sku: '124600810-6',
+    stock: 92
   },
   {
     id: 442,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
+      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.',
     price: 1997,
     retailPrice: 2100,
-    sku: '054213487-X',
-    stock: 87
+    sku: '296479211-9',
+    stock: 101
   },
   {
     id: 443,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '701548631-8',
-    stock: 105
+      'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 2000,
+    retailPrice: 2099,
+    sku: '992425312-4',
+    stock: 86
   },
   {
     id: 444,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
+      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
     price: 1999,
-    retailPrice: 2098,
-    sku: '250170720-6',
-    stock: 108
+    retailPrice: 2102,
+    sku: '245375275-8',
+    stock: 106
   },
   {
     id: 445,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
     description:
-      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
-    price: 1995,
-    retailPrice: 2099,
-    sku: '815918430-1',
-    stock: 109
+      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
+    price: 2004,
+    retailPrice: 2101,
+    sku: '457948476-2',
+    stock: 98
   },
   {
     id: 446,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
     description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
-    price: 1995,
-    retailPrice: 2102,
-    sku: '710676778-6',
-    stock: 117
+      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '186307364-7',
+    stock: 102
   },
   {
     id: 447,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.',
-    price: 2001,
-    retailPrice: 2102,
-    sku: '607366033-2',
-    stock: 113
+      'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
+    price: 1996,
+    retailPrice: 2098,
+    sku: '407184603-8',
+    stock: 94
   },
   {
     id: 448,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
-    price: 1997,
-    retailPrice: 2101,
-    sku: '895405714-4',
-    stock: 101
+      'Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '208148225-8',
+    stock: 93
   },
   {
     id: 449,
@@ -5830,11 +5830,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '089878793-9',
-    stock: 94
+      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
+    price: 1996,
+    retailPrice: 2101,
+    sku: '829139270-6',
+    stock: 117
   },
   {
     id: 450,
@@ -5843,11 +5843,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
-    price: 2002,
-    retailPrice: 2101,
-    sku: '679948352-X',
-    stock: 86
+      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
+    price: 1998,
+    retailPrice: 2098,
+    sku: '309555851-1',
+    stock: 89
   },
   {
     id: 451,
@@ -5856,11 +5856,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 1997,
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
+    price: 2001,
     retailPrice: 2101,
-    sku: '861985699-5',
-    stock: 99
+    sku: '919801742-X',
+    stock: 120
   },
   {
     id: 452,
@@ -5869,11 +5869,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
-    price: 1997,
-    retailPrice: 2103,
-    sku: '072226460-7',
-    stock: 73
+      'In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
+    price: 2003,
+    retailPrice: 2101,
+    sku: '143326629-6',
+    stock: 114
   },
   {
     id: 453,
@@ -5882,11 +5882,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.',
-    price: 1998,
-    retailPrice: 2102,
-    sku: '582212114-4',
-    stock: 132
+      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '698467930-3',
+    stock: 127
   },
   {
     id: 454,
@@ -5895,11 +5895,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-    price: 2000,
-    retailPrice: 2099,
-    sku: '486012914-8',
-    stock: 98
+      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '588940113-0',
+    stock: 106
   },
   {
     id: 455,
@@ -5908,11 +5908,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
-    price: 1998,
-    retailPrice: 2100,
-    sku: '454702056-6',
-    stock: 102
+      'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.',
+    price: 1999,
+    retailPrice: 2101,
+    sku: '042745062-4',
+    stock: 95
   },
   {
     id: 456,
@@ -5921,115 +5921,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
-    price: 1994,
-    retailPrice: 2099,
-    sku: '754928549-7',
-    stock: 65
-  },
-  {
-    id: 457,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
-    description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
-    price: 1994,
-    retailPrice: 2099,
-    sku: '382937881-5',
-    stock: 72
-  },
-  {
-    id: 458,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
-    description:
-      'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '773635275-5',
-    stock: 94
-  },
-  {
-    id: 459,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
-    description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
+      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
     price: 1997,
     retailPrice: 2100,
-    sku: '844137638-7',
-    stock: 105
-  },
-  {
-    id: 460,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
-    description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-    price: 2000,
-    retailPrice: 2098,
-    sku: '129872848-7',
+    sku: '942406104-8',
     stock: 107
   },
   {
-    id: 461,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
+    id: 457,
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
+      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
+    price: 1995,
+    retailPrice: 2101,
+    sku: '403353428-8',
+    stock: 137
+  },
+  {
+    id: 458,
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
+    description:
+      'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
     price: 1998,
-    retailPrice: 2100,
-    sku: '650768493-7',
+    retailPrice: 2099,
+    sku: '492301720-1',
+    stock: 89
+  },
+  {
+    id: 459,
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
+    description:
+      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
+    price: 1995,
+    retailPrice: 2101,
+    sku: '674645709-5',
     stock: 98
   },
   {
-    id: 462,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
+    id: 460,
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
-    price: 1995,
-    retailPrice: 2103,
-    sku: '632865745-5',
-    stock: 94
+      'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
+    price: 2001,
+    retailPrice: 2101,
+    sku: '806192683-0',
+    stock: 83
+  },
+  {
+    id: 461,
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
+    description:
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',
+    price: 1999,
+    retailPrice: 2099,
+    sku: '555295119-0',
+    stock: 118
+  },
+  {
+    id: 462,
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
+    description:
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '300101300-1',
+    stock: 109
   },
   {
     id: 463,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
     description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
-    price: 1997,
-    retailPrice: 2098,
-    sku: '617733227-7',
-    stock: 78
+      'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 1996,
+    retailPrice: 2103,
+    sku: '251773682-0',
+    stock: 100
   },
   {
     id: 464,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 1999,
-    retailPrice: 2100,
-    sku: '920641079-2',
-    stock: 89
+      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
+    price: 1995,
+    retailPrice: 2101,
+    sku: '063578669-9',
+    stock: 101
   },
   {
     id: 465,
@@ -6038,11 +6038,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-    price: 1995,
-    retailPrice: 2101,
-    sku: '145285793-8',
-    stock: 93
+      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+    price: 1999,
+    retailPrice: 2098,
+    sku: '243034278-2',
+    stock: 105
   },
   {
     id: 466,
@@ -6051,11 +6051,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
-    price: 2001,
+      'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.',
+    price: 1999,
     retailPrice: 2100,
-    sku: '102893025-9',
-    stock: 90
+    sku: '892252367-0',
+    stock: 84
   },
   {
     id: 467,
@@ -6064,10 +6064,10 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.',
-    price: 2000,
+      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
+    price: 1997,
     retailPrice: 2099,
-    sku: '756306112-6',
+    sku: '320128895-0',
     stock: 101
   },
   {
@@ -6077,11 +6077,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',
-    price: 1999,
-    retailPrice: 2099,
-    sku: '901184294-4',
-    stock: 66
+      'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
+    price: 2003,
+    retailPrice: 2102,
+    sku: '793613433-6',
+    stock: 76
   },
   {
     id: 469,
@@ -6090,11 +6090,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',
+      'Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
     price: 1997,
-    retailPrice: 2100,
-    sku: '752802535-6',
-    stock: 103
+    retailPrice: 2099,
+    sku: '369190232-4',
+    stock: 104
   },
   {
     id: 470,
@@ -6103,11 +6103,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
-    price: 2003,
+      'Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.',
+    price: 1996,
     retailPrice: 2102,
-    sku: '541178116-7',
-    stock: 92
+    sku: '571024678-6',
+    stock: 120
   },
   {
     id: 471,
@@ -6116,11 +6116,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
-    price: 2001,
-    retailPrice: 2102,
-    sku: '997500255-2',
-    stock: 91
+      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
+    price: 2000,
+    retailPrice: 2101,
+    sku: '515676047-3',
+    stock: 108
   },
   {
     id: 472,
@@ -6129,115 +6129,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
-    price: 1995,
-    retailPrice: 2101,
-    sku: '782449627-9',
-    stock: 118
-  },
-  {
-    id: 473,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
-    description:
-      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-    price: 2002,
-    retailPrice: 2102,
-    sku: '280208732-0',
-    stock: 71
-  },
-  {
-    id: 474,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
-    description:
-      'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
-    price: 1996,
-    retailPrice: 2100,
-    sku: '023648264-5',
-    stock: 95
-  },
-  {
-    id: 475,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
-    description:
-      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
-    price: 2000,
-    retailPrice: 2100,
-    sku: '236541894-5',
-    stock: 90
-  },
-  {
-    id: 476,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
-    description:
-      'Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
-    price: 1995,
-    retailPrice: 2097,
-    sku: '739581766-4',
-    stock: 99
-  },
-  {
-    id: 477,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
-    description:
-      'Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '835968997-0',
-    stock: 86
-  },
-  {
-    id: 478,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
-    description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.',
-    price: 2001,
-    retailPrice: 2101,
-    sku: '425905847-9',
-    stock: 98
-  },
-  {
-    id: 479,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
-    description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
-    price: 2002,
-    retailPrice: 2103,
-    sku: '665017675-3',
+      'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.',
+    price: 2003,
+    retailPrice: 2099,
+    sku: '717684439-9',
     stock: 91
   },
   {
-    id: 480,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    id: 473,
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.',
-    price: 1999,
+      'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '486043882-5',
+    stock: 101
+  },
+  {
+    id: 474,
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
+    description:
+      'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
+    price: 2001,
     retailPrice: 2100,
-    sku: '671792093-9',
-    stock: 111
+    sku: '404233176-9',
+    stock: 88
+  },
+  {
+    id: 475,
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
+    description:
+      'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.',
+    price: 1996,
+    retailPrice: 2097,
+    sku: '727429741-4',
+    stock: 85
+  },
+  {
+    id: 476,
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
+    description:
+      'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    price: 1998,
+    retailPrice: 2100,
+    sku: '621309972-7',
+    stock: 86
+  },
+  {
+    id: 477,
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
+    description:
+      'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    price: 1996,
+    retailPrice: 2102,
+    sku: '200790547-7',
+    stock: 88
+  },
+  {
+    id: 478,
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
+    description:
+      'Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
+    price: 1995,
+    retailPrice: 2099,
+    sku: '162209945-1',
+    stock: 103
+  },
+  {
+    id: 479,
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
+    description:
+      'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
+    price: 1999,
+    retailPrice: 2098,
+    sku: '434454046-8',
+    stock: 101
+  },
+  {
+    id: 480,
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
+    description:
+      'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
+    price: 2003,
+    retailPrice: 2099,
+    sku: '758242028-4',
+    stock: 107
   },
   {
     id: 481,
@@ -6246,11 +6246,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
-    price: 1996,
+      'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.',
+    price: 1999,
     retailPrice: 2100,
-    sku: '654016547-1',
-    stock: 103
+    sku: '876334534-X',
+    stock: 109
   },
   {
     id: 482,
@@ -6259,11 +6259,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
-    price: 1997,
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
+    price: 2002,
     retailPrice: 2099,
-    sku: '802342365-7',
-    stock: 114
+    sku: '820139042-3',
+    stock: 92
   },
   {
     id: 483,
@@ -6272,11 +6272,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
-    price: 2002,
-    retailPrice: 2099,
-    sku: '384936567-0',
-    stock: 98
+      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
+    price: 2001,
+    retailPrice: 2100,
+    sku: '577468605-1',
+    stock: 105
   },
   {
     id: 484,
@@ -6285,11 +6285,11 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-    price: 1996,
-    retailPrice: 2102,
-    sku: '883282050-1',
-    stock: 92
+      'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    price: 2002,
+    retailPrice: 2099,
+    sku: '530164001-1',
+    stock: 100
   },
   {
     id: 485,
@@ -6298,11 +6298,11 @@ const dummyProducts = [
     artist: 'Crazy P',
     albumTitle: 'Walk Dance Talk Sing',
     description:
-      'Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
-    price: 1999,
-    retailPrice: 2099,
-    sku: '287180290-4',
-    stock: 64
+      'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
+    price: 1998,
+    retailPrice: 2101,
+    sku: '491366861-7',
+    stock: 90
   },
   {
     id: 486,
@@ -6311,11 +6311,11 @@ const dummyProducts = [
     artist: 'FKA Twigs',
     albumTitle: 'LP1',
     description:
-      'Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
-    price: 2000,
-    retailPrice: 2101,
-    sku: '429583387-8',
-    stock: 112
+      'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
+    price: 1996,
+    retailPrice: 2099,
+    sku: '334862875-X',
+    stock: 98
   },
   {
     id: 487,
@@ -6324,11 +6324,11 @@ const dummyProducts = [
     artist: 'Jungle',
     albumTitle: 'For Ever',
     description:
-      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
+      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
     price: 2001,
-    retailPrice: 2099,
-    sku: '739337903-1',
-    stock: 68
+    retailPrice: 2102,
+    sku: '050044032-8',
+    stock: 102
   },
   {
     id: 488,
@@ -6337,115 +6337,115 @@ const dummyProducts = [
     artist: 'Dua Lipa',
     albumTitle: "Don't Start Now",
     description:
-      'Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.',
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
     price: 2000,
-    retailPrice: 2101,
-    sku: '033478241-4',
-    stock: 103
+    retailPrice: 2100,
+    sku: '465473305-1',
+    stock: 90
   },
   {
     id: 489,
-    imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
-    artist: 'Tyler The Creator',
-    albumTitle: 'Igor',
+    imgUrl: 'https://i.imgur.com/NOyJYvI.jpg',
+    genre: 'Hip Hop',
+    artist: 'Outkast',
+    albumTitle: 'Speakerboxx/The Love Below',
     description:
-      'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
+      'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
     price: 2001,
-    retailPrice: 2101,
-    sku: '213071253-3',
-    stock: 96
+    retailPrice: 2102,
+    sku: '457540874-3',
+    stock: 149
   },
   {
     id: 490,
-    imgUrl: 'https://i.imgur.com/aVpG9Fz.jpg',
-    genre: 'Motown/Soul',
-    artist: 'Marvin Gaye',
-    albumTitle: 'Trouble Man',
+    imgUrl: 'https://i.imgur.com/fhqwcNh.jpg',
+    genre: 'R&B',
+    artist: 'Frank Ocean',
+    albumTitle: 'Blond',
     description:
-      'Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    price: 1996,
-    retailPrice: 2101,
-    sku: '747000958-2',
-    stock: 99
+      'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    price: 1997,
+    retailPrice: 2098,
+    sku: '297457320-7',
+    stock: 137
   },
   {
     id: 491,
-    imgUrl: 'https://i.imgur.com/DuwhkYE.jpg',
-    genre: 'Disco',
-    artist: 'Daft Punk',
-    albumTitle: 'Random Acccess Memory',
+    imgUrl: 'https://i.imgur.com/Bq67QHD.jpg',
+    genre: 'Rock',
+    artist: 'John Mayer',
+    albumTitle: 'New Light',
     description:
-      'Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-    price: 1999,
-    retailPrice: 2103,
-    sku: '849524475-6',
-    stock: 93
-  },
-  {
-    id: 492,
-    imgUrl: 'https://i.imgur.com/bfwvBSD.jpg',
-    genre: 'House',
-    artist: 'Jamie XX',
-    albumTitle: 'In Coulour',
-    description:
-      'Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
-    price: 1999,
-    retailPrice: 2099,
-    sku: '297546434-7',
-    stock: 108
-  },
-  {
-    id: 493,
-    imgUrl: 'https://i.imgur.com/woNfm7n.jpg',
-    genre: 'Dance/Electronic',
-    artist: 'Crazy P',
-    albumTitle: 'Walk Dance Talk Sing',
-    description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-    price: 1998,
-    retailPrice: 2101,
-    sku: '245388299-6',
-    stock: 118
-  },
-  {
-    id: 494,
-    imgUrl: 'https://i.imgur.com/9TIHw0N.jpg',
-    genre: 'Alt. R&B',
-    artist: 'FKA Twigs',
-    albumTitle: 'LP1',
-    description:
-      'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    price: 1999,
-    retailPrice: 2101,
-    sku: '719584396-3',
+      'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.',
+    price: 2001,
+    retailPrice: 2098,
+    sku: '875812854-9',
     stock: 113
   },
   {
-    id: 495,
-    imgUrl: 'https://i.imgur.com/dtqQhGr.jpg',
-    genre: 'Neo Soul',
-    artist: 'Jungle',
-    albumTitle: 'For Ever',
+    id: 492,
+    imgUrl: 'https://i.imgur.com/G6j2ljN.jpg',
+    genre: 'R&B',
+    artist: 'Solange',
+    albumTitle: 'A Seat At The Table',
     description:
-      'Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.',
+      'Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.',
+    price: 1998,
+    retailPrice: 2102,
+    sku: '858651971-5',
+    stock: 75
+  },
+  {
+    id: 493,
+    imgUrl: 'https://i.imgur.com/TNT76DP.jpg',
+    genre: 'Electronic',
+    artist: 'Jai Paul',
+    albumTitle: 'Jai Paul Leak 04-13 (Bait Ones)',
+    description:
+      'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.',
+    price: 2001,
+    retailPrice: 2102,
+    sku: '950299766-2',
+    stock: 73
+  },
+  {
+    id: 494,
+    imgUrl: 'https://i.imgur.com/mu9d80v.jpg',
+    genre: 'Electronic',
+    artist: 'Justice',
+    albumTitle: 'Woman',
+    description:
+      'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
+    price: 1994,
+    retailPrice: 2098,
+    sku: '815378248-7',
+    stock: 72
+  },
+  {
+    id: 495,
+    imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
+    genre: 'Rap',
+    artist: 'Playboy Carti',
+    albumTitle: 'Die Lit',
+    description:
+      'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.',
     price: 1996,
-    retailPrice: 2101,
-    sku: '575910582-5',
-    stock: 104
+    retailPrice: 2098,
+    sku: '750243449-6',
+    stock: 87
   },
   {
     id: 496,
-    imgUrl: 'https://i.imgur.com/qAv2sUQ.jpg',
-    genre: 'Pop',
-    artist: 'Dua Lipa',
-    albumTitle: "Don't Start Now",
+    imgUrl: 'https://i.imgur.com/EYESO8u.jpg',
+    genre: 'Hip Hop',
+    artist: 'A$AP Mod',
+    albumTitle: 'Cozy Tapes Vol. 1',
     description:
-      'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
-    price: 1997,
-    retailPrice: 2101,
-    sku: '588878813-9',
-    stock: 105
+      'Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    price: 1999,
+    retailPrice: 2104,
+    sku: '268043762-4',
+    stock: 118
   },
   {
     id: 497,
@@ -6454,11 +6454,11 @@ const dummyProducts = [
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
-      'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
-    price: 1998,
+      'In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
+    price: 2001,
     retailPrice: 2100,
-    sku: '231213888-3',
-    stock: 98
+    sku: '171164234-7',
+    stock: 106
   },
   {
     id: 498,
@@ -6467,11 +6467,11 @@ const dummyProducts = [
     artist: 'Marvin Gaye',
     albumTitle: 'Trouble Man',
     description:
-      'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
-    price: 1998,
-    retailPrice: 2102,
-    sku: '945413651-8',
-    stock: 123
+      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
+    price: 1997,
+    retailPrice: 2096,
+    sku: '476953121-4',
+    stock: 102
   },
   {
     id: 499,
@@ -6480,11 +6480,11 @@ const dummyProducts = [
     artist: 'Daft Punk',
     albumTitle: 'Random Acccess Memory',
     description:
-      'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
-    price: 1994,
-    retailPrice: 2100,
-    sku: '947114724-7',
-    stock: 112
+      'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    price: 1999,
+    retailPrice: 2102,
+    sku: '780565182-5',
+    stock: 86
   },
   {
     id: 500,
@@ -6493,11 +6493,12 @@ const dummyProducts = [
     artist: 'Jamie XX',
     albumTitle: 'In Coulour',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.',
-    price: 2006,
-    retailPrice: 2102,
-    sku: '157364151-0',
-    stock: 94
+      'Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
+    price: 2001,
+    retailPrice: 2099,
+    sku: '844604998-8',
+    stock: 104
   }
 ]
+
 module.exports = dummyProducts
