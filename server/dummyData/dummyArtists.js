@@ -30,7 +30,15 @@ const Artists = [
   {
     artistName: 'Dua Lipa',
     songs: 'Dont Start'
-  }
+  },
+  {artistName: 'Outkast'},
+  {artistName: 'Frank Ocean'},
+  {artistName: 'John Mayer'},
+  {artistName: 'Solange'},
+  {artistName: 'Jai Paul'},
+  {artistName: 'Justice'},
+  {artistName: 'Playboy Carti'},
+  {artistName: 'A$AP Mob'}
 ]
 
 module.exports = Artists
