@@ -18,7 +18,10 @@ router.get(`/:id`, async (req, res, next) => {
     const product = await Products.findByPk(id, {
       include: [Artists]
     })
-    res.json(product)
+    const albums = await Products.findAll({
+      where: {artistId: product.dataValues.artistId}
+    })
+    res.json({product, albums})
   } catch (error) {
     next(error)
   }
