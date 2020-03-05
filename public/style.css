@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
 
 body {
   font-family: sans-serif;
@@ -33,8 +34,14 @@ nav a {
 #top-of-navbar {
   display: flex;
 }
+
 #cart-link {
   margin-right: 150px;
+}
+
+#cart-btn {
+  font-family: 'Asap', sans-serif;
+  font-size: larger;
 }
 
 form div {
@@ -76,6 +83,7 @@ form div {
 .all-images {
   height: 220px;
   width: 220px;
+  box-shadow: grey 3px 3px 2px;
 }
 
 .all-album-title {

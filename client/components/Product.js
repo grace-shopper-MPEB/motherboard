@@ -7,7 +7,11 @@ export const Product = props => {
   return (
     <div key={product.id} className="item">
       <Link to={`/products/${product.id}`}>
-        <img src={product.imgUrl} className="product-info all-images" />
+        <img
+          src={product.imgUrl}
+          className="product-info all-images"
+          id="product-img"
+        />
       </Link>
       <Link className="all-album-title" to={`/products/${product.id}`}>
         <h3>{product.albumTitle}</h3>
