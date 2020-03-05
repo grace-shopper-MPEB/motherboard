@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 
 export const Product = props => {
   const product = props.product
+  console.log(props.artists)
 
   return (
     <div key={product.id} className="item">
