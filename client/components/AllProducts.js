@@ -9,7 +9,6 @@ export class AllProducts extends React.Component {
 
   render() {
     const products = this.props.allProducts
-    console.log('!!!!!!!!', this.props)
     if (products) {
       return (
         <div className="all-products-container">
