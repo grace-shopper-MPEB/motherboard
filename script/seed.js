@@ -13,6 +13,7 @@ const dummyProducts = require('../server/dummyData/dummyProducts.js')
 const dummyUsers = require('../server/dummyData/dummyUsers.js')
 const dummyPayments = require('../server/dummyData/dummyPayments.js')
 const dummyOrders = require('../server/dummyData/dummyOrders.js')
+const dummyArtists = require('../server/dummyData/dummyArtists.js')
 
 async function seed() {
   await db.sync({force: true})
@@ -21,41 +22,54 @@ async function seed() {
   await Products.bulkCreate(dummyProducts)
   await Payments.bulkCreate(dummyPayments)
   await Orders.bulkCreate(dummyOrders)
-  await Artists.create({
-    artistName: 'Dua Lipa',
-    songs: 'Dont Start'
-  })
+  // await Artists.create({
+  //   artistName: 'Dua Lipa',
+  //   songs: 'Dont Start'
+  // })
+  await Artists.bulkCreate(dummyArtists)
   await Songs.create({
     songName: 'Dont Start'
   })
 
-  let product = await Products.findByPk(8)
-  let artist = await Artists.findByPk(1)
-  artist.addProduct(product)
+  // let product = await Products.findByPk(8)
+  // let artist = await Artists.findByPk(1)
+  // await artist.addProduct(product)
 
   try {
-    for (let i = 0; i < 30; i++) {
-      let order = await Orders.findByPk(i)
-      for (let j = 0; j < i % 5; j++) {
-        let product = await Products.findByPk(Math.floor(Math.random() * 500))
-        await order.addProduct(product)
+    for (let i = 1; i <= 500; i++) {
+      let product = await Products.findByPk(i)
+      for (let j = 1; j <= 8; j++) {
+        let artist = await Artists.findByPk(j)
+        await artist.addProduct(product)
       }
     }
   } catch (error) {
     console.log(error)
   }
 
-  try {
-    for (let i = 0; i < 30; i++) {
-      let user = await Users.findByPk(i)
-      for (let j = 0; j < i % 5; j++) {
-        let order = await Orders.findByPk(Math.floor(Math.random() * 500))
-        await user.addOrder(order)
-      }
-    }
-  } catch (error) {
-    console.log(error)
-  }
+  // try {
+  //   for (let i = 0; i < 30; i++) {
+  //     let order = await Orders.findByPk(i)
+  //     for (let j = 0; j < i % 5; j++) {
+  //       let product = await Products.findByPk(Math.floor(Math.random() * 500))
+  //       await order.addProduct(product)
+  //     }
+  //   }
+  // // } catch (error) {
+  //   console.log(error)
+  // }
+
+  // try {
+  //   for (let i = 0; i < 30; i++) {
+  //     let user = await Users.findByPk(i)
+  //     for (let j = 0; j < i % 5; j++) {
+  //       let order = await Orders.findByPk(Math.floor(Math.random() * 500))
+  //       await user.addOrder(order)
+  //     }
+  //   }
+  // } catch (error) {
+  //   console.log(error)
+  // }
 
   console.log(`seeded successfully`)
 }
