@@ -91,6 +91,16 @@ export const updateProduct = product => async dispatch => {
   }
 }
 
+// export const getProductsByArtistId = (productId, artistId)  => async dispatch => {
+//   try {
+//     const {data} = await axios.get(`/api/products/${productId}`)
+//     dispatch(setProductById(data))
+
+//   } catch (error) {
+//     console.log(error)
+//   }
+// }
+
 // Reducer
 // const productsReducer = (state = initialState, action) => {
 export default function(state = initialState, action) {

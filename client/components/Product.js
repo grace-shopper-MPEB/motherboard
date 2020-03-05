@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 
 export const Product = props => {
   const product = props.product
+  console.log(product)
 
   return (
     <div key={product.id} className="item">
@@ -12,7 +13,7 @@ export const Product = props => {
       <Link className="all-album-title" to={`/products/${product.id}`}>
         <h3>{product.albumTitle}</h3>
       </Link>
-      <div className="all-artist">{product.artist}</div>
+      <div className="all-artist">{product.artist.artistName}</div>
       <div className="all-price">${product.price / 100}</div>
       <button className="buyButton" type="button">
         Add to Cart
