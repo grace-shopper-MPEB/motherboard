@@ -12,23 +12,39 @@ export class Cart extends React.Component {
 
     if (orders) {
       return (
-        <div>
-          <div>Your Cart</div>
+        <div id="cart">
+          <div id="your-cart">Your Cart</div>
+
           <div>
-            {orders.map(order => (
-              <div key={order.id}>
-                <div>{order.totalAmount}</div>
-                <div>
-                  {order.products.map(product => (
-                    <div key={product.id}>
-                      <img src={product.imgUrl} />
-                      <div>{product.albumTitle}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
+            <table>
+              <thead>
+                <tr id="cart-nav">
+                  <th className="cart-img">image</th>
+                  <th className="cart-title">title</th>
+                  <th className="cart-quant">quantity</th>
+                  <th className="cart-price">price</th>
+                </tr>
+              </thead>
+              <tbody>
+                {orders.map(order => (
+                  <div key={order.id}>
+                    {order.products.map(product => (
+                      <div className="cart-productsX" key={product.id}>
+                        <tr className="item">
+                          <td className="cart-img">
+                            <img className="cart-image" src={product.imgUrl} />
+                          </td>
+                          <td className="cart-title">{product.albumTitle}</td>
+                          <td className="cart-price">{product.price}</td>
+                        </tr>
+                      </div>
+                    ))}
+                  </div>
+                ))}
+              </tbody>
+            </table>
           </div>
+          <div>Total: </div>
           <div>
             <button type="submit">Update</button>
           </div>
