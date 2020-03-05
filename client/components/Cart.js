@@ -1,12 +1,27 @@
 import React from 'react'
+import axios from 'axios'
 
 export class Cart extends React.Component {
+  constructor() {
+    super()
+    this.handleClick = this.handleClick.bind(this)
+  }
   componentDidMount() {
     if (this.props.user.id) {
       this.props.getCart(this.props.user.id)
     } else {
       this.props.getCart(0)
     }
+  }
+
+  async handleClick(productId) {
+    let userId = 0
+    if (this.props.user.id) {
+      userId = this.props.user.id
+    }
+    const x = await axios.delete(`/api/users/cart/${userId}/${productId}`)
+    this.props.getCart(userId)
+    console.log(x.data)
   }
 
   render() {
@@ -29,6 +44,12 @@ export class Cart extends React.Component {
                       <div>title: {product.albumTitle}</div>
                       <div>Quantity: </div>
                       <div>Price: ${product.price} </div>
+                      <button
+                        type="button"
+                        onClick={() => this.handleClick(product.id)}
+                      >
+                        Remove
+                      </button>
                     </div>
                   ))}
                 </div>
