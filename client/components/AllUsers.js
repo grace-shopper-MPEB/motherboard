@@ -9,7 +9,7 @@ export class AllUsers extends React.Component {
 
   render() {
     const users = this.props.allUsers
-    console.log(this.props)
+    console.log('ALLUSER PROPS', this.props)
 
     if (users) {
       return (

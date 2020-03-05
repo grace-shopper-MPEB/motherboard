@@ -12,7 +12,7 @@ import {
 } from './components'
 import {me} from './store'
 import {getProducts, getProductsById} from './store/products'
-import {getUsers} from './store/users'
+import {getUsers} from './store/user'
 
 /**
  * COMPONENT
@@ -78,7 +78,7 @@ const mapState = state => {
     isLoggedIn: !!state.user.id,
     allProducts: state.products.products,
     singleProduct: state.products.product,
-    allUsers: state.users
+    allUsers: state.user.users
   }
 }
 

@@ -84,7 +84,7 @@ const usersReducer = (state = initialState, action) => {
     // case SET_USERS:
     //   return {...state, users: action.users}
     case SET_USERS:
-      return [...users], action.users
+      return {...state, users: action.users}
     case SET_USER_BY_ID:
       return {...state, user: action.user}
     case ADD_USER:
