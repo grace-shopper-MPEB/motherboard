@@ -12,4 +12,6 @@ export {SingleProduct} from './SingleProduct'
 export {Cart} from './Cart'
 
 export {Product} from './Product'
+export {AllUsers} from './AllUsers'
+export {User} from './User'
 
