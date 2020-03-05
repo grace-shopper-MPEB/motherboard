@@ -1,6 +1,5 @@
 const router = require('express').Router()
 const Users = require('../db/models/users')
-module.exports = router
 
 router.post('/login', async (req, res, next) => {
   try {
@@ -46,3 +45,5 @@ router.get('/me', (req, res) => {
 })
 
 router.use('/google', require('./google'))
+
+module.exports = router

@@ -71,8 +71,6 @@ const Users = db.define('user', {
   }
 })
 
-module.exports = Users
-
 /**
  * instanceMethods
  */
