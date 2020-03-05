@@ -8,7 +8,6 @@ const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
     <div id="top-of-navbar">
       <Link to="/products" id="page-title">
-        {' '}
         FullStack Records
       </Link>
     </div>
