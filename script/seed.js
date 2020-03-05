@@ -29,6 +29,10 @@ async function seed() {
     songName: 'Dont Start'
   })
 
+  let product = await Products.findByPk(8)
+  let artist = await Artists.findByPk(1)
+  artist.addProduct(product)
+
   try {
     for (let i = 0; i < 30; i++) {
       let order = await Orders.findByPk(i)
