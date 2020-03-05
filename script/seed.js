@@ -38,10 +38,11 @@ async function seed() {
   try {
     for (let i = 1; i <= 500; i++) {
       let product = await Products.findByPk(i)
-      for (let j = 1; j <= 8; j++) {
-        let artist = await Artists.findByPk(j)
-        await artist.addProduct(product)
-      }
+      let artist = await Artists.findByPk(i % 8 === 0 ? 8 : i % 8)
+      // for (let j = 1; j <= 8; j++) {
+      //   let artist = await Artists.findByPk(j)
+      await artist.addProduct(product)
+      // }
     }
   } catch (error) {
     console.log(error)
