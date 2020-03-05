@@ -31,8 +31,6 @@ async function seed() {
     for (let i = 1; i <= 500; i++) {
       let product = await Products.findByPk(i)
       let artist = await Artists.findByPk(i % 16 === 0 ? 16 : i % 16)
-      // for (let j = 1; j <= 8; j++) {
-      //   let artist = await Artists.findByPk(j)
       await artist.addProduct(product)
       // }
     }

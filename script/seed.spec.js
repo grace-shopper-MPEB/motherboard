@@ -5,4 +5,4 @@ const seed = require('./seed')
 
 describe('seed script', () => {
   it('completes successfully', seed)
-}).timeout(10000)
+}) //.timeout(10000)
