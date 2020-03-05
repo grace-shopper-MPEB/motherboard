@@ -5,14 +5,16 @@ import {Link} from 'react-router-dom'
 import {logout} from '../store'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
-  <div>
+  <div id="nav-items">
     <div id="top-of-navbar">
       <Link to="/products" id="page-title">
         FullStack Records
       </Link>
+      <Link to="/users/cart" id="cart-btn">
+        Cart
+      </Link>
     </div>
-
-    <nav>
+    <nav id="navbar">
       {isLoggedIn ? (
         <div>
           {/* The navbar will show these links after you log in */}
