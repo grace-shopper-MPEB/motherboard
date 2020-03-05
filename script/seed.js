@@ -22,18 +22,10 @@ async function seed() {
   await Products.bulkCreate(dummyProducts)
   await Payments.bulkCreate(dummyPayments)
   await Orders.bulkCreate(dummyOrders)
-  // await Artists.create({
-  //   artistName: 'Dua Lipa',
-  //   songs: 'Dont Start'
-  // })
   await Artists.bulkCreate(dummyArtists)
   await Songs.create({
     songName: 'Dont Start'
   })
-
-  // let product = await Products.findByPk(8)
-  // let artist = await Artists.findByPk(1)
-  // await artist.addProduct(product)
 
   try {
     for (let i = 1; i <= 500; i++) {
