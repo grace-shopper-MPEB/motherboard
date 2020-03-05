@@ -8,6 +8,8 @@ export class SingleProduct extends React.Component {
 
   render() {
     const product = this.props.singleProduct
+    console.log('Single Product', this.props.singleProduct)
+    console.log('SingleProduct.artist', this.props.singleProduct.artist)
 
     return (
       <div className="single-album-container">
@@ -25,7 +27,9 @@ export class SingleProduct extends React.Component {
             <button className="buyButton" type="button">
               Add to Cart
             </button>
-            {/* <div className="single-artist">Label: {product.artist}</div> */}
+            <div className="single-artist">
+              Artist: {product.artist ? product.artist.artistName : null}
+            </div>
             <div className="single-genre">Genre: {product.genre}</div>
             <div className="single-description">{product.description}</div>
           </div>
