@@ -65,7 +65,10 @@ router.get(`/genres/:genre`, async (req, res, next) => {
       where: {genre: req.params.genre}
     })
     res.json(genres)
-    
+  } catch (error) {
+    next(error)
+  }
+})
     
 router.delete('/:id', isAdmin, async (req, res, next) => {
   try {
@@ -82,5 +85,4 @@ router.delete('/:id', isAdmin, async (req, res, next) => {
   } catch (error) {
     next(error)
   }
-}
 })
