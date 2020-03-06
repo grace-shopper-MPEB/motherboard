@@ -88,7 +88,6 @@ const mapState = state => {
 
     singleProduct: state.products.product,
     allUsers: state.user.users
-
   }
 }
 
@@ -102,7 +101,6 @@ const mapDispatch = dispatch => {
 
     getUsers: () => dispatch(getUsers()),
     getCart: id => dispatch(getCart(id))
-
   }
 }
 

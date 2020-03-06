@@ -1,8 +1,6 @@
 const router = require('express').Router()
-
 const {Users, Products, Orders} = require('../db/models')
 
-module.exports = router
 const {isAdmin} = require('./utils')
 
 router.get('/', isAdmin, async (req, res, next) => {
@@ -149,3 +147,5 @@ router.delete('/cart/:userId/:productId', async (req, res, next) => {
     next(error)
   }
 })
+
+module.exports = router
