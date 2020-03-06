@@ -5,15 +5,21 @@ import {Link} from 'react-router-dom'
 import {logout} from '../store'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
-  <div>
+  <div id="nav-items">
     <div id="top-of-navbar">
       <Link to="/products" id="page-title">
         FullStack Records
       </Link>
+      <Link to="/users/cart" id="cart-link">
+        <div>Cart</div>
+        <img
+          id="cart-img"
+          src="https://www.graphicsprings.com/filestorage/stencils/3055581cff0526602142cbb0bfba9fca.png?width=500&height=500"
+        />
+      </Link>
     </div>
 
-    <nav>
-      {/* The navbar will show these links after you log in */}
+    <nav id="bottom-of-navbar">
 
       {isLoggedIn ? (
         <div>

@@ -16,9 +16,8 @@ export class SingleProduct extends React.Component {
     if (this.props.user.id) {
       userId = this.props.user.id
     }
-    let productId = this.props.singleProduct.id
-    const x = await axios.post(`/api/users/cart/${userId}/${productId}`)
-    console.log('from hc', x.data)
+    let productId = this.props.singleProduct.product.id
+    await axios.post(`/api/users/cart/${userId}/${productId}`)
   }
 
   render() {
