@@ -30,7 +30,7 @@ export class AllProducts extends React.Component {
                 <Product product={product} />
                 <button
                   onClick={() => this.handleClick(product.id)}
-                  className="buyButton"
+                  className="all buyButton"
                   type="button"
                 >
                   Add to Cart

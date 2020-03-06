@@ -32,35 +32,53 @@ export class Cart extends React.Component {
 
     if (orders) {
       return (
-        <div>
-          <div>Your Cart</div>
+        <div id="cart">
+          <div id="your-cart">Your Cart</div>
+          <div id="q-p">
+            <div className="q">Quantity</div>
+            <div className="p">Price</div>
+          </div>
+
           <div>
             {orders.map(order => (
               <div key={order.id}>
-                <div>
+                <div id="cart-items">
                   {order.products.map(product => (
-                    <div key={product.id}>
-                      <img src={product.imgUrl} />
-                      <div>title: {product.albumTitle}</div>
-                      <div>Quantity: </div>
-                      <div>Price: ${product.price} </div>
-                      <button
-                        type="button"
-                        onClick={() => this.handleClick(product.id)}
-                      >
-                        Remove
-                      </button>
+                    <div key={product.id} className="cart-item">
+                      <div className="cart-comp">
+                        <img className="cart-image" src={product.imgUrl} />
+                        <div className="cart-title">{product.albumTitle}</div>
+                      </div>
+                      <div className="cart-comp">
+                        <div className="cart-quantity">Quantity: </div>
+                        <div className="cart-price">
+                          ${product.price / 100}{' '}
+                        </div>
+                        <button
+                          className="remove-button"
+                          type="button"
+                          onClick={() => this.handleClick(product.id)}
+                        >
+                          Remove
+                        </button>
+                      </div>
                     </div>
                   ))}
                 </div>
               </div>
             ))}
           </div>
-          <div>
-            <button type="submit">Update</button>
-          </div>
-          <div>
-            <button type="submit">Checkout</button>
+          <div id="cart-buttons">
+            <div>
+              <button className="cart-buttons" type="submit">
+                Update
+              </button>
+            </div>
+            <div>
+              <button className="cart-buttons" type="submit">
+                Checkout
+              </button>
+            </div>
           </div>
         </div>
       )
