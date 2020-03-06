@@ -20,7 +20,6 @@ const Navbar = ({handleClick, isLoggedIn}) => (
     </div>
 
     <nav id="bottom-of-navbar">
-
       {isLoggedIn ? (
         <div>
           <Link to="/home">Home</Link>

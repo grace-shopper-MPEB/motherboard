@@ -9,7 +9,8 @@ import {
   AllProducts,
   SingleProduct,
   AllUsers,
-  Cart
+  Cart,
+  Checkout
 } from './components'
 import {me} from './store'
 import {getProducts, getProductsById} from './store/products'
@@ -57,6 +58,7 @@ class Routes extends Component {
             />
           )}
         />
+        <Route path="/checkout" render={() => <Checkout />} />
         <Route path="/users/cart" render={() => <Cart {...this.props} />} />
         {isLoggedIn && (
           <Switch>

@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import {Checkout} from './Checkout'
 
 export class Cart extends React.Component {
   constructor() {
@@ -75,6 +76,7 @@ export class Cart extends React.Component {
           <div id="total">
             <div id="total-amount">Total: ${total / 100}</div>
           </div>
+
           <div id="cart-buttons">
             <div>
               <button className="cart-buttons" type="submit">
@@ -82,9 +84,7 @@ export class Cart extends React.Component {
               </button>
             </div>
             <div>
-              <button className="cart-buttons" type="submit">
-                Checkout
-              </button>
+              <Checkout />
             </div>
           </div>
         </div>
