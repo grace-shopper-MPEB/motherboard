@@ -56,7 +56,21 @@ export class SingleProduct extends React.Component {
             <div className="single-description">{product.description}</div>
             <div>
               More albums by {product.artist ? product.artist.artistName : null}
-              : {albums.albumTitle}
+              :
+              <div className="all-products-container">
+                <div className="all-products">
+                  {this.props.singleProduct.albums
+                    ? this.props.singleProduct.albums.map(x => (
+                        <div key={x.id} className="item">
+                          <img
+                            src={x.imgUrl}
+                            className="product-info all-images"
+                          />
+                        </div>
+                      ))
+                    : null}
+                </div>
+              </div>
             </div>
           </div>
         </div>
