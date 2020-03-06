@@ -3,6 +3,7 @@ module.exports = router
 
 router.use('/users', require('./users'))
 router.use('/products', require('./products'))
+router.use('/payments', require('../stripe-routes/payment'))
 
 router.use((req, res, next) => {
   const error = new Error('Not Found')

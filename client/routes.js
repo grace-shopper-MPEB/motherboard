@@ -10,7 +10,6 @@ import {
   SingleProduct,
   AllUsers,
   Cart,
-  AlbumGenres
 } from './components'
 import {me} from './store'
 import {
@@ -75,6 +74,7 @@ class Routes extends Component {
             />
           )}
         />
+        <Route path="/checkout" render={() => <Checkout />} />
         <Route path="/users/cart" render={() => <Cart {...this.props} />} />
         {isLoggedIn && (
           <Switch>
@@ -105,9 +105,8 @@ const mapState = state => {
     allProducts: state.products.products,
 
     singleProduct: state.products.product,
-    allUsers: state.user.users,
-
-    genreProducts: state.products.genreProducts
+    genreProducts: state.products.genreProducts,
+    allUsers: state.user.users
   }
 }
 

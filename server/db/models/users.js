@@ -5,7 +5,6 @@ const db = require('../db')
 const Users = db.define('user', {
   fullName: {
     type: Sequelize.STRING
-    // allowNull: false
   },
 
   email: {
@@ -24,37 +23,35 @@ const Users = db.define('user', {
   },
   street: {
     type: Sequelize.STRING
-    // allowNull: false
   },
 
   number: {
     type: Sequelize.STRING
-    // allowNull: false
   },
 
   zip: {
     type: Sequelize.INTEGER
-    // allowNull: false
   },
 
   city: {
     type: Sequelize.STRING
-    // allowNull: false
   },
 
   state: {
     type: Sequelize.STRING
-    // allowNull: false
   },
 
   country: {
     type: Sequelize.STRING
-    // allowNull: false
+  },
+
+  createdAt: {
+    type: Sequelize.DATE,
+    allowNull: false
   },
 
   isAdmin: {
     type: Sequelize.BOOLEAN,
-    // allowNull: false,
     defaultValue: false
   },
 
@@ -72,8 +69,6 @@ const Users = db.define('user', {
     }
   }
 })
-
-module.exports = Users
 
 /**
  * instanceMethods

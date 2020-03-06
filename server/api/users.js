@@ -1,8 +1,6 @@
 const router = require('express').Router()
-
 const {Users, Products, Orders} = require('../db/models')
 
-module.exports = router
 const {isAdmin} = require('./utils')
 
 router.get('/', isAdmin, async (req, res, next) => {
@@ -44,7 +42,6 @@ router.get('/cart/:id', async (req, res, next) => {
 
 router.post('/cart/:userId/:productId', async (req, res, next) => {
   try {
-    console.log('userid................', req.params.userId)
     let userId = req.params.userId
     let productId = req.params.productId
     let product = await Products.findByPk(productId)
@@ -76,7 +73,6 @@ router.post('/cart/:userId/:productId', async (req, res, next) => {
 
       //guest user
     } else {
-      console.log('before', req.session)
       if (!req.session.cart) {
         req.session.cart = []
       }
@@ -100,13 +96,56 @@ router.post('/cart/:userId/:productId', async (req, res, next) => {
         }
         req.session.cart.push(order)
       }
+      res.json(req.params.userId)
+    }
+  } catch (error) {
+    next(error)
+  }
+})
+
+router.delete('/cart/:userId/:productId', async (req, res, next) => {
+  try {
+    let userId = req.params.userId
+    let productId = req.params.productId
+    let product = await Products.findByPk(productId)
+
+    //logged in user
+    if (userId > 0) {
+      let user = await Users.findByPk(userId)
+      let order = await Orders.findOne({
+        where: {
+          userId: userId,
+          isCart: true
+        }
+      })
+
+      await order.removeProduct(product)
+
+      res.json(req.params.userId)
+
+      //guest user
+    } else {
+      console.log('before!!!!!!!', req.session)
+      console.log('productId', typeof Number(productId))
+      for (let i = 0; i < req.session.cart.length; i++) {
+        if (req.session.cart[i].isCart === true) {
+          let revisedOrder = req.session.cart[i].products.filter(productX => {
+            console.log(typeof productX.id)
+            return productX.id !== Number(productId)
+          })
+          console.log('revisedOrder', revisedOrder)
+          req.session.cart[i].products = revisedOrder
+        }
+      }
 
       console.log('after', req.session)
       // sessions stuff
-      res.json(req.params.userId)
+      res.json(req.session.cart)
     }
   } catch (error) {
     console.log('errrrrorrrrr')
     next(error)
   }
 })
+
+module.exports = router

@@ -15,3 +15,5 @@ export {Cart} from './Cart'
 export {Product} from './Product'
 export {AllUsers} from './AllUsers'
 export {User} from './User'
+export {Checkout} from './Checkout'
+
