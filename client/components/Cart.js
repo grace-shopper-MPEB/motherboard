@@ -79,11 +79,6 @@ export class Cart extends React.Component {
 
           <div id="cart-buttons">
             <div>
-              <button className="cart-buttons" type="submit">
-                Update
-              </button>
-            </div>
-            <div>
               <Checkout />
             </div>
           </div>
