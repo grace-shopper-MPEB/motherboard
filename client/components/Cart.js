@@ -74,17 +74,16 @@ export class Cart extends React.Component {
             ))}
           </div>
           <div id="total">
-            <div id="total-amount">Total: ${total / 100}</div>
+            <div id="total-amount">${total / 100}</div>
           </div>
 
           <div id="cart-buttons">
             <div>
-              <button className="cart-buttons" type="submit">
-                Update
-              </button>
-            </div>
-            <div>
-              <Checkout />
+              <Checkout
+                name="Shopping cart checkout"
+                description="Shopping cart checkout"
+                amount={total / 100}
+              />
             </div>
           </div>
         </div>
