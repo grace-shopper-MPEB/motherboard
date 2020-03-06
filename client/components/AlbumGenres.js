@@ -12,8 +12,9 @@ export class AlbumGenres extends React.Component {
 
     return (
       <div>
-        {' '}
-        All albums of the {this.props.location.pathname.slice(17)} genre:
+        <h1>
+          All albums of the {this.props.location.pathname.slice(17)} genre:
+        </h1>
         <div className="all-products-container">
           <div className="all-products">
             {this.props.genreProducts
