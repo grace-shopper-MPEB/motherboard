@@ -35,3 +35,15 @@ router.get(`/:id`, async (req, res, next) => {
     next(error)
   }
 })
+
+router.get(`/genres/:genre`, async (req, res, next) => {
+  try {
+    console.log(req.params.genre)
+    const genres = await Products.findAll({
+      where: {genre: req.params.genre}
+    })
+    res.json(genres)
+  } catch (error) {
+    next(error)
+  }
+})

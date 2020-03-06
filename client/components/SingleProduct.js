@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import {Link} from 'react-router-dom'
 
 export class SingleProduct extends React.Component {
   constructor() {
@@ -28,7 +29,9 @@ export class SingleProduct extends React.Component {
     const albums = this.props.singleProduct.albums
       ? this.props.singleProduct.albums
       : {}
-    console.log(albums)
+    const genres = this.props.singleProduct.genres
+      ? this.props.singleProduct.genres
+      : {}
 
     return (
       <div className="single-album-container">
@@ -53,11 +56,30 @@ export class SingleProduct extends React.Component {
             <div className="single-artist">
               Artist: {product.artist ? product.artist.artistName : null}
             </div>
-            <div className="single-genre">Genre: {product.genre}</div>
+            <div className="single-genre">
+              Genre:
+              <Link to={`/products/genres/${product.genre}`}>
+                {product.genre}
+              </Link>
+            </div>
             <div className="single-description">{product.description}</div>
             <div>
               More albums by {product.artist ? product.artist.artistName : null}
-              : {albums.albumTitle}
+              :
+              <div className="all-products-container">
+                <div className="all-products">
+                  {this.props.singleProduct.albums
+                    ? this.props.singleProduct.albums.map(x => (
+                        <div key={x.id} className="item">
+                          <img
+                            src={x.imgUrl}
+                            className="product-info all-images"
+                          />
+                        </div>
+                      ))
+                    : null}
+                </div>
+              </div>
             </div>
           </div>
         </div>
