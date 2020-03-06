@@ -31,6 +31,7 @@ export class Cart extends React.Component {
     let orders = this.props.cart.cart
 
     if (orders) {
+      let total = 0
       return (
         <div id="cart">
           <div id="your-cart">Your Cart</div>
@@ -43,30 +44,36 @@ export class Cart extends React.Component {
             {orders.map(order => (
               <div key={order.id}>
                 <div id="cart-items">
-                  {order.products.map(product => (
-                    <div key={product.id} className="cart-item">
-                      <div className="cart-comp">
-                        <img className="cart-image" src={product.imgUrl} />
-                        <div className="cart-title">{product.albumTitle}</div>
-                      </div>
-                      <div className="cart-comp">
-                        <div className="cart-quantity">Quantity: </div>
-                        <div className="cart-price">
-                          ${product.price / 100}{' '}
+                  {order.products.map(product => {
+                    total += product.price
+                    return (
+                      <div key={product.id} className="cart-item">
+                        <div className="cart-comp">
+                          <img className="cart-image" src={product.imgUrl} />
+                          <div className="cart-title">{product.albumTitle}</div>
                         </div>
-                        <button
-                          className="remove-button"
-                          type="button"
-                          onClick={() => this.handleClick(product.id)}
-                        >
-                          Remove
-                        </button>
+                        <div className="cart-comp">
+                          <div className="cart-quantity"></div>
+                          <div className="cart-price">
+                            ${product.price / 100}{' '}
+                          </div>
+                          <button
+                            className="remove-button"
+                            type="button"
+                            onClick={() => this.handleClick(product.id)}
+                          >
+                            Remove
+                          </button>
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    )
+                  })}
                 </div>
               </div>
             ))}
+          </div>
+          <div id="total">
+            <div id="total-amount">Total: ${total / 100}</div>
           </div>
           <div id="cart-buttons">
             <div>

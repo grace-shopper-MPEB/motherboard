@@ -337,3 +337,21 @@ label {
   background-color: rgb(126, 5, 5);
   color: white;
 }
+#total {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 10px;
+}
+#total-amount {
+  margin-top: 15px;
+  margin-right: 120px;
+}
