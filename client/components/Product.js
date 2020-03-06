@@ -18,9 +18,6 @@ export const Product = props => {
       </Link>
       <div className="all-artist">{product.artist.artistName}</div>
       <div className="all-price">${product.price / 100}</div>
-      <button className="buyButton" type="button">
-        Add to Cart
-      </button>
     </div>
   )
 }

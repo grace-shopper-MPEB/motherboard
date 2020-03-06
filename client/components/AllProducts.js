@@ -1,10 +1,22 @@
 import React from 'react'
 import {Product} from './'
-
+import axios from 'axios'
 // Needs React Router
 export class AllProducts extends React.Component {
+  constructor() {
+    super()
+    this.handleClick = this.handleClick.bind(this)
+  }
   componentDidMount() {
     // nothing here yet
+  }
+
+  async handleClick(productId) {
+    let userId = 0
+    if (this.props.user.id) {
+      userId = this.props.user.id
+    }
+    await axios.post(`/api/users/cart/${userId}/${productId}`)
   }
 
   render() {
@@ -14,7 +26,16 @@ export class AllProducts extends React.Component {
         <div className="all-products-container">
           <div className="all-products">
             {products.map(product => (
-              <Product key={product.id} product={product} />
+              <div key={product.id}>
+                <Product product={product} />
+                <button
+                  onClick={() => this.handleClick(product.id)}
+                  className="all buyButton"
+                  type="button"
+                >
+                  Add to Cart
+                </button>
+              </div>
             ))}
           </div>
         </div>

@@ -10,15 +10,21 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       <Link to="/products" id="page-title">
         FullStack Records
       </Link>
-      <Link to="/users/cart" id="cart-btn">
-        Cart
+      <Link to="/users/cart" id="cart-link">
+        <div>Cart</div>
+        <img
+          id="cart-img"
+          src="https://www.graphicsprings.com/filestorage/stencils/3055581cff0526602142cbb0bfba9fca.png?width=500&height=500"
+        />
       </Link>
     </div>
-    <nav id="navbar">
+
+    <nav id="bottom-of-navbar">
       {isLoggedIn ? (
         <div>
-          {/* The navbar will show these links after you log in */}
           <Link to="/home">Home</Link>
+          <Link to="/products">Products</Link>
+          <Link to="/users">Users</Link>
           <a href="#" onClick={handleClick}>
             Logout
           </a>
@@ -26,6 +32,8 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       ) : (
         <div className="public-navbar">
           {/* The navbar will show these links before you log in */}
+          <Link to="/home">Home</Link>
+          <Link to="/products">Products</Link>
           <Link to="/login">Login</Link>
           <Link to="/signup">Sign Up</Link>
         </div>
