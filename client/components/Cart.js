@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import {Checkout} from './Checkout'
 
 export class Cart extends React.Component {
   constructor() {
@@ -60,7 +61,7 @@ export class Cart extends React.Component {
             <button type="submit">Update</button>
           </div>
           <div>
-            <button type="submit">Checkout</button>
+            <Checkout />
           </div>
         </div>
       )
