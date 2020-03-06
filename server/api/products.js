@@ -82,4 +82,5 @@ router.delete('/:id', isAdmin, async (req, res, next) => {
   } catch (error) {
     next(error)
   }
+}
 })
