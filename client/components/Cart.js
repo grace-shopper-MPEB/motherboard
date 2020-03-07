@@ -26,7 +26,7 @@ export class Cart extends React.Component {
   }
 
   render() {
-    let cart = this.props.cart.cart
+    let cart = this.props.cart
 
     if (cart.products) {
       let total = 0

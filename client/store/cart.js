@@ -1,8 +1,6 @@
 import axios from 'axios'
 
-const initialState = {
-  cart: {}
-}
+const initialState = {}
 
 const SET_CART = 'SET_CART'
 
@@ -25,7 +23,7 @@ export const getCart = id => async dispatch => {
 export default function(state = initialState, action) {
   switch (action.type) {
     case SET_CART:
-      return {...state, cart: action.cart}
+      return action.cart
     default:
       return state
   }
