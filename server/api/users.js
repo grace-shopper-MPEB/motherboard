@@ -6,9 +6,6 @@ const {isAdmin} = require('./utils')
 router.get('/', isAdmin, async (req, res, next) => {
   try {
     const users = await Users.findAll({
-      // explicitly select only the id and email fields - even though
-      // users' passwords are encrypted, it won't help if we just
-      // send everything to anyone who asks!
       attributes: ['id', 'email']
     })
     res.json(users)
@@ -20,10 +17,10 @@ router.get('/', isAdmin, async (req, res, next) => {
 router.get('/cart/:id', async (req, res, next) => {
   try {
     let id = req.params.id
-    let orders = {}
+    let cart = {}
 
     if (id > 0) {
-      orders = await Orders.findAll({
+      cart = await Orders.findOne({
         where: {
           userId: id,
           isCart: true
@@ -31,10 +28,10 @@ router.get('/cart/:id', async (req, res, next) => {
         include: [{model: Products}]
       })
     } else {
-      orders = req.session.cart
+      cart = req.session.cart
     }
 
-    res.json(orders)
+    res.json(cart)
   } catch (error) {
     next(error)
   }
@@ -73,19 +70,10 @@ router.post('/cart/:userId/:productId', async (req, res, next) => {
 
       //guest user
     } else {
-      if (!req.session.cart) {
-        req.session.cart = []
-      }
-      let found = false
-
-      for (let i = 0; i < req.session.cart.length; i++) {
-        if (req.session.cart[i].isCart === true) {
-          req.session.cart[i].products.push(product)
-          found = true
-        }
-      }
-      if (found === false) {
-        let order = {
+      if (req.session.cart) {
+        req.session.cart.products.push(product)
+      } else {
+        req.session.cart = {
           isCart: true,
           subTotal: 0,
           totalAmount: 0,
@@ -94,7 +82,6 @@ router.post('/cart/:userId/:productId', async (req, res, next) => {
           promoCode: '',
           products: [product]
         }
-        req.session.cart.push(order)
       }
       res.json(req.params.userId)
     }
@@ -111,39 +98,31 @@ router.delete('/cart/:userId/:productId', async (req, res, next) => {
 
     //logged in user
     if (userId > 0) {
-      let user = await Users.findByPk(userId)
-      let order = await Orders.findOne({
+      //let user = await Users.findByPk(userId)
+      let cart = await Orders.findOne({
         where: {
           userId: userId,
           isCart: true
         }
       })
 
-      await order.removeProduct(product)
+      await cart.removeProduct(product)
 
       res.json(req.params.userId)
 
       //guest user
     } else {
-      console.log('before!!!!!!!', req.session)
-      console.log('productId', typeof Number(productId))
-      for (let i = 0; i < req.session.cart.length; i++) {
-        if (req.session.cart[i].isCart === true) {
-          let revisedOrder = req.session.cart[i].products.filter(productX => {
-            console.log(typeof productX.id)
-            return productX.id !== Number(productId)
-          })
-          console.log('revisedOrder', revisedOrder)
-          req.session.cart[i].products = revisedOrder
-        }
+      if (req.session.cart.isCart) {
+        let revisedProducts = req.session.cart.products.filter(productX => {
+          return productX.id !== Number(productId)
+        })
+
+        req.session.cart.products = revisedProducts
       }
 
-      console.log('after', req.session)
-      // sessions stuff
       res.json(req.session.cart)
     }
   } catch (error) {
-    console.log('errrrrorrrrr')
     next(error)
   }
 })
