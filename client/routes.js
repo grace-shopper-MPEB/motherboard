@@ -10,10 +10,13 @@ import {
   SingleProduct,
   AllUsers,
   Cart,
-  Checkout
 } from './components'
 import {me} from './store'
-import {getProducts, getProductsById} from './store/products'
+import {
+  getProducts,
+  getProductsById,
+  getProductsByGenre
+} from './store/products'
 import {getUsers} from './store/user'
 import {getCart} from './store/cart'
 
@@ -46,9 +49,22 @@ class Routes extends Component {
           exact
           path="/products"
           render={() => (
-            <AllProducts {...this.props} allProducts={this.props.allProducts} />
+            <AllProducts
+              {...this.props}
+              singleProduct={this.props.singleProduct}
+            />
           )}
         />
+        <Route
+          path="/products/genres/:genre"
+          render={() => (
+            <AlbumGenres
+              {...this.props}
+              genreProducts={this.props.genreProducts}
+            />
+          )}
+        />
+        {/* <Route path="/products/album-genre" render={() => <AlbumGenres {...this.props} />} /> */}
         <Route
           path="/products/:id"
           render={() => (
@@ -89,6 +105,7 @@ const mapState = state => {
     allProducts: state.products.products,
 
     singleProduct: state.products.product,
+    genreProducts: state.products.genreProducts,
     allUsers: state.user.users
   }
 }
@@ -100,6 +117,7 @@ const mapDispatch = dispatch => {
     },
     getProducts: () => dispatch(getProducts()),
     getProductsById: id => dispatch(getProductsById(id)),
+    getProductsByGenre: genre => dispatch(getProductsByGenre(genre)),
 
     getUsers: () => dispatch(getUsers()),
     getCart: id => dispatch(getCart(id))

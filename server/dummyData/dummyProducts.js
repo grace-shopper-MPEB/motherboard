@@ -1,7 +1,7 @@
 const dummyProducts = [
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -169,7 +169,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -193,7 +193,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -361,7 +361,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -385,7 +385,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -553,7 +553,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -577,7 +577,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -745,7 +745,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -769,7 +769,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -937,7 +937,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -961,7 +961,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -1129,7 +1129,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -1153,7 +1153,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -1321,7 +1321,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -1345,7 +1345,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -1513,7 +1513,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -1537,7 +1537,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -1705,7 +1705,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -1729,7 +1729,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -1897,7 +1897,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -1921,7 +1921,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -2089,7 +2089,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -2113,7 +2113,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -2281,7 +2281,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -2305,7 +2305,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -2473,7 +2473,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -2497,7 +2497,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -2665,7 +2665,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -2689,7 +2689,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -2857,7 +2857,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -2881,7 +2881,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -3049,7 +3049,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -3073,7 +3073,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -3241,7 +3241,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -3265,7 +3265,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -3433,7 +3433,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -3457,7 +3457,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -3625,7 +3625,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -3649,7 +3649,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -3817,7 +3817,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -3841,7 +3841,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -4009,7 +4009,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -4033,7 +4033,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -4201,7 +4201,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -4225,7 +4225,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -4393,7 +4393,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -4417,7 +4417,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -4585,7 +4585,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -4609,7 +4609,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -4777,7 +4777,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -4801,7 +4801,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -4969,7 +4969,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -4993,7 +4993,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -5161,7 +5161,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -5185,7 +5185,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -5353,7 +5353,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -5377,7 +5377,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -5545,7 +5545,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -5569,7 +5569,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -5737,7 +5737,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -5761,7 +5761,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:
@@ -5929,7 +5929,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/BYWnMm9.jpg',
-    genre: 'Rap',
+    genre: 'Hip Hop',
     artist: 'Playboy Carti',
     albumTitle: 'Die Lit',
     description:
@@ -5953,7 +5953,7 @@ const dummyProducts = [
   },
   {
     imgUrl: 'https://i.imgur.com/bt0c1dC.jpg',
-    genre: 'Hip-Hop',
+    genre: 'Hip Hop',
     artist: 'Tyler The Creator',
     albumTitle: 'Igor',
     description:

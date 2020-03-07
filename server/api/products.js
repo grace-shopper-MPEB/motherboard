@@ -1,5 +1,6 @@
 const router = require('express').Router()
 const {Products, Artists} = require('../db/models')
+module.exports = router
 const {isAdmin} = require('./utils')
 
 router.get('/', async (req, res, next) => {
@@ -16,13 +17,22 @@ router.get('/', async (req, res, next) => {
 router.get(`/:id`, async (req, res, next) => {
   try {
     const id = req.params.id
+    const products = await Products.findAll({
+      include: [Artists]
+    })
+
+    console.log(products)
     const product = await Products.findByPk(id, {
       include: [Artists]
     })
     const albums = await Products.findAll({
       where: {artistId: product.dataValues.artistId}
     })
-    res.json({product, albums})
+
+      const genres = await Products.findAll({
+      where: {genre: product.dataValues.genre}
+    })
+    res.json({product, albums, genres})
   } catch (error) {
     next(error)
   }
@@ -47,6 +57,19 @@ router.post('/:productName', isAdmin, async (req, res, next) => {
   }
 })
 
+
+router.get(`/genres/:genre`, async (req, res, next) => {
+  try {
+    console.log(req.params.genre)
+    const genres = await Products.findAll({
+      where: {genre: req.params.genre}
+    })
+    res.json(genres)
+  } catch (error) {
+    next(error)
+  }
+})
+    
 router.delete('/:id', isAdmin, async (req, res, next) => {
   try {
     let id = req.params.id
@@ -58,9 +81,8 @@ router.delete('/:id', isAdmin, async (req, res, next) => {
     } else {
       res.sendStatus(404)
     }
+
   } catch (error) {
     next(error)
   }
 })
-
-module.exports = router

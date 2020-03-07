@@ -2,7 +2,8 @@ import axios from 'axios'
 
 const initialState = {
   products: [],
-  product: []
+  product: [],
+  genreProducts: []
 }
 
 // ***********************************
@@ -15,6 +16,7 @@ const SET_PRODUCTS = 'SET_PRODUCTS'
 const SET_PRODUCT_BY_ID = 'SET_PRODUCT_BY_ID'
 const ADD_PRODUCT = 'ADD_PRODUCT'
 const DELETE_PRODUCT = 'DELETE_PRODUCT'
+const SET_PRODUCT_BY_GENRE = 'SET_PRODUCT_BY_GENRE'
 
 // Actions:
 export const setProducts = products => {
@@ -42,6 +44,13 @@ export const deleteProduct = id => {
   return {
     type: DELETE_PRODUCT,
     id
+  }
+}
+
+export const setProductByGenre = genreProducts => {
+  return {
+    type: SET_PRODUCT_BY_GENRE,
+    genreProducts
   }
 }
 
@@ -91,6 +100,15 @@ export const updateProduct = product => async dispatch => {
   }
 }
 
+export const getProductsByGenre = genre => async dispatch => {
+  try {
+    const {data} = await axios.get(`/api/products/genres/${genre}`)
+    dispatch(setProductByGenre(data))
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 // export const getProductsByArtistId = (productId, artistId)  => async dispatch => {
 //   try {
 //     const {data} = await axios.get(`/api/products/${productId}`)
@@ -119,6 +137,11 @@ export default function(state = initialState, action) {
       return {
         ...state,
         products: state.products.filter(product => product.id !== action.id)
+      }
+    case SET_PRODUCT_BY_GENRE:
+      return {
+        ...state,
+        genreProducts: action.genreProducts
       }
     default:
       return state
