@@ -1,6 +1,5 @@
 import React from 'react'
 import axios from 'axios'
-import {toast} from 'react-toastify'
 import {Link} from 'react-router-dom'
 
 export class SingleProduct extends React.Component {
@@ -20,7 +19,6 @@ export class SingleProduct extends React.Component {
     }
     let productId = this.props.singleProduct.product.id
     await axios.post(`/api/users/cart/${userId}/${productId}`)
-    toast.success('Added to Cart!')
   }
 
   render() {
@@ -64,10 +62,10 @@ export class SingleProduct extends React.Component {
               </Link>
             </div>
             <div className="single-description">{product.description}</div>
-            <div>
+            <div className="albums-by">
               More albums by {product.artist ? product.artist.artistName : null}
               :
-              <div className="all-products-container">
+              <div>
                 <div className="all-products">
                   {this.props.singleProduct.albums
                     ? this.props.singleProduct.albums.map(x => (

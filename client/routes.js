@@ -9,7 +9,10 @@ import {
   AllProducts,
   SingleProduct,
   AllUsers,
+  AlbumGenres,
+  Loading,
   Cart,
+  FeaturedProducts
 } from './components'
 import {me} from './store'
 import {
@@ -50,6 +53,15 @@ class Routes extends Component {
           path="/products"
           render={() => (
             <AllProducts
+              {...this.props}
+              singleProduct={this.props.singleProduct}
+            />
+          )}
+        />
+        <Route
+          path="/products/featured"
+          render={() => (
+            <FeaturedProducts
               {...this.props}
               singleProduct={this.props.singleProduct}
             />
