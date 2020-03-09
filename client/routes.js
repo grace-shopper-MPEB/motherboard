@@ -10,6 +10,8 @@ import {
   SingleProduct,
   AllUsers,
   Cart,
+  AlbumGenres,
+  Loading
 } from './components'
 import {me} from './store'
 import {

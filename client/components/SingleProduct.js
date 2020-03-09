@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
-
+import Loading from './Loading'
 export class SingleProduct extends React.Component {
   constructor() {
     super()
@@ -23,67 +23,67 @@ export class SingleProduct extends React.Component {
 
   render() {
     const product = this.props.singleProduct.product
-      ? this.props.singleProduct.product
-      : {}
-    const albums = this.props.singleProduct.albums
-      ? this.props.singleProduct.albums
-      : {}
-    const genres = this.props.singleProduct.genres
-      ? this.props.singleProduct.genres
-      : {}
-
-    return (
-      <div className="single-album-container">
-        <div className="single-album">
-          <div className="single-image">
-            <img src={product.imgUrl} />
-          </div>
-          <div className="single-album-details">
-            <div className="single-title">{product.albumTitle}</div>
-            <div className="single-price">${product.price / 100}</div>
-            <div className="select">
-              <label htmlFor="quantity">Quantity</label>
-              <input id="quantity" type="number" name="quantity" />
+    // ? this.props.singleProduct.product
+    // : {}
+    if (!product) {
+      return <Loading />
+    }
+    if (product) {
+      return (
+        <div className="single-album-container">
+          <div className="single-album">
+            <div className="single-image">
+              <img src={product.imgUrl} />
             </div>
-            <button
-              onClick={this.handleClick}
-              className="buyButton"
-              type="button"
-            >
-              Add to Cart
-            </button>
-            <div className="single-artist">
-              Artist: {product.artist ? product.artist.artistName : null}
-            </div>
-            <div className="single-genre">
-              Genre:
-              <Link to={`/products/genres/${product.genre}`}>
-                {product.genre}
-              </Link>
-            </div>
-            <div className="single-description">{product.description}</div>
-            <div>
-              More albums by {product.artist ? product.artist.artistName : null}
-              :
-              <div className="all-products-container">
-                <div className="all-products">
-                  {this.props.singleProduct.albums
-                    ? this.props.singleProduct.albums.map(x => (
-                        <div key={x.id} className="item">
-                          <img
-                            src={x.imgUrl}
-                            className="product-info all-images"
-                          />
-                        </div>
-                      ))
-                    : null}
+            <div className="single-album-details">
+              <div className="single-title">{product.albumTitle}</div>
+              <div className="single-price">${product.price / 100}</div>
+              <div className="select">
+                <label htmlFor="quantity">Quantity</label>
+                <input id="quantity" type="number" name="quantity" />
+              </div>
+              <button
+                onClick={this.handleClick}
+                className="buyButton"
+                type="button"
+              >
+                Add to Cart
+              </button>
+              <div className="single-artist">
+                Artist: {product.artist ? product.artist.artistName : null}
+              </div>
+              <div className="single-genre">
+                Genre:
+                <Link to={`/products/genres/${product.genre}`}>
+                  {product.genre}
+                </Link>
+              </div>
+              <div className="single-description">{product.description}</div>
+              <div>
+                More albums by{' '}
+                {product.artist ? product.artist.artistName : null}:
+                <div className="all-products-container">
+                  <div className="all-products">
+                    {this.props.singleProduct.albums
+                      ? this.props.singleProduct.albums.map(x => (
+                          <div key={x.id} className="item">
+                            <img
+                              src={x.imgUrl}
+                              className="product-info all-images"
+                            />
+                          </div>
+                        ))
+                      : null}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    )
+      )
+    } else {
+      return <h1>Album not found.</h1>
+    }
   }
 }
 

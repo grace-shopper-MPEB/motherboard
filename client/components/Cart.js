@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import {Checkout} from './Checkout'
+import Loading from './Loading'
 
 export class Cart extends React.Component {
   constructor() {
@@ -30,7 +31,9 @@ export class Cart extends React.Component {
 
     console.log('345542525', this.props.cart.cart)
     let orders = this.props.cart.cart
-
+    if (!orders) {
+      return <Loading />
+    }
     if (orders) {
       let total = 0
       return (
