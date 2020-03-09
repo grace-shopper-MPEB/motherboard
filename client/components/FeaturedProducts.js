@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export class FeaturedProducts extends React.Component {
   componentDidMount() {}
@@ -20,11 +21,13 @@ export class FeaturedProducts extends React.Component {
               {product.id === ids[0] ||
               product.id === ids[1] ||
               product.id === ids[2] ? (
-                <img
-                  src={product.imgUrl}
-                  className="product-info all-images"
-                  id="product-img"
-                />
+                <Link to={`/products/${product.id}`}>
+                  <img
+                    src={product.imgUrl}
+                    className="product-info all-images"
+                    id="product-img"
+                  />
+                </Link>
               ) : null}
             </div>
           ))}
