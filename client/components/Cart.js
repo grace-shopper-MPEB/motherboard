@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import {toast} from 'react-toastify'
 import {Checkout} from './Checkout'
 
 export class Cart extends React.Component {
@@ -25,6 +26,10 @@ export class Cart extends React.Component {
     }
     await axios.delete(`/api/users/cart/${userId}/${productId}`)
     this.props.getCart(userId)
+
+    console.log(x.data)
+    toast.info('Item Romoved')
+
   }
 
   render() {
