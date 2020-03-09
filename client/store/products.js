@@ -17,6 +17,8 @@ const SET_PRODUCT_BY_ID = 'SET_PRODUCT_BY_ID'
 const ADD_PRODUCT = 'ADD_PRODUCT'
 const DELETE_PRODUCT = 'DELETE_PRODUCT'
 const SET_PRODUCT_BY_GENRE = 'SET_PRODUCT_BY_GENRE'
+const EDIT_PRODUCT = 'EDIT_PRODUCT'
+// const INCREMENT_POPULARITY = 'INCREMENT_POPULARITY'
 
 // Actions:
 export const setProducts = products => {
@@ -53,6 +55,15 @@ export const setProductByGenre = genreProducts => {
     genreProducts
   }
 }
+
+export const editProductAction = product => ({type: EDIT_PRODUCT, product})
+
+// export const incrementPopularity = product => {
+//   return {
+//     type: INCREMENT_POPULARITY,
+//     product
+//   }
+// }
 
 // Thunks:
 export const getProducts = () => async dispatch => {
@@ -91,12 +102,12 @@ export const deleteProductById = id => async dispatch => {
   }
 }
 
-export const updateProduct = product => async dispatch => {
+export const editProduct = product => async (dispatch, getState) => {
   try {
-    const {data} = await axios.put(`/api/products/${id}`)
-    dispatch(setProductById(data))
-  } catch (error) {
-    console.log(error)
+    const {data} = await axios.put(`/api/products/${product.id}`, product)
+    dispatch(editProductAction(data))
+  } catch (err) {
+    console.error(err)
   }
 }
 

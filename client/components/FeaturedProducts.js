@@ -16,24 +16,22 @@ export class FeaturedProducts extends React.Component {
     return (
       <div className="all-products-container">
         <div className="all-products">
-          <h1>
-            This Weeks Featured Albums:
-            {products.map(product => (
-              <div key={product.id}>
-                {product.id === ids[0] ||
-                product.id === ids[1] ||
-                product.id === ids[2] ? (
-                  <Link to={`/products/${product.id}`}>
-                    <img
-                      src={product.imgUrl}
-                      className="product-info all-images"
-                      id="product-img"
-                    />
-                  </Link>
-                ) : null}
-              </div>
-            ))}
-          </h1>
+          <h1>This Weeks Featured Albums:</h1>
+          {products.map(product => (
+            <div key={product.id}>
+              {product.id === ids[0] ||
+              product.id === ids[1] ||
+              product.id === ids[2] ? (
+                <Link to={`/products/${product.id}`}>
+                  <img
+                    src={product.imgUrl}
+                    className="product-info all-images"
+                    id="product-img"
+                  />
+                </Link>
+              ) : null}
+            </div>
+          ))}
         </div>
       </div>
     )

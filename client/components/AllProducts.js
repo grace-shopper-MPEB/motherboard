@@ -2,6 +2,7 @@ import React from 'react'
 import {Product} from './'
 import {toast} from 'react-toastify'
 import axios from 'axios'
+import {updateProduct} from '../store'
 // Needs React Router
 export class AllProducts extends React.Component {
   constructor() {
@@ -19,6 +20,11 @@ export class AllProducts extends React.Component {
     }
     await axios.post(`/api/users/cart/${userId}/${productId}`)
     toast.success('Added to Cart!')
+    const user = await axios.get(`/api/products/${productId}`)
+    const clicks = user.data.product.popularity
+    await axios.put(`/api/products/${productId}`, {
+      popularity: clicks + 1
+    })
   }
 
   render() {

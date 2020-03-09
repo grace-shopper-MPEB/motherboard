@@ -29,7 +29,7 @@ router.get(`/:id`, async (req, res, next) => {
       where: {artistId: product.dataValues.artistId}
     })
 
-      const genres = await Products.findAll({
+    const genres = await Products.findAll({
       where: {genre: product.dataValues.genre}
     })
     res.json({product, albums, genres})
@@ -57,7 +57,6 @@ router.post('/:productName', isAdmin, async (req, res, next) => {
   }
 })
 
-
 router.get(`/genres/:genre`, async (req, res, next) => {
   try {
     console.log(req.params.genre)
@@ -69,7 +68,7 @@ router.get(`/genres/:genre`, async (req, res, next) => {
     next(error)
   }
 })
-    
+
 router.delete('/:id', isAdmin, async (req, res, next) => {
   try {
     let id = req.params.id
@@ -81,7 +80,22 @@ router.delete('/:id', isAdmin, async (req, res, next) => {
     } else {
       res.sendStatus(404)
     }
+  } catch (error) {
+    next(error)
+  }
+})
 
+//Need to figure out admin status for this
+router.put('/:id', async (req, res, next) => {
+  try {
+    Products.update(req.body, {
+      returning: true,
+      where: {
+        id: req.params.id
+      }
+    }).then(([product]) => {
+      res.json(product)
+    })
   } catch (error) {
     next(error)
   }
