@@ -20,7 +20,7 @@ export class SingleProduct extends React.Component {
     }
     let productId = this.props.singleProduct.product.id
     await axios.post(`/api/users/cart/${userId}/${productId}`)
-
+    toast.success('Added to Cart!')
   }
 
   render() {
