@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
 import {updateProduct} from '../store'
+import {toast} from 'react-toastify'
 
 export class SingleProduct extends React.Component {
   constructor() {
@@ -25,6 +26,7 @@ export class SingleProduct extends React.Component {
     await axios.put(`/api/products/${productId}`, {
       popularity: clicks + 1
     })
+    toast.success('Added to Cart!')
   }
 
   render() {
