@@ -36,16 +36,16 @@ export class Checkout extends React.Component {
       .then(this.successPayment)
       .then(async () => {
         let id = 0
-        if (this.props.props.cart.id) {
-          id = this.props.props.cart.id
+        if (this.props.cart.id) {
+          id = this.props.cart.id
         }
         await axios.put(`/api/users/entirecart/${id}`)
-        await this.props.props.getCart(this.props.props.user.id)
+        this.props.fetchCart()
       })
       .catch(errorPayment)
 
   render() {
-    if (this.props.props.user.id) {
+    if (this.props.user.id) {
       return (
         <StripeCheckout
           name={this.name}

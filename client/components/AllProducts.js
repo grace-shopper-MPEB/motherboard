@@ -1,10 +1,12 @@
 import React from 'react'
+import {connect} from 'react-redux'
 import {Product} from './'
 import {toast} from 'react-toastify'
+import {addToCartThunk} from '../store/cart'
 import axios from 'axios'
 import {updateProduct} from '../store'
 // Needs React Router
-export class AllProducts extends React.Component {
+class AllProducts extends React.Component {
   constructor() {
     super()
     this.handleClick = this.handleClick.bind(this)
@@ -13,12 +15,8 @@ export class AllProducts extends React.Component {
     // nothing here yet
   }
 
-  async handleClick(productId) {
-    let userId = 0
-    if (this.props.user.id) {
-      userId = this.props.user.id
-    }
-    await axios.post(`/api/users/cart/${userId}/${productId}`)
+  handleClick(productId) {
+    this.props.addToCart(productId)
     toast.success('Added to Cart!')
     const user = await axios.get(`/api/products/${productId}`)
     const clicks = user.data.product.popularity
@@ -53,4 +51,16 @@ export class AllProducts extends React.Component {
   }
 }
 
-export default AllProducts
+const mapStateToProps = state => {
+  return {
+    user: state.user
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    addToCart: productId => dispatch(addToCartThunk(productId))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(AllProducts)
