@@ -102,7 +102,8 @@ const mapDispatch = dispatch => {
     getProductsById: id => dispatch(getProductsById(id)),
 
     getUsers: () => dispatch(getUsers()),
-    getCart: id => dispatch(getCart(id))
+    getCart: id => dispatch(getCart(id)),
+    me: () => dispatch(me())
   }
 }
 

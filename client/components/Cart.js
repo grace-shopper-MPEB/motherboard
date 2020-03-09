@@ -8,8 +8,10 @@ export class Cart extends React.Component {
     this.handleClick = this.handleClick.bind(this)
   }
 
-  componentDidMount() {
+  async componentDidMount() {
+    await this.props.me()
     if (this.props.user.id) {
+      await this.props.getCart(this.props.user.id)
       this.props.getCart(this.props.user.id)
     } else {
       this.props.getCart(0)
@@ -28,7 +30,7 @@ export class Cart extends React.Component {
   render() {
     let cart = this.props.cart
 
-    if (cart.products) {
+    if (cart && cart.products) {
       let total = 0
       return (
         <div id="cart">
@@ -77,6 +79,8 @@ export class Cart extends React.Component {
                 name="Shopping cart checkout"
                 description="Shopping cart checkout"
                 amount={total / 100}
+                cart={this.props.cart}
+                props={this.props}
               />
             </div>
           </div>
