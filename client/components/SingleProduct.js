@@ -1,26 +1,36 @@
 import React from 'react'
-import axios from 'axios'
+import {connect} from 'react-redux'
 import {toast} from 'react-toastify'
 import {Link} from 'react-router-dom'
+import {addToCartThunk} from '../store/cart'
+import {getProductsById} from '../store/products'
 
-export class SingleProduct extends React.Component {
+class SingleProduct extends React.Component {
   constructor() {
     super()
     this.handleClick = this.handleClick.bind(this)
+    this.handleChange = this.handleChange.bind(this)
+
+    this.state = {
+      quantity: 1
+    }
   }
+
   componentDidMount() {
     const id = this.props.location.pathname.slice(10)
     this.props.getProductsById(id)
   }
 
-  async handleClick() {
-    let userId = 0
-    if (this.props.user.id) {
-      userId = this.props.user.id
-    }
-    let productId = this.props.singleProduct.product.id
-    await axios.post(`/api/users/cart/${userId}/${productId}`)
+  handleClick() {
+    let productId = this.props.product.id
+    this.props.addToCart(productId)
     toast.success('Added to Cart!')
+  }
+
+  handleChange() {
+    this.setState({
+      quantity: event.target.value
+    })
   }
 
   render() {
@@ -45,7 +55,13 @@ export class SingleProduct extends React.Component {
             <div className="single-price">${product.price / 100}</div>
             <div className="select">
               <label htmlFor="quantity">Quantity</label>
-              <input id="quantity" type="number" name="quantity" />
+              <input
+                id="quantity"
+                type="number"
+                name="quantity"
+                value={this.state.quantity}
+                onChange={this.handleChange}
+              />
             </div>
             <button
               onClick={this.handleClick}
@@ -89,4 +105,17 @@ export class SingleProduct extends React.Component {
   }
 }
 
-export default SingleProduct
+const mapStateToProps = state => {
+  return {
+    product: state.products.product
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    addToCart: productId => dispatch(addToCartThunk(productId)),
+    getProductsById: id => dispatch(getProductsById(id))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(SingleProduct)
