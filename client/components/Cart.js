@@ -8,8 +8,11 @@ export class Cart extends React.Component {
     super()
     this.handleClick = this.handleClick.bind(this)
   }
-  componentDidMount() {
+
+  async componentDidMount() {
+    await this.props.me()
     if (this.props.user.id) {
+      await this.props.getCart(this.props.user.id)
       this.props.getCart(this.props.user.id)
     } else {
       this.props.getCart(0)
@@ -21,60 +24,56 @@ export class Cart extends React.Component {
     if (this.props.user.id) {
       userId = this.props.user.id
     }
-    const x = await axios.delete(`/api/users/cart/${userId}/${productId}`)
+    await axios.delete(`/api/users/cart/${userId}/${productId}`)
     this.props.getCart(userId)
+
     console.log(x.data)
     toast.info('Item Romoved')
+
   }
 
   render() {
-    console.log('PROPS', this.props)
+    let cart = this.props.cart
 
-    console.log('345542525', this.props.cart.cart)
-    let orders = this.props.cart.cart
-
-    if (orders) {
+    if (cart && cart.products) {
       let total = 0
       return (
         <div id="cart">
           <div id="your-cart">Your Cart</div>
+
           <div id="q-p">
             <div className="q">Quantity</div>
             <div className="p">Price</div>
           </div>
 
           <div>
-            {orders.map(order => (
-              <div key={order.id}>
-                <div id="cart-items">
-                  {order.products.map(product => {
-                    total += product.price
-                    return (
-                      <div key={product.id} className="cart-item">
-                        <div className="cart-comp">
-                          <img className="cart-image" src={product.imgUrl} />
-                          <div className="cart-title">{product.albumTitle}</div>
-                        </div>
-                        <div className="cart-comp">
-                          <div className="cart-quantity"></div>
-                          <div className="cart-price">
-                            ${product.price / 100}{' '}
-                          </div>
-                          <button
-                            className="remove-button"
-                            type="button"
-                            onClick={() => this.handleClick(product.id)}
-                          >
-                            Remove
-                          </button>
-                        </div>
-                      </div>
-                    )
-                  })}
-                </div>
-              </div>
-            ))}
+            <div id="cart-items">
+              {cart.products.map(product => {
+                total += product.price
+                return (
+                  <div key={product.id} className="cart-item">
+                    <div className="cart-comp">
+                      <img className="cart-image" src={product.imgUrl} />
+                      <div className="cart-title">{product.albumTitle}</div>
+                    </div>
+
+                    <div className="cart-comp">
+                      <div className="cart-quantity"></div>
+                      <div className="cart-price">${product.price / 100} </div>
+                      <button
+                        className="remove-button"
+                        type="button"
+                        onClick={() => this.handleClick(product.id)}
+                      >
+                        Remove
+                      </button>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
           </div>
+
           <div id="total">
             <div id="total-amount">${total / 100}</div>
           </div>
@@ -85,6 +84,8 @@ export class Cart extends React.Component {
                 name="Shopping cart checkout"
                 description="Shopping cart checkout"
                 amount={total / 100}
+                cart={this.props.cart}
+                props={this.props}
               />
             </div>
           </div>

@@ -23,7 +23,7 @@ async function seed() {
   await Products.bulkCreate(dummyProducts)
   // await Products.bulkCreate(dummyAlbums)
   await Payments.bulkCreate(dummyPayments)
-  await Orders.bulkCreate(dummyOrders)
+  // await Orders.bulkCreate(dummyOrders)
   await Artists.bulkCreate(dummyArtists)
   await Songs.create({
     songName: 'Dont Start'
