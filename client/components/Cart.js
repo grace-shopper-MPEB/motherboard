@@ -1,33 +1,23 @@
 import React from 'react'
+import {connect} from 'react-redux'
 import axios from 'axios'
 import {toast} from 'react-toastify'
 import {Checkout} from './Checkout'
+import {getCartThunk, removeFromCartThunk} from '../store/cart'
 
-export class Cart extends React.Component {
+class Cart extends React.Component {
   constructor() {
     super()
     this.handleClick = this.handleClick.bind(this)
   }
 
-  async componentDidMount() {
-    await this.props.me()
-    if (this.props.user.id) {
-      await this.props.getCart(this.props.user.id)
-      this.props.getCart(this.props.user.id)
-    } else {
-      this.props.getCart(0)
-    }
+  componentDidMount() {
+    this.props.fetchCart()
   }
 
-  async handleClick(productId) {
-    let userId = 0
-    if (this.props.user.id) {
-      userId = this.props.user.id
-    }
-    await axios.delete(`/api/users/cart/${userId}/${productId}`)
-    this.props.getCart(userId)
-
-    toast.info('Item Romoved')
+  handleClick(productId) {
+    this.props.removeFromCart(productId)
+    // toast.success('Item Removed')
   }
 
   render() {
@@ -83,7 +73,8 @@ export class Cart extends React.Component {
                 description="Shopping cart checkout"
                 amount={total / 100}
                 cart={this.props.cart}
-                props={this.props}
+                user={this.props.user}
+                fetchCart={this.props.fetchCart}
               />
             </div>
           </div>
@@ -95,4 +86,18 @@ export class Cart extends React.Component {
   }
 }
 
-export default Cart
+const mapStateToProps = state => {
+  return {
+    cart: state.cart,
+    user: state.user
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    fetchCart: () => dispatch(getCartThunk()),
+    removeFromCart: productId => dispatch(removeFromCartThunk(productId))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Cart)

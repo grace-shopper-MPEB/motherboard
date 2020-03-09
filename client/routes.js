@@ -2,23 +2,18 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
-import {
-  Login,
-  Signup,
-  UserHome,
-  AllProducts,
-  SingleProduct,
-  AllUsers,
-  Cart,
-} from './components'
+import {Login, Signup, UserHome, AllUsers} from './components'
 import {me} from './store'
+import Cart from './components/Cart'
+import AllProducts from './components/AllProducts'
+import SingleProduct from './components/SingleProduct'
 import {
   getProducts,
   getProductsById,
   getProductsByGenre
 } from './store/products'
 import {getUsers} from './store/user'
-import {getCart} from './store/cart'
+import {getCartThunk} from './store/cart'
 
 /**
  * COMPONENT
@@ -50,7 +45,7 @@ class Routes extends Component {
           path="/products"
           render={() => (
             <AllProducts
-              {...this.props}
+              allProducts={this.props.allProducts}
               singleProduct={this.props.singleProduct}
             />
           )}
@@ -75,7 +70,7 @@ class Routes extends Component {
           )}
         />
         <Route path="/checkout" render={() => <Checkout />} />
-        <Route path="/users/cart" render={() => <Cart {...this.props} />} />
+        <Route path="/users/cart" render={() => <Cart />} />
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}
@@ -120,7 +115,7 @@ const mapDispatch = dispatch => {
     getProductsByGenre: genre => dispatch(getProductsByGenre(genre)),
 
     getUsers: () => dispatch(getUsers()),
-    getCart: id => dispatch(getCart(id)),
+    getCart: id => dispatch(getCartThunk(id)),
     me: () => dispatch(me())
   }
 }
