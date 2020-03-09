@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
+import {updateProduct} from '../store'
 import {toast} from 'react-toastify'
 
 export class SingleProduct extends React.Component {
@@ -20,18 +21,17 @@ export class SingleProduct extends React.Component {
     }
     let productId = this.props.singleProduct.product.id
     await axios.post(`/api/users/cart/${userId}/${productId}`)
+    const clicks = this.props.singleProduct.product.popularity
+    console.log(clicks)
+    await axios.put(`/api/products/${productId}`, {
+      popularity: clicks + 1
+    })
     toast.success('Added to Cart!')
   }
 
   render() {
     const product = this.props.singleProduct.product
       ? this.props.singleProduct.product
-      : {}
-    const albums = this.props.singleProduct.albums
-      ? this.props.singleProduct.albums
-      : {}
-    const genres = this.props.singleProduct.genres
-      ? this.props.singleProduct.genres
       : {}
 
     return (

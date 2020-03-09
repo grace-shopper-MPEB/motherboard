@@ -60,6 +60,15 @@ const Products = db.define('product', {
     validate: {
       min: 0
     }
+  },
+
+  popularity: {
+    type: Sequelize.INTEGER,
+    allowNull: false,
+    defaultValue: 0,
+    validate: {
+      min: 0
+    }
   }
 })
 

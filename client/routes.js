@@ -10,7 +10,6 @@ import {
   SingleProduct,
   AllUsers,
   AlbumGenres,
-  Loading,
   Cart,
   FeaturedProducts
 } from './components'

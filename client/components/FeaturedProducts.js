@@ -13,27 +13,32 @@ export class FeaturedProducts extends React.Component {
 
     const products = this.props.allProducts
 
+    let albumsByPopularity = [...products]
+    albumsByPopularity.sort(function(a, b) {
+      return b.popularity - a.popularity
+    })
+
+    albumsByPopularity = albumsByPopularity.slice(0, 5)
+
+    console.log('pops', albumsByPopularity)
+
     return (
       <div className="all-products-container">
         <div className="all-products">
-          <h1>
-            This Weeks Featured Albums:
-            {products.map(product => (
-              <div key={product.id}>
-                {product.id === ids[0] ||
-                product.id === ids[1] ||
-                product.id === ids[2] ? (
-                  <Link to={`/products/${product.id}`}>
-                    <img
-                      src={product.imgUrl}
-                      className="product-info all-images"
-                      id="product-img"
-                    />
-                  </Link>
-                ) : null}
-              </div>
-            ))}
-          </h1>
+          <h1>Top 5 albums by popularity:</h1>
+
+          {albumsByPopularity.map(album => (
+            <div key={album.id}>
+              <Link to={`/products/${album.id}`}>
+                <img
+                  src={album.imgUrl}
+                  className="product-info all-images"
+                  id="product-img"
+                />
+              </Link>
+              )
+            </div>
+          ))}
         </div>
       </div>
     )
