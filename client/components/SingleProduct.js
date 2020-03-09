@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
+import {toast} from 'react-toastify'
 
 export class SingleProduct extends React.Component {
   constructor() {
@@ -19,6 +20,7 @@ export class SingleProduct extends React.Component {
     }
     let productId = this.props.singleProduct.product.id
     await axios.post(`/api/users/cart/${userId}/${productId}`)
+
   }
 
   render() {
