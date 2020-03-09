@@ -1,5 +1,6 @@
 import React from 'react'
 import {Product} from './'
+import {toast} from 'react-toastify'
 import axios from 'axios'
 // Needs React Router
 export class AllProducts extends React.Component {
@@ -17,6 +18,7 @@ export class AllProducts extends React.Component {
       userId = this.props.user.id
     }
     await axios.post(`/api/users/cart/${userId}/${productId}`)
+    toast.success('Added to Cart!')
   }
 
   render() {
