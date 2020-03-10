@@ -1,8 +1,11 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {Product} from './'
+import axios from 'axios'
+import {Link} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
+
 class AllProducts extends React.Component {
   constructor() {
     super()
@@ -19,10 +22,18 @@ class AllProducts extends React.Component {
 
   render() {
     const products = this.props.allProducts
+    const user = this.props.user
     if (products) {
       return (
         <div className="all-products-container">
           <div className="all-products">
+            {user.isAdmin === true && (
+              <div className="row">
+                <Link className="button" to="/products/add">
+                  Add Product
+                </Link>
+              </div>
+            )}
             {products.map(product => (
               <div key={product.id}>
                 <Product product={product} />
