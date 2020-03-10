@@ -1,7 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {Product} from './'
-import {Link} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
 import axios from 'axios'
@@ -33,13 +32,6 @@ class AllProducts extends React.Component {
       return (
         <div className="all-products-container">
           <div className="all-products">
-            {user.isAdmin === true && (
-              <div className="row">
-                <Link className="button" to="/products/add">
-                  Add Product
-                </Link>
-              </div>
-            )}
             {products.map(product => (
               <div key={product.id}>
                 <Product product={product} />

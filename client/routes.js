@@ -35,29 +35,12 @@ class Routes extends Component {
         {/* Routes placed here are available to all visitors */}
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
-        <Route path="/admin" component={Admin} />
+        {this.props.isAdmin && <Route path="/admin" component={Admin} />}
         <Route exact path="/users" component={AllUsers} />
         <Route exact path="/products/add" render={() => <AddProduct />} />
-        <Route
-          exact
-          path="/products"
-          render={() => (
-            <AllProducts
-              allProducts={this.props.allProducts}
-              singleProduct={this.props.singleProduct}
-            />
-          )}
-        />
+        <Route exact path="/products" render={() => <AllProducts />} />
 
-        <Route
-          path="/products/featured"
-          render={() => (
-            <FeaturedProducts
-              {...this.props}
-              singleProduct={this.props.singleProduct}
-            />
-          )}
-        />
+        <Route path="/products/featured" render={() => <FeaturedProducts />} />
         <Route
           path="/products/genres/:genre"
           render={() => (
@@ -100,13 +83,10 @@ const mapState = state => {
     // Being 'logged in' for our purposes will be defined has having a state.user that has a truthy id.
     // Otherwise, state.user will be an empty object, and state.user.id will be falsey
     isLoggedIn: !!state.user.id,
-
+    isAdmin: state.user.isAdmin,
     products: state.products,
     cart: state.cart,
     user: state.user,
-
-    allProducts: state.products.products,
-
     singleProduct: state.products.product,
     genreProducts: state.products.genreProducts
   }
