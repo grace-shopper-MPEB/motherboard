@@ -4,7 +4,7 @@ import {Product} from './'
 import {Link} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
-import {updateProduct} from '../store'
+import {incrementPopularityThunk} from '../store/products'
 import axios from 'axios'
 class AllProducts extends React.Component {
   constructor() {
@@ -15,14 +15,10 @@ class AllProducts extends React.Component {
     // nothing here yet
   }
 
-  async handleClick(productId) {
-    this.props.addToCart(productId)
+  handleClick(product) {
+    this.props.addToCart(product.id)
     toast.success('Added to Cart!')
-    const user = await axios.get(`/api/products/${productId}`)
-    const clicks = user.data.product.popularity
-    await axios.put(`/api/products/${productId}`, {
-      popularity: clicks + 1
-    })
+    this.props.incrementPopularity(product)
   }
 
   render() {
@@ -43,7 +39,7 @@ class AllProducts extends React.Component {
               <div key={product.id}>
                 <Product product={product} />
                 <button
-                  onClick={() => this.handleClick(product.id)}
+                  onClick={() => this.handleClick(product)}
                   className="all buyButton"
                   type="button"
                 >
@@ -67,7 +63,9 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    addToCart: productId => dispatch(addToCartThunk(productId))
+    addToCart: productId => dispatch(addToCartThunk(productId)),
+    incrementPopularity: productId =>
+      dispatch(incrementPopularityThunk(productId))
   }
 }
 
