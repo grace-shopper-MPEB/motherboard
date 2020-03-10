@@ -9,6 +9,7 @@ export {Login, Signup} from './auth-form'
 export {AllProducts} from './AllProducts'
 export {SingleProduct} from './SingleProduct'
 export {AlbumGenres} from './AlbumGenres'
+export {AddProduct} from './AddProduct'
 
 export {Cart} from './Cart'
 
@@ -16,4 +17,3 @@ export {Product} from './Product'
 export {AllUsers} from './AllUsers'
 export {User} from './User'
 export {Checkout} from './Checkout'
-

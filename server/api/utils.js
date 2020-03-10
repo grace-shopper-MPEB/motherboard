@@ -5,6 +5,14 @@ const isAdmin = (req, res, next) => {
   next()
 }
 
+const isOwner = (req, res, next) => {
+  if (!req.user || req.user.id !== user.id) {
+    return next('Sorry, you are not the owner!')
+  }
+  next()
+}
+
 module.exports = {
-  isAdmin
+  isAdmin,
+  isOwner
 }
