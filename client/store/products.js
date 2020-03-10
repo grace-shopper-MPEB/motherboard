@@ -3,7 +3,8 @@ import axios from 'axios'
 const initialState = {
   products: [],
   product: [],
-  genreProducts: []
+  genreProducts: [],
+  artists: []
 }
 
 // ***********************************
@@ -18,38 +19,47 @@ const ADD_PRODUCT = 'ADD_PRODUCT'
 const DELETE_PRODUCT = 'DELETE_PRODUCT'
 const SET_PRODUCT_BY_GENRE = 'SET_PRODUCT_BY_GENRE'
 const EDIT_PRODUCT = 'EDIT_PRODUCT'
+const SET_ARTISTS = 'SET_ARTISTS'
 // const INCREMENT_POPULARITY = 'INCREMENT_POPULARITY'
 
+
 // Actions:
-export const setProducts = products => {
+const setProducts = products => {
   return {
     type: SET_PRODUCTS,
     products
   }
 }
 
-export const setProductById = product => {
+const setArtists = artists => {
+  return {
+    type: SET_ARTISTS,
+    artists
+  }
+}
+
+const setProductById = product => {
   return {
     type: SET_PRODUCT_BY_ID,
     product
   }
 }
 
-export const addProduct = product => {
+const addProduct = product => {
   return {
     type: ADD_PRODUCT,
     product
   }
 }
 
-export const deleteProduct = id => {
+const deleteProduct = id => {
   return {
     type: DELETE_PRODUCT,
     id
   }
 }
 
-export const setProductByGenre = genreProducts => {
+const setProductByGenre = genreProducts => {
   return {
     type: SET_PRODUCT_BY_GENRE,
     genreProducts
@@ -75,6 +85,15 @@ export const getProducts = () => async dispatch => {
   }
 }
 
+export const getArtists = () => async dispatch => {
+  try {
+    const {data} = await axios.get('/api/products/add')
+    dispatch(setArtists(data))
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 export const getProductsById = id => async dispatch => {
   try {
     const {data} = await axios.get(`/api/products/${id}`)
@@ -85,6 +104,7 @@ export const getProductsById = id => async dispatch => {
 }
 
 export const addedProduct = product => async dispatch => {
+  console.log('PRODUCT SUBMIT', product)
   try {
     const {data} = await axios.post(`/api/products`, product)
     dispatch(addProduct(data))
@@ -136,6 +156,8 @@ export default function(state = initialState, action) {
   switch (action.type) {
     case SET_PRODUCTS:
       return {...state, products: action.products}
+    case SET_ARTISTS:
+      return {...state, artists: action.artists}
     case SET_PRODUCT_BY_ID:
       return {...state, product: action.product}
     case ADD_PRODUCT:

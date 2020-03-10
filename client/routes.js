@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
-
 import {
   Login,
   Signup,
@@ -12,17 +11,17 @@ import {
   AllUsers,
   AlbumGenres,
   Cart,
-  FeaturedProducts
+  FeaturedProducts,
+  AddProduct
 } from './components'
 
 import {me} from './store'
-import Cart from './components/Cart'
-import AllProducts from './components/AllProducts'
-import SingleProduct from './components/SingleProduct'
 import {
   getProducts,
   getProductsById,
-  getProductsByGenre
+  getProductsByGenre,
+  addedProduct,
+  getArtists
 } from './store/products'
 import {getUsers} from './store/user'
 import {getCartThunk} from './store/cart'
@@ -35,11 +34,12 @@ class Routes extends Component {
     this.props.loadInitialData()
     this.props.getProducts()
     this.props.getUsers()
+    this.props.addProduct()
+    this.props.getArtists()
   }
 
   render() {
     const {isLoggedIn} = this.props
-    console.log('ROUTE PROPS', this.props, 'ROUTE STATE', this.state)
     return (
       <Switch>
         {/* Routes placed here are available to all visitors */}
@@ -54,6 +54,16 @@ class Routes extends Component {
         />
         <Route
           exact
+          path="/products/add"
+          render={() => (
+            <AddProduct
+              artists={this.props.products.artists}
+              add={this.props.addProduct}
+            />
+          )}
+        />
+        <Route
+          exact
           path="/products"
           render={() => (
             <AllProducts
@@ -62,6 +72,7 @@ class Routes extends Component {
             />
           )}
         />
+
         <Route
           path="/products/featured"
           render={() => (
@@ -137,7 +148,9 @@ const mapDispatch = dispatch => {
 
     getUsers: () => dispatch(getUsers()),
     getCart: id => dispatch(getCartThunk(id)),
-    me: () => dispatch(me())
+    me: () => dispatch(me()),
+    addProduct: product => dispatch(addedProduct(product)),
+    getArtists: () => dispatch(getArtists())
   }
 }
 

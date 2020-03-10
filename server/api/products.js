@@ -14,6 +14,15 @@ router.get('/', async (req, res, next) => {
   }
 })
 
+router.get('/add', async (req, res, next) => {
+  try {
+    let artists = await Artists.findAll()
+    res.json(artists)
+  } catch (error) {
+    next(error)
+  }
+})
+
 router.get(`/:id`, async (req, res, next) => {
   try {
     const id = req.params.id
@@ -21,7 +30,6 @@ router.get(`/:id`, async (req, res, next) => {
       include: [Artists]
     })
 
-    console.log(products)
     const product = await Products.findByPk(id, {
       include: [Artists]
     })
@@ -41,14 +49,15 @@ router.get(`/:id`, async (req, res, next) => {
 /**********************************
  * THE BELOW ROUTES HAVE NOT BEEN TESTED
  ***********************************/
-router.post('/:productName', isAdmin, async (req, res, next) => {
+router.post('/', isAdmin, async (req, res, next) => {
   // couldn't figure out how to get the input into req.body, so just did it via parameter
   try {
-    let productName = req.params.productName
-    if (productName) {
-      let newProduct = {name: productName}
-      let createdProduct = await Products.create(newProduct)
-      res.send(createdProduct)
+    console.log('REQ BODY', req.body)
+    // let productName = req.params.productName
+    if (req.body) {
+      // let newProduct = {name: productName}
+      let createdProduct = await Products.create(req.body)
+      res.status(201).send(createdProduct)
     } else {
       res.sendStatus(500)
     }
@@ -59,7 +68,6 @@ router.post('/:productName', isAdmin, async (req, res, next) => {
 
 router.get(`/genres/:genre`, async (req, res, next) => {
   try {
-    console.log(req.params.genre)
     const genres = await Products.findAll({
       where: {genre: req.params.genre}
     })
@@ -96,7 +104,3 @@ router.put('/:id', async (req, res, next) => {
     }).then(([product]) => {
       res.json(product)
     })
-  } catch (error) {
-    next(error)
-  }
-})
