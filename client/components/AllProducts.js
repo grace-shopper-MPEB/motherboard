@@ -54,12 +54,14 @@ class AllProducts extends React.Component {
     if (products) {
       return (
         <div>
-          <input
-            type="text"
-            placeholder="Search"
-            value={this.state.search}
-            onChange={this.updateSearch.bind(this)}
-          />
+          <form>
+            <input
+              type="text"
+              placeholder="Search"
+              value={this.state.search}
+              onChange={this.updateSearch.bind(this)}
+            />
+          </form>
           <div className="all-products-container">
             <div className="all-products">
               {filteredProducts.map(product => (
