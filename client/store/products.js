@@ -112,7 +112,7 @@ export const addedProduct = product => async dispatch => {
   }
 }
 
-export const deleteProductById = id => async dispatch => {
+export const deleteProductThunk = id => async dispatch => {
   try {
     const {data} = await axios.delete(`/api/products/${id}`)
     dispatch(deleteProduct(id))

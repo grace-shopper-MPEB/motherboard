@@ -1,10 +1,10 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {Product} from './'
-import {Link} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
 import {incrementPopularityThunk} from '../store/products'
+import {getProducts} from '../store/products'
 
 class AllProducts extends React.Component {
   constructor() {
@@ -15,8 +15,8 @@ class AllProducts extends React.Component {
     }
   }
   componentDidMount() {
-    // nothing here yet
     this.setState({loading: false})
+    this.props.fetchProducts()
   }
 
   handleClick(product) {
@@ -41,13 +41,6 @@ class AllProducts extends React.Component {
       return (
         <div className="all-products-container">
           <div className="all-products">
-            {user.isAdmin === true && (
-              <div className="row">
-                <Link className="button" to="/products/add">
-                  Add Product
-                </Link>
-              </div>
-            )}
             {products.map(product => (
               <div key={product.id}>
                 <Product product={product} />
@@ -70,6 +63,7 @@ class AllProducts extends React.Component {
 
 const mapStateToProps = state => {
   return {
+    allProducts: state.products.products,
     user: state.user
   }
 }
@@ -79,6 +73,7 @@ const mapDispatchToProps = dispatch => {
     addToCart: productId => dispatch(addToCartThunk(productId)),
     incrementPopularity: productId =>
       dispatch(incrementPopularityThunk(productId))
+    fetchProducts: () => dispatch(getProducts())
   }
 }
 
