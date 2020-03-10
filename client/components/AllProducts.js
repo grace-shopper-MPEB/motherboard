@@ -3,8 +3,6 @@ import {connect} from 'react-redux'
 import {Product} from './'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
-import axios from 'axios'
-// Needs React Router
 class AllProducts extends React.Component {
   constructor() {
     super()

@@ -1,6 +1,5 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import axios from 'axios'
 import {toast} from 'react-toastify'
 import {Checkout} from './Checkout'
 import {getCartThunk, removeFromCartThunk} from '../store/cart'
@@ -17,7 +16,7 @@ class Cart extends React.Component {
 
   handleClick(productId) {
     this.props.removeFromCart(productId)
-    // toast.success('Item Removed')
+    toast.warn('Item Removed :(', {position: 'bottom-left'})
   }
 
   render() {
