@@ -3,6 +3,15 @@ const Orders = require('./orders')
 const Payments = require('./payments')
 const Products = require('./products')
 const Artists = require('./artist')
+const Sequelize = require('sequelize')
+const db = require('../db')
+const OrdersProducts = db.define('orders_products', {
+  quantity: {
+    type: Sequelize.INTEGER,
+    defaultValue: 1
+  }
+})
+
 const Songs = require('./songs')
 /**
  * If we had any associations to make, this would be a great place to put them!
@@ -18,8 +27,8 @@ Payments.belongsTo(Users)
 Artists.hasMany(Products)
 Products.belongsTo(Artists)
 Artists.hasMany(Songs)
-Orders.belongsToMany(Products, {through: 'orders_products'})
-Products.belongsToMany(Orders, {through: 'orders_products'})
+Orders.belongsToMany(Products, {through: OrdersProducts})
+Products.belongsToMany(Orders, {through: OrdersProducts})
 
 /**
  * We'll export all of our models here, so that any time a module needs a model,

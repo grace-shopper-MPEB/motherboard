@@ -11,16 +11,22 @@ import {
   AllUsers,
   Cart,
   AlbumGenres,
-  Loading
+  Loading,
+  AddProduct
 } from './components'
 import {me} from './store'
+import Cart from './components/Cart'
+import AllProducts from './components/AllProducts'
+import SingleProduct from './components/SingleProduct'
 import {
   getProducts,
   getProductsById,
-  getProductsByGenre
+  getProductsByGenre,
+  addedProduct,
+  getArtists
 } from './store/products'
 import {getUsers} from './store/user'
-import {getCart} from './store/cart'
+import {getCartThunk} from './store/cart'
 
 /**
  * COMPONENT
@@ -30,11 +36,12 @@ class Routes extends Component {
     this.props.loadInitialData()
     this.props.getProducts()
     this.props.getUsers()
+    this.props.addProduct()
+    this.props.getArtists()
   }
 
   render() {
     const {isLoggedIn} = this.props
-    console.log('ROUTE PROPS', this.props, 'ROUTE STATE', this.state)
     return (
       <Switch>
         {/* Routes placed here are available to all visitors */}
@@ -49,14 +56,25 @@ class Routes extends Component {
         />
         <Route
           exact
+          path="/products/add"
+          render={() => (
+            <AddProduct
+              artists={this.props.products.artists}
+              add={this.props.addProduct}
+            />
+          )}
+        />
+        <Route
+          exact
           path="/products"
           render={() => (
             <AllProducts
-              {...this.props}
+              allProducts={this.props.allProducts}
               singleProduct={this.props.singleProduct}
             />
           )}
         />
+
         <Route
           path="/products/genres/:genre"
           render={() => (
@@ -77,7 +95,7 @@ class Routes extends Component {
           )}
         />
         <Route path="/checkout" render={() => <Checkout />} />
-        <Route path="/users/cart" render={() => <Cart {...this.props} />} />
+        <Route path="/users/cart" render={() => <Cart />} />
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}
@@ -122,7 +140,10 @@ const mapDispatch = dispatch => {
     getProductsByGenre: genre => dispatch(getProductsByGenre(genre)),
 
     getUsers: () => dispatch(getUsers()),
-    getCart: id => dispatch(getCart(id))
+    getCart: id => dispatch(getCart(id)),
+    me: () => dispatch(me()),
+    addProduct: product => dispatch(addedProduct(product)),
+    getArtists: () => dispatch(getArtists())
   }
 }
 
