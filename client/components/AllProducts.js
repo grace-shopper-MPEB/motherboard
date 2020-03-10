@@ -72,7 +72,7 @@ const mapDispatchToProps = dispatch => {
   return {
     addToCart: productId => dispatch(addToCartThunk(productId)),
     incrementPopularity: productId =>
-      dispatch(incrementPopularityThunk(productId))
+      dispatch(incrementPopularityThunk(productId)),
     fetchProducts: () => dispatch(getProducts())
   }
 }
