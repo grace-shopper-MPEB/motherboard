@@ -1,15 +1,16 @@
-import React from 'react'
+import React, {Component} from 'react'
+import {connect} from 'react-redux'
 import {User} from './'
+import {getUsers} from '../store/user'
 
 // Needs React Router
-export class AllUsers extends React.Component {
+class AllUsers extends Component {
   componentDidMount() {
-    // nothing here yet
+    this.props.getUsers()
   }
 
   render() {
     const users = this.props.allUsers
-    console.log('ALLUSER PROPS', this.props)
 
     if (users) {
       return (
@@ -26,4 +27,16 @@ export class AllUsers extends React.Component {
   }
 }
 
-export default AllUsers
+const mapState = state => {
+  return {
+    allUsers: state.user.users
+  }
+}
+
+const mapDispatch = dispatch => {
+  return {
+    getUsers: () => dispatch(getUsers())
+  }
+}
+
+export default connect(mapState, mapDispatch)(AllUsers)

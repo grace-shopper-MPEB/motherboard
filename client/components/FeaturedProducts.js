@@ -1,10 +1,17 @@
-import React from 'react'
+import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
+import {connect} from 'react-redux'
+import {getProducts} from '../store/products'
 
-export class FeaturedProducts extends React.Component {
+class FeaturedProducts extends Component {
   componentDidMount() {}
 
+  componentDidMount() {
+    this.props.fetchProducts()
+  }
+
   render() {
+    console.log('FEAT ALL', this.props)
     let ids = []
 
     for (let i = 0; i < 3; i++) {
@@ -20,7 +27,7 @@ export class FeaturedProducts extends React.Component {
 
     albumsByPopularity = albumsByPopularity.slice(0, 5)
 
-    console.log('pops', albumsByPopularity)
+    // console.log('pops', albumsByPopularity)
 
     return (
       <div className="all-products-container">
@@ -45,4 +52,17 @@ export class FeaturedProducts extends React.Component {
   }
 }
 
-export default FeaturedProducts
+const mapStateToProps = state => {
+  return {
+    allProducts: state.products.products,
+    user: state.user
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    fetchProducts: () => dispatch(getProducts())
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(FeaturedProducts)

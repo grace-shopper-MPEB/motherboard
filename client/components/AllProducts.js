@@ -1,10 +1,10 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {Product} from './'
-import {Link} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
-import {updateProduct} from '../store'
+import axios from 'axios'
+import {getProducts} from '../store/products'
 
 class AllProducts extends React.Component {
   constructor() {
@@ -12,7 +12,7 @@ class AllProducts extends React.Component {
     this.handleClick = this.handleClick.bind(this)
   }
   componentDidMount() {
-    // nothing here yet
+    this.props.fetchProducts()
   }
 
   async handleClick(productId) {
@@ -32,13 +32,6 @@ class AllProducts extends React.Component {
       return (
         <div className="all-products-container">
           <div className="all-products">
-            {user.isAdmin === true && (
-              <div className="row">
-                <Link className="button" to="/products/add">
-                  Add Product
-                </Link>
-              </div>
-            )}
             {products.map(product => (
               <div key={product.id}>
                 <Product product={product} />
@@ -61,12 +54,14 @@ class AllProducts extends React.Component {
 
 const mapStateToProps = state => {
   return {
+    allProducts: state.products.products,
     user: state.user
   }
 }
 
 const mapDispatchToProps = dispatch => {
   return {
+    fetchProducts: () => dispatch(getProducts()),
     addToCart: productId => dispatch(addToCartThunk(productId))
   }
 }

@@ -22,7 +22,6 @@ const EDIT_PRODUCT = 'EDIT_PRODUCT'
 const SET_ARTISTS = 'SET_ARTISTS'
 // const INCREMENT_POPULARITY = 'INCREMENT_POPULARITY'
 
-
 // Actions:
 const setProducts = products => {
   return {
@@ -113,7 +112,7 @@ export const addedProduct = product => async dispatch => {
   }
 }
 
-export const deleteProductById = id => async dispatch => {
+export const deleteProductThunk = id => async dispatch => {
   try {
     const {data} = await axios.delete(`/api/products/${id}`)
     dispatch(deleteProduct(id))
