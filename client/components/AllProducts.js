@@ -3,29 +3,38 @@ import {connect} from 'react-redux'
 import {Product} from './'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
-import axios from 'axios'
+import {incrementPopularityThunk} from '../store/products'
 import {getProducts} from '../store/products'
 
 class AllProducts extends React.Component {
   constructor() {
     super()
     this.handleClick = this.handleClick.bind(this)
+    this.state = {
+      loading: true
+    }
   }
   componentDidMount() {
+    this.setState({loading: false})
     this.props.fetchProducts()
   }
 
-  async handleClick(productId) {
-    this.props.addToCart(productId)
+  handleClick(product) {
+    this.props.addToCart(product.id)
     toast.success('Added to Cart!')
-    const user = await axios.get(`/api/products/${productId}`)
-    const clicks = user.data.product.popularity
-    await axios.put(`/api/products/${productId}`, {
-      popularity: clicks + 1
-    })
+    this.props.incrementPopularity(product)
   }
 
   render() {
+    const {loading} = this.state
+
+    if (loading) {
+      return (
+        <div>
+          <h1>Loading...</h1>
+        </div>
+      )
+    }
     const products = this.props.allProducts
     const user = this.props.user
     if (products) {
@@ -36,7 +45,7 @@ class AllProducts extends React.Component {
               <div key={product.id}>
                 <Product product={product} />
                 <button
-                  onClick={() => this.handleClick(product.id)}
+                  onClick={() => this.handleClick(product)}
                   className="all buyButton"
                   type="button"
                 >
@@ -61,8 +70,10 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    fetchProducts: () => dispatch(getProducts()),
-    addToCart: productId => dispatch(addToCartThunk(productId))
+    addToCart: productId => dispatch(addToCartThunk(productId)),
+    incrementPopularity: productId =>
+      dispatch(incrementPopularityThunk(productId)),
+    fetchProducts: () => dispatch(getProducts())
   }
 }
 

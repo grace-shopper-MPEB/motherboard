@@ -93,7 +93,7 @@ router.delete('/:id', isAdmin, async (req, res, next) => {
 
 router.put('/:id', isAdmin, async (req, res, next) => {
   try {
-    Products.update(req.body, {
+    await Products.update(req.body, {
       returning: true,
       where: {
         id: req.params.id

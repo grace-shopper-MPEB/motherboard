@@ -20,7 +20,7 @@ const DELETE_PRODUCT = 'DELETE_PRODUCT'
 const SET_PRODUCT_BY_GENRE = 'SET_PRODUCT_BY_GENRE'
 const EDIT_PRODUCT = 'EDIT_PRODUCT'
 const SET_ARTISTS = 'SET_ARTISTS'
-// const INCREMENT_POPULARITY = 'INCREMENT_POPULARITY'
+const INCREMENT_POPULARITY = 'INCREMENT_POPULARITY'
 
 // Actions:
 const setProducts = products => {
@@ -67,12 +67,12 @@ const setProductByGenre = genreProducts => {
 
 export const editProductAction = product => ({type: EDIT_PRODUCT, product})
 
-// export const incrementPopularity = product => {
-//   return {
-//     type: INCREMENT_POPULARITY,
-//     product
-//   }
-// }
+export const incrementPopularity = product => {
+  return {
+    type: INCREMENT_POPULARITY,
+    product
+  }
+}
 
 // Thunks:
 export const getProducts = () => async dispatch => {
@@ -121,21 +121,23 @@ export const deleteProductThunk = id => async dispatch => {
   }
 }
 
-export const editProduct = product => async (dispatch, getState) => {
-  try {
-    const {data} = await axios.put(`/api/products/${product.id}`, product)
-    dispatch(editProductAction(data))
-  } catch (err) {
-    console.error(err)
-  }
-}
-
 export const getProductsByGenre = genre => async dispatch => {
   try {
     const {data} = await axios.get(`/api/products/genres/${genre}`)
     dispatch(setProductByGenre(data))
   } catch (error) {
     console.log(error)
+  }
+}
+
+export const incrementPopularityThunk = product => async dispatch => {
+  try {
+    const {data} = await axios.put(`/api/products/${product.id}`, {
+      popularity: product.popularity + 1
+    })
+    dispatch(incrementPopularity(data))
+  } catch (err) {
+    console.error(err)
   }
 }
 
@@ -174,6 +176,11 @@ export default function(state = initialState, action) {
       return {
         ...state,
         genreProducts: action.genreProducts
+      }
+    case INCREMENT_POPULARITY:
+      return {
+        ...state,
+        products: [...state.products]
       }
     default:
       return state
