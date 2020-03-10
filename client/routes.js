@@ -13,9 +13,6 @@ import {
   AddProduct
 } from './components'
 import {me} from './store'
-import Cart from './components/Cart'
-import AllProducts from './components/AllProducts'
-import SingleProduct from './components/SingleProduct'
 import {
   getProducts,
   getProductsById,
@@ -138,7 +135,7 @@ const mapDispatch = dispatch => {
     getProductsByGenre: genre => dispatch(getProductsByGenre(genre)),
 
     getUsers: () => dispatch(getUsers()),
-    getCart: id => dispatch(getCart(id)),
+    getCart: id => dispatch(getCartThunk(id)),
     me: () => dispatch(me()),
     addProduct: product => dispatch(addedProduct(product)),
     getArtists: () => dispatch(getArtists())
