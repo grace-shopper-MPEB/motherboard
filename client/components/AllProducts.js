@@ -5,14 +5,18 @@ import {Link} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
 import {incrementPopularityThunk} from '../store/products'
-import axios from 'axios'
+
 class AllProducts extends React.Component {
   constructor() {
     super()
     this.handleClick = this.handleClick.bind(this)
+    this.state = {
+      loading: true
+    }
   }
   componentDidMount() {
     // nothing here yet
+    this.setState({loading: false})
   }
 
   handleClick(product) {
@@ -22,6 +26,15 @@ class AllProducts extends React.Component {
   }
 
   render() {
+    const {loading} = this.state
+
+    if (loading) {
+      return (
+        <div>
+          <h1>Loading...</h1>
+        </div>
+      )
+    }
     const products = this.props.allProducts
     const user = this.props.user
     if (products) {

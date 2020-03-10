@@ -1,12 +1,10 @@
 import React from 'react'
-import axios from 'axios'
 import {Link} from 'react-router-dom'
-import {updateProduct} from '../store'
+import {incrementPopularityThunk} from '../store/products'
 import {toast} from 'react-toastify'
 import {connect} from 'react-redux'
 import {addToCartThunk} from '../store/cart'
 import {getProductsById} from '../store/products'
-
 
 class SingleProduct extends React.Component {
   constructor() {
@@ -15,30 +13,25 @@ class SingleProduct extends React.Component {
     this.handleChange = this.handleChange.bind(this)
 
     this.state = {
-      quantity: 1
+      quantity: 1,
+      loading: true
     }
   }
 
   componentDidMount() {
     const id = this.props.location.pathname.slice(10)
     this.props.getProductsById(id)
+    this.setState({loading: false})
   }
 
-
-  async handleClick() {
+  handleClick() {
     let userId = 0
     if (this.props.user.id) {
       userId = this.props.user.id
     }
     let productId = this.props.singleProduct.product.id
-    await axios.post(`/api/users/cart/${userId}/${productId}`)
-    const clicks = this.props.singleProduct.product.popularity
-    console.log(clicks)
-    await axios.put(`/api/products/${productId}`, {
-      popularity: clicks + 1
-    })
+    this.props.incrementPopularity(this.props.singleProduct.product)
     this.props.addToCart(productId)
-
     toast.success('Added to Cart!')
   }
 
@@ -49,6 +42,15 @@ class SingleProduct extends React.Component {
   }
 
   render() {
+    const {loading} = this.state
+
+    if (loading) {
+      return (
+        <div>
+          <h1>Loading...</h1>
+        </div>
+      )
+    }
     const product = this.props.singleProduct.product
       ? this.props.singleProduct.product
       : {}
@@ -123,7 +125,9 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     addToCart: productId => dispatch(addToCartThunk(productId)),
-    getProductsById: id => dispatch(getProductsById(id))
+    getProductsById: id => dispatch(getProductsById(id)),
+    incrementPopularity: productId =>
+      dispatch(incrementPopularityThunk(productId))
   }
 }
 
