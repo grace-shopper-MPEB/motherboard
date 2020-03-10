@@ -21,7 +21,6 @@ import {
   getProductsById,
   getProductsByGenre
 } from './store/products'
-import {getUsers} from './store/user'
 import {getCartThunk} from './store/cart'
 
 /**
@@ -31,7 +30,6 @@ class Routes extends Component {
   componentDidMount() {
     this.props.loadInitialData()
     this.props.getProducts()
-    this.props.getUsers()
   }
 
   render() {
@@ -41,13 +39,7 @@ class Routes extends Component {
         {/* Routes placed here are available to all visitors */}
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
-        <Route
-          exact
-          path="/users"
-          render={() => (
-            <AllUsers {...this.props} allUsers={this.props.allUsers} />
-          )}
-        />
+        <Route exact path="/users" component={AllUsers} />
         <Route exact path="/products/add" render={() => <AddProduct />} />
         <Route
           exact
@@ -119,8 +111,7 @@ const mapState = state => {
     allProducts: state.products.products,
 
     singleProduct: state.products.product,
-    genreProducts: state.products.genreProducts,
-    allUsers: state.user.users
+    genreProducts: state.products.genreProducts
   }
 }
 
@@ -132,8 +123,6 @@ const mapDispatch = dispatch => {
     getProducts: () => dispatch(getProducts()),
     getProductsById: id => dispatch(getProductsById(id)),
     getProductsByGenre: genre => dispatch(getProductsByGenre(genre)),
-
-    getUsers: () => dispatch(getUsers()),
     getCart: id => dispatch(getCartThunk(id)),
     me: () => dispatch(me())
   }

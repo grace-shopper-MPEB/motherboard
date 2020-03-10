@@ -46,9 +46,6 @@ router.get(`/:id`, async (req, res, next) => {
   }
 })
 
-/**********************************
- * THE BELOW ROUTES HAVE NOT BEEN TESTED
- ***********************************/
 router.post('/', isAdmin, async (req, res, next) => {
   // couldn't figure out how to get the input into req.body, so just did it via parameter
   try {
@@ -93,8 +90,7 @@ router.delete('/:id', isAdmin, async (req, res, next) => {
   }
 })
 
-//Need to figure out admin status for this
-router.put('/:id', async (req, res, next) => {
+router.put('/:id', isAdmin, async (req, res, next) => {
   try {
     Products.update(req.body, {
       returning: true,
@@ -104,7 +100,7 @@ router.put('/:id', async (req, res, next) => {
     }).then(([product]) => {
       res.json(product)
     })
-    } catch (error) {
+  } catch (error) {
     next(error)
   }
 })
