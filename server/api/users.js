@@ -51,7 +51,6 @@ router.get('/cart', async (req, res, next) => {
 
       if (sessionProducts && sessionProducts.length > 0) {
         if (!cart) {
-          console.log('5, hey, there was no cart')
           cart = await Orders.create({
             isCart: true,
             subTotal: 0,
@@ -192,7 +191,6 @@ router.put('/entirecart/:cartId', async (req, res, next) => {
 
     if (cartId > 0) {
       let cart = await Orders.findByPk(cartId)
-      console.log('hey, whats up', cart)
       cart.isCart = false
       cart.status = 'Ready to Shipped'
       await cart.save()
