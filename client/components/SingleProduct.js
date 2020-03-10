@@ -1,9 +1,12 @@
 import React from 'react'
-import {connect} from 'react-redux'
-import {toast} from 'react-toastify'
+import axios from 'axios'
 import {Link} from 'react-router-dom'
+import {updateProduct} from '../store'
+import {toast} from 'react-toastify'
+import {connect} from 'react-redux'
 import {addToCartThunk} from '../store/cart'
 import {getProductsById} from '../store/products'
+
 
 class SingleProduct extends React.Component {
   constructor() {
@@ -21,9 +24,21 @@ class SingleProduct extends React.Component {
     this.props.getProductsById(id)
   }
 
-  handleClick() {
-    let productId = this.props.product.id
+
+  async handleClick() {
+    let userId = 0
+    if (this.props.user.id) {
+      userId = this.props.user.id
+    }
+    let productId = this.props.singleProduct.product.id
+    await axios.post(`/api/users/cart/${userId}/${productId}`)
+    const clicks = this.props.singleProduct.product.popularity
+    console.log(clicks)
+    await axios.put(`/api/products/${productId}`, {
+      popularity: clicks + 1
+    })
     this.props.addToCart(productId)
+
     toast.success('Added to Cart!')
   }
 
@@ -36,12 +51,6 @@ class SingleProduct extends React.Component {
   render() {
     const product = this.props.singleProduct.product
       ? this.props.singleProduct.product
-      : {}
-    const albums = this.props.singleProduct.albums
-      ? this.props.singleProduct.albums
-      : {}
-    const genres = this.props.singleProduct.genres
-      ? this.props.singleProduct.genres
       : {}
 
     return (
@@ -80,10 +89,10 @@ class SingleProduct extends React.Component {
               </Link>
             </div>
             <div className="single-description">{product.description}</div>
-            <div>
+            <div className="albums-by">
               More albums by {product.artist ? product.artist.artistName : null}
               :
-              <div className="all-products-container">
+              <div>
                 <div className="all-products">
                   {this.props.singleProduct.albums
                     ? this.props.singleProduct.albums.map(x => (

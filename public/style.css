@@ -237,6 +237,18 @@ img {
   margin-bottom: 10px;
 }
 
+.albums-by {
+  align-content: center;
+  margin-top: 100px;
+  padding-bottom: 10px;
+  border: grey;
+  border-width: 1px;
+  border-style: solid;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
 .buyButton {
   height: 38px;
   width: 90px;

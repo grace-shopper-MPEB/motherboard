@@ -5,6 +5,7 @@ import axios from 'axios'
 import {Link} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
+import {updateProduct} from '../store'
 
 class AllProducts extends React.Component {
   constructor() {
@@ -15,9 +16,14 @@ class AllProducts extends React.Component {
     // nothing here yet
   }
 
-  handleClick(productId) {
+  async handleClick(productId) {
     this.props.addToCart(productId)
     toast.success('Added to Cart!')
+    const user = await axios.get(`/api/products/${productId}`)
+    const clicks = user.data.product.popularity
+    await axios.put(`/api/products/${productId}`, {
+      popularity: clicks + 1
+    })
   }
 
   render() {
