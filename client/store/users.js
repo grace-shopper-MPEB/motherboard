@@ -13,28 +13,28 @@ const DELETE_USER = 'DELETE_USER'
 
 // Actions:
 
-export const setUsers = users => {
+const setUsers = users => {
   return {
     type: SET_USERS,
     users
   }
 }
 
-export const setUserById = user => {
+const setUserById = user => {
   return {
     type: SET_USER_BY_ID,
     user
   }
 }
 
-export const addUser = user => {
+const addUser = user => {
   return {
     type: ADD_USER,
     user
   }
 }
 
-export const deleteUser = id => {
+const deleteUser = id => {
   return {
     type: DELETE_USER,
     id

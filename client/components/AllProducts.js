@@ -1,7 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {Product} from './'
-import axios from 'axios'
 import {Link} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'

@@ -3,7 +3,7 @@ const {Users, Products, Orders} = require('../db/models')
 
 const {isAdmin} = require('./utils')
 
-router.get('/', isAdmin, async (req, res, next) => {
+router.get('/', async (req, res, next) => {
   try {
     const users = await Users.findAll({
       attributes: ['id', 'email']
