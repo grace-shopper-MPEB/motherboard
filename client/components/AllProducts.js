@@ -16,7 +16,7 @@ class AllProducts extends React.Component {
     // nothing here yet
   }
 
-  handleClick(productId) {
+  async handleClick(productId) {
     this.props.addToCart(productId)
     toast.success('Added to Cart!')
     const user = await axios.get(`/api/products/${productId}`)
