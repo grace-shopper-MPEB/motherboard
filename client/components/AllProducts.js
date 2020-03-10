@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
 import {updateProduct} from '../store'
-
+import axios from 'axios'
 class AllProducts extends React.Component {
   constructor() {
     super()
