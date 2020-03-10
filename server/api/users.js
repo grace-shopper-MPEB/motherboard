@@ -8,15 +8,19 @@ router.get('/', isAdmin, async (req, res, next) => {
     const users = await Users.findAll({
       attributes: ['id', 'email']
     })
-    res.json(users)
+    return res.json(users)
   } catch (err) {
     next(err)
   }
 })
 
-router.get('/cart/:id', async (req, res, next) => {
+// eslint-disable-next-line complexity
+router.get('/cart', async (req, res, next) => {
   try {
-    let id = req.params.id
+    let id = 0
+    if (req.user) {
+      id = req.user.id
+    }
 
     let user = await Users.findByPk(id)
 
@@ -47,7 +51,6 @@ router.get('/cart/:id', async (req, res, next) => {
 
       if (sessionProducts && sessionProducts.length > 0) {
         if (!cart) {
-          console.log('5, hey, there was no cart')
           cart = await Orders.create({
             isCart: true,
             subTotal: 0,
@@ -68,15 +71,18 @@ router.get('/cart/:id', async (req, res, next) => {
       cart = req.session.cart
     }
 
-    res.json(cart)
+    return res.json(cart)
   } catch (error) {
     next(error)
   }
 })
 
-router.post('/cart/:userId/:productId', async (req, res, next) => {
+router.post('/cart/:productId', async (req, res, next) => {
   try {
-    let userId = req.params.userId
+    let userId = 0
+    if (req.user) {
+      userId = req.user.id
+    }
     let productId = req.params.productId
     let product = await Products.findByPk(productId)
 
@@ -103,7 +109,13 @@ router.post('/cart/:userId/:productId', async (req, res, next) => {
         await order.addProduct(product)
         await user.addOrder(order)
       }
-      res.json(req.params.userId)
+      const order = await Orders.findOne({
+        where: {
+          userId: req.user.id
+        },
+        include: [{model: Products}]
+      })
+      return res.json(order)
 
       //guest user
     } else {
@@ -120,16 +132,19 @@ router.post('/cart/:userId/:productId', async (req, res, next) => {
           products: [product]
         }
       }
-      res.json(req.params.userId)
+      return res.json(req.session.cart)
     }
   } catch (error) {
     next(error)
   }
 })
 
-router.delete('/cart/:userId/:productId', async (req, res, next) => {
+router.delete('/cart/:productId', async (req, res, next) => {
   try {
-    let userId = req.params.userId
+    let userId = 0
+    if (req.user) {
+      userId = req.user.id
+    }
     let productId = req.params.productId
     let product = await Products.findByPk(productId)
 
@@ -144,19 +159,26 @@ router.delete('/cart/:userId/:productId', async (req, res, next) => {
         }
       })
       await cart.removeProduct(product)
+      let newCart = await Orders.findOne({
+        where: {
+          userId: userId,
+          isCart: true
+        },
+        include: [{model: Products}]
+      })
+      return res.json(newCart)
     }
 
     //guest user
 
-    if (req.session.cart.isCart) {
+    if (req.session.cart && req.session.cart.isCart) {
       let revisedProducts = req.session.cart.products.filter(productX => {
         return productX.id !== Number(productId)
       })
 
       req.session.cart.products = revisedProducts
+      return res.json(req.session.cart)
     }
-
-    res.json(req.session.cart)
   } catch (error) {
     next(error)
   }
@@ -169,7 +191,6 @@ router.put('/entirecart/:cartId', async (req, res, next) => {
 
     if (cartId > 0) {
       let cart = await Orders.findByPk(cartId)
-      console.log('hey, whats up', cart)
       cart.isCart = false
       cart.status = 'Ready to Shipped'
       await cart.save()

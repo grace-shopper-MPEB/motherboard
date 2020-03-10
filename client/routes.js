@@ -13,6 +13,9 @@ import {
   AddProduct
 } from './components'
 import {me} from './store'
+import Cart from './components/Cart'
+import AllProducts from './components/AllProducts'
+import SingleProduct from './components/SingleProduct'
 import {
   getProducts,
   getProductsById,
@@ -21,7 +24,7 @@ import {
   getArtists
 } from './store/products'
 import {getUsers} from './store/user'
-import {getCart} from './store/cart'
+import {getCartThunk} from './store/cart'
 
 /**
  * COMPONENT
@@ -37,7 +40,6 @@ class Routes extends Component {
 
   render() {
     const {isLoggedIn} = this.props
-    console.log('ROUTE PROPS', this.props, 'ROUTE STATE', this.state)
     return (
       <Switch>
         {/* Routes placed here are available to all visitors */}
@@ -65,7 +67,7 @@ class Routes extends Component {
           path="/products"
           render={() => (
             <AllProducts
-              {...this.props}
+              allProducts={this.props.allProducts}
               singleProduct={this.props.singleProduct}
             />
           )}
@@ -91,7 +93,7 @@ class Routes extends Component {
           )}
         />
         <Route path="/checkout" render={() => <Checkout />} />
-        <Route path="/users/cart" render={() => <Cart {...this.props} />} />
+        <Route path="/users/cart" render={() => <Cart />} />
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}

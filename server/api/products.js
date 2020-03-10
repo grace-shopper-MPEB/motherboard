@@ -68,7 +68,6 @@ router.post('/', isAdmin, async (req, res, next) => {
 
 router.get(`/genres/:genre`, async (req, res, next) => {
   try {
-    console.log(req.params.genre)
     const genres = await Products.findAll({
       where: {genre: req.params.genre}
     })
