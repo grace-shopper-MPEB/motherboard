@@ -104,3 +104,7 @@ router.put('/:id', async (req, res, next) => {
     }).then(([product]) => {
       res.json(product)
     })
+    } catch (error) {
+    next(error)
+  }
+})
