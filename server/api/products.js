@@ -92,3 +92,19 @@ router.delete('/:id', isAdmin, async (req, res, next) => {
     next(error)
   }
 })
+
+//Need to figure out admin status for this
+router.put('/:id', async (req, res, next) => {
+  try {
+    Products.update(req.body, {
+      returning: true,
+      where: {
+        id: req.params.id
+      }
+    }).then(([product]) => {
+      res.json(product)
+    })
+  } catch (error) {
+    next(error)
+  }
+})
