@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {addedProduct, getArtists} from '../store/products'
 
-class AddProduct extends React.Component {
+class AddProduct extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -18,8 +18,11 @@ class AddProduct extends React.Component {
     this.handleChange = this.handleChange.bind(this)
   }
 
+  componentDidMount() {
+    this.props.getArtists()
+  }
+
   handleChange(event) {
-    console.log('EVENT VALUE', event.target.value)
     this.setState({
       [event.target.name]: event.target.value
     })
@@ -28,9 +31,8 @@ class AddProduct extends React.Component {
   handleSubmit(evt) {
     // if (evt.key === "Enter") {
     evt.preventDefault()
-    console.log('THIS STATE', this.state)
     //   this.props.add(this.state);
-    this.props.add(this.state)
+    this.props.addProduct(this.state)
     this.setState({
       albumTitle: '',
       genre: '',
@@ -44,7 +46,9 @@ class AddProduct extends React.Component {
   }
 
   render() {
+    console.log('ADDPROPS', this.props, 'ADDSTATE', this.state)
     const artists = this.props.artists
+
     return (
       <div className="add-product">
         <h1>Add Product</h1>
@@ -58,7 +62,7 @@ class AddProduct extends React.Component {
             value={this.state.albumTitle}
             onChange={this.handleChange}
             //   onChange={evt => this.setState({ input: evt.target.value })}
-            onSubmit={this.handleSubmit}
+            // onSubmit={this.handleSubmit}
           />
 
           <label htmlFor="price">Price:</label>
@@ -92,7 +96,7 @@ class AddProduct extends React.Component {
             onChange={this.handleChange}
             //   onChange={evt => this.setState({ input: evt.target.value })}
             // onKeyDown={this.handleKey}
-            onSubmit={this.handleSubmit}
+            // onSubmit={this.handleSubmit}
           />
 
           <label htmlFor="genre">Genre:</label>
@@ -103,7 +107,7 @@ class AddProduct extends React.Component {
             value={this.state.genre}
             onChange={this.handleChange}
             //   onChange={evt => this.setState({ input: evt.target.value })}
-            onSubmit={this.handleSubmit}
+            // onSubmit={this.handleSubmit}
           />
 
           <label htmlFor="description">Description:</label>
@@ -114,7 +118,7 @@ class AddProduct extends React.Component {
             value={this.state.description}
             onChange={this.handleChange}
             //   onChange={evt => this.setState({ input: evt.target.value })}
-            onSubmit={this.handleSubmit}
+            // onSubmit={this.handleSubmit}
           />
 
           <label htmlFor="artistId">Artist:</label>
@@ -122,7 +126,7 @@ class AddProduct extends React.Component {
             value={this.state.artistId}
             name="artistId"
             onChange={this.handleChange}
-            onSubmit={this.handleSubmit}
+            // onSubmit={this.handleSubmit}
           >
             {artists.map(artist => (
               <option key={artist.id} value={artist.id}>
@@ -147,12 +151,18 @@ class AddProduct extends React.Component {
   }
 }
 
+const mapState = state => {
+  return {
+    artists: state.products.artists
+  }
+}
+
 const mapDispatch = dispatch => {
   return {
-    // addProduct: product => dispatch(addedProduct(product)),
+    addProduct: product => dispatch(addedProduct(product)),
     getArtists: () => dispatch(getArtists())
   }
 }
 
 // export default AddProduct
-export default connect(null, mapDispatch)(AddProduct)
+export default connect(mapState, mapDispatch)(AddProduct)
