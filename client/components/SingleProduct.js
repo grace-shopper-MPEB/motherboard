@@ -22,8 +22,11 @@ class SingleProduct extends React.Component {
   }
 
   handleClick() {
-    let productId = this.props.product.id
-    this.props.addToCart(productId)
+    const productId = this.props.location.pathname.slice(10)
+    let quantity = {
+      quantity: this.state.quantity
+    }
+    this.props.addToCart(productId, quantity)
     toast.success('Added to Cart!')
   }
 
@@ -113,7 +116,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    addToCart: productId => dispatch(addToCartThunk(productId)),
+    addToCart: (productId, quantity) =>
+      dispatch(addToCartThunk(productId, quantity)),
     getProductsById: id => dispatch(getProductsById(id))
   }
 }
