@@ -77,11 +77,12 @@ router.get(`/genres/:genre`, async (req, res, next) => {
 router.delete('/:id', isAdmin, async (req, res, next) => {
   try {
     let id = req.params.id
-    let product = await Products.findById(id)
+    let product = await Products.findByPk(id)
 
     if (product) {
       await product.destroy()
-      res.sendStatus(204).json(product)
+      res.sendStatus(204)
+      // .json(product) this was giving error that can't set headers after they are sent to client
     } else {
       res.sendStatus(404)
     }

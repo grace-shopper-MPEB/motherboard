@@ -5,17 +5,11 @@ import {getUsers} from '../store/user'
 
 // Needs React Router
 class AllUsers extends Component {
-  // constructor(props) {
-  //   super(props)
-  // }
-
   componentDidMount() {
-    // nothing here yet
     this.props.getUsers()
   }
 
   render() {
-    console.log('USER PROPS', this.props, 'USER STATE', this.state)
     const users = this.props.allUsers
 
     if (users) {
