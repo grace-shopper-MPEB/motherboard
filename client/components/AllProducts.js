@@ -64,6 +64,8 @@ class AllProducts extends React.Component {
     let x = 0
     let y = 12
 
+    let filteredProductsSubArray = [...filteredProducts].slice(x, y)
+
     const nextPage = () => {
       if (y + 12 > products.length) {
         x = x + 12
@@ -72,7 +74,8 @@ class AllProducts extends React.Component {
         x = x + 12
         y = y + 12
       }
-      console.log(x, y)
+      filteredProductsSubArray = [...filteredProducts].slice(x, y)
+      console.log(x, y, filteredProductsSubArray)
     }
 
     const prevPage = () => {
@@ -83,10 +86,9 @@ class AllProducts extends React.Component {
         x = x - 12
         y = y - 12
       }
-      console.log(x, y)
+      filteredProductsSubArray = [...filteredProducts].slice(x, y)
+      console.log(x, y, filteredProductsSubArray)
     }
-
-    filteredProducts = filteredProducts.slice(x, y)
 
     if (products) {
       return (
@@ -111,7 +113,7 @@ class AllProducts extends React.Component {
           </form>
           <div className="all-products-container">
             <div className="all-products">
-              {filteredProducts.map(product => (
+              {filteredProductsSubArray.map(product => (
                 <div key={product.id}>
                   <Product product={product} />
                   <button
