@@ -30,21 +30,23 @@ class FeaturedProducts extends Component {
     // console.log('pops', albumsByPopularity)
 
     return (
-      <div id="featured-products-container">
+      <div>
         <h1>Top 5 albums by popularity:</h1>
-        <div id="featured-products">
-          {albumsByPopularity.map(album => (
-            <div key={album.id} className="item">
-              <Link to={`/products/${album.id}`}>
-                <img
-                  src={album.imgUrl}
-                  className="product-info all-images"
-                  id="product-img"
-                />
-                <div className="featured-title">{album.albumTitle}</div>
-              </Link>
-            </div>
-          ))}
+        <div className="all-products-container">
+          <div className="all-products">
+            {albumsByPopularity.map(album => (
+              <div key={album.id}>
+                <Link to={`/products/${album.id}`}>
+                  <img
+                    src={album.imgUrl}
+                    className="product-info all-images"
+                    id="product-img"
+                  />
+                </Link>
+                )
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     )

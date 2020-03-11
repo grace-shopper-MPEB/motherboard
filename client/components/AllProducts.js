@@ -11,9 +11,12 @@ class AllProducts extends React.Component {
     super()
     this.handleClick = this.handleClick.bind(this)
     this.state = {
-      loading: true
+      loading: true,
+      albumName: '',
+      artistName: ''
     }
   }
+
   componentDidMount() {
     this.setState({loading: false})
     this.props.fetchProducts()
@@ -26,6 +29,16 @@ class AllProducts extends React.Component {
     this.props.incrementPopularity(product)
   }
 
+  albumSearch(event) {
+    this.setState({albumName: event.target.value})
+    console.log(event.target.value)
+  }
+
+  artistSearch(event) {
+    this.setState({artistName: event.target.value})
+    console.log(event.target.value)
+  }
+
   render() {
     const {loading} = this.state
 
@@ -36,24 +49,55 @@ class AllProducts extends React.Component {
         </div>
       )
     }
+
+    let filteredProducts = this.props.allProducts.filter(product => {
+      if (this.state.albumName && !this.state.artistName) {
+        return product.albumTitle.indexOf(this.state.albumName) !== -1
+      } else {
+        return product.artist.artistName.indexOf(this.state.artistName) !== -1
+      }
+    })
+
     const products = this.props.allProducts
+    console.log(filteredProducts)
     const user = this.props.user
+
     if (products) {
       return (
-        <div className="all-products-container">
-          <div className="all-products">
-            {products.map(product => (
-              <div key={product.id}>
-                <Product product={product} />
-                <button
-                  onClick={() => this.handleClick(product.id, product)}
-                  className="all buyButton"
-                  type="button"
-                >
-                  Add to Cart
-                </button>
-              </div>
-            ))}
+        <div>
+          <form onSubmit={this.handleSubmit}>
+            <h3>Filter by Album Title:</h3>
+            <input
+              type="text"
+              placeholder="Album Name"
+              value={this.state.albumName}
+              onChange={this.albumSearch.bind(this)}
+            />
+          </form>
+          <form onSubmit={this.handleSubmit}>
+            <h3>Filter by Artist Name:</h3>
+            <input
+              type="text"
+              placeholder="Artist Name"
+              value={this.state.artistName}
+              onChange={this.artistSearch.bind(this)}
+            />
+          </form>
+          <div className="all-products-container">
+            <div className="all-products">
+              {filteredProducts.map(product => (
+                <div key={product.id}>
+                  <Product product={product} />
+                  <button
+                    onClick={() => this.handleClick(product)}
+                    className="all buyButton"
+                    type="button"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       )
