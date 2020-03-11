@@ -25,13 +25,12 @@ class SingleProduct extends React.Component {
   }
 
   handleClick() {
-    let userId = 0
-    if (this.props.user.id) {
-      userId = this.props.user.id
+    const productId = this.props.location.pathname.slice(10)
+    let quantity = {
+      quantity: this.state.quantity
     }
-    let productId = this.props.singleProduct.product.id
-    this.props.incrementPopularity(this.props.singleProduct.product)
-    this.props.addToCart(productId)
+    this.props.addToCart(productId, quantity)
+
     toast.success('Added to Cart!')
   }
 
@@ -91,23 +90,20 @@ class SingleProduct extends React.Component {
               </Link>
             </div>
             <div className="single-description">{product.description}</div>
-            <div className="albums-by">
-              More albums by {product.artist ? product.artist.artistName : null}
-              :
-              <div>
-                <div className="all-products">
-                  {this.props.singleProduct.albums
-                    ? this.props.singleProduct.albums.map(x => (
-                        <div key={x.id} className="item">
-                          <img
-                            src={x.imgUrl}
-                            className="product-info all-images"
-                          />
-                        </div>
-                      ))
-                    : null}
-                </div>
-              </div>
+          </div>
+        </div>
+        <div className="albums-by">
+          More albums by {product.artist ? product.artist.artistName : null}:
+          <div>
+            <div className="all-products">
+              {this.props.singleProduct.albums
+                ? this.props.singleProduct.albums.map(x => (
+                    <Link to={`/products/${x.id}`} key={x.id} className="item">
+                      <img src={x.imgUrl} className="product-info all-images" />
+                      <div className="item-title">{x.albumTitle}</div>
+                    </Link>
+                  ))
+                : null}
             </div>
           </div>
         </div>
@@ -124,7 +120,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    addToCart: productId => dispatch(addToCartThunk(productId)),
+    addToCart: (productId, quantity) =>
+      dispatch(addToCartThunk(productId, quantity)),
     getProductsById: id => dispatch(getProductsById(id)),
     incrementPopularity: productId =>
       dispatch(incrementPopularityThunk(productId))

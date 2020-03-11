@@ -7,7 +7,7 @@ const Sequelize = require('sequelize')
 const db = require('../db')
 const OrdersProducts = db.define('orders_products', {
   quantity: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.FLOAT,
     defaultValue: 1
   }
 })
@@ -42,5 +42,6 @@ module.exports = {
   Orders,
   Payments,
   Artists,
-  Songs
+  Songs,
+  OrdersProducts
 }
