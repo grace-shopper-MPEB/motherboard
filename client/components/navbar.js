@@ -21,7 +21,7 @@ const Navbar = ({handleClick, isLoggedIn, isAdmin}) => (
 
     <nav id="bottom-of-navbar">
       {isLoggedIn ? (
-        <div>
+        <div className="public-navbar">
           <Link to="/home">Home</Link>
           <Link to="/products">All Records</Link>
           <Link to="/products/featured">Featured Records</Link>

@@ -11,19 +11,57 @@ class AllProducts extends React.Component {
     super()
     this.handleClick = this.handleClick.bind(this)
     this.state = {
-      loading: true
+      loading: true,
+      albumName: '',
+      artistName: '',
+      x: 0,
+      y: 12
     }
   }
+
   componentDidMount() {
     this.setState({loading: false})
     this.props.fetchProducts()
   }
 
+
   handleClick(product) {
     this.props.addToCart(product.id, 1)
 
+
     toast.success('Added to Cart!')
     this.props.incrementPopularity(product)
+  }
+
+  albumSearch(event) {
+    this.setState({albumName: event.target.value})
+    console.log(event.target.value)
+  }
+
+  artistSearch(event) {
+    this.setState({artistName: event.target.value})
+    console.log(event.target.value)
+  }
+
+  //pagination
+  nextPage(x, y) {
+    if (y + 12 > this.props.allProducts.length) {
+      this.setState({x: x + 12})
+      this.setState({y: this.props.allProducts.length})
+    } else {
+      this.setState({x: x + 12})
+      this.setState({y: y + 12})
+    }
+  }
+
+  prevPage(x, y) {
+    if (x - 12 < 0) {
+      this.setState({x: 0})
+      this.setState({y: 12})
+    } else {
+      this.setState({x: x - 12})
+      this.setState({y: y - 12})
+    }
   }
 
   render() {
@@ -36,24 +74,74 @@ class AllProducts extends React.Component {
         </div>
       )
     }
+
+    let filteredProducts = this.props.allProducts.filter(product => {
+      if (this.state.albumName && !this.state.artistName) {
+        return product.albumTitle.indexOf(this.state.albumName) !== -1
+      } else {
+        return product.artist.artistName.indexOf(this.state.artistName) !== -1
+      }
+    })
+
     const products = this.props.allProducts
     const user = this.props.user
+
+    let filteredProductsSubArray = [...filteredProducts].slice(
+      this.state.x,
+      this.state.y
+    )
+
     if (products) {
       return (
-        <div className="all-products-container">
-          <div className="all-products">
-            {products.map(product => (
-              <div key={product.id}>
-                <Product product={product} />
-                <button
-                  onClick={() => this.handleClick(product)}
-                  className="all buyButton"
-                  type="button"
-                >
-                  Add to Cart
-                </button>
-              </div>
-            ))}
+        <div>
+          <form onSubmit={this.handleSubmit}>
+            <h3>Filter by Album Title:</h3>
+            <input
+              type="text"
+              placeholder="Album Name"
+              value={this.state.albumName}
+              onChange={this.albumSearch.bind(this)}
+            />
+          </form>
+          <form onSubmit={this.handleSubmit}>
+            <h3>Filter by Artist Name:</h3>
+            <input
+              type="text"
+              placeholder="Artist Name"
+              value={this.state.artistName}
+              onChange={this.artistSearch.bind(this)}
+            />
+          </form>
+          <div className="all-products-container">
+            <div className="all-products">
+              {filteredProductsSubArray.map(product => (
+                <div key={product.id}>
+                  <Product product={product} />
+                  <button
+                    onClick={() => this.handleClick(product)}
+                    className="all buyButton"
+                    type="button"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              ))}
+
+              <button
+                onClick={() => this.prevPage(this.state.x, this.state.y)}
+                className="all buyButton"
+                type="button"
+              >
+                Prev Page
+              </button>
+              <button
+                onClick={() => this.nextPage(this.state.x, this.state.y)}
+                className="all buyButton"
+                type="button"
+              >
+                Next Page
+              </button>
+            </div>
           </div>
         </div>
       )
