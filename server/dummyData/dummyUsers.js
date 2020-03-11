@@ -1298,6 +1298,19 @@ const dummyUsers = [
     country: 'US',
     isAdmin: false,
     googleId: 100000
+  },
+  {
+    fullName: 'Admin User',
+    email: 'a@a.com',
+    password: 'aa',
+    street: 'Tomscot',
+    number: 40,
+    zip: 30486,
+    city: 'Lincoln',
+    state: 'NE',
+    country: 'US',
+    isAdmin: true,
+    googleId: 100000
   }
 ]
 module.exports = dummyUsers
