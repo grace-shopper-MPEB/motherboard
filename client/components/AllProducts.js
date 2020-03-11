@@ -84,39 +84,10 @@ class AllProducts extends React.Component {
     const products = this.props.allProducts
     const user = this.props.user
 
-    //Pagination
-    // let x = 0
-    // let y = 12
-
     let filteredProductsSubArray = [...filteredProducts].slice(
       this.state.x,
       this.state.y
     )
-    console.log(this.state.x, this.state.y, filteredProductsSubArray)
-    // const nextPage = () => {
-    //   if (y + 12 > products.length) {
-    //     x = x + 12
-    //     y = products.length
-    //   } else {
-    //     x = x + 12
-    //     y = y + 12
-    //   }
-    //   filteredProductsSubArray = [...filteredProducts].slice(x,y)
-    //   this.forceUpdate();
-    //   console.log(x, y, filteredProductsSubArray)
-    // }
-
-    // const prevPage = () => {
-    //   if (x - 12 < 0) {
-    //     x = 0
-    //     y = 12
-    //   } else {
-    //     x = x - 12
-    //     y = y - 12
-    //   }
-    //   filteredProductsSubArray = [...filteredProducts].slice(x,y)
-    //   console.log(x, y, filteredProductsSubArray)
-    // }
 
     if (products) {
       return (
@@ -153,6 +124,7 @@ class AllProducts extends React.Component {
                   </button>
                 </div>
               ))}
+
               <button
                 onClick={() => this.prevPage(this.state.x, this.state.y)}
                 className="all buyButton"
