@@ -19,8 +19,10 @@ class AllProducts extends React.Component {
     this.props.fetchProducts()
   }
 
-  handleClick(product) {
-    this.props.addToCart(product.id)
+
+  handleClick(productId) {
+    this.props.addToCart(productId, 1)
+
     toast.success('Added to Cart!')
     this.props.incrementPopularity(product)
   }
@@ -70,10 +72,14 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    addToCart: productId => dispatch(addToCartThunk(productId)),
+
+    addToCart: (productId, quantity) =>
+      dispatch(addToCartThunk(productId, quantity)),
+
     incrementPopularity: productId =>
       dispatch(incrementPopularityThunk(productId)),
     fetchProducts: () => dispatch(getProducts())
+
   }
 }
 

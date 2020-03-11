@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {toast} from 'react-toastify'
 import {Checkout} from './Checkout'
@@ -24,6 +25,7 @@ class Cart extends React.Component {
 
     if (cart && cart.products) {
       let total = 0
+
       return (
         <div id="cart">
           <div id="your-cart">Your Cart</div>
@@ -36,17 +38,24 @@ class Cart extends React.Component {
           <div>
             <div id="cart-items">
               {cart.products.map(product => {
-                total += product.price
+                let quantity = product.orders_products.quantity
+                total += product.price * quantity
                 return (
                   <div key={product.id} className="cart-item">
                     <div className="cart-comp">
                       <img className="cart-image" src={product.imgUrl} />
-                      <div className="cart-title">{product.albumTitle}</div>
+                      <Link
+                        to={`/products/${product.id}`}
+                        className="cart-title"
+                      >
+                        {product.albumTitle}
+                      </Link>
                     </div>
-
                     <div className="cart-comp">
-                      <div className="cart-quantity"></div>
-                      <div className="cart-price">${product.price / 100} </div>
+                      <div className="cart-quantity">{quantity}</div>
+                      <div className="cart-price">
+                        ${(product.price / 100) * quantity}
+                      </div>
                       <button
                         className="remove-button"
                         type="button"
