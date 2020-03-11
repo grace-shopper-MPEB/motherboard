@@ -29,7 +29,7 @@ class AllProducts extends React.Component {
 
   updateSearch(event) {
     this.setState({search: event.target.value})
-    console.log(this.state.search)
+    console.log(event.target.value)
   }
 
   render() {
@@ -54,7 +54,8 @@ class AllProducts extends React.Component {
     if (products) {
       return (
         <div>
-          <form>
+          <form onSubmit={this.handleSubmit}>
+            <h3>Filter by Album Title:</h3>
             <input
               type="text"
               placeholder="Search"
