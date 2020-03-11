@@ -29,6 +29,7 @@ class FeaturedProducts extends Component {
 
     let featuredAlbums = [products[0], products[6], products[10]]
 
+    //You could filter created at also if you wanted to feature recently added albums
     return (
       <div>
         <h1>Our users favorite albums:</h1>
