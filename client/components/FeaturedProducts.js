@@ -25,7 +25,7 @@ class FeaturedProducts extends Component {
       return b.popularity - a.popularity
     })
 
-    albumsByPopularity = albumsByPopularity.slice(0, 5)
+    albumsByPopularity = albumsByPopularity.slice(0, 4)
 
     // console.log('pops', albumsByPopularity)
 
@@ -43,7 +43,7 @@ class FeaturedProducts extends Component {
                     id="product-img"
                   />
                 </Link>
-                )
+                <h4>{album.albumTitle}</h4>
               </div>
             ))}
           </div>
