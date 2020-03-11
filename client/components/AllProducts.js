@@ -13,7 +13,9 @@ class AllProducts extends React.Component {
     this.state = {
       loading: true,
       albumName: '',
-      artistName: ''
+      artistName: '',
+      x: 0,
+      y: 12
     }
   }
 
@@ -36,6 +38,27 @@ class AllProducts extends React.Component {
   artistSearch(event) {
     this.setState({artistName: event.target.value})
     console.log(event.target.value)
+  }
+
+  //pagination
+  nextPage(x, y) {
+    if (y + 12 > this.props.allProducts.length) {
+      this.setState({x: x + 12})
+      this.setState({y: this.props.allProducts.length})
+    } else {
+      this.setState({x: x + 12})
+      this.setState({y: y + 12})
+    }
+  }
+
+  prevPage(x, y) {
+    if (x - 12 < 0) {
+      this.setState({x: 0})
+      this.setState({y: 12})
+    } else {
+      this.setState({x: x - 12})
+      this.setState({y: y - 12})
+    }
   }
 
   render() {
@@ -61,34 +84,38 @@ class AllProducts extends React.Component {
     const user = this.props.user
 
     //Pagination
-    let x = 0
-    let y = 12
+    // let x = 0
+    // let y = 12
 
-    let filteredProductsSubArray = [...filteredProducts].slice(x, y)
+    let filteredProductsSubArray = [...filteredProducts].slice(
+      this.state.x,
+      this.state.y
+    )
+    console.log(this.state.x, this.state.y, filteredProductsSubArray)
+    // const nextPage = () => {
+    //   if (y + 12 > products.length) {
+    //     x = x + 12
+    //     y = products.length
+    //   } else {
+    //     x = x + 12
+    //     y = y + 12
+    //   }
+    //   filteredProductsSubArray = [...filteredProducts].slice(x,y)
+    //   this.forceUpdate();
+    //   console.log(x, y, filteredProductsSubArray)
+    // }
 
-    const nextPage = () => {
-      if (y + 12 > products.length) {
-        x = x + 12
-        y = products.length
-      } else {
-        x = x + 12
-        y = y + 12
-      }
-      filteredProductsSubArray = [...filteredProducts].slice(x, y)
-      console.log(x, y, filteredProductsSubArray)
-    }
-
-    const prevPage = () => {
-      if (x - 12 < 0) {
-        x = 0
-        y = 12
-      } else {
-        x = x - 12
-        y = y - 12
-      }
-      filteredProductsSubArray = [...filteredProducts].slice(x, y)
-      console.log(x, y, filteredProductsSubArray)
-    }
+    // const prevPage = () => {
+    //   if (x - 12 < 0) {
+    //     x = 0
+    //     y = 12
+    //   } else {
+    //     x = x - 12
+    //     y = y - 12
+    //   }
+    //   filteredProductsSubArray = [...filteredProducts].slice(x,y)
+    //   console.log(x, y, filteredProductsSubArray)
+    // }
 
     if (products) {
       return (
@@ -126,14 +153,14 @@ class AllProducts extends React.Component {
                 </div>
               ))}
               <button
-                onClick={() => prevPage()}
+                onClick={() => this.prevPage(this.state.x, this.state.y)}
                 className="all buyButton"
                 type="button"
               >
                 Prev Page
               </button>
               <button
-                onClick={() => nextPage()}
+                onClick={() => this.nextPage(this.state.x, this.state.y)}
                 className="all buyButton"
                 type="button"
               >
