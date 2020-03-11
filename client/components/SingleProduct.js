@@ -126,10 +126,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
 
-    addToCart: (productId, quantity) =>
-      dispatch(addToCartThunk(productId, quantity)),
-    getProductsById: id => dispatch(getProductsById(id))
-
+    addToCart: (productId, quantity) => dispatch(addToCartThunk(productId, quantity)),
     getProductsById: id => dispatch(getProductsById(id)),
     incrementPopularity: productId =>
       dispatch(incrementPopularityThunk(productId))
