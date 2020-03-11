@@ -27,14 +27,31 @@ class FeaturedProducts extends Component {
 
     albumsByPopularity = albumsByPopularity.slice(0, 4)
 
-    // console.log('pops', albumsByPopularity)
+    let featuredAlbums = [products[0], products[6], products[10]]
 
     return (
       <div>
-        <h1>Top 5 albums by popularity:</h1>
+        <h1>Our users favorite albums:</h1>
         <div className="all-products-container">
           <div className="all-products">
             {albumsByPopularity.map(album => (
+              <div key={album.id}>
+                <Link to={`/products/${album.id}`}>
+                  <img
+                    src={album.imgUrl}
+                    className="product-info all-images"
+                    id="product-img"
+                  />
+                </Link>
+                <h4>{album.albumTitle}</h4>
+              </div>
+            ))}
+          </div>
+        </div>
+        <h1>Our favorite albums:</h1>
+        <div className="all-products-container">
+          <div className="all-products">
+            {featuredAlbums.map(album => (
               <div key={album.id}>
                 <Link to={`/products/${album.id}`}>
                   <img
