@@ -58,8 +58,35 @@ class AllProducts extends React.Component {
     })
 
     const products = this.props.allProducts
-    console.log(filteredProducts)
     const user = this.props.user
+
+    //Pagination
+    let x = 0
+    let y = 12
+
+    const nextPage = () => {
+      if (y + 12 > products.length) {
+        x = x + 12
+        y = products.length
+      } else {
+        x = x + 12
+        y = y + 12
+      }
+      console.log(x, y)
+    }
+
+    const prevPage = () => {
+      if (x - 12 < 0) {
+        x = 0
+        y = 12
+      } else {
+        x = x - 12
+        y = y - 12
+      }
+      console.log(x, y)
+    }
+
+    filteredProducts = filteredProducts.slice(x, y)
 
     if (products) {
       return (
@@ -96,6 +123,20 @@ class AllProducts extends React.Component {
                   </button>
                 </div>
               ))}
+              <button
+                onClick={() => prevPage()}
+                className="all buyButton"
+                type="button"
+              >
+                Prev Page
+              </button>
+              <button
+                onClick={() => nextPage()}
+                className="all buyButton"
+                type="button"
+              >
+                Next Page
+              </button>
             </div>
           </div>
         </div>
