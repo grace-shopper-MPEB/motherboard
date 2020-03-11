@@ -14,7 +14,9 @@ class SingleProduct extends React.Component {
 
     this.state = {
       quantity: 1,
-      loading: true
+      loading: true,
+      x: 0,
+      y: 12
     }
   }
 
@@ -40,6 +42,27 @@ class SingleProduct extends React.Component {
     })
   }
 
+  //pagination
+  nextPage(x, y) {
+    if (y + 12 >= this.props.singleProduct.albums.length) {
+      this.setState({x: x + 12})
+      this.setState({y: this.props.singleProduct.albums.length})
+    } else {
+      this.setState({x: x + 12})
+      this.setState({y: y + 12})
+    }
+  }
+
+  prevPage(x, y) {
+    if (x - 12 < 0) {
+      this.setState({x: 0})
+      this.setState({y: 12})
+    } else {
+      this.setState({x: x - 12})
+      this.setState({y: y - 12})
+    }
+  }
+
   render() {
     const {loading} = this.state
 
@@ -50,9 +73,18 @@ class SingleProduct extends React.Component {
         </div>
       )
     }
+
     const product = this.props.singleProduct.product
       ? this.props.singleProduct.product
       : {}
+
+    const albumsByArtist = this.props.singleProduct.albums
+      ? this.props.singleProduct.albums
+      : []
+    let albumsByArtistSubArray = [...albumsByArtist].slice(
+      this.state.x,
+      this.state.y
+    )
 
     return (
       <div className="single-album-container">
@@ -97,13 +129,27 @@ class SingleProduct extends React.Component {
           <div>
             <div className="all-products">
               {this.props.singleProduct.albums
-                ? this.props.singleProduct.albums.map(x => (
+                ? albumsByArtistSubArray.map(x => (
                     <Link to={`/products/${x.id}`} key={x.id} className="item">
                       <img src={x.imgUrl} className="product-info all-images" />
                       <div className="item-title">{x.albumTitle}</div>
                     </Link>
                   ))
                 : null}
+              <button
+                onClick={() => this.prevPage(this.state.x, this.state.y)}
+                className="all buyButton"
+                type="button"
+              >
+                Prev Page
+              </button>
+              <button
+                onClick={() => this.nextPage(this.state.x, this.state.y)}
+                className="all buyButton"
+                type="button"
+              >
+                Next Page
+              </button>
             </div>
           </div>
         </div>
