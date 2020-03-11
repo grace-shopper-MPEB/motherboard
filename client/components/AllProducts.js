@@ -24,8 +24,10 @@ class AllProducts extends React.Component {
     this.props.fetchProducts()
   }
 
-  handleClick(productId, product) {
-    this.props.addToCart(productId, 1)
+
+  handleClick(product) {
+    this.props.addToCart(product.id, 1)
+
 
     toast.success('Added to Cart!')
     this.props.incrementPopularity(product)
