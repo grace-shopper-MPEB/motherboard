@@ -91,7 +91,7 @@ router.delete('/:id', isAdmin, async (req, res, next) => {
   }
 })
 
-router.put('/:id', isAdmin, async (req, res, next) => {
+router.put('/:id', async (req, res, next) => {
   try {
     await Products.update(req.body, {
       returning: true,
