@@ -12,7 +12,8 @@ class AllProducts extends React.Component {
     this.handleClick = this.handleClick.bind(this)
     this.state = {
       loading: true,
-      search: ''
+      albumName: '',
+      artistName: ''
     }
   }
 
@@ -27,8 +28,13 @@ class AllProducts extends React.Component {
     this.props.incrementPopularity(product)
   }
 
-  updateSearch(event) {
-    this.setState({search: event.target.value})
+  albumSearch(event) {
+    this.setState({albumName: event.target.value})
+    console.log(event.target.value)
+  }
+
+  artistSearch(event) {
+    this.setState({artistName: event.target.value})
     console.log(event.target.value)
   }
 
@@ -44,7 +50,11 @@ class AllProducts extends React.Component {
     }
 
     let filteredProducts = this.props.allProducts.filter(product => {
-      return product.albumTitle.indexOf(this.state.search) !== -1
+      if (this.state.albumName && !this.state.artistName) {
+        return product.albumTitle.indexOf(this.state.albumName) !== -1
+      } else {
+        return product.artist.artistName.indexOf(this.state.artistName) !== -1
+      }
     })
 
     const products = this.props.allProducts
@@ -58,9 +68,18 @@ class AllProducts extends React.Component {
             <h3>Filter by Album Title:</h3>
             <input
               type="text"
-              placeholder="Search"
-              value={this.state.search}
-              onChange={this.updateSearch.bind(this)}
+              placeholder="Album Name"
+              value={this.state.albumName}
+              onChange={this.albumSearch.bind(this)}
+            />
+          </form>
+          <form onSubmit={this.handleSubmit}>
+            <h3>Filter by Artist Name:</h3>
+            <input
+              type="text"
+              placeholder="Artist Name"
+              value={this.state.artistName}
+              onChange={this.artistSearch.bind(this)}
             />
           </form>
           <div className="all-products-container">
