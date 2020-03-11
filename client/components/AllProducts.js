@@ -13,7 +13,9 @@ class AllProducts extends React.Component {
     this.state = {
       loading: true,
       albumName: '',
-      artistName: ''
+      artistName: '',
+      x: 0,
+      y: 12
     }
   }
 
@@ -39,6 +41,27 @@ class AllProducts extends React.Component {
     console.log(event.target.value)
   }
 
+  //pagination
+  nextPage(x, y) {
+    if (y + 12 > this.props.allProducts.length) {
+      this.setState({x: x + 12})
+      this.setState({y: this.props.allProducts.length})
+    } else {
+      this.setState({x: x + 12})
+      this.setState({y: y + 12})
+    }
+  }
+
+  prevPage(x, y) {
+    if (x - 12 < 0) {
+      this.setState({x: 0})
+      this.setState({y: 12})
+    } else {
+      this.setState({x: x - 12})
+      this.setState({y: y - 12})
+    }
+  }
+
   render() {
     const {loading} = this.state
 
@@ -59,8 +82,12 @@ class AllProducts extends React.Component {
     })
 
     const products = this.props.allProducts
-    console.log(filteredProducts)
     const user = this.props.user
+
+    let filteredProductsSubArray = [...filteredProducts].slice(
+      this.state.x,
+      this.state.y
+    )
 
     if (products) {
       return (
@@ -85,7 +112,7 @@ class AllProducts extends React.Component {
           </form>
           <div className="all-products-container">
             <div className="all-products">
-              {filteredProducts.map(product => (
+              {filteredProductsSubArray.map(product => (
                 <div key={product.id}>
                   <Product product={product} />
                   <button
@@ -97,6 +124,21 @@ class AllProducts extends React.Component {
                   </button>
                 </div>
               ))}
+
+              <button
+                onClick={() => this.prevPage(this.state.x, this.state.y)}
+                className="all buyButton"
+                type="button"
+              >
+                Prev Page
+              </button>
+              <button
+                onClick={() => this.nextPage(this.state.x, this.state.y)}
+                className="all buyButton"
+                type="button"
+              >
+                Next Page
+              </button>
             </div>
           </div>
         </div>
