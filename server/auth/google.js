@@ -1,7 +1,9 @@
 const passport = require('passport')
 const router = require('express').Router()
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy
-const {User} = require('../db/models')
+// const {User} = require('../db/models')
+const {Users} = require('../db/models')
+require('../../secrets.js')
 module.exports = router
 
 /**
@@ -33,13 +35,12 @@ if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
       const googleId = profile.id
       const email = profile.emails[0].value
       const imgUrl = profile.photos[0].value
-      const firstName = profile.name.givenName
-      const lastName = profile.name.familyName
       const fullName = profile.displayName
 
-      User.findOrCreate({
+      // User.findOrCreate({
+      Users.findOrCreate({
         where: {googleId},
-        defaults: {email, imgUrl, firstName, lastName, fullName}
+        defaults: {email, imgUrl, fullName}
       })
         .then(([user]) => done(null, user))
         .catch(done)
@@ -54,7 +55,8 @@ if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
   )
 
   router.get(
-    '/callback',
+    // '/callback',  (WHY THIS THIS MAKE A DIFFERENCE? WHAT IS VERIFY?)
+    '/verify',
     passport.authenticate('google', {
       successRedirect: '/home',
       failureRedirect: '/login'

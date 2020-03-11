@@ -3,22 +3,42 @@ import {connect} from 'react-redux'
 import {Product} from './'
 import {toast} from 'react-toastify'
 import {addToCartThunk} from '../store/cart'
+import {incrementPopularityThunk} from '../store/products'
+import {getProducts} from '../store/products'
+
 class AllProducts extends React.Component {
   constructor() {
     super()
     this.handleClick = this.handleClick.bind(this)
+    this.state = {
+      loading: true
+    }
   }
   componentDidMount() {
-    // nothing here yet
+    this.setState({loading: false})
+    this.props.fetchProducts()
   }
+
 
   handleClick(productId) {
     this.props.addToCart(productId, 1)
+
     toast.success('Added to Cart!')
+    this.props.incrementPopularity(product)
   }
 
   render() {
+    const {loading} = this.state
+
+    if (loading) {
+      return (
+        <div>
+          <h1>Loading...</h1>
+        </div>
+      )
+    }
     const products = this.props.allProducts
+    const user = this.props.user
     if (products) {
       return (
         <div className="all-products-container">
@@ -27,7 +47,7 @@ class AllProducts extends React.Component {
               <div key={product.id}>
                 <Product product={product} />
                 <button
-                  onClick={() => this.handleClick(product.id)}
+                  onClick={() => this.handleClick(product)}
                   className="all buyButton"
                   type="button"
                 >
@@ -45,14 +65,21 @@ class AllProducts extends React.Component {
 
 const mapStateToProps = state => {
   return {
+    allProducts: state.products.products,
     user: state.user
   }
 }
 
 const mapDispatchToProps = dispatch => {
   return {
+
     addToCart: (productId, quantity) =>
-      dispatch(addToCartThunk(productId, quantity))
+      dispatch(addToCartThunk(productId, quantity)),
+
+    incrementPopularity: productId =>
+      dispatch(incrementPopularityThunk(productId)),
+    fetchProducts: () => dispatch(getProducts())
+
   }
 }
 

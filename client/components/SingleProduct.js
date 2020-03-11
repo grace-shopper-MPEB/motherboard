@@ -1,7 +1,8 @@
 import React from 'react'
-import {connect} from 'react-redux'
-import {toast} from 'react-toastify'
 import {Link} from 'react-router-dom'
+import {incrementPopularityThunk} from '../store/products'
+import {toast} from 'react-toastify'
+import {connect} from 'react-redux'
 import {addToCartThunk} from '../store/cart'
 import {getProductsById} from '../store/products'
 
@@ -12,21 +13,26 @@ class SingleProduct extends React.Component {
     this.handleChange = this.handleChange.bind(this)
 
     this.state = {
-      quantity: 1
+      quantity: 1,
+      loading: true
     }
   }
 
   componentDidMount() {
     const id = this.props.location.pathname.slice(10)
     this.props.getProductsById(id)
+    this.setState({loading: false})
   }
 
   handleClick() {
+
     const productId = this.props.location.pathname.slice(10)
     let quantity = {
       quantity: this.state.quantity
     }
     this.props.addToCart(productId, quantity)
+
+    
     toast.success('Added to Cart!')
   }
 
@@ -37,14 +43,17 @@ class SingleProduct extends React.Component {
   }
 
   render() {
+    const {loading} = this.state
+
+    if (loading) {
+      return (
+        <div>
+          <h1>Loading...</h1>
+        </div>
+      )
+    }
     const product = this.props.singleProduct.product
       ? this.props.singleProduct.product
-      : {}
-    const albums = this.props.singleProduct.albums
-      ? this.props.singleProduct.albums
-      : {}
-    const genres = this.props.singleProduct.genres
-      ? this.props.singleProduct.genres
       : {}
 
     return (
@@ -83,10 +92,10 @@ class SingleProduct extends React.Component {
               </Link>
             </div>
             <div className="single-description">{product.description}</div>
-            <div>
+            <div className="albums-by">
               More albums by {product.artist ? product.artist.artistName : null}
               :
-              <div className="all-products-container">
+              <div>
                 <div className="all-products">
                   {this.props.singleProduct.albums
                     ? this.props.singleProduct.albums.map(x => (
@@ -116,9 +125,15 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
+
     addToCart: (productId, quantity) =>
       dispatch(addToCartThunk(productId, quantity)),
     getProductsById: id => dispatch(getProductsById(id))
+
+    getProductsById: id => dispatch(getProductsById(id)),
+    incrementPopularity: productId =>
+      dispatch(incrementPopularityThunk(productId))
+
   }
 }
 
